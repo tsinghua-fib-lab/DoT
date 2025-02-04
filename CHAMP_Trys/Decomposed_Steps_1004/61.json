@@ -1,0 +1,1570 @@
+[
+  [
+    [
+      "Understand the constraint involving a, b, and c (triangle inequality).",
+      "Define the function to be maximized: f(a, b, c) = (a^2 + b^2 + c^2)/(ab + bc + ac).",
+      "Consider the symmetry or potential simplification by re-scaling the triangle ensuring one side (e.g., c) is always 1.",
+      "Investigate the behavior of the function when the triangle is degenerate (i.e., one side length goes to zero).",
+      "Analyze the special cases where the triangle becomes an equilateral triangle or a right-angled triangle.",
+      "Take derivatives, if possible, to find critical points of the function assuming non-degeneracy.",
+      "Check the limits and behavior of the function as the sides of the triangle vary from degenerate to equilateral.",
+      "Compare the results obtained from these special and limiting cases to determine the maximum value of f(a, b, c).",
+      "Evaluate and validate the validity of the obtained maximum by substitution back into the original expression for possible counterexamples."
+    ],
+    {
+      "1": "Understand the constraint involving a, b, and c (triangle inequality).",
+      "2": "Define the function to be maximized: f(a, b, c) = (a^2 + b^2 + c^2)/(ab + bc + ac).",
+      "3": "Consider the symmetry or potential simplification by re-scaling the triangle ensuring one side (e.g., c) is always 1.",
+      "4": "Investigate the behavior of the function when the triangle is degenerate (i.e., one side length goes to zero).",
+      "5": "Analyze the special cases where the triangle becomes an equilateral triangle or a right-angled triangle.",
+      "6": "Take derivatives, if possible, to find critical points of the function assuming non-degeneracy.",
+      "7": "Check the limits and behavior of the function as the sides of the triangle vary from degenerate to equilateral.",
+      "8": "Compare the results obtained from these special and limiting cases to determine the maximum value of f(a, b, c).",
+      "9": "Evaluate and validate the validity of the obtained maximum by substitution back into the original expression for possible counterexamples."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 5",
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ],
+      "7": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what properties triangles, including degenerate triangles, hold for the side lengths a, b, and c (such as the triangle inequality).",
+      "Consider if there is a condition where the expression (a^2+b^2+c^2)/(ab+bc+ac) simplifies under specific relationships between a, b, and c (e.g., a = b, b = c, or c = a).",
+      "Determine if the expression achieves extremal values (minimum or maximum) under certain geometric configurations (such as equilateral triangles or right triangles).",
+      "Establish a formula or method to find the maximum value of the expression, possibly using variables and equations.",
+      "Solve the equations or apply optimization techniques (like calculus) to derive the maximum value of the expression for any triangle or degenerate triangle.",
+      "Verify the solution by plugging back various possible values of a, b, and c to check if any other configurations might produce a larger value."
+    ],
+    {
+      "1": "Define what properties triangles, including degenerate triangles, hold for the side lengths a, b, and c (such as the triangle inequality).",
+      "2": "Consider if there is a condition where the expression (a^2+b^2+c^2)/(ab+bc+ac) simplifies under specific relationships between a, b, and c (e.g., a = b, b = c, or c = a).",
+      "3": "Determine if the expression achieves extremal values (minimum or maximum) under certain geometric configurations (such as equilateral triangles or right triangles).",
+      "4": "Establish a formula or method to find the maximum value of the expression, possibly using variables and equations.",
+      "5": "Solve the equations or apply optimization techniques (like calculus) to derive the maximum value of the expression for any triangle or degenerate triangle.",
+      "6": "Verify the solution by plugging back various possible values of a, b, and c to check if any other configurations might produce a larger value."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What does it mean for a, b, and c to be the lengths of the sides of a possibly degenerate triangle?",
+      "Express the given quantity (a^2 + b^2 + c^2) / (ab + bc + ac) in terms of a simpler or more symmetrical form if possible.",
+      "Identify the conditions or the constraints imposed by the triangle inequality on a, b, and c.",
+      "Consider edge cases where one or two sides are of length zero (degenerate triangles).",
+      "Derive or state any known algebraic identities or inequalities (like the AM-GM inequality) that could simplify or help in estimating the given expression.",
+      "Investigate how the expression behaves under various conditions, such as when all sides are equal, two sides are equal, or all sides are different.",
+      "Consider extremal cases to find the maximum value of the expression; perhaps set up and solve a related optimization problem with the constraints.",
+      "Determine if additional constraints or substitutions might simplify the algebra involved in finding the maximum of the expression.",
+      "Summarize findings and conclude with the largest possible value of (a^2 + b^2 + c^2) / (ab + bc + ac) based on the derived conditions and tested special cases."
+    ],
+    {
+      "1": "What does it mean for a, b, and c to be the lengths of the sides of a possibly degenerate triangle?",
+      "2": "Express the given quantity (a^2 + b^2 + c^2) / (ab + bc + ac) in terms of a simpler or more symmetrical form if possible.",
+      "3": "Identify the conditions or the constraints imposed by the triangle inequality on a, b, and c.",
+      "4": "Consider edge cases where one or two sides are of length zero (degenerate triangles).",
+      "5": "Derive or state any known algebraic identities or inequalities (like the AM-GM inequality) that could simplify or help in estimating the given expression.",
+      "6": "Investigate how the expression behaves under various conditions, such as when all sides are equal, two sides are equal, or all sides are different.",
+      "7": "Consider extremal cases to find the maximum value of the expression; perhaps set up and solve a related optimization problem with the constraints.",
+      "8": "Determine if additional constraints or substitutions might simplify the algebra involved in finding the maximum of the expression.",
+      "9": "Summarize findings and conclude with the largest possible value of (a^2 + b^2 + c^2) / (ab + bc + ac) based on the derived conditions and tested special cases."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ],
+      "5": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Express the quantity (a^2+b^2+c^2)/(ab+bc+ac) in terms of the angles between the sides of the triangle.",
+      "Apply the Law of Cosines to all three sides of the triangle to relate angles and side lengths.",
+      "Evaluate how changing a, b, and c affects the value of (a^2+b^2+c^2)/(ab+bc+ac).",
+      "Determine the conditions under which this expression attains its maximum value.",
+      "Substitute back these conditions to find the explicit value of the maximum of (a^2+b^2+c^2)/(ab+bc+ac).",
+      "Confirm whether the triangle inequality holds in any special or limiting cases (e.g., when the triangle is degenerate with one side tending to zero)."
+    ],
+    {
+      "1": "Express the quantity (a^2+b^2+c^2)/(ab+bc+ac) in terms of the angles between the sides of the triangle.",
+      "2": "Apply the Law of Cosines to all three sides of the triangle to relate angles and side lengths.",
+      "3": "Evaluate how changing a, b, and c affects the value of (a^2+b^2+c^2)/(ab+bc+ac).",
+      "4": "Determine the conditions under which this expression attains its maximum value.",
+      "5": "Substitute back these conditions to find the explicit value of the maximum of (a^2+b^2+c^2)/(ab+bc+ac).",
+      "6": "Confirm whether the triangle inequality holds in any special or limiting cases (e.g., when the triangle is degenerate with one side tending to zero)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6",
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Verify the constraints and relations between triangle sides a, b, and c (i.e., triangle inequality where the sum of any two sides must be greater than or equal to the third side).",
+      "Express the given function (a^2+b^2+c^2)/(ab+bc+ac) in a simplified and more approachable form if possible.",
+      "Determine the conditions under which the function obtains its extreme values (maximum or minimum) within the constraints imposed by the triangle inequalities.",
+      "Analyze special cases where one or more sides of the triangle are zero or equal, simplifying the expression and calculation.",
+      "Utilize calculus tools or algebraic methods such as the method of Lagrange multipliers or analyzing the discriminant of a derived expression to find critical points or maxima.",
+      "Check if the extreme values found correspond to real triangles (non-degenerate cases) and validate these against the triangle inequalities.",
+      "Conclude with the maximum value of the expression based on findings from the above steps."
+    ],
+    {
+      "1": "Verify the constraints and relations between triangle sides a, b, and c (i.e., triangle inequality where the sum of any two sides must be greater than or equal to the third side).",
+      "2": "Express the given function (a^2+b^2+c^2)/(ab+bc+ac) in a simplified and more approachable form if possible.",
+      "3": "Determine the conditions under which the function obtains its extreme values (maximum or minimum) within the constraints imposed by the triangle inequalities.",
+      "4": "Analyze special cases where one or more sides of the triangle are zero or equal, simplifying the expression and calculation.",
+      "5": "Utilize calculus tools or algebraic methods such as the method of Lagrange multipliers or analyzing the discriminant of a derived expression to find critical points or maxima.",
+      "6": "Check if the extreme values found correspond to real triangles (non-degenerate cases) and validate these against the triangle inequalities.",
+      "7": "Conclude with the maximum value of the expression based on findings from the above steps."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 4",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Recall and state the triangle inequality conditions for a, b, and c.",
+      "Set up the expression for (a^2 + b^2 + c^2) / (ab + bc + ac).",
+      "Investigate if there is a condition under which one or more terms in the denominator can be zero.",
+      "Determine the behavior of the expression as any of the sides approaches zero.",
+      "Calculate the expression for particular simple triangles such as an equilateral triangle or a right triangle.",
+      "See how changing the nature and proportions of the triangle affects the value of the expression.",
+      "Examine different cases based on the length of the sides—I. All sides equal, II. Two sides equal, III. All sides different.",
+      "Consider the case where the triangle is degenerate (i.e., when one side is the sum of the other two).",
+      "Explore whether there is a maximum value of the expression and the conditions under which this maximum occurs.",
+      "Analyze the symmetrical properties of the triangular configuration and how symmetry may impact the maximum value."
+    ],
+    {
+      "1": "Recall and state the triangle inequality conditions for a, b, and c.",
+      "2": "Set up the expression for (a^2 + b^2 + c^2) / (ab + bc + ac).",
+      "3": "Investigate if there is a condition under which one or more terms in the denominator can be zero.",
+      "4": "Determine the behavior of the expression as any of the sides approaches zero.",
+      "5": "Calculate the expression for particular simple triangles such as an equilateral triangle or a right triangle.",
+      "6": "See how changing the nature and proportions of the triangle affects the value of the expression.",
+      "7": "Examine different cases based on the length of the sides—I. All sides equal, II. Two sides equal, III. All sides different.",
+      "8": "Consider the case where the triangle is degenerate (i.e., when one side is the sum of the other two).",
+      "9": "Explore whether there is a maximum value of the expression and the conditions under which this maximum occurs.",
+      "10": "Analyze the symmetrical properties of the triangular configuration and how symmetry may impact the maximum value."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 8",
+        "Step 2",
+        "Step 3",
+        "Step 7"
+      ],
+      "2": [
+        "Step 9",
+        "Step 6",
+        "Step 5",
+        "Step 4",
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        7,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand and simplify the expression (a^2+b^2+c^2)/(ab+bc+ac) to explore its relationship with the properties of a triangle.",
+      "Apply the triangle inequality conditions to ensure a, b, and c can represent the sides of a triangle.",
+      "Rearrange or simplify the formula to a known identity or inequality, if possible, using algebraic manipulation or identities involving sides of a triangle.",
+      "Consider special or extreme cases (e.g., when the triangle is equilateral, isosceles, or right-angled) to compute and compare values of the expression.",
+      "Use calculus or optimization techniques if necessary to find the maximum value of the expression.",
+      "Verify computations through substitution and checking against the triangle inequality.",
+      "Conclude what configurations of a, b, and c (sides of the triangle) give the largest value of the expression.",
+      "Generalize the result if applicable, to see if the solution holds for all triangles or only specific types."
+    ],
+    {
+      "1": "Understand and simplify the expression (a^2+b^2+c^2)/(ab+bc+ac) to explore its relationship with the properties of a triangle.",
+      "2": "Apply the triangle inequality conditions to ensure a, b, and c can represent the sides of a triangle.",
+      "3": "Rearrange or simplify the formula to a known identity or inequality, if possible, using algebraic manipulation or identities involving sides of a triangle.",
+      "4": "Consider special or extreme cases (e.g., when the triangle is equilateral, isosceles, or right-angled) to compute and compare values of the expression.",
+      "5": "Use calculus or optimization techniques if necessary to find the maximum value of the expression.",
+      "6": "Verify computations through substitution and checking against the triangle inequality.",
+      "7": "Conclude what configurations of a, b, and c (sides of the triangle) give the largest value of the expression.",
+      "8": "Generalize the result if applicable, to see if the solution holds for all triangles or only specific types."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 6"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the conditions that must be met for a, b, and c to be the sides of a (possibly degenerate) triangle.",
+      "Examine how the expression (a^2+b^2+c^2)/(ab+bc+ac) changes based on varying values of a, b, and c.",
+      "Investigate special cases, such as when one or more sides equal zero (degenerate triangle) or when the triangle is equilateral.",
+      "Consider the use of inequality theorems such as the AM-GM inequality to bound or estimate the expression.",
+      "Analyze the maximum value by setting up and solving the optimization problem for the expression (a^2+b^2+c^2)/(ab+bc+ac).",
+      "Confirm the solution by testing it against known triangle inequalities and checking if the boundary conditions meet the triangle's side-length criteria."
+    ],
+    {
+      "1": "Identify the conditions that must be met for a, b, and c to be the sides of a (possibly degenerate) triangle.",
+      "2": "Examine how the expression (a^2+b^2+c^2)/(ab+bc+ac) changes based on varying values of a, b, and c.",
+      "3": "Investigate special cases, such as when one or more sides equal zero (degenerate triangle) or when the triangle is equilateral.",
+      "4": "Consider the use of inequality theorems such as the AM-GM inequality to bound or estimate the expression.",
+      "5": "Analyze the maximum value by setting up and solving the optimization problem for the expression (a^2+b^2+c^2)/(ab+bc+ac).",
+      "6": "Confirm the solution by testing it against known triangle inequalities and checking if the boundary conditions meet the triangle's side-length criteria."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the types of triangles that might contribute to the maximum value (acute, right, obtuse, or degenerate).",
+      "Analyze the constraint from the triangle inequality for non-degenerate triangles, or investigate the properties of a degenerate triangle where one side's length is the sum of the other two.",
+      "Set up the expression (a^2 + b^2 + c^2) / (ab + ac + bc) and analyze how it behaves under different triangle configurations.",
+      "Investigate if any simplifications or inequalities (such as AM-GM inequality, Cauchy-Schwarz inequality) can be applied to the expression to find maximum or minimum values.",
+      "Consider special cases separately, such as a = b = c, or cases where one of the sides is much larger than the others.",
+      "Explore how the expression behaves in extreme cases (e.g., when one side approaches zero).",
+      "Determine a general formula or approach to calculate or estimate the value of (a^2 + b^2 + c^2) / (ab + ac + bc) for arbitrary side lengths within the constraints of triangle inequality.",
+      "Calculate or compare these values to find the maximum possible value of the expression.",
+      "Verify the solution by plugging back into the original context or constraints to ensure that all conditions are met."
+    ],
+    {
+      "1": "Recognize the types of triangles that might contribute to the maximum value (acute, right, obtuse, or degenerate).",
+      "2": "Analyze the constraint from the triangle inequality for non-degenerate triangles, or investigate the properties of a degenerate triangle where one side's length is the sum of the other two.",
+      "3": "Set up the expression (a^2 + b^2 + c^2) / (ab + ac + bc) and analyze how it behaves under different triangle configurations.",
+      "4": "Investigate if any simplifications or inequalities (such as AM-GM inequality, Cauchy-Schwarz inequality) can be applied to the expression to find maximum or minimum values.",
+      "5": "Consider special cases separately, such as a = b = c, or cases where one of the sides is much larger than the others.",
+      "6": "Explore how the expression behaves in extreme cases (e.g., when one side approaches zero).",
+      "7": "Determine a general formula or approach to calculate or estimate the value of (a^2 + b^2 + c^2) / (ab + ac + bc) for arbitrary side lengths within the constraints of triangle inequality.",
+      "8": "Calculate or compare these values to find the maximum possible value of the expression.",
+      "9": "Verify the solution by plugging back into the original context or constraints to ensure that all conditions are met."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4",
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ],
+      "5": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the formula for the largest value of (a^2+b^2+c^2)/(ab+bc+ac) and identify any constraints on a, b, and c based on properties of geometry, specifically related to triangles.",
+      "Analyze the given formula in terms of its symmetry and homogeneity to simplify the problem.",
+      "Consider possible cases for triangle configurations, including degenerate cases where the triangle collapses into a straight line.",
+      "Apply the triangle inequality theorem to ensure the values of a, b, and c can constitute the sides of a triangle.",
+      "Explore special conditions or cases, such as when two sides are equal (isosceles triangle) for maximizing the equation.",
+      "Derive and solve the equation under the constraints for normal and special triangle configurations to find maximum values.",
+      "Examine the impact of different values of a, b, and c on both the numerator (a^2+b^2+c^2) and the denominator (ab+bc+ac) of the given expression.",
+      "Analyze if there is an optimizing condition or critical point in the expression where the value of (a^2+b^2+c^2)/(ab+bc+ac) is maximized, possibly using calculus or other mathematical optimization methods.",
+      "Verify the solution by testing a few numerical examples to check if the analytical results are coherent with the direct computation."
+    ],
+    {
+      "1": "Understand the formula for the largest value of (a^2+b^2+c^2)/(ab+bc+ac) and identify any constraints on a, b, and c based on properties of geometry, specifically related to triangles.",
+      "2": "Analyze the given formula in terms of its symmetry and homogeneity to simplify the problem.",
+      "3": "Consider possible cases for triangle configurations, including degenerate cases where the triangle collapses into a straight line.",
+      "4": "Apply the triangle inequality theorem to ensure the values of a, b, and c can constitute the sides of a triangle.",
+      "5": "Explore special conditions or cases, such as when two sides are equal (isosceles triangle) for maximizing the equation.",
+      "6": "Derive and solve the equation under the constraints for normal and special triangle configurations to find maximum values.",
+      "7": "Examine the impact of different values of a, b, and c on both the numerator (a^2+b^2+c^2) and the denominator (ab+bc+ac) of the given expression.",
+      "8": "Analyze if there is an optimizing condition or critical point in the expression where the value of (a^2+b^2+c^2)/(ab+bc+ac) is maximized, possibly using calculus or other mathematical optimization methods.",
+      "9": "Verify the solution by testing a few numerical examples to check if the analytical results are coherent with the direct computation."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ],
+      "6": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Review and understand the triangle inequality (i.e., a + b ≥ c, b + c ≥ a, a + c ≥ b) and explore if this influences a possible maximum or limitation.",
+      "Establish the expression that measures the ratio of the sum of squares of sides to the sum of products of sides: (a^2 + b^2 + c^2) / (ab + bc + ac).",
+      "Consider the special cases for the triangle formation: equilateral, isosceles, and scalene.",
+      "Discuss the effects of maximizing or minimizing terms in the numerator and denominator of the expression, possibly through comparison or inequality principles.",
+      "Determine the behavior of the expression (a^2 + b^2 + c^2) / (ab + bc + ac) when any two sides are equal – does this maximize or minimize the ratio?",
+      "Explore limits by experimenting with terms in the numerator potentially becoming much larger than terms in the denominator.",
+      "Explore the role of symmetry and balance among sides a, b, and c in maximizing or minimizing the given expression.",
+      "Consider using Cauchy-Schwarz Inequality or AM-GM inequality to relate sums of squares and products.",
+      "Calculate the ratio for various triangles assuming specific values for a, b, and c to observe the effect on the ratio.",
+      "Compile findings to determine the largest possible value of (a^2+b^2+c^2)/(ab+bc+ac) and understand under which conditions this value is achieved."
+    ],
+    {
+      "1": "Review and understand the triangle inequality (i.e., a + b ≥ c, b + c ≥ a, a + c ≥ b) and explore if this influences a possible maximum or limitation.",
+      "2": "Establish the expression that measures the ratio of the sum of squares of sides to the sum of products of sides: (a^2 + b^2 + c^2) / (ab + bc + ac).",
+      "3": "Consider the special cases for the triangle formation: equilateral, isosceles, and scalene.",
+      "4": "Discuss the effects of maximizing or minimizing terms in the numerator and denominator of the expression, possibly through comparison or inequality principles.",
+      "5": "Determine the behavior of the expression (a^2 + b^2 + c^2) / (ab + bc + ac) when any two sides are equal – does this maximize or minimize the ratio?",
+      "6": "Explore limits by experimenting with terms in the numerator potentially becoming much larger than terms in the denominator.",
+      "7": "Explore the role of symmetry and balance among sides a, b, and c in maximizing or minimizing the given expression.",
+      "8": "Consider using Cauchy-Schwarz Inequality or AM-GM inequality to relate sums of squares and products.",
+      "9": "Calculate the ratio for various triangles assuming specific values for a, b, and c to observe the effect on the ratio.",
+      "10": "Compile findings to determine the largest possible value of (a^2+b^2+c^2)/(ab+bc+ac) and understand under which conditions this value is achieved."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 7",
+        "Step 5",
+        "Step 6",
+        "Step 4",
+        "Step 8"
+      ],
+      "2": [
+        "Step 9"
+      ],
+      "3": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the relationship that must hold between the sides a, b, and c of a triangle.",
+      "Rewrite the expression (a^2+b^2+c^2)/(ab+bc+ac) in terms of the cosine of angles between the sides of the triangle.",
+      "Explore specific configurations of the triangle, such as equilateral, isosceles, and scalene triangles, to find variations in the expression.",
+      "Perform the inequality analysis or maximization for these configurations to identify a potential maximum value.",
+      "Apply the triangle inequality theorem to verify if any derived expressions hold for all valid triangles.",
+      "Use substitution and algebraic manipulation where necessary to simplify complex expressions or equations.",
+      "Consider possible degenerate cases of triangles (e.g., where one side length approaches zero) and verify whether these cases inflame the maximization problem.",
+      "Conclude with the final maximum value, if possible, by reviewing all considered cases and consolidating the findings."
+    ],
+    {
+      "1": "Understand the relationship that must hold between the sides a, b, and c of a triangle.",
+      "2": "Rewrite the expression (a^2+b^2+c^2)/(ab+bc+ac) in terms of the cosine of angles between the sides of the triangle.",
+      "3": "Explore specific configurations of the triangle, such as equilateral, isosceles, and scalene triangles, to find variations in the expression.",
+      "4": "Perform the inequality analysis or maximization for these configurations to identify a potential maximum value.",
+      "5": "Apply the triangle inequality theorem to verify if any derived expressions hold for all valid triangles.",
+      "6": "Use substitution and algebraic manipulation where necessary to simplify complex expressions or equations.",
+      "7": "Consider possible degenerate cases of triangles (e.g., where one side length approaches zero) and verify whether these cases inflame the maximization problem.",
+      "8": "Conclude with the final maximum value, if possible, by reviewing all considered cases and consolidating the findings."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 5",
+        "Step 2"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "What are the conditions for a, b, and c to form the sides of a triangle (including degenerate)?",
+      "Can we simplify or rewrite the expression (a^2+b^2+c^2)/(ab+bc+ac) in any meaningful way using known identities or inequalities?",
+      "What is the effect of scaling all sides (a, b, c) by the same factor on the value of the expression (a^2+b^2+c^2)/(ab+bc+ac)?",
+      "Can any inequalities such as the triangle inequality or the AM-GM inequality be useful in manipulating or providing bounds for this expression?",
+      "What happens when one or more of the sides of the triangle is zero, which corresponds to a degenerate triangle?",
+      "How can different types of triangles (like isosceles, equilateral, or scalene) affect the value of the expression?",
+      "How can the cosine rule or other trigonometric identities and properties about angles between sides be used to explore and potentially maximize the value of this expression?",
+      "What special cases should be considered that might maximize or minimize the expression, such as cases where two sides are equal or one side is much larger than the others?",
+      "Summarize findings to determine the possible maximum value of the expression (a^2+b^2+c^2)/(ab+bc+ac) over all admissible values of a, b, and c."
+    ],
+    {
+      "1": "What are the conditions for a, b, and c to form the sides of a triangle (including degenerate)?",
+      "2": "Can we simplify or rewrite the expression (a^2+b^2+c^2)/(ab+bc+ac) in any meaningful way using known identities or inequalities?",
+      "3": "What is the effect of scaling all sides (a, b, c) by the same factor on the value of the expression (a^2+b^2+c^2)/(ab+bc+ac)?",
+      "4": "Can any inequalities such as the triangle inequality or the AM-GM inequality be useful in manipulating or providing bounds for this expression?",
+      "5": "What happens when one or more of the sides of the triangle is zero, which corresponds to a degenerate triangle?",
+      "6": "How can different types of triangles (like isosceles, equilateral, or scalene) affect the value of the expression?",
+      "7": "How can the cosine rule or other trigonometric identities and properties about angles between sides be used to explore and potentially maximize the value of this expression?",
+      "8": "What special cases should be considered that might maximize or minimize the expression, such as cases where two sides are equal or one side is much larger than the others?",
+      "9": "Summarize findings to determine the possible maximum value of the expression (a^2+b^2+c^2)/(ab+bc+ac) over all admissible values of a, b, and c."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 7"
+      ],
+      "1": [
+        "Step 6",
+        "Step 8",
+        "Step 5",
+        "Step 4",
+        "Step 2"
+      ],
+      "2": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        7,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify and understand the expression \\( \\frac{a^2 + b^2 + c^2}{ab + bc + ac} \\) in the context of a triangle.",
+      "Derive an inequality or formula relating \\( a^2 + b^2 + c^2 \\) and \\( ab + bc + ac \\) to simplify the expression.",
+      "Consider the triangle inequality properties to understand constraints on \\( a \\), \\( b \\), and \\( c \\) (non-negative, satisfying \\( a+b \\geq c \\), \\( a+c \\geq b \\), \\( b+c \\geq a \\)).",
+      "Explore special cases or configurations of the triangle (equilateral, isosceles, scalene) to determine which configuration might maximize or minimize the value of \\( \\frac{a^2 + b^2 + c^2}{ab + bc + ac} \\).",
+      "Determine whether \\( a \\), \\( b \\), or \\( c \\) being zero (degenerate triangle) affects the outcome.",
+      "Calculate or estimate the maximum value of \\( \\frac{a^2 + b^2 + c^2}{ab + bc + ac} \\) based on the findings from the configurations examined.",
+      "Verify the solution by checking that the properties of a triangle are satisfied for the obtained values of \\( a \\), \\( b \\), and \\( c \\)."
+    ],
+    {
+      "1": "Identify and understand the expression \\( \\frac{a^2 + b^2 + c^2}{ab + bc + ac} \\) in the context of a triangle.",
+      "2": "Derive an inequality or formula relating \\( a^2 + b^2 + c^2 \\) and \\( ab + bc + ac \\) to simplify the expression.",
+      "3": "Consider the triangle inequality properties to understand constraints on \\( a \\), \\( b \\), and \\( c \\) (non-negative, satisfying \\( a+b \\geq c \\), \\( a+c \\geq b \\), \\( b+c \\geq a \\)).",
+      "4": "Explore special cases or configurations of the triangle (equilateral, isosceles, scalene) to determine which configuration might maximize or minimize the value of \\( \\frac{a^2 + b^2 + c^2}{ab + bc + ac} \\).",
+      "5": "Determine whether \\( a \\), \\( b \\), or \\( c \\) being zero (degenerate triangle) affects the outcome.",
+      "6": "Calculate or estimate the maximum value of \\( \\frac{a^2 + b^2 + c^2}{ab + bc + ac} \\) based on the findings from the configurations examined.",
+      "7": "Verify the solution by checking that the properties of a triangle are satisfied for the obtained values of \\( a \\), \\( b \\), and \\( c \\)."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2",
+        "Step 5"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the condition under which lengths a, b, and c form a triangle, specifically looking at the triangle inequality constraints.",
+      "Establish the expression for the ratio (a^2 + b^2 + c^2) / (ab + bc + ac) in terms of the sides a, b, and c.",
+      "Examine cases where the triangle is degenerate (i.e., one side is the sum of the other two) and determine how it affects the ratio.",
+      "Explore simplification of the expression through substitution or algebraic manipulation.",
+      "Consider potential inequalities or mathematical properties that could yield a maximum value for the ratio.",
+      "Assess the symmetrical or asymmetrical nature of the sides a, b, and c and how such a configuration influences the ratio.",
+      "Calculate the derivative, if needed, to find critical points that could provide the maximum or minimum value of the ratio.",
+      "Analyze the behavior of the ratio as one or more sides become very small or very large compared to the others.",
+      "Determine any absolute constraints or bounds on the ratio from the values obtained in previous steps.",
+      "Verify the theoretical findings with specific numerical examples to ensure the conclusion's validity."
+    ],
+    {
+      "1": "Identify the condition under which lengths a, b, and c form a triangle, specifically looking at the triangle inequality constraints.",
+      "2": "Establish the expression for the ratio (a^2 + b^2 + c^2) / (ab + bc + ac) in terms of the sides a, b, and c.",
+      "3": "Examine cases where the triangle is degenerate (i.e., one side is the sum of the other two) and determine how it affects the ratio.",
+      "4": "Explore simplification of the expression through substitution or algebraic manipulation.",
+      "5": "Consider potential inequalities or mathematical properties that could yield a maximum value for the ratio.",
+      "6": "Assess the symmetrical or asymmetrical nature of the sides a, b, and c and how such a configuration influences the ratio.",
+      "7": "Calculate the derivative, if needed, to find critical points that could provide the maximum or minimum value of the ratio.",
+      "8": "Analyze the behavior of the ratio as one or more sides become very small or very large compared to the others.",
+      "9": "Determine any absolute constraints or bounds on the ratio from the values obtained in previous steps.",
+      "10": "Verify the theoretical findings with specific numerical examples to ensure the conclusion's validity."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4",
+        "Step 7",
+        "Step 8",
+        "Step 6"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 9"
+      ],
+      "5": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Write the given expression \\((a^2+b^2+c^2)/(ab+bc+ac)\\) in a simplified or reduced form to make the analysis easier.",
+      "Consider the conditions under which a, b, and c can form a triangle, including degenerate triangles (where one side can be zero).",
+      "Analyze the case where all sides are equal (i.e., a = b = c) to see the behavior of the expression.",
+      "Analyze the case of a degenerate triangle where one side is zero (e.g., a = 0, b = c).",
+      "Explore the cases where two sides are equal and the third is different (e.g., a = b and c ≠ a).",
+      "Determine the extremum (maximum or minimum) of the expression for general a, b, and c by possibly using calculus, such as finding critical points.",
+      "Compare the results obtained in the general case with specific cases to identify the largest possible value of the expression.",
+      "Verify the solution by substituting back into the original equation and checking if the conditions of triangle formation are satisfied."
+    ],
+    {
+      "1": "Write the given expression \\((a^2+b^2+c^2)/(ab+bc+ac)\\) in a simplified or reduced form to make the analysis easier.",
+      "2": "Consider the conditions under which a, b, and c can form a triangle, including degenerate triangles (where one side can be zero).",
+      "3": "Analyze the case where all sides are equal (i.e., a = b = c) to see the behavior of the expression.",
+      "4": "Analyze the case of a degenerate triangle where one side is zero (e.g., a = 0, b = c).",
+      "5": "Explore the cases where two sides are equal and the third is different (e.g., a = b and c ≠ a).",
+      "6": "Determine the extremum (maximum or minimum) of the expression for general a, b, and c by possibly using calculus, such as finding critical points.",
+      "7": "Compare the results obtained in the general case with specific cases to identify the largest possible value of the expression.",
+      "8": "Verify the solution by substituting back into the original equation and checking if the conditions of triangle formation are satisfied."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 5",
+        "Step 3",
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Analyze the inequality conditions required for a, b, and c to form the sides of a triangle, including the possibility of a degenerate triangle.",
+      "Rewrite the expression (a^2 + b^2 + c^2) / (ab + bc + ac) in a form that may simplify the analysis, like using known inequalities or algebraic identities.",
+      "Identify any constraints or conditions that might maximize or minimize the given ratio, such as conditions related to the angles of the triangle (e.g., right triangle, acute triangle, obtuse triangle).",
+      "Consider extreme cases or boundary conditions, for instance, when one of the sides is very small or relatively large compared to the others.",
+      "Calculate or derive expressions for specific triangle configurations, such as equilateral, isosceles, and scalene triangles, to see if one yields a notably higher or lower ratio.",
+      "Use calculus or algebraic methods if necessary to find a maximum or minimum value of the given expression under the established constraints.",
+      "Confirm if the derived solution satisfies the triangle inequality, thus ensuring the values of a, b, and c can indeed form a triangle.",
+      "Summarize findings to conclude what the maximum or minimum achievable value of the ratio is within given constraints, explaining any mathematical or logical reasoning used."
+    ],
+    {
+      "1": "Analyze the inequality conditions required for a, b, and c to form the sides of a triangle, including the possibility of a degenerate triangle.",
+      "2": "Rewrite the expression (a^2 + b^2 + c^2) / (ab + bc + ac) in a form that may simplify the analysis, like using known inequalities or algebraic identities.",
+      "3": "Identify any constraints or conditions that might maximize or minimize the given ratio, such as conditions related to the angles of the triangle (e.g., right triangle, acute triangle, obtuse triangle).",
+      "4": "Consider extreme cases or boundary conditions, for instance, when one of the sides is very small or relatively large compared to the others.",
+      "5": "Calculate or derive expressions for specific triangle configurations, such as equilateral, isosceles, and scalene triangles, to see if one yields a notably higher or lower ratio.",
+      "6": "Use calculus or algebraic methods if necessary to find a maximum or minimum value of the given expression under the established constraints.",
+      "7": "Confirm if the derived solution satisfies the triangle inequality, thus ensuring the values of a, b, and c can indeed form a triangle.",
+      "8": "Summarize findings to conclude what the maximum or minimum achievable value of the ratio is within given constraints, explaining any mathematical or logical reasoning used."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5",
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "What are the basic conditions that a, b, and c must satisfy to form the sides of a (possibly degenerate) triangle?",
+      "Express (a^2 + b^2 + c^2) and (ab + bc + ac) in terms of new or more manageable variables or apply known algebraic identities if applicable.",
+      "Consider the geometric interpretations or constraints on a, b, and c that can maximize or affect the ratio (a^2 + b^2 + c^2) / (ab + bc + ac).",
+      "Calculate or estimate the derivative or gradient of the function (a^2 + b^2 + c^2)/(ab + bc + ac) if treated as a function of multiple variables, to find critical points or maximum values.",
+      "Evaluate the ratio for various special or boundary cases (such as when two sides are equal or one side approaches zero).",
+      "Compare the values obtained from possible special or boundary cases to determine the maximum value of the ratio.",
+      "Consider employing inequality theorems (like the Cauchy-Schwarz inequality) or other algebraic methods to bound or directly evaluate the ratio.",
+      "Summarize findings and conclude the largest value possible for the ratio (a^2 + b^2 + c^2)/(ab + bc + ac)."
+    ],
+    {
+      "1": "What are the basic conditions that a, b, and c must satisfy to form the sides of a (possibly degenerate) triangle?",
+      "2": "Express (a^2 + b^2 + c^2) and (ab + bc + ac) in terms of new or more manageable variables or apply known algebraic identities if applicable.",
+      "3": "Consider the geometric interpretations or constraints on a, b, and c that can maximize or affect the ratio (a^2 + b^2 + c^2) / (ab + bc + ac).",
+      "4": "Calculate or estimate the derivative or gradient of the function (a^2 + b^2 + c^2)/(ab + bc + ac) if treated as a function of multiple variables, to find critical points or maximum values.",
+      "5": "Evaluate the ratio for various special or boundary cases (such as when two sides are equal or one side approaches zero).",
+      "6": "Compare the values obtained from possible special or boundary cases to determine the maximum value of the ratio.",
+      "7": "Consider employing inequality theorems (like the Cauchy-Schwarz inequality) or other algebraic methods to bound or directly evaluate the ratio.",
+      "8": "Summarize findings and conclude the largest value possible for the ratio (a^2 + b^2 + c^2)/(ab + bc + ac)."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 7",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 5",
+        "Step 4"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify and understand the given expression: What does (a^2 + b^2 + c^2)/(ab + bc + ac) represent in the context of triangle sides?",
+      "Explore relevant triangle inequalities: What are the necessary conditions on the sides a, b, and c for forming a triangle, including degenerate cases?",
+      "Consider extremal cases: What happens to the value of the expression when a triangle becomes degenerate (i.e., when one side length approaches the sum of the other two)?",
+      "Formulate the expression for various types of triangles: How does the expression change with different configurations such as equilateral, isosceles, and scalene triangles?",
+      "Analyze symmetrical cases first: What simplifications can be made when two or more sides are equal?",
+      "Find a method to maximize the expression: What mathematical tools or principles (e.g., inequalities, calculus) could be used to find the maximum value of the expression?",
+      "Check algebraic manipulations: Are there transformations or substitutions that simplify the expression or its maximization?",
+      "Verify the solution: How can you ensure that the derived values satisfy the original conditions of the triangle sides?"
+    ],
+    {
+      "1": "Identify and understand the given expression: What does (a^2 + b^2 + c^2)/(ab + bc + ac) represent in the context of triangle sides?",
+      "2": "Explore relevant triangle inequalities: What are the necessary conditions on the sides a, b, and c for forming a triangle, including degenerate cases?",
+      "3": "Consider extremal cases: What happens to the value of the expression when a triangle becomes degenerate (i.e., when one side length approaches the sum of the other two)?",
+      "4": "Formulate the expression for various types of triangles: How does the expression change with different configurations such as equilateral, isosceles, and scalene triangles?",
+      "5": "Analyze symmetrical cases first: What simplifications can be made when two or more sides are equal?",
+      "6": "Find a method to maximize the expression: What mathematical tools or principles (e.g., inequalities, calculus) could be used to find the maximum value of the expression?",
+      "7": "Check algebraic manipulations: Are there transformations or substitutions that simplify the expression or its maximization?",
+      "8": "Verify the solution: How can you ensure that the derived values satisfy the original conditions of the triangle sides?"
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 4",
+        "Step 3",
+        "Step 5"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Verify if inequality constraints like the triangle inequality (i.e., a + b > c, b + c > a, a + c > b) need to be applied given that a triangle might be degenerate.",
+      "Analyze the symmetry of the expression and consider if it simplifies, or if there's symmetry across variables a, b, and c.",
+      "Represent the expression (a^2 + b^2 + c^2)/(ab + bc + ac) in a different form that may allow easier manipulation or comparisons.",
+      "Investigate special or boundary cases (like when one or more sides are zero) to check their impact on the expression and to find potential maximum values.",
+      "Use algebraic identities and inequalities such as the Cauchy-Schwarz inequality or the AM-GM inequality to relate the expression's terms.",
+      "Calculate the expression for specific values or types of triangles, such as equilateral, isosceles, or other triangulations to spot any patterns or tendencies.",
+      "Derive a general formula or maximize the function using techniques from calculus or optimization if necessary.",
+      "Confirm whether the obtained maximum value meets all the triangle conditions and thus represents the solution for all cases."
+    ],
+    {
+      "1": "Verify if inequality constraints like the triangle inequality (i.e., a + b > c, b + c > a, a + c > b) need to be applied given that a triangle might be degenerate.",
+      "2": "Analyze the symmetry of the expression and consider if it simplifies, or if there's symmetry across variables a, b, and c.",
+      "3": "Represent the expression (a^2 + b^2 + c^2)/(ab + bc + ac) in a different form that may allow easier manipulation or comparisons.",
+      "4": "Investigate special or boundary cases (like when one or more sides are zero) to check their impact on the expression and to find potential maximum values.",
+      "5": "Use algebraic identities and inequalities such as the Cauchy-Schwarz inequality or the AM-GM inequality to relate the expression's terms.",
+      "6": "Calculate the expression for specific values or types of triangles, such as equilateral, isosceles, or other triangulations to spot any patterns or tendencies.",
+      "7": "Derive a general formula or maximize the function using techniques from calculus or optimization if necessary.",
+      "8": "Confirm whether the obtained maximum value meets all the triangle conditions and thus represents the solution for all cases."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2",
+        "Step 4"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 7",
+        "Step 6"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        8
+      ]
+    ]
+  ]
+]

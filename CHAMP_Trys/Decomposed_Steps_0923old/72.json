@@ -1,0 +1,164 @@
+[
+  [
+    [
+      "What is the relationship between a, b, and c in a right-angled triangle where c is the hypotenuse?",
+      "Rewrite the condition \\( c^n > a^n + b^n \\) to see if there is any possible simplification or useful equivalent statement.",
+      "Apply the Pythagorean Theorem \\( c^2 = a^2 + b^2 \\) and explore how it relates to the given inequality when both sides are raised to the power of n/2.",
+      "Consider cases for n = 1 to n = 100 to see if there’s a pattern or rule that applies.",
+      "Specifically analyze minimal and specific common values of n, such as n = 2, to see if \\( c^n \\) equals, is less than, or is greater than \\( a^n + b^n \\).",
+      "Based on observations from specific values of n, generalize for other values up to 100. Determine if there are any trends or exceptions.",
+      "Summarize findings to determine for how many values of n between 1 and 100 the inequality \\( c^n > a^n + b^n \\) holds true."
+    ],
+    {
+      "1": "What is the relationship between a, b, and c in a right-angled triangle where c is the hypotenuse?",
+      "2": "Rewrite the condition \\( c^n > a^n + b^n \\) to see if there is any possible simplification or useful equivalent statement.",
+      "3": "Apply the Pythagorean Theorem \\( c^2 = a^2 + b^2 \\) and explore how it relates to the given inequality when both sides are raised to the power of n/2.",
+      "4": "Consider cases for n = 1 to n = 100 to see if there’s a pattern or rule that applies.",
+      "5": "Specifically analyze minimal and specific common values of n, such as n = 2, to see if \\( c^n \\) equals, is less than, or is greater than \\( a^n + b^n \\).",
+      "6": "Based on observations from specific values of n, generalize for other values up to 100. Determine if there are any trends or exceptions.",
+      "7": "Summarize findings to determine for how many values of n between 1 and 100 the inequality \\( c^n > a^n + b^n \\) holds true."
+    }
+  ],
+  [
+    [
+      "Use the Pythagorean theorem to establish the relationship a^2 + b^2 = c^2.",
+      "Raise both sides of the equation a^2 + b^2 = c^2 to the power of n to get (a^2 + b^2)^n = (c^2)^n.",
+      "Simplify (a^2 + b^2)^n and (c^2)^n using properties of exponents and confirm c^n = (a^2 + b^2)^(n/2).",
+      "Evaluate the inequality c^n > a^n + b^n by substituting c^n = (a^2 + b^2)^(n/2).",
+      "Simplify and analyze the expression (a^2 + b^2)^(n/2) > a^n + b^n by dividing through by a^n (assuming a ≠ 0) to reduce to a function in terms of (b/a)^2.",
+      "Examine the behavior of the inequality with respect to the value of n, specifically looking for turning points where the inequality might depend on n.",
+      "List and count values of n from 1 to 100 where the inequality holds true.",
+      "Verify the results obtained through specific examples or further algebraic manipulation where possible."
+    ],
+    {
+      "1": "Use the Pythagorean theorem to establish the relationship a^2 + b^2 = c^2.",
+      "2": "Raise both sides of the equation a^2 + b^2 = c^2 to the power of n to get (a^2 + b^2)^n = (c^2)^n.",
+      "3": "Simplify (a^2 + b^2)^n and (c^2)^n using properties of exponents and confirm c^n = (a^2 + b^2)^(n/2).",
+      "4": "Evaluate the inequality c^n > a^n + b^n by substituting c^n = (a^2 + b^2)^(n/2).",
+      "5": "Simplify and analyze the expression (a^2 + b^2)^(n/2) > a^n + b^n by dividing through by a^n (assuming a ≠ 0) to reduce to a function in terms of (b/a)^2.",
+      "6": "Examine the behavior of the inequality with respect to the value of n, specifically looking for turning points where the inequality might depend on n.",
+      "7": "List and count values of n from 1 to 100 where the inequality holds true.",
+      "8": "Verify the results obtained through specific examples or further algebraic manipulation where possible."
+    }
+  ],
+  [
+    [
+      "Understand the properties of sides a, b, and c in a right triangle where c is the hypotenuse.",
+      "Establish a relationship between the sides of the triangle using Pythagoras' Theorem.",
+      "Identify the conditions under which c^n > a^n + b^n.",
+      "Derive a general condition for all integer values of n to see when c^n > a^n + b^n holds true.",
+      "Determine if the condition from step 4 simplifies under assumptions about the relative magnitudes of a, b, and c.",
+      "Test the condition for integer values of n ranging from 1 to 100.",
+      "Summarize the number of valid n for which the inequality c^n > a^n + b^n is true."
+    ],
+    {
+      "1": "Understand the properties of sides a, b, and c in a right triangle where c is the hypotenuse.",
+      "2": "Establish a relationship between the sides of the triangle using Pythagoras' Theorem.",
+      "3": "Identify the conditions under which c^n > a^n + b^n.",
+      "4": "Derive a general condition for all integer values of n to see when c^n > a^n + b^n holds true.",
+      "5": "Determine if the condition from step 4 simplifies under assumptions about the relative magnitudes of a, b, and c.",
+      "6": "Test the condition for integer values of n ranging from 1 to 100.",
+      "7": "Summarize the number of valid n for which the inequality c^n > a^n + b^n is true."
+    }
+  ],
+  [
+    [
+      "Determine the relationship between the sides of a non-degenerate 90-degree triangle using the Pythagorean theorem.",
+      "Analyze the given inequality c^n > a^n + b^n.",
+      "Utilize properties of exponentiation with the inequality, particularly focusing on how powers change the relationship between the sides of the triangle.",
+      "Substitute the Pythagorean theorem into the inequality and simplify to see if any generalizations or patterns emerge.",
+      "Consider cases for different values of n, starting from n=1 and testing whether the inequality holds each time till n=100.",
+      "Notice changes in the inequality's truth as n increases, and summarize the findings regarding the range of n for which the inequality c^n > a^n + b^n holds."
+    ],
+    {
+      "1": "Determine the relationship between the sides of a non-degenerate 90-degree triangle using the Pythagorean theorem.",
+      "2": "Analyze the given inequality c^n > a^n + b^n.",
+      "3": "Utilize properties of exponentiation with the inequality, particularly focusing on how powers change the relationship between the sides of the triangle.",
+      "4": "Substitute the Pythagorean theorem into the inequality and simplify to see if any generalizations or patterns emerge.",
+      "5": "Consider cases for different values of n, starting from n=1 and testing whether the inequality holds each time till n=100.",
+      "6": "Notice changes in the inequality's truth as n increases, and summarize the findings regarding the range of n for which the inequality c^n > a^n + b^n holds."
+    }
+  ],
+  [
+    [
+      "Determine the relationship between a, b, and c which conforms to the Pythagorean theorem (a^2 + b^2 = c^2) since c is the hypotenuse of a right 90-degree triangle.",
+      "Express c in terms of a and b using the Pythagorean theorem.",
+      "Reformulate the inequality c^n > a^n + b^n to analyze conditions under which this inequality holds.",
+      "Assess the behavior of the functions a^n and b^n as n increases and compare it to c^n, investigating the changing relationship as n varies from 1 to 100.",
+      "Identify the critical values of n, if any, at which the inequality transitions from being true to false or vice versa.",
+      "Count the number of valid n values in the set {1, 2, 3, ..., 100} for which the inequality c^n > a^n + b^n is satisfied.",
+      "Confirm any edge cases or exceptions where the relation might not hold or holds only under certain specific conditions of a and b.",
+      "",
+      "This structured approach should help in solving the given problem by systematically examining each aspect affecting the inequality with the powers of triangle sides."
+    ],
+    {
+      "1": "Determine the relationship between a, b, and c which conforms to the Pythagorean theorem (a^2 + b^2 = c^2) since c is the hypotenuse of a right 90-degree triangle.",
+      "2": "Express c in terms of a and b using the Pythagorean theorem.",
+      "3": "Reformulate the inequality c^n > a^n + b^n to analyze conditions under which this inequality holds.",
+      "4": "Assess the behavior of the functions a^n and b^n as n increases and compare it to c^n, investigating the changing relationship as n varies from 1 to 100.",
+      "5": "Identify the critical values of n, if any, at which the inequality transitions from being true to false or vice versa.",
+      "6": "Count the number of valid n values in the set {1, 2, 3, ..., 100} for which the inequality c^n > a^n + b^n is satisfied.",
+      "7": "Confirm any edge cases or exceptions where the relation might not hold or holds only under certain specific conditions of a and b.",
+      "8": "",
+      "9": "This structured approach should help in solving the given problem by systematically examining each aspect affecting the inequality with the powers of triangle sides."
+    }
+  ],
+  [
+    [
+      "Identify the general mathematical property of a 90-degree triangle related to the sides a, b, and c where c is the hypotenuse.",
+      "Explore under what condition(s) c^n is greater than a^n + b^n for positive integers n.",
+      "Determine the valid range of n for which c^n > a^n + b^n holds true, given that n ranges from 1 to 100.",
+      "Establish whether there exists a specific value of n beyond which c^n will always be larger than a^n + b^n for any Pythagorean triple (a, b, c).",
+      "Calculate the total number of valid values of n in the set {1, 2, 3, ..., 100}."
+    ],
+    {
+      "1": "Identify the general mathematical property of a 90-degree triangle related to the sides a, b, and c where c is the hypotenuse.",
+      "2": "Explore under what condition(s) c^n is greater than a^n + b^n for positive integers n.",
+      "3": "Determine the valid range of n for which c^n > a^n + b^n holds true, given that n ranges from 1 to 100.",
+      "4": "Establish whether there exists a specific value of n beyond which c^n will always be larger than a^n + b^n for any Pythagorean triple (a, b, c).",
+      "5": "Calculate the total number of valid values of n in the set {1, 2, 3, ..., 100}."
+    }
+  ],
+  [
+    [
+      "Establish the relationship between a, b, and c in a right-angled triangle with c as the hypotenuse.",
+      "Understand the inequality c^n > a^n + b^n and consider its implications.",
+      "Derive the general form of the inequality when c, a, and b are the sides of the right-angled triangle, with a^2 + b^2 = c^2.",
+      "Analyze the expression c^n > (a^2 + b^2)^(n/2) in terms of power rules.",
+      "Consider how the inequality behaves for different values of n.",
+      "Evaluate the inequality for specific values of n within the set {1, 2, ..., 100}.",
+      "Determine any pattern or conclusions that can be derived for the inequality c^n > a^n + b^n for values of n.",
+      "Verify by substituting specific values for a, b, and c that satisfy the standard Pythagorean triples.",
+      "Summarize the results to find for how many values of n the inequality holds true."
+    ],
+    {
+      "1": "Establish the relationship between a, b, and c in a right-angled triangle with c as the hypotenuse.",
+      "2": "Understand the inequality c^n > a^n + b^n and consider its implications.",
+      "3": "Derive the general form of the inequality when c, a, and b are the sides of the right-angled triangle, with a^2 + b^2 = c^2.",
+      "4": "Analyze the expression c^n > (a^2 + b^2)^(n/2) in terms of power rules.",
+      "5": "Consider how the inequality behaves for different values of n.",
+      "6": "Evaluate the inequality for specific values of n within the set {1, 2, ..., 100}.",
+      "7": "Determine any pattern or conclusions that can be derived for the inequality c^n > a^n + b^n for values of n.",
+      "8": "Verify by substituting specific values for a, b, and c that satisfy the standard Pythagorean triples.",
+      "9": "Summarize the results to find for how many values of n the inequality holds true."
+    }
+  ],
+  [
+    [
+      "Confirm the relationship between sides \\(a\\), \\(b\\), and \\(c\\) in a right triangle.",
+      "Write down the mathematical expression for \\(c^n > a^n + b^n\\) based on the Pythagorean theorem.",
+      "Express \\(c^n\\), \\(a^n\\), and \\(b^n\\) in terms of \\(n\\) using \\((a^2 + b^2)^{\\frac{n}{2}}\\).",
+      "Investigate how the inequality \\(c^n > (a^2 + b^2)^{\\frac{n}{2}}\\) behaves as \\(n\\) increases.",
+      "Determine for which values of \\(n\\) in the set {1, 2, 3, ..., 100} the inequality \\(c^n > a^n + b^n\\) holds true, based on their relationship derived from the Pythagorean theorem.",
+      "Verify the solution for several values of \\(n\\) to ensure the pattern holds for the specified range."
+    ],
+    {
+      "1": "Confirm the relationship between sides \\(a\\), \\(b\\), and \\(c\\) in a right triangle.",
+      "2": "Write down the mathematical expression for \\(c^n > a^n + b^n\\) based on the Pythagorean theorem.",
+      "3": "Express \\(c^n\\), \\(a^n\\), and \\(b^n\\) in terms of \\(n\\) using \\((a^2 + b^2)^{\\frac{n}{2}}\\).",
+      "4": "Investigate how the inequality \\(c^n > (a^2 + b^2)^{\\frac{n}{2}}\\) behaves as \\(n\\) increases.",
+      "5": "Determine for which values of \\(n\\) in the set {1, 2, 3, ..., 100} the inequality \\(c^n > a^n + b^n\\) holds true, based on their relationship derived from the Pythagorean theorem.",
+      "6": "Verify the solution for several values of \\(n\\) to ensure the pattern holds for the specified range."
+    }
+  ]
+]

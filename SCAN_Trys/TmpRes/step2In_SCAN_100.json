@@ -1,0 +1,1905 @@
+{
+  "0": {
+    "steps": ["run opposite right","walk opposite right","walk opposite right thrice"],
+    "steps_dict": {
+      "1": "run opposite right",
+      "2": "walk opposite right",
+      "3": "walk opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "walk opposite right thrice after run opposite right",
+    "allSubtask": "step1: run opposite right; step2: walk opposite right; step3: walk opposite right thrice",
+    "nowSubtask": ["run opposite right","walk opposite right","walk opposite right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "1": {
+    "steps": ["turn right","turn around right","turn around right thrice","run right","run opposite right","run opposite right twice"],
+    "steps_dict": {
+      "1": "turn right",
+      "2": "turn around right",
+      "3": "turn around right thrice",
+      "4": "run right",
+      "5": "run opposite right",
+      "6": "run opposite right twice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 6","Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5],[5,6]],
+    "problemText": "turn around right thrice after run opposite right twice",
+    "allSubtask": "step1: turn right; step2: turn around right; step3: turn around right thrice; step4: run right; step5: run opposite right; step6: run opposite right twice",
+    "nowSubtask": ["turn right","turn around right","turn around right thrice","run right","run opposite right","run opposite right twice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "2": {
+    "steps": ["walk right","walk around right","walk around right twice","look opposite left","look opposite left twice"],
+    "steps_dict": {
+      "1": "walk right",
+      "2": "walk around right",
+      "3": "walk around right twice",
+      "4": "look opposite left",
+      "5": "look opposite left twice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "look opposite left twice after walk around right twice",
+    "allSubtask": "step1: walk right; step2: walk around right; step3: walk around right twice; step4: look opposite left; step5: look opposite left twice",
+    "nowSubtask": ["walk right","walk around right","walk around right twice","look opposite left","look opposite left twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "3": {
+    "steps": ["run opposite left","look left","look around left","look around left twice"],
+    "steps_dict": {
+      "1": "run opposite left",
+      "2": "look left",
+      "3": "look around left",
+      "4": "look around left twice"
+    },
+    "depths": {
+      "0": ["Step 2"],
+      "1": ["Step 3"],
+      "2": ["Step 4"]
+    },
+    "int_edges": [[2,3],[3,4]],
+    "problemText": "run opposite left and look around left twice",
+    "allSubtask": "step1: run opposite left; step2: look left; step3: look around left; step4: look around left twice",
+    "nowSubtask": ["run opposite left","look left","look around left","look around left twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "4": {
+    "steps": ["look right","look right thrice","look left","look opposite left","look opposite left twice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look right thrice",
+      "3": "look left",
+      "4": "look opposite left",
+      "5": "look opposite left twice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "look right thrice and look opposite left twice",
+    "allSubtask": "step1: look right; step2: look right thrice; step3: look left; step4: look opposite left; step5: look opposite left twice",
+    "nowSubtask": ["look right","look right thrice","look left","look opposite left","look opposite left twice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "5": {
+    "steps": ["walk opposite left","walk opposite left twice","run"],
+    "steps_dict": {
+      "1": "walk opposite left",
+      "2": "walk opposite left twice",
+      "3": "run"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "walk opposite left twice and run",
+    "allSubtask": "step1: walk opposite left; step2: walk opposite left twice; step3: run",
+    "nowSubtask": ["walk opposite left","walk opposite left twice","run"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "6": {
+    "steps": ["look","look thrice","jump opposite right","jump opposite right thrice"],
+    "steps_dict": {
+      "1": "look",
+      "2": "look thrice",
+      "3": "jump opposite right",
+      "4": "jump opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "look thrice after jump opposite right thrice",
+    "allSubtask": "step1: look; step2: look thrice; step3: jump opposite right; step4: jump opposite right thrice",
+    "nowSubtask": ["look","look thrice","jump opposite right","jump opposite right thrice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "7": {
+    "steps": ["look opposite right","look opposite right twice","turn opposite left","turn opposite left twice"],
+    "steps_dict": {
+      "1": "look opposite right",
+      "2": "look opposite right twice",
+      "3": "turn opposite left",
+      "4": "turn opposite left twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "turn opposite left twice after look opposite right twice",
+    "allSubtask": "step1: look opposite right; step2: look opposite right twice; step3: turn opposite left; step4: turn opposite left twice",
+    "nowSubtask": ["look opposite right","look opposite right twice","turn opposite left","turn opposite left twice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "8": {
+    "steps": ["turn right","turn around right","turn around right twice","jump left","jump left twice"],
+    "steps_dict": {
+      "1": "turn right",
+      "2": "turn around right",
+      "3": "turn around right twice",
+      "4": "jump left",
+      "5": "jump left twice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "jump left twice after turn around right twice",
+    "allSubtask": "step1: turn right; step2: turn around right; step3: turn around right twice; step4: jump left; step5: jump left twice",
+    "nowSubtask": ["turn right","turn around right","turn around right twice","jump left","jump left twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "9": {
+    "steps": ["look right","look around right","run left","run opposite left","run opposite left thrice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look around right",
+      "3": "run left",
+      "4": "run opposite left",
+      "5": "run opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "look around right and run opposite left thrice",
+    "allSubtask": "step1: look right; step2: look around right; step3: run left; step4: run opposite left; step5: run opposite left thrice",
+    "nowSubtask": ["look right","look around right","run left","run opposite left","run opposite left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "10": {
+    "steps": ["look right","look right twice","turn left","turn around left","turn around left twice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look right twice",
+      "3": "turn left",
+      "4": "turn around left",
+      "5": "turn around left twice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "look right twice and turn around left twice",
+    "allSubtask": "step1: look right; step2: look right twice; step3: turn left; step4: turn around left; step5: turn around left twice",
+    "nowSubtask": ["look right","look right twice","turn left","turn around left","turn around left twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "11": {
+    "steps": ["look opposite left","jump opposite right","jump opposite right thrice"],
+    "steps_dict": {
+      "1": "look opposite left",
+      "2": "jump opposite right",
+      "3": "jump opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 2"],
+      "1": ["Step 3"]
+    },
+    "int_edges": [[2,3]],
+    "problemText": "look opposite left after jump opposite right thrice",
+    "allSubtask": "step1: look opposite left; step2: jump opposite right; step3: jump opposite right thrice",
+    "nowSubtask": ["look opposite left","jump opposite right","jump opposite right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "12": {
+    "steps": ["run","run thrice","look right","look right thrice"],
+    "steps_dict": {
+      "1": "run",
+      "2": "run thrice",
+      "3": "look right",
+      "4": "look right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "run thrice after look right thrice",
+    "allSubtask": "step1: run; step2: run thrice; step3: look right; step4: look right thrice",
+    "nowSubtask": ["run","run thrice","look right","look right thrice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "13": {
+    "steps": ["look right","look around right","look around right twice","walk","walk twice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look around right",
+      "3": "look around right twice",
+      "4": "walk",
+      "5": "walk twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"],
+      "4": ["Step 5"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4],[4,5]],
+    "problemText": "walk twice after look around right twice",
+    "allSubtask": "step1: look right; step2: look around right; step3: look around right twice; step4: walk; step5: walk twice",
+    "nowSubtask": ["look right","look around right","look around right twice","walk","walk twice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "14": {
+    "steps": ["jump opposite left","jump opposite left thrice","walk left","walk left twice"],
+    "steps_dict": {
+      "1": "jump opposite left",
+      "2": "jump opposite left thrice",
+      "3": "walk left",
+      "4": "walk left twice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "jump opposite left thrice after walk left twice",
+    "allSubtask": "step1: jump opposite left; step2: jump opposite left thrice; step3: walk left; step4: walk left twice",
+    "nowSubtask": ["jump opposite left","jump opposite left thrice","walk left","walk left twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "15": {
+    "steps": ["look left","look around left","look around left thrice","turn right","turn opposite right","turn opposite right twice"],
+    "steps_dict": {
+      "1": "look left",
+      "2": "look around left",
+      "3": "look around left thrice",
+      "4": "turn right",
+      "5": "turn opposite right",
+      "6": "turn opposite right twice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 6","Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5],[5,6]],
+    "problemText": "turn opposite right twice after look around left thrice",
+    "allSubtask": "step1: look left; step2: look around left; step3: look around left thrice; step4: turn right; step5: turn opposite right; step6: turn opposite right twice",
+    "nowSubtask": ["look left","look around left","look around left thrice","turn right","turn opposite right","turn opposite right twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "16": {
+    "steps": ["look right","look around right","jump right","jump around right","jump around right thrice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look around right",
+      "3": "jump right",
+      "4": "jump around right",
+      "5": "jump around right thrice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 4"],
+      "3": ["Step 5"]
+    },
+    "int_edges": [[1,2],[2,4],[4,5],[3,4]],
+    "problemText": "jump around right thrice after look around right",
+    "allSubtask": "step1: look right; step2: look around right; step3: jump right; step4: jump around right; step5: jump around right thrice",
+    "nowSubtask": ["look right","look around right","jump right","jump around right","jump around right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "17": {
+    "steps": ["turn right","turn around right","turn around right thrice","jump opposite right","jump opposite right thrice"],
+    "steps_dict": {
+      "1": "turn right",
+      "2": "turn around right",
+      "3": "turn around right thrice",
+      "4": "jump opposite right",
+      "5": "jump opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "turn around right thrice and jump opposite right thrice",
+    "allSubtask": "step1: turn right; step2: turn around right; step3: turn around right thrice; step4: jump opposite right; step5: jump opposite right thrice",
+    "nowSubtask": ["turn right","turn around right","turn around right thrice","jump opposite right","jump opposite right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","llama3-8b","gpt-4-turbo"]
+  },
+  "18": {
+    "steps": ["jump right","jump around right","jump around right thrice","walk right","walk right twice"],
+    "steps_dict": {
+      "1": "jump right",
+      "2": "jump around right",
+      "3": "jump around right thrice",
+      "4": "walk right",
+      "5": "walk right twice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 2"],
+      "1": ["Step 5","Step 3"]
+    },
+    "int_edges": [[2,3],[4,5]],
+    "problemText": "walk right twice after jump around right thrice",
+    "allSubtask": "step1: jump right; step2: jump around right; step3: jump around right thrice; step4: walk right; step5: walk right twice",
+    "nowSubtask": ["jump right","jump around right","jump around right thrice","walk right","walk right twice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "19": {
+    "steps": ["look left","look around left","look around left thrice","look right","look right thrice"],
+    "steps_dict": {
+      "1": "look left",
+      "2": "look around left",
+      "3": "look around left thrice",
+      "4": "look right",
+      "5": "look right thrice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "look right thrice after look around left thrice",
+    "allSubtask": "step1: look left; step2: look around left; step3: look around left thrice; step4: look right; step5: look right thrice",
+    "nowSubtask": ["look left","look around left","look around left thrice","look right","look right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","llama3-8b","gpt-4-turbo"]
+  },
+  "20": {
+    "steps": ["turn left","turn left thrice","look opposite right"],
+    "steps_dict": {
+      "1": "turn left",
+      "2": "turn left thrice",
+      "3": "look opposite right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "turn left thrice and look opposite right",
+    "allSubtask": "step1: turn left; step2: turn left thrice; step3: look opposite right",
+    "nowSubtask": ["turn left","turn left thrice","look opposite right"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","llama3-8b"]
+  },
+  "21": {
+    "steps": ["turn opposite left","turn opposite left thrice","walk left","walk left twice"],
+    "steps_dict": {
+      "1": "turn opposite left",
+      "2": "turn opposite left thrice",
+      "3": "walk left",
+      "4": "walk left twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "walk left twice after turn opposite left thrice",
+    "allSubtask": "step1: turn opposite left; step2: turn opposite left thrice; step3: walk left; step4: walk left twice",
+    "nowSubtask": ["turn opposite left","turn opposite left thrice","walk left","walk left twice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","llama3-8b","llama3-8b"]
+  },
+  "22": {
+    "steps": ["look left","look left thrice","run opposite right"],
+    "steps_dict": {
+      "1": "look left",
+      "2": "look left thrice",
+      "3": "run opposite right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "run opposite right after look left thrice",
+    "allSubtask": "step1: look left; step2: look left thrice; step3: run opposite right",
+    "nowSubtask": ["look left","look left thrice","run opposite right"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "23": {
+    "steps": ["look right","look around right","walk","walk thrice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look around right",
+      "3": "walk",
+      "4": "walk thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "walk thrice after look around right",
+    "allSubtask": "step1: look right; step2: look around right; step3: walk; step4: walk thrice",
+    "nowSubtask": ["look right","look around right","walk","walk thrice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "24": {
+    "steps": ["turn left","turn around left","turn around left twice","run left","run opposite left"],
+    "steps_dict": {
+      "1": "turn left",
+      "2": "turn around left",
+      "3": "turn around left twice",
+      "4": "run left",
+      "5": "run opposite left"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "turn around left twice after run opposite left",
+    "allSubtask": "step1: turn left; step2: turn around left; step3: turn around left twice; step4: run left; step5: run opposite left",
+    "nowSubtask": ["turn left","turn around left","turn around left twice","run left","run opposite left"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "25": {
+    "steps": ["jump opposite right","jump opposite right thrice","walk opposite left","walk opposite left thrice"],
+    "steps_dict": {
+      "1": "jump opposite right",
+      "2": "jump opposite right thrice",
+      "3": "walk opposite left",
+      "4": "walk opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "jump opposite right thrice after walk opposite left thrice",
+    "allSubtask": "step1: jump opposite right; step2: jump opposite right thrice; step3: walk opposite left; step4: walk opposite left thrice",
+    "nowSubtask": ["jump opposite right","jump opposite right thrice","walk opposite left","walk opposite left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "26": {
+    "steps": ["run left","run left twice","run right","run right thrice"],
+    "steps_dict": {
+      "1": "run left",
+      "2": "run left twice",
+      "3": "run right",
+      "4": "run right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "run left twice and run right thrice",
+    "allSubtask": "step1: run left; step2: run left twice; step3: run right; step4: run right thrice",
+    "nowSubtask": ["run left","run left twice","run right","run right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "27": {
+    "steps": ["walk left","walk around left","jump opposite left","jump opposite left thrice"],
+    "steps_dict": {
+      "1": "walk left",
+      "2": "walk around left",
+      "3": "jump opposite left",
+      "4": "jump opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "walk around left and jump opposite left thrice",
+    "allSubtask": "step1: walk left; step2: walk around left; step3: jump opposite left; step4: jump opposite left thrice",
+    "nowSubtask": ["walk left","walk around left","jump opposite left","jump opposite left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "28": {
+    "steps": ["walk opposite right","walk opposite right thrice","jump","jump thrice"],
+    "steps_dict": {
+      "1": "walk opposite right",
+      "2": "walk opposite right thrice",
+      "3": "jump",
+      "4": "jump thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 4"],
+      "2": ["Step 2"]
+    },
+    "int_edges": [[1,2],[3,4],[4,2]],
+    "problemText": "walk opposite right thrice after jump thrice",
+    "allSubtask": "step1: walk opposite right; step2: walk opposite right thrice; step3: jump; step4: jump thrice",
+    "nowSubtask": ["walk opposite right","walk opposite right thrice","jump","jump thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "29": {
+    "steps": ["look right","look opposite right","look opposite right thrice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look opposite right",
+      "3": "look opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "look right after look opposite right thrice",
+    "allSubtask": "step1: look right; step2: look opposite right; step3: look opposite right thrice",
+    "nowSubtask": ["look right","look opposite right","look opposite right thrice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "30": {
+    "steps": ["jump left","jump around left","jump around left twice","turn right","turn right thrice"],
+    "steps_dict": {
+      "1": "jump left",
+      "2": "jump around left",
+      "3": "jump around left twice",
+      "4": "turn right",
+      "5": "turn right thrice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "turn right thrice after jump around left twice",
+    "allSubtask": "step1: jump left; step2: jump around left; step3: jump around left twice; step4: turn right; step5: turn right thrice",
+    "nowSubtask": ["jump left","jump around left","jump around left twice","turn right","turn right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "31": {
+    "steps": ["jump opposite left","jump opposite left twice","walk right","walk around right","walk around right twice"],
+    "steps_dict": {
+      "1": "jump opposite left",
+      "2": "jump opposite left twice",
+      "3": "walk right",
+      "4": "walk around right",
+      "5": "walk around right twice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "jump opposite left twice and walk around right twice",
+    "allSubtask": "step1: jump opposite left; step2: jump opposite left twice; step3: walk right; step4: walk around right; step5: walk around right twice",
+    "nowSubtask": ["jump opposite left","jump opposite left twice","walk right","walk around right","walk around right twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "32": {
+    "steps": ["look opposite left","look opposite left twice","run right"],
+    "steps_dict": {
+      "1": "look opposite left",
+      "2": "look opposite left twice",
+      "3": "run right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "look opposite left twice and run right",
+    "allSubtask": "step1: look opposite left; step2: look opposite left twice; step3: run right",
+    "nowSubtask": ["look opposite left","look opposite left twice","run right"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "33": {
+    "steps": ["turn opposite right","turn opposite right twice","look right","look around right","look around right thrice"],
+    "steps_dict": {
+      "1": "turn opposite right",
+      "2": "turn opposite right twice",
+      "3": "look right",
+      "4": "look around right",
+      "5": "look around right thrice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 4"],
+      "3": ["Step 5"]
+    },
+    "int_edges": [[1,2],[2,4],[4,5],[3,4]],
+    "problemText": "look around right thrice after turn opposite right twice",
+    "allSubtask": "step1: turn opposite right; step2: turn opposite right twice; step3: look right; step4: look around right; step5: look around right thrice",
+    "nowSubtask": ["turn opposite right","turn opposite right twice","look right","look around right","look around right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "34": {
+    "steps": ["walk left","walk opposite left","jump opposite right","jump opposite right twice"],
+    "steps_dict": {
+      "1": "walk left",
+      "2": "walk opposite left",
+      "3": "jump opposite right",
+      "4": "jump opposite right twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "jump opposite right twice after walk opposite left",
+    "allSubtask": "step1: walk left; step2: walk opposite left; step3: jump opposite right; step4: jump opposite right twice",
+    "nowSubtask": ["walk left","walk opposite left","jump opposite right","jump opposite right twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "35": {
+    "steps": ["jump opposite right","jump opposite right twice","run opposite left","run opposite left thrice"],
+    "steps_dict": {
+      "1": "jump opposite right",
+      "2": "jump opposite right twice",
+      "3": "run opposite left",
+      "4": "run opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "jump opposite right twice and run opposite left thrice",
+    "allSubtask": "step1: jump opposite right; step2: jump opposite right twice; step3: run opposite left; step4: run opposite left thrice",
+    "nowSubtask": ["jump opposite right","jump opposite right twice","run opposite left","run opposite left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "36": {
+    "steps": ["run left","run left thrice","run right"],
+    "steps_dict": {
+      "1": "run left",
+      "2": "run left thrice",
+      "3": "run right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "run right after run left thrice",
+    "allSubtask": "step1: run left; step2: run left thrice; step3: run right",
+    "nowSubtask": ["run left","run left thrice","run right"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "37": {
+    "steps": ["turn left","turn left thrice","jump right"],
+    "steps_dict": {
+      "1": "turn left",
+      "2": "turn left thrice",
+      "3": "jump right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "jump right after turn left thrice",
+    "allSubtask": "step1: turn left; step2: turn left thrice; step3: jump right",
+    "nowSubtask": ["turn left","turn left thrice","jump right"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "38": {
+    "steps": ["turn left","look left","look around left","look around left thrice"],
+    "steps_dict": {
+      "1": "turn left",
+      "2": "look left",
+      "3": "look around left",
+      "4": "look around left thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "look around left thrice after turn left",
+    "allSubtask": "step1: turn left; step2: look left; step3: look around left; step4: look around left thrice",
+    "nowSubtask": ["turn left","look left","look around left","look around left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "39": {
+    "steps": ["look opposite left","look opposite left twice","walk left","walk around left"],
+    "steps_dict": {
+      "1": "look opposite left",
+      "2": "look opposite left twice",
+      "3": "walk left",
+      "4": "walk around left"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "look opposite left twice and walk around left",
+    "allSubtask": "step1: look opposite left; step2: look opposite left twice; step3: walk left; step4: walk around left",
+    "nowSubtask": ["look opposite left","look opposite left twice","walk left","walk around left"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "40": {
+    "steps": ["look opposite left","look opposite left thrice","walk opposite right","walk opposite right thrice"],
+    "steps_dict": {
+      "1": "look opposite left",
+      "2": "look opposite left thrice",
+      "3": "walk opposite right",
+      "4": "walk opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "look opposite left thrice after walk opposite right thrice",
+    "allSubtask": "step1: look opposite left; step2: look opposite left thrice; step3: walk opposite right; step4: walk opposite right thrice",
+    "nowSubtask": ["look opposite left","look opposite left thrice","walk opposite right","walk opposite right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "41": {
+    "steps": ["walk right","walk right twice","walk left","walk left thrice"],
+    "steps_dict": {
+      "1": "walk right",
+      "2": "walk right twice",
+      "3": "walk left",
+      "4": "walk left thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "walk right twice and walk left thrice",
+    "allSubtask": "step1: walk right; step2: walk right twice; step3: walk left; step4: walk left thrice",
+    "nowSubtask": ["walk right","walk right twice","walk left","walk left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "42": {
+    "steps": ["look opposite right","run right","run around right"],
+    "steps_dict": {
+      "1": "look opposite right",
+      "2": "run right",
+      "3": "run around right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "look opposite right and run around right",
+    "allSubtask": "step1: look opposite right; step2: run right; step3: run around right",
+    "nowSubtask": ["look opposite right","run right","run around right"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "43": {
+    "steps": ["run opposite left","run opposite left thrice","jump","jump thrice"],
+    "steps_dict": {
+      "1": "run opposite left",
+      "2": "run opposite left thrice",
+      "3": "jump",
+      "4": "jump thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "run opposite left thrice and jump thrice",
+    "allSubtask": "step1: run opposite left; step2: run opposite left thrice; step3: jump; step4: jump thrice",
+    "nowSubtask": ["run opposite left","run opposite left thrice","jump","jump thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "44": {
+    "steps": ["run right","run right thrice","turn left","turn around left","turn around left twice"],
+    "steps_dict": {
+      "1": "run right",
+      "2": "run right thrice",
+      "3": "turn left",
+      "4": "turn around left",
+      "5": "turn around left twice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "run right thrice and turn around left twice",
+    "allSubtask": "step1: run right; step2: run right thrice; step3: turn left; step4: turn around left; step5: turn around left twice",
+    "nowSubtask": ["run right","run right thrice","turn left","turn around left","turn around left twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "45": {
+    "steps": ["jump right","jump around right","run right","run right thrice"],
+    "steps_dict": {
+      "1": "jump right",
+      "2": "jump around right",
+      "3": "run right",
+      "4": "run right thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "run right thrice after jump around right",
+    "allSubtask": "step1: jump right; step2: jump around right; step3: run right; step4: run right thrice",
+    "nowSubtask": ["jump right","jump around right","run right","run right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "46": {
+    "steps": ["walk opposite right","walk opposite right twice","jump opposite right","jump opposite right thrice"],
+    "steps_dict": {
+      "1": "walk opposite right",
+      "2": "walk opposite right twice",
+      "3": "jump opposite right",
+      "4": "jump opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "jump opposite right thrice after walk opposite right twice",
+    "allSubtask": "step1: walk opposite right; step2: walk opposite right twice; step3: jump opposite right; step4: jump opposite right thrice",
+    "nowSubtask": ["walk opposite right","walk opposite right twice","jump opposite right","jump opposite right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "47": {
+    "steps": ["jump left","jump around left","jump around left thrice","look left","look opposite left","look opposite left thrice"],
+    "steps_dict": {
+      "1": "jump left",
+      "2": "jump around left",
+      "3": "jump around left thrice",
+      "4": "look left",
+      "5": "look opposite left",
+      "6": "look opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 6","Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5],[5,6]],
+    "problemText": "jump around left thrice after look opposite left thrice",
+    "allSubtask": "step1: jump left; step2: jump around left; step3: jump around left thrice; step4: look left; step5: look opposite left; step6: look opposite left thrice",
+    "nowSubtask": ["jump left","jump around left","jump around left thrice","look left","look opposite left","look opposite left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "48": {
+    "steps": ["jump opposite left","jump opposite left thrice","run opposite right","run opposite right thrice"],
+    "steps_dict": {
+      "1": "jump opposite left",
+      "2": "jump opposite left thrice",
+      "3": "run opposite right",
+      "4": "run opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "jump opposite left thrice after run opposite right thrice",
+    "allSubtask": "step1: jump opposite left; step2: jump opposite left thrice; step3: run opposite right; step4: run opposite right thrice",
+    "nowSubtask": ["jump opposite left","jump opposite left thrice","run opposite right","run opposite right thrice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","llama3-8b","gpt-4-turbo"]
+  },
+  "49": {
+    "steps": ["walk","run opposite right","run opposite right thrice"],
+    "steps_dict": {
+      "1": "walk",
+      "2": "run opposite right",
+      "3": "run opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "run opposite right thrice after walk",
+    "allSubtask": "step1: walk; step2: run opposite right; step3: run opposite right thrice",
+    "nowSubtask": ["walk","run opposite right","run opposite right thrice"],
+    "allo_model": ["gpt-4-turbo","llama3-8b","llama3-8b"]
+  },
+  "50": {
+    "steps": ["turn right","turn right twice","turn left","turn around left","turn around left twice"],
+    "steps_dict": {
+      "1": "turn right",
+      "2": "turn right twice",
+      "3": "turn left",
+      "4": "turn around left",
+      "5": "turn around left twice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "turn around left twice after turn right twice",
+    "allSubtask": "step1: turn right; step2: turn right twice; step3: turn left; step4: turn around left; step5: turn around left twice",
+    "nowSubtask": ["turn right","turn right twice","turn left","turn around left","turn around left twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "51": {
+    "steps": ["run right","run around right","run around right thrice","look left","look around left","look around left thrice"],
+    "steps_dict": {
+      "1": "run right",
+      "2": "run around right",
+      "3": "run around right thrice",
+      "4": "look left",
+      "5": "look around left",
+      "6": "look around left thrice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 6","Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5],[5,6]],
+    "problemText": "run around right thrice and look around left thrice",
+    "allSubtask": "step1: run right; step2: run around right; step3: run around right thrice; step4: look left; step5: look around left; step6: look around left thrice",
+    "nowSubtask": ["run right","run around right","run around right thrice","look left","look around left","look around left thrice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "52": {
+    "steps": ["run right","run around right","look right","look right twice"],
+    "steps_dict": {
+      "1": "run right",
+      "2": "run around right",
+      "3": "look right",
+      "4": "look right twice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "run around right after look right twice",
+    "allSubtask": "step1: run right; step2: run around right; step3: look right; step4: look right twice",
+    "nowSubtask": ["run right","run around right","look right","look right twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "53": {
+    "steps": ["turn right","turn right thrice","run left","run around left","run around left thrice"],
+    "steps_dict": {
+      "1": "turn right",
+      "2": "turn right thrice",
+      "3": "run left",
+      "4": "run around left",
+      "5": "run around left thrice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "turn right thrice and run around left thrice",
+    "allSubtask": "step1: turn right; step2: turn right thrice; step3: run left; step4: run around left; step5: run around left thrice",
+    "nowSubtask": ["turn right","turn right thrice","run left","run around left","run around left thrice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "54": {
+    "steps": ["look opposite right","look opposite right twice","walk right","walk right thrice"],
+    "steps_dict": {
+      "1": "look opposite right",
+      "2": "look opposite right twice",
+      "3": "walk right",
+      "4": "walk right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "walk right thrice after look opposite right twice",
+    "allSubtask": "step1: look opposite right; step2: look opposite right twice; step3: walk right; step4: walk right thrice",
+    "nowSubtask": ["look opposite right","look opposite right twice","walk right","walk right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "55": {
+    "steps": ["look right","look around right","look around right thrice","walk left","walk left twice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look around right",
+      "3": "look around right thrice",
+      "4": "walk left",
+      "5": "walk left twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"],
+      "4": ["Step 5"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4],[4,5]],
+    "problemText": "walk left twice after look around right thrice",
+    "allSubtask": "step1: look right; step2: look around right; step3: look around right thrice; step4: walk left; step5: walk left twice",
+    "nowSubtask": ["look right","look around right","look around right thrice","walk left","walk left twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "56": {
+    "steps": ["jump left","jump left twice","jump opposite left","jump opposite left thrice"],
+    "steps_dict": {
+      "1": "jump left",
+      "2": "jump left twice",
+      "3": "jump opposite left",
+      "4": "jump opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "jump opposite left thrice after jump left twice",
+    "allSubtask": "step1: jump left; step2: jump left twice; step3: jump opposite left; step4: jump opposite left thrice",
+    "nowSubtask": ["jump left","jump left twice","jump opposite left","jump opposite left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "57": {
+    "steps": ["walk opposite right","jump opposite right","jump opposite right twice"],
+    "steps_dict": {
+      "1": "walk opposite right",
+      "2": "jump opposite right",
+      "3": "jump opposite right twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "jump opposite right twice after walk opposite right",
+    "allSubtask": "step1: walk opposite right; step2: jump opposite right; step3: jump opposite right twice",
+    "nowSubtask": ["walk opposite right","jump opposite right","jump opposite right twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "58": {
+    "steps": ["look left","look opposite left","run"],
+    "steps_dict": {
+      "1": "look left",
+      "2": "look opposite left",
+      "3": "run"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "look opposite left after run",
+    "allSubtask": "step1: look left; step2: look opposite left; step3: run",
+    "nowSubtask": ["look left","look opposite left","run"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "59": {
+    "steps": ["look opposite right","run left","run left twice"],
+    "steps_dict": {
+      "1": "look opposite right",
+      "2": "run left",
+      "3": "run left twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "run left twice after look opposite right",
+    "allSubtask": "step1: look opposite right; step2: run left; step3: run left twice",
+    "nowSubtask": ["look opposite right","run left","run left twice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "60": {
+    "steps": ["jump opposite left","jump opposite left twice","jump","jump twice"],
+    "steps_dict": {
+      "1": "jump opposite left",
+      "2": "jump opposite left twice",
+      "3": "jump",
+      "4": "jump twice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "jump opposite left twice and jump twice",
+    "allSubtask": "step1: jump opposite left; step2: jump opposite left twice; step3: jump; step4: jump twice",
+    "nowSubtask": ["jump opposite left","jump opposite left twice","jump","jump twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "61": {
+    "steps": ["look opposite right","look opposite right twice","turn left","turn around left","turn around left twice"],
+    "steps_dict": {
+      "1": "look opposite right",
+      "2": "look opposite right twice",
+      "3": "turn left",
+      "4": "turn around left",
+      "5": "turn around left twice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "turn around left twice after look opposite right twice",
+    "allSubtask": "step1: look opposite right; step2: look opposite right twice; step3: turn left; step4: turn around left; step5: turn around left twice",
+    "nowSubtask": ["look opposite right","look opposite right twice","turn left","turn around left","turn around left twice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "62": {
+    "steps": ["look","look twice","run right"],
+    "steps_dict": {
+      "1": "look",
+      "2": "look twice",
+      "3": "run right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "look twice and run right",
+    "allSubtask": "step1: look; step2: look twice; step3: run right",
+    "nowSubtask": ["look","look twice","run right"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "63": {
+    "steps": ["jump left","jump around left","jump around left twice","jump right","jump around right","jump around right twice"],
+    "steps_dict": {
+      "1": "jump left",
+      "2": "jump around left",
+      "3": "jump around left twice",
+      "4": "jump right",
+      "5": "jump around right",
+      "6": "jump around right twice"
+    },
+    "depths": {
+      "0": ["Step 4"],
+      "1": ["Step 5"],
+      "2": ["Step 6"],
+      "3": ["Step 1"],
+      "4": ["Step 2"],
+      "5": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5],[5,6],[6,1]],
+    "problemText": "jump around left twice after jump around right twice",
+    "allSubtask": "step1: jump left; step2: jump around left; step3: jump around left twice; step4: jump right; step5: jump around right; step6: jump around right twice",
+    "nowSubtask": ["jump left","jump around left","jump around left twice","jump right","jump around right","jump around right twice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "64": {
+    "steps": ["turn left","turn around left","turn around left twice","turn left thrice"],
+    "steps_dict": {
+      "1": "turn left",
+      "2": "turn around left",
+      "3": "turn around left twice",
+      "4": "turn left thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 2"],
+      "1": ["Step 3"],
+      "2": ["Step 4"]
+    },
+    "int_edges": [[1,4],[2,3],[3,4]],
+    "problemText": "turn left thrice after turn around left twice",
+    "allSubtask": "step1: turn left; step2: turn around left; step3: turn around left twice; step4: turn left thrice",
+    "nowSubtask": ["turn left","turn around left","turn around left twice","turn left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "65": {
+    "steps": ["look left","look around left","look around left twice","jump right","jump opposite right","jump opposite right twice"],
+    "steps_dict": {
+      "1": "look left",
+      "2": "look around left",
+      "3": "look around left twice",
+      "4": "jump right",
+      "5": "jump opposite right",
+      "6": "jump opposite right twice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 6","Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5],[5,6]],
+    "problemText": "jump opposite right twice after look around left twice",
+    "allSubtask": "step1: look left; step2: look around left; step3: look around left twice; step4: jump right; step5: jump opposite right; step6: jump opposite right twice",
+    "nowSubtask": ["look left","look around left","look around left twice","jump right","jump opposite right","jump opposite right twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "66": {
+    "steps": ["walk right","walk right twice","look left","look around left"],
+    "steps_dict": {
+      "1": "walk right",
+      "2": "walk right twice",
+      "3": "look left",
+      "4": "look around left"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "look around left after walk right twice",
+    "allSubtask": "step1: walk right; step2: walk right twice; step3: look left; step4: look around left",
+    "nowSubtask": ["walk right","walk right twice","look left","look around left"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "67": {
+    "steps": ["look opposite left","look opposite left twice","run opposite right"],
+    "steps_dict": {
+      "1": "look opposite left",
+      "2": "look opposite left twice",
+      "3": "run opposite right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "run opposite right after look opposite left twice",
+    "allSubtask": "step1: look opposite left; step2: look opposite left twice; step3: run opposite right",
+    "nowSubtask": ["look opposite left","look opposite left twice","run opposite right"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "68": {
+    "steps": ["turn right","turn right twice","run right"],
+    "steps_dict": {
+      "1": "turn right",
+      "2": "turn right twice",
+      "3": "run right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "turn right twice and run right",
+    "allSubtask": "step1: turn right; step2: turn right twice; step3: run right",
+    "nowSubtask": ["turn right","turn right twice","run right"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "69": {
+    "steps": ["look opposite left","look opposite left thrice","run left","run around left","run around left twice"],
+    "steps_dict": {
+      "1": "look opposite left",
+      "2": "look opposite left thrice",
+      "3": "run left",
+      "4": "run around left",
+      "5": "run around left twice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[4,5],[3,4]],
+    "problemText": "look opposite left thrice and run around left twice",
+    "allSubtask": "step1: look opposite left; step2: look opposite left thrice; step3: run left; step4: run around left; step5: run around left twice",
+    "nowSubtask": ["look opposite left","look opposite left thrice","run left","run around left","run around left twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "70": {
+    "steps": ["run left","run left twice","look right","look right thrice"],
+    "steps_dict": {
+      "1": "run left",
+      "2": "run left twice",
+      "3": "look right",
+      "4": "look right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "run left twice and look right thrice",
+    "allSubtask": "step1: run left; step2: run left twice; step3: look right; step4: look right thrice",
+    "nowSubtask": ["run left","run left twice","look right","look right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "71": {
+    "steps": ["jump","turn left"],
+    "steps_dict": {
+      "1": "jump",
+      "2": "turn left"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"]
+    },
+    "int_edges": [[1,2]],
+    "problemText": "jump and turn left",
+    "allSubtask": "step1: jump; step2: turn left",
+    "nowSubtask": ["jump","turn left"],
+    "allo_model": ["llama3-8b","llama3-8b"]
+  },
+  "72": {
+    "steps": ["run left","run left twice","jump opposite left","jump opposite left thrice"],
+    "steps_dict": {
+      "1": "run left",
+      "2": "run left twice",
+      "3": "jump opposite left",
+      "4": "jump opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "run left twice and jump opposite left thrice",
+    "allSubtask": "step1: run left; step2: run left twice; step3: jump opposite left; step4: jump opposite left thrice",
+    "nowSubtask": ["run left","run left twice","jump opposite left","jump opposite left thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "73": {
+    "steps": ["look right","look right twice","run right","run right twice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look right twice",
+      "3": "run right",
+      "4": "run right twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "run right twice after look right twice",
+    "allSubtask": "step1: look right; step2: look right twice; step3: run right; step4: run right twice",
+    "nowSubtask": ["look right","look right twice","run right","run right twice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "74": {
+    "steps": ["walk right","walk around right","walk around right twice","look","look twice"],
+    "steps_dict": {
+      "1": "walk right",
+      "2": "walk around right",
+      "3": "walk around right twice",
+      "4": "look",
+      "5": "look twice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "walk around right twice and look twice",
+    "allSubtask": "step1: walk right; step2: walk around right; step3: walk around right twice; step4: look; step5: look twice",
+    "nowSubtask": ["walk right","walk around right","walk around right twice","look","look twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "75": {
+    "steps": ["walk right","look","look twice"],
+    "steps_dict": {
+      "1": "walk right",
+      "2": "look",
+      "3": "look twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "walk right and look twice",
+    "allSubtask": "step1: walk right; step2: look; step3: look twice",
+    "nowSubtask": ["walk right","look","look twice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "76": {
+    "steps": ["turn left","turn around left","turn around left thrice","turn left twice"],
+    "steps_dict": {
+      "1": "turn left",
+      "2": "turn around left",
+      "3": "turn around left thrice",
+      "4": "turn left twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "turn left twice after turn around left thrice",
+    "allSubtask": "step1: turn left; step2: turn around left; step3: turn around left thrice; step4: turn left twice",
+    "nowSubtask": ["turn left","turn around left","turn around left thrice","turn left twice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","llama3-8b"]
+  },
+  "77": {
+    "steps": ["jump left","jump around left","jump around left thrice","jump right","jump around right"],
+    "steps_dict": {
+      "1": "jump left",
+      "2": "jump around left",
+      "3": "jump around left thrice",
+      "4": "jump right",
+      "5": "jump around right"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "jump around right after jump around left thrice",
+    "allSubtask": "step1: jump left; step2: jump around left; step3: jump around left thrice; step4: jump right; step5: jump around right",
+    "nowSubtask": ["jump left","jump around left","jump around left thrice","jump right","jump around right"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","llama3-8b","llama3-8b"]
+  },
+  "78": {
+    "steps": ["run left","run around left","run around left thrice","walk left","walk around left"],
+    "steps_dict": {
+      "1": "run left",
+      "2": "run around left",
+      "3": "run around left thrice",
+      "4": "walk left",
+      "5": "walk around left"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "walk around left after run around left thrice",
+    "allSubtask": "step1: run left; step2: run around left; step3: run around left thrice; step4: walk left; step5: walk around left",
+    "nowSubtask": ["run left","run around left","run around left thrice","walk left","walk around left"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","llama3-8b","gpt-4-turbo"]
+  },
+  "79": {
+    "steps": ["run right","walk left"],
+    "steps_dict": {
+      "1": "run right",
+      "2": "walk left"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"]
+    },
+    "int_edges": [[1,2]],
+    "problemText": "run right and walk left",
+    "allSubtask": "step1: run right; step2: walk left",
+    "nowSubtask": ["run right","walk left"],
+    "allo_model": ["llama3-8b","llama3-8b"]
+  },
+  "80": {
+    "steps": ["walk right","walk right thrice"],
+    "steps_dict": {
+      "1": "walk right",
+      "2": "walk right thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"]
+    },
+    "int_edges": [[1,2]],
+    "problemText": "walk right thrice",
+    "allSubtask": "step1: walk right; step2: walk right thrice",
+    "nowSubtask": ["walk right","walk right thrice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo"]
+  },
+  "81": {
+    "steps": ["walk left","walk left thrice","look left","look left twice"],
+    "steps_dict": {
+      "1": "walk left",
+      "2": "walk left thrice",
+      "3": "look left",
+      "4": "look left twice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "walk left thrice and look left twice",
+    "allSubtask": "step1: walk left; step2: walk left thrice; step3: look left; step4: look left twice",
+    "nowSubtask": ["walk left","walk left thrice","look left","look left twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","llama3-8b","gpt-4-turbo"]
+  },
+  "82": {
+    "steps": ["turn opposite right","look left"],
+    "steps_dict": {
+      "1": "turn opposite right",
+      "2": "look left"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"]
+    },
+    "int_edges": [[1,2]],
+    "problemText": "look left after turn opposite right",
+    "allSubtask": "step1: turn opposite right; step2: look left",
+    "nowSubtask": ["turn opposite right","look left"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo"]
+  },
+  "83": {
+    "steps": ["look right","look around right","look around right thrice","look around right twice"],
+    "steps_dict": {
+      "1": "look right",
+      "2": "look around right",
+      "3": "look around right thrice",
+      "4": "look around right twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3","Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[2,4]],
+    "problemText": "look around right thrice and look around right twice",
+    "allSubtask": "step1: look right; step2: look around right; step3: look around right thrice; step4: look around right twice",
+    "nowSubtask": ["look right","look around right","look around right thrice","look around right twice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "84": {
+    "steps": ["look left","look left thrice","look right","look around right","look around right thrice"],
+    "steps_dict": {
+      "1": "look left",
+      "2": "look left thrice",
+      "3": "look right",
+      "4": "look around right",
+      "5": "look around right thrice"
+    },
+    "depths": {
+      "0": ["Step 3","Step 1"],
+      "1": ["Step 4","Step 2"],
+      "2": ["Step 5"]
+    },
+    "int_edges": [[1,2],[3,4],[4,5]],
+    "problemText": "look left thrice and look around right thrice",
+    "allSubtask": "step1: look left; step2: look left thrice; step3: look right; step4: look around right; step5: look around right thrice",
+    "nowSubtask": ["look left","look left thrice","look right","look around right","look around right thrice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "85": {
+    "steps": ["jump left","jump opposite left","jump opposite left thrice","turn right","turn around right","turn around right thrice"],
+    "steps_dict": {
+      "1": "jump left",
+      "2": "jump opposite left",
+      "3": "jump opposite left thrice",
+      "4": "turn right",
+      "5": "turn around right",
+      "6": "turn around right thrice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 6","Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5],[5,6]],
+    "problemText": "turn around right thrice after jump opposite left thrice",
+    "allSubtask": "step1: jump left; step2: jump opposite left; step3: jump opposite left thrice; step4: turn right; step5: turn around right; step6: turn around right thrice",
+    "nowSubtask": ["jump left","jump opposite left","jump opposite left thrice","turn right","turn around right","turn around right thrice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo","llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "86": {
+    "steps": ["run right","run around right","run around right twice","turn opposite right"],
+    "steps_dict": {
+      "1": "run right",
+      "2": "run around right",
+      "3": "run around right twice",
+      "4": "turn opposite right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "run around right twice and turn opposite right",
+    "allSubtask": "step1: run right; step2: run around right; step3: run around right twice; step4: turn opposite right",
+    "nowSubtask": ["run right","run around right","run around right twice","turn opposite right"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","llama3-8b"]
+  },
+  "87": {
+    "steps": ["run","jump","jump twice"],
+    "steps_dict": {
+      "1": "run",
+      "2": "jump",
+      "3": "jump twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "run and jump twice",
+    "allSubtask": "step1: run; step2: jump; step3: jump twice",
+    "nowSubtask": ["run","jump","jump twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "88": {
+    "steps": ["jump opposite right","run right","run around right","run around right twice"],
+    "steps_dict": {
+      "1": "jump opposite right",
+      "2": "run right",
+      "3": "run around right",
+      "4": "run around right twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "jump opposite right and run around right twice",
+    "allSubtask": "step1: jump opposite right; step2: run right; step3: run around right; step4: run around right twice",
+    "nowSubtask": ["jump opposite right","run right","run around right","run around right twice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "89": {
+    "steps": ["run left","run left twice","turn opposite left"],
+    "steps_dict": {
+      "1": "run left",
+      "2": "run left twice",
+      "3": "turn opposite left"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "run left twice and turn opposite left",
+    "allSubtask": "step1: run left; step2: run left twice; step3: turn opposite left",
+    "nowSubtask": ["run left","run left twice","turn opposite left"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "90": {
+    "steps": ["jump right","jump right thrice","look right","look right thrice"],
+    "steps_dict": {
+      "1": "jump right",
+      "2": "jump right thrice",
+      "3": "look right",
+      "4": "look right thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "jump right thrice and look right thrice",
+    "allSubtask": "step1: jump right; step2: jump right thrice; step3: look right; step4: look right thrice",
+    "nowSubtask": ["jump right","jump right thrice","look right","look right thrice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "91": {
+    "steps": ["look opposite right","look opposite right twice","turn opposite left"],
+    "steps_dict": {
+      "1": "look opposite right",
+      "2": "look opposite right twice",
+      "3": "turn opposite left"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "look opposite right twice and turn opposite left",
+    "allSubtask": "step1: look opposite right; step2: look opposite right twice; step3: turn opposite left",
+    "nowSubtask": ["look opposite right","look opposite right twice","turn opposite left"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "92": {
+    "steps": ["turn right","look left","look opposite left","look opposite left thrice"],
+    "steps_dict": {
+      "1": "turn right",
+      "2": "look left",
+      "3": "look opposite left",
+      "4": "look opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"],
+      "3": ["Step 4"]
+    },
+    "int_edges": [[1,2],[2,3],[3,4]],
+    "problemText": "turn right and look opposite left thrice",
+    "allSubtask": "step1: turn right; step2: look left; step3: look opposite left; step4: look opposite left thrice",
+    "nowSubtask": ["turn right","look left","look opposite left","look opposite left thrice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "93": {
+    "steps": ["run left","run around left","run around left twice","walk right","walk opposite right","walk opposite right thrice"],
+    "steps_dict": {
+      "1": "run left",
+      "2": "run around left",
+      "3": "run around left twice",
+      "4": "walk right",
+      "5": "walk opposite right",
+      "6": "walk opposite right thrice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 6","Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5],[5,6]],
+    "problemText": "run around left twice and walk opposite right thrice",
+    "allSubtask": "step1: run left; step2: run around left; step3: run around left twice; step4: walk right; step5: walk opposite right; step6: walk opposite right thrice",
+    "nowSubtask": ["run left","run around left","run around left twice","walk right","walk opposite right","walk opposite right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b","llama3-8b","llama3-8b","llama3-8b"]
+  },
+  "94": {
+    "steps": ["turn left","turn left thrice","turn opposite left","turn opposite left thrice"],
+    "steps_dict": {
+      "1": "turn left",
+      "2": "turn left thrice",
+      "3": "turn opposite left",
+      "4": "turn opposite left thrice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "turn opposite left thrice after turn left thrice",
+    "allSubtask": "step1: turn left; step2: turn left thrice; step3: turn opposite left; step4: turn opposite left thrice",
+    "nowSubtask": ["turn left","turn left thrice","turn opposite left","turn opposite left thrice"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","llama3-8b","gpt-4-turbo"]
+  },
+  "95": {
+    "steps": ["look opposite right","look opposite right thrice","turn right"],
+    "steps_dict": {
+      "1": "look opposite right",
+      "2": "look opposite right thrice",
+      "3": "turn right"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "look opposite right thrice and turn right",
+    "allSubtask": "step1: look opposite right; step2: look opposite right thrice; step3: turn right",
+    "nowSubtask": ["look opposite right","look opposite right thrice","turn right"],
+    "allo_model": ["llama3-8b","gpt-4-turbo","llama3-8b"]
+  },
+  "96": {
+    "steps": ["walk opposite right","walk opposite right twice","run opposite left","run opposite left twice"],
+    "steps_dict": {
+      "1": "walk opposite right",
+      "2": "walk opposite right twice",
+      "3": "run opposite left",
+      "4": "run opposite left twice"
+    },
+    "depths": {
+      "0": ["Step 1","Step 3"],
+      "1": ["Step 2","Step 4"]
+    },
+    "int_edges": [[1,2],[3,4]],
+    "problemText": "walk opposite right twice and run opposite left twice",
+    "allSubtask": "step1: walk opposite right; step2: walk opposite right twice; step3: run opposite left; step4: run opposite left twice",
+    "nowSubtask": ["walk opposite right","walk opposite right twice","run opposite left","run opposite left twice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "97": {
+    "steps": ["run left","run around left","run around left thrice","look","look thrice"],
+    "steps_dict": {
+      "1": "run left",
+      "2": "run around left",
+      "3": "run around left thrice",
+      "4": "look",
+      "5": "look thrice"
+    },
+    "depths": {
+      "0": ["Step 4","Step 1"],
+      "1": ["Step 5","Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3],[4,5]],
+    "problemText": "look thrice after run around left thrice",
+    "allSubtask": "step1: run left; step2: run around left; step3: run around left thrice; step4: look; step5: look thrice",
+    "nowSubtask": ["run left","run around left","run around left thrice","look","look thrice"],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","llama3-8b","gpt-4-turbo"]
+  },
+  "98": {
+    "steps": ["turn right","turn right twice","turn right thrice"],
+    "steps_dict": {
+      "1": "turn right",
+      "2": "turn right twice",
+      "3": "turn right thrice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "turn right thrice after turn right twice",
+    "allSubtask": "step1: turn right; step2: turn right twice; step3: turn right thrice",
+    "nowSubtask": ["turn right","turn right twice","turn right thrice"],
+    "allo_model": ["llama3-8b","llama3-8b","gpt-4-turbo"]
+  },
+  "99": {
+    "steps": ["turn opposite left","jump","jump twice"],
+    "steps_dict": {
+      "1": "turn opposite left",
+      "2": "jump",
+      "3": "jump twice"
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3"]
+    },
+    "int_edges": [[1,2],[2,3]],
+    "problemText": "turn opposite left and jump twice",
+    "allSubtask": "step1: turn opposite left; step2: jump; step3: jump twice",
+    "nowSubtask": ["turn opposite left","jump","jump twice"],
+    "allo_model": ["llama3-8b","llama3-8b","llama3-8b"]
+  }
+}

@@ -1,0 +1,1654 @@
+[
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Determine the length of the list 'li' based on the number of words given in 'words'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure each element i in list 'li' is a positive integer and matches the character length of its corresponding word in 'words'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate unique numbers representing each distinct character across all words in 'words'. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if the count of unique (digit, character) pairs for the words matches the count of the unique characters from all words. "
+      },
+      {
+        "stepId": 5,
+        "step": " Calculate the sum of all elements in 'li' except the last, and compare it to the last element of 'li'. "
+      },
+      {
+        "stepId": 6,
+        "step": " Adjust the generated numbers and repeat the verification steps until the conditions are met. "
+      }
+    ],
+    {
+      "1": " Determine the length of the list 'li' based on the number of words given in 'words'. ",
+      "2": " Ensure each element i in list 'li' is a positive integer and matches the character length of its corresponding word in 'words'. ",
+      "3": " Generate unique numbers representing each distinct character across all words in 'words'. ",
+      "4": " Check if the count of unique (digit, character) pairs for the words matches the count of the unique characters from all words. ",
+      "5": " Calculate the sum of all elements in 'li' except the last, and compare it to the last element of 'li'. ",
+      "6": " Adjust the generated numbers and repeat the verification steps until the conditions are met. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints defined by the function: The list of integers 'li' must have a length matching that of 'words', each integer should have a positive value, and the number of digits in each integer should match the length of the corresponding word in 'words'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine that each character in the words \"SEND\", \"MORE\", and \"MONEY\" matches digit positions uniquely across the respective integers. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate potential integers for 'li' that match the length and other uniqueness constraints of \"SEND\", \"MORE\", and \"MONEY\". "
+      },
+      {
+        "stepId": 4,
+        "step": " Check the sum of all integers in the list 'li' except the last one against the last integer (it should be equal as per the function requirement). "
+      },
+      {
+        "stepId": 5,
+        "step": " Adjust integers to match the sum condition correctly while ensuring all previous conditions hold. "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate that the final arrangement of integers resolves the puzzle, making the function to return True. "
+      }
+    ],
+    {
+      "1": " Understand the constraints defined by the function: The list of integers 'li' must have a length matching that of 'words', each integer should have a positive value, and the number of digits in each integer should match the length of the corresponding word in 'words'. ",
+      "2": " Determine that each character in the words \"SEND\", \"MORE\", and \"MONEY\" matches digit positions uniquely across the respective integers. ",
+      "3": " Generate potential integers for 'li' that match the length and other uniqueness constraints of \"SEND\", \"MORE\", and \"MONEY\". ",
+      "4": " Check the sum of all integers in the list 'li' except the last one against the last integer (it should be equal as per the function requirement). ",
+      "5": " Adjust integers to match the sum condition correctly while ensuring all previous conditions hold. ",
+      "6": " Validate that the final arrangement of integers resolves the puzzle, making the function to return True. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions that each integer in li must be greater than zero, and its length should match the corresponding word in words. "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify that the sum of all elements except the last one in li should be equal to the last element. "
+      },
+      {
+        "stepId": 3,
+        "step": " Make a distinct requirement for matching digits to unique letters, ensuring each letter in words is represented uniquely by a digit in li. "
+      },
+      {
+        "stepId": 4,
+        "step": " Generate a list of possible number combinations where each number fits its word's length and starts with a non-zero digit. "
+      },
+      {
+        "stepId": 5,
+        "step": " Filter those combinations where the concatenation of digits conforms to the distinct requirement where unique letters in words are matched uniquely with digits. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check the summation condition for each valid combination. If the sum of all but the last number equals the last number, return that list. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify the final list to ensure all conditions are satisfied and the function returns True. "
+      }
+    ],
+    {
+      "1": " Understand the conditions that each integer in li must be greater than zero, and its length should match the corresponding word in words. ",
+      "2": " Identify that the sum of all elements except the last one in li should be equal to the last element. ",
+      "3": " Make a distinct requirement for matching digits to unique letters, ensuring each letter in words is represented uniquely by a digit in li. ",
+      "4": " Generate a list of possible number combinations where each number fits its word's length and starts with a non-zero digit. ",
+      "5": " Filter those combinations where the concatenation of digits conforms to the distinct requirement where unique letters in words are matched uniquely with digits. ",
+      "6": " Check the summation condition for each valid combination. If the sum of all but the last number equals the last number, return that list. ",
+      "7": " Verify the final list to ensure all conditions are satisfied and the function returns True. "
+    },
+    {
+      "0": [
+        "Step 3",
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions that each number in the list li corresponds to a word in words and the digits of each number map uniquely to the letters of the corresponding word. "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure each number in li has strictly non-zero digits and the number of digits equals the number of letters in the corresponding word. "
+      },
+      {
+        "stepId": 3,
+        "step": " Construct a mapping from digits to letters such that each digit maps to a unique letter across all the numbers and words. "
+      },
+      {
+        "stepId": 4,
+        "step": " Calculate the sums of the first n-1 numbers in the list li, where n is the total number of words. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if the sum calculated in the previous step equals the nth number in the list li. "
+      },
+      {
+        "stepId": 6,
+        "step": " Adjust the mapping and the elements in li if the sum isn't equal and repeat until the condition is met. "
+      }
+    ],
+    {
+      "1": " Understand the conditions that each number in the list li corresponds to a word in words and the digits of each number map uniquely to the letters of the corresponding word. ",
+      "2": " Ensure each number in li has strictly non-zero digits and the number of digits equals the number of letters in the corresponding word. ",
+      "3": " Construct a mapping from digits to letters such that each digit maps to a unique letter across all the numbers and words. ",
+      "4": " Calculate the sums of the first n-1 numbers in the list li, where n is the total number of words. ",
+      "5": " Check if the sum calculated in the previous step equals the nth number in the list li. ",
+      "6": " Adjust the mapping and the elements in li if the sum isn't equal and repeat until the condition is met. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that each integer in the list should match the length and positive constraint with respective strings. "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify total unique characters in the words list to correlate with unique pairs formed from numbers and characters. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate possible combinations of integers that fulfil the length and positivity constraints matching each word. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each combination of integers, validate the condition of unique character-to-digit mapping. "
+      },
+      {
+        "stepId": 5,
+        "step": " Calculate the sum of all but the last integer in the list and check if it equals to the last integer. "
+      },
+      {
+        "stepId": 6,
+        "step": " If conditions are all met, confirm this list as the solution. "
+      }
+    ],
+    {
+      "1": " Understand that each integer in the list should match the length and positive constraint with respective strings. ",
+      "2": " Identify total unique characters in the words list to correlate with unique pairs formed from numbers and characters. ",
+      "3": " Generate possible combinations of integers that fulfil the length and positivity constraints matching each word. ",
+      "4": " For each combination of integers, validate the condition of unique character-to-digit mapping. ",
+      "5": " Calculate the sum of all but the last integer in the list and check if it equals to the last integer. ",
+      "6": " If conditions are all met, confirm this list as the solution. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the output list 'li' must have the same length as the input list 'words', and each int in 'li' should match the string length of corresponding word in 'words'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Recognize that each digit mapped to a character must be unique across the entire puzzle; i.e., letters across all words map to unique digits. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate all possible permutations of integers that fit the characteristic length constraint for each word in 'words'. "
+      },
+      {
+        "stepId": 4,
+        "step": " Select permutations where each integer consists only of unique digits, corresponding to the unique letter constraint. "
+      },
+      {
+        "stepId": 5,
+        "step": " Match generated numbers with the words such that no two characters in any word correspond to the same digit, ensuring a unique digit to character mapping from permutations. "
+      },
+      {
+        "stepId": 6,
+        "step": " Sum all numbers corresponding to the words except the last one, to compare with the number representing the last word. "
+      },
+      {
+        "stepId": 7,
+        "step": " If the sum matches the number for the last word in 'li', confirm the solution. If not, continue testing other valid permutations. "
+      }
+    ],
+    {
+      "1": " Understand that the output list 'li' must have the same length as the input list 'words', and each int in 'li' should match the string length of corresponding word in 'words'. ",
+      "2": " Recognize that each digit mapped to a character must be unique across the entire puzzle; i.e., letters across all words map to unique digits. ",
+      "3": " Generate all possible permutations of integers that fit the characteristic length constraint for each word in 'words'. ",
+      "4": " Select permutations where each integer consists only of unique digits, corresponding to the unique letter constraint. ",
+      "5": " Match generated numbers with the words such that no two characters in any word correspond to the same digit, ensuring a unique digit to character mapping from permutations. ",
+      "6": " Sum all numbers corresponding to the words except the last one, to compare with the number representing the last word. ",
+      "7": " If the sum matches the number for the last word in 'li', confirm the solution. If not, continue testing other valid permutations. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements of the function: three integers corresponding to the lengths of words 'SEND', 'MORE', 'MONEY', with unique letter-digit mapping. "
+      },
+      {
+        "stepId": 2,
+        "step": " Choose integers that satisfy the condition that each integer has a unique number of digits corresponding to the length of each word. "
+      },
+      {
+        "stepId": 3,
+        "step": " Verify that each selected integer for 'SEND', 'MORE' do not reuse any numerical digit and maintain unique mapping to characters. "
+      },
+      {
+        "stepId": 4,
+        "step": " Ensure chosen integers' sum for 'SEND' and 'MORE' equals the integer for 'MONEY'. "
+      },
+      {
+        "stepId": 5,
+        "step": " Validate that total number of unique characters in words equals number of unique digits used. "
+      },
+      {
+        "stepId": 6,
+        "step": " Confirm all constructed rules to see if they result in a True return value from the function. "
+      }
+    ],
+    {
+      "1": " Understand the requirements of the function: three integers corresponding to the lengths of words 'SEND', 'MORE', 'MONEY', with unique letter-digit mapping. ",
+      "2": " Choose integers that satisfy the condition that each integer has a unique number of digits corresponding to the length of each word. ",
+      "3": " Verify that each selected integer for 'SEND', 'MORE' do not reuse any numerical digit and maintain unique mapping to characters. ",
+      "4": " Ensure chosen integers' sum for 'SEND' and 'MORE' equals the integer for 'MONEY'. ",
+      "5": " Validate that total number of unique characters in words equals number of unique digits used. ",
+      "6": " Confirm all constructed rules to see if they result in a True return value from the function. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 5"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that each integer in 'li' must have the same number of digits as the corresponding string in 'words', and all integers must be positive. "
+      },
+      {
+        "stepId": 2,
+        "step": " Confirm that the integer mappings for characters in 'words' are unique across all words. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate initial candidates for integers that match the length of each word in 'words'. "
+      },
+      {
+        "stepId": 4,
+        "step": " Validate each candidate set by matching the number of unique digit-letter pairs in each word. "
+      },
+      {
+        "stepId": 5,
+        "step": " Calculate the sum of the integers in the candidates list excluding the last item. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if the sum equals the last integer in the list. If not, adjust candidates and repeat. "
+      },
+      {
+        "stepId": 7,
+        "step": " Output the list of integers once validated against all the criteria provided. "
+      }
+    ],
+    {
+      "1": " Understand that each integer in 'li' must have the same number of digits as the corresponding string in 'words', and all integers must be positive. ",
+      "2": " Confirm that the integer mappings for characters in 'words' are unique across all words. ",
+      "3": " Generate initial candidates for integers that match the length of each word in 'words'. ",
+      "4": " Validate each candidate set by matching the number of unique digit-letter pairs in each word. ",
+      "5": " Calculate the sum of the integers in the candidates list excluding the last item. ",
+      "6": " Check if the sum equals the last integer in the list. If not, adjust candidates and repeat. ",
+      "7": " Output the list of integers once validated against all the criteria provided. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements and constraints of the function sat. "
+      },
+      {
+        "stepId": 2,
+        "step": " Create a mapping between unique letters in the words and unique digits ensuring that numbers formed have lengths matching their respective words. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate possible combinations of numbers based on the length and distinct letter constraints from the words. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each combination, map digits to respective letters to form the numbers corresponding to the words. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify if the sum of numbers indexed from the first to the second-last equal the last number in the list. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if the last requirement that ensures each character in words represents a unique digit is satisfied. "
+      },
+      {
+        "stepId": 7,
+        "step": " Output the combination that satisfies all conditions if found. "
+      }
+    ],
+    {
+      "1": " Understand the requirements and constraints of the function sat. ",
+      "2": " Create a mapping between unique letters in the words and unique digits ensuring that numbers formed have lengths matching their respective words. ",
+      "3": " Generate possible combinations of numbers based on the length and distinct letter constraints from the words. ",
+      "4": " For each combination, map digits to respective letters to form the numbers corresponding to the words. ",
+      "5": " Verify if the sum of numbers indexed from the first to the second-last equal the last number in the list. ",
+      "6": " Check if the last requirement that ensures each character in words represents a unique digit is satisfied. ",
+      "7": " Output the combination that satisfies all conditions if found. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5",
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the length constraint: each number in the list must match the length of its corresponding word in 'words'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the distinct letter mapping: ensure that each letter in the words maps uniquely to a digit. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate numbers that satisfy the length requirement from step 1 and distinct mapping from step 2. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify the sum condition: the sum of all but the last number in the list should equal the last number. "
+      },
+      {
+        "stepId": 5,
+        "step": " Confirm that all numeric values are positive. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check that the list meets all conditions and make necessary adjustments if needed. "
+      }
+    ],
+    {
+      "1": " Understand the length constraint: each number in the list must match the length of its corresponding word in 'words'. ",
+      "2": " Determine the distinct letter mapping: ensure that each letter in the words maps uniquely to a digit. ",
+      "3": " Generate numbers that satisfy the length requirement from step 1 and distinct mapping from step 2. ",
+      "4": " Verify the sum condition: the sum of all but the last number in the list should equal the last number. ",
+      "5": " Confirm that all numeric values are positive. ",
+      "6": " Check that the list meets all conditions and make necessary adjustments if needed. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions set by the function: the length of digits in each number in the list li must match the length of each corresponding word in words, and sums of the numbers in li corresponding to all but the last word in words must equal the last number. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine that each letter in the words array must correspond uniquely to a different digit. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate permutations of numbers that can be mapped to the characters in the words while ensuring unique characters map to unique digits. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check that the first character of each word does not map to the digit 0, as numbers shouldn't lead with zero. "
+      },
+      {
+        "stepId": 5,
+        "step": " Convert the character-digit mapping into actual numbers to represent each word. "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate the condition that the sum of the li elements corresponding to all words except the last equals the li element corresponding to the last word. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return or print the array li if all constraints and conditions above are satisfied. "
+      }
+    ],
+    {
+      "1": " Understand the conditions set by the function: the length of digits in each number in the list li must match the length of each corresponding word in words, and sums of the numbers in li corresponding to all but the last word in words must equal the last number. ",
+      "2": " Determine that each letter in the words array must correspond uniquely to a different digit. ",
+      "3": " Generate permutations of numbers that can be mapped to the characters in the words while ensuring unique characters map to unique digits. ",
+      "4": " Check that the first character of each word does not map to the digit 0, as numbers shouldn't lead with zero. ",
+      "5": " Convert the character-digit mapping into actual numbers to represent each word. ",
+      "6": " Validate the condition that the sum of the li elements corresponding to all words except the last equals the li element corresponding to the last word. ",
+      "7": " Return or print the array li if all constraints and conditions above are satisfied. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function requirements: List li must match the length of words, every integer must match length with the associated word, and there must be a unique mapping of digits to letters. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate possible integer assignments for each word in 'words' preserving the string length correspondence. "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure that the mapping of digits to characters across these numbers is one-to-one and unique. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify the condition that the sum of all integers, except the last one in the list, equals the last integer. "
+      },
+      {
+        "stepId": 5,
+        "step": " Iteratively adjust integers in the list if conditions are not met. "
+      },
+      {
+        "stepId": 6,
+        "step": " Test and validate that all conditions are satisfied to make the function return True. "
+      }
+    ],
+    {
+      "1": " Understand the function requirements: List li must match the length of words, every integer must match length with the associated word, and there must be a unique mapping of digits to letters. ",
+      "2": " Generate possible integer assignments for each word in 'words' preserving the string length correspondence. ",
+      "3": " Ensure that the mapping of digits to characters across these numbers is one-to-one and unique. ",
+      "4": " Verify the condition that the sum of all integers, except the last one in the list, equals the last integer. ",
+      "5": " Iteratively adjust integers in the list if conditions are not met. ",
+      "6": " Test and validate that all conditions are satisfied to make the function return True. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the key requirements: unique mapping between characters in words 'SEND', 'MORE', 'MONEY' and the digits in li, the sum of the values for the first two elements should equal the last one. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine an appropriate order for the numbers which correspond to the list 'SEND', 'MORE', 'MONEY, ensuring each number's length matches the word length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Identify unique letters across all words and ensure each letter is mapped to a unique digit. "
+      },
+      {
+        "stepId": 4,
+        "step": " Convert words 'SEND' and 'MORE' into numerical form based on the unique mapping. "
+      },
+      {
+        "stepId": 5,
+        "step": " Sum the numeric values of 'SEND' and 'MORE'. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if the sum equates to the numeric equivalent of 'MONEY'. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify all conditions are met such that only unique digits are used, and the numeric form respects the original lengths of the words. "
+      },
+      {
+        "stepId": 8,
+        "step": " Try different mappings until a suitable configuration is found that satisfies all checks. "
+      }
+    ],
+    {
+      "1": " Understand the key requirements: unique mapping between characters in words 'SEND', 'MORE', 'MONEY' and the digits in li, the sum of the values for the first two elements should equal the last one. ",
+      "2": " Determine an appropriate order for the numbers which correspond to the list 'SEND', 'MORE', 'MONEY, ensuring each number's length matches the word length. ",
+      "3": " Identify unique letters across all words and ensure each letter is mapped to a unique digit. ",
+      "4": " Convert words 'SEND' and 'MORE' into numerical form based on the unique mapping. ",
+      "5": " Sum the numeric values of 'SEND' and 'MORE'. ",
+      "6": " Check if the sum equates to the numeric equivalent of 'MONEY'. ",
+      "7": " Verify all conditions are met such that only unique digits are used, and the numeric form respects the original lengths of the words. ",
+      "8": " Try different mappings until a suitable configuration is found that satisfies all checks. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Ensure each integer within the list 'li' has the same number of digits as its corresponding word in the 'words' list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Verify all integers in the list 'li' are greater than zero. "
+      },
+      {
+        "stepId": 3,
+        "step": " Confirm the unique count of digits matches the unique count of characters across all words and corresponding digits. "
+      },
+      {
+        "stepId": 4,
+        "step": " Calculate the sum of all integers in the list 'li' except the last one. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if the calculated sum from STEP4 equals the last integer in the list 'li'. "
+      },
+      {
+        "stepId": 6,
+        "step": " Repeat the process, adjusting integers in 'li' until the sum condition is met. "
+      }
+    ],
+    {
+      "1": " Ensure each integer within the list 'li' has the same number of digits as its corresponding word in the 'words' list. ",
+      "2": " Verify all integers in the list 'li' are greater than zero. ",
+      "3": " Confirm the unique count of digits matches the unique count of characters across all words and corresponding digits. ",
+      "4": " Calculate the sum of all integers in the list 'li' except the last one. ",
+      "5": " Check if the calculated sum from STEP4 equals the last integer in the list 'li'. ",
+      "6": " Repeat the process, adjusting integers in 'li' until the sum condition is met. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Ensure each number in the list li corresponds in length to the respective word in words. "
+      },
+      {
+        "stepId": 2,
+        "step": " Confirm each number is positive and not zero. "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure there are no repeated character-digit mappings across words. "
+      },
+      {
+        "stepId": 4,
+        "step": " Calculate the sum of all numbers in li except the last. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify that this sum equals the last number in the list li. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure all conditions are met for the function to return True. "
+      }
+    ],
+    {
+      "1": " Ensure each number in the list li corresponds in length to the respective word in words. ",
+      "2": " Confirm each number is positive and not zero. ",
+      "3": " Ensure there are no repeated character-digit mappings across words. ",
+      "4": " Calculate the sum of all numbers in li except the last. ",
+      "5": " Verify that this sum equals the last number in the list li. ",
+      "6": " Ensure all conditions are met for the function to return True. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify the length of each word in words list to determine the constraints for integers in li. "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure each integer in li is positive and has the same number of digits as the corresponding word in words. "
+      },
+      {
+        "stepId": 3,
+        "step": " Determine a mapping from each unique character in words to a unique digit, ensuring no leading zero in any number. "
+      },
+      {
+        "stepId": 4,
+        "step": " Generate all permissible combinations of digits based on the length and unique digit constraint for each number. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if these combinations satisfy the uniqueness of character-digit mapping across all words. "
+      },
+      {
+        "stepId": 6,
+        "step": " Sum all integers except the last one in li and check if it equals the last integer. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the list li if all conditions are met. "
+      }
+    ],
+    {
+      "1": " Identify the length of each word in words list to determine the constraints for integers in li. ",
+      "2": " Ensure each integer in li is positive and has the same number of digits as the corresponding word in words. ",
+      "3": " Determine a mapping from each unique character in words to a unique digit, ensuring no leading zero in any number. ",
+      "4": " Generate all permissible combinations of digits based on the length and unique digit constraint for each number. ",
+      "5": " Check if these combinations satisfy the uniqueness of character-digit mapping across all words. ",
+      "6": " Sum all integers except the last one in li and check if it equals the last integer. ",
+      "7": " Return the list li if all conditions are met. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements: Each number in the list 'li' must correspond in length to each word in 'words', and all digits in the numbers must be distinct when mapped to corresponding letters in 'words'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Find potential numbers that match the length of each word in 'words': 'SEND', 'MORE', 'MONEY' should correlate to a 4-digit, 4-digit, and 5-digit number respectively. "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure that each mapped letter to digit is unique across the entire set of words, making sure that there are no repeating letters with different digits and vice versa. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if the summation of the numbers represented by 'SEND' and 'MORE' equals the number represented by 'MONEY'. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify there are no leading zeros in the numbers as per the condition that each number must be greater than zero. "
+      },
+      {
+        "stepId": 6,
+        "step": " Retry with different combinations if conditions are not met, aiming to find a solution where all constraints are satisfied. "
+      }
+    ],
+    {
+      "1": " Understand the requirements: Each number in the list 'li' must correspond in length to each word in 'words', and all digits in the numbers must be distinct when mapped to corresponding letters in 'words'. ",
+      "2": " Find potential numbers that match the length of each word in 'words': 'SEND', 'MORE', 'MONEY' should correlate to a 4-digit, 4-digit, and 5-digit number respectively. ",
+      "3": " Ensure that each mapped letter to digit is unique across the entire set of words, making sure that there are no repeating letters with different digits and vice versa. ",
+      "4": " Check if the summation of the numbers represented by 'SEND' and 'MORE' equals the number represented by 'MONEY'. ",
+      "5": " Verify there are no leading zeros in the numbers as per the condition that each number must be greater than zero. ",
+      "6": " Retry with different combinations if conditions are not met, aiming to find a solution where all constraints are satisfied. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the main requirements: the list of integers li must correspond to words 'SEND', 'MORE', 'MONEY' respectively in length and the unique digit-letter assignments. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate all possible integers that match the length of each word in 'SEND', 'MORE', 'MONEY'. Each integer must not have leading zeroes. "
+      },
+      {
+        "stepId": 3,
+        "step": " Filter the list of integer combinations to ensure distinct mapping of digits to unique letters across the words. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify that the sum of the integers representing 'SEND' and 'MORE' equals the integer representing 'MONEY'. "
+      },
+      {
+        "stepId": 5,
+        "step": " Validate that the count of unique letters in the words equals the count of unique digit-letter pairs to meet the puzzle's conditions. "
+      },
+      {
+        "stepId": 6,
+        "step": " From the filtered list, select the sequence of integers that satisfies all the conditions stated. "
+      }
+    ],
+    {
+      "1": " Understand the main requirements: the list of integers li must correspond to words 'SEND', 'MORE', 'MONEY' respectively in length and the unique digit-letter assignments. ",
+      "2": " Generate all possible integers that match the length of each word in 'SEND', 'MORE', 'MONEY'. Each integer must not have leading zeroes. ",
+      "3": " Filter the list of integer combinations to ensure distinct mapping of digits to unique letters across the words. ",
+      "4": " Verify that the sum of the integers representing 'SEND' and 'MORE' equals the integer representing 'MONEY'. ",
+      "5": " Validate that the count of unique letters in the words equals the count of unique digit-letter pairs to meet the puzzle's conditions. ",
+      "6": " From the filtered list, select the sequence of integers that satisfies all the conditions stated. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 5",
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements for each element in the list 'li' according to the corresponding word in 'words'. Each element must be greater than 0 and the number of digits in the element must match the length of the corresponding word. "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify the unique characters in all the words combined and ensure each character in the words corresponds to a unique digit. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate combinations of numbers that conform to the correspondence of unique characters to unique digits and the stipulated word lengths. "
+      },
+      {
+        "stepId": 4,
+        "step": " Filter the combinations where the sum of the numbers corresponding to 'SEND' and 'MORE' equals the number corresponding to 'MONEY'. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify the output to ensure it fulfills all conditions set by the original function. "
+      }
+    ],
+    {
+      "1": " Understand the requirements for each element in the list 'li' according to the corresponding word in 'words'. Each element must be greater than 0 and the number of digits in the element must match the length of the corresponding word. ",
+      "2": " Identify the unique characters in all the words combined and ensure each character in the words corresponds to a unique digit. ",
+      "3": " Generate combinations of numbers that conform to the correspondence of unique characters to unique digits and the stipulated word lengths. ",
+      "4": " Filter the combinations where the sum of the numbers corresponding to 'SEND' and 'MORE' equals the number corresponding to 'MONEY'. ",
+      "5": " Verify the output to ensure it fulfills all conditions set by the original function. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints imposed by the `sat` function on list `li` and the relationship to `words`. "
+      },
+      {
+        "stepId": 2,
+        "step": " Create potential numeric values that satisfy the length constraints relative to each of the strings in `words`. "
+      },
+      {
+        "stepId": 3,
+        "step": " Map numeric values to unique permutations of letters in `words`, maintaining corresponding relationships. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify that each number corresponds correctly to the characters of the word in `words` through unique digit-letter mapping. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check the condition that the sum of all numeric values from `li` (except last one) equals the last numeric value in `li`. "
+      },
+      {
+        "stepId": 6,
+        "step": " Adjust values and retry if needed until all conditions are met, ensuring solution uniqueness. "
+      },
+      {
+        "stepId": 7,
+        "step": " Generate and validate the output list `li` that satisfies all the conditions set forth. "
+      }
+    ],
+    {
+      "1": " Understand the constraints imposed by the `sat` function on list `li` and the relationship to `words`. ",
+      "2": " Create potential numeric values that satisfy the length constraints relative to each of the strings in `words`. ",
+      "3": " Map numeric values to unique permutations of letters in `words`, maintaining corresponding relationships. ",
+      "4": " Verify that each number corresponds correctly to the characters of the word in `words` through unique digit-letter mapping. ",
+      "5": " Check the condition that the sum of all numeric values from `li` (except last one) equals the last numeric value in `li`. ",
+      "6": " Adjust values and retry if needed until all conditions are met, ensuring solution uniqueness. ",
+      "7": " Generate and validate the output list `li` that satisfies all the conditions set forth. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ]
+]

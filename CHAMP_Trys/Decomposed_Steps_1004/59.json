@@ -1,0 +1,1262 @@
+[
+  [
+    [
+      "Establish the expression in terms of variables a, b, and c for ab+bc+ac.",
+      "Identify the relationship between the sum of products (ab+bc+ac) and the square of the sum (a+b+c)^2.",
+      "Deduce the plausible range for the value of (a+b+c) given the constraint a^2+b^2+c^2=1.",
+      "Calculate the maximum and minimum values for (a+b+c)^2 using the established range.",
+      "Link these extremum values of (a+b+c)^2 back to find the corresponding maximum and minimum values for ab+bc+ac.",
+      "Determine the difference between the maximum and minimum values calculated for ab+bc+ac."
+    ],
+    {
+      "1": "Establish the expression in terms of variables a, b, and c for ab+bc+ac.",
+      "2": "Identify the relationship between the sum of products (ab+bc+ac) and the square of the sum (a+b+c)^2.",
+      "3": "Deduce the plausible range for the value of (a+b+c) given the constraint a^2+b^2+c^2=1.",
+      "4": "Calculate the maximum and minimum values for (a+b+c)^2 using the established range.",
+      "5": "Link these extremum values of (a+b+c)^2 back to find the corresponding maximum and minimum values for ab+bc+ac.",
+      "6": "Determine the difference between the maximum and minimum values calculated for ab+bc+ac."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Rewrite the expression ab + bc + ac using the quadratic identity to link it with the equation \\( a^2 + b^2 + c^2 = 1 \\).",
+      "Consider what kind of inequalities or identities involving sums and products of squares and cross products (like the Cauchy-Schwarz inequality or AM-GM inequality) might help in bounding the expression ab + bc + ca.",
+      "Reflect on the geometric interpretation of the vectors involved and their dot products, considering that \\( a^2 + b^2 + c^2 = 1 \\) implies that (a, b, c) lies on the unit sphere in \\( \\mathbb{R}^3 \\).",
+      "Determine expressions for the maximum and minimum values of ab + bc + ca potentially using a method such as Lagrange multipliers or analyzing critical points.",
+      "Calculate the potential maximum and minimum values using suitable algebraic methods or trigonometric substitution based on insights from previous steps.",
+      "Compute the difference between the maximum and minimum values obtained."
+    ],
+    {
+      "1": "Rewrite the expression ab + bc + ac using the quadratic identity to link it with the equation \\( a^2 + b^2 + c^2 = 1 \\).",
+      "2": "Consider what kind of inequalities or identities involving sums and products of squares and cross products (like the Cauchy-Schwarz inequality or AM-GM inequality) might help in bounding the expression ab + bc + ca.",
+      "3": "Reflect on the geometric interpretation of the vectors involved and their dot products, considering that \\( a^2 + b^2 + c^2 = 1 \\) implies that (a, b, c) lies on the unit sphere in \\( \\mathbb{R}^3 \\).",
+      "4": "Determine expressions for the maximum and minimum values of ab + bc + ca potentially using a method such as Lagrange multipliers or analyzing critical points.",
+      "5": "Calculate the potential maximum and minimum values using suitable algebraic methods or trigonometric substitution based on insights from previous steps.",
+      "6": "Compute the difference between the maximum and minimum values obtained."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Represent the expression ab + bc + ac geometrically or algebraically to understand its behavior with respect to the constraint a^2 + b^2 + c^2 = 1.",
+      "Identify that the constraint a^2 + b^2 + c^2 = 1 describes a sphere in 3-dimensional space.",
+      "Consider the nature of the expression ab + bc + ac and its relation to vector dot products or matrix multiplications.",
+      "Apply Cauchy-Schwarz inequality or other suitable inequalities to find the boundaries (maximum and minimum values) of the expression ab + bc + ac given the spherical constraint.",
+      "Calculate the maximum value of ab + bc + ac under the given constraint.",
+      "Calculate the minimum value of ab + bc + ac under the given constraint.",
+      "Determine the difference between the maximum and minimum calculated values from the previous steps to find the required solution."
+    ],
+    {
+      "1": "Represent the expression ab + bc + ac geometrically or algebraically to understand its behavior with respect to the constraint a^2 + b^2 + c^2 = 1.",
+      "2": "Identify that the constraint a^2 + b^2 + c^2 = 1 describes a sphere in 3-dimensional space.",
+      "3": "Consider the nature of the expression ab + bc + ac and its relation to vector dot products or matrix multiplications.",
+      "4": "Apply Cauchy-Schwarz inequality or other suitable inequalities to find the boundaries (maximum and minimum values) of the expression ab + bc + ac given the spherical constraint.",
+      "5": "Calculate the maximum value of ab + bc + ac under the given constraint.",
+      "6": "Calculate the minimum value of ab + bc + ac under the given constraint.",
+      "7": "Determine the difference between the maximum and minimum calculated values from the previous steps to find the required solution."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5",
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Express ab + bc + ac in terms of another variable to simplify analysis.",
+      "Establish the constraint or formula for a^2 + b^2 + c^2 = 1.",
+      "Determine how to find the maximum and minimum values of ab + bc + ac subject to a^2 + b^2 + c^2 being fixed.",
+      "Use the method of Lagrange multipliers or other optimization techniques related to constraint satisfaction.",
+      "Calculate the potential values of ab + bc + ac given extremums.",
+      "Derive the difference between these maximum and minimum values found in step 5.",
+      "Interpret the geometrical or physical significance of the results, if applicable."
+    ],
+    {
+      "1": "Express ab + bc + ac in terms of another variable to simplify analysis.",
+      "2": "Establish the constraint or formula for a^2 + b^2 + c^2 = 1.",
+      "3": "Determine how to find the maximum and minimum values of ab + bc + ac subject to a^2 + b^2 + c^2 being fixed.",
+      "4": "Use the method of Lagrange multipliers or other optimization techniques related to constraint satisfaction.",
+      "5": "Calculate the potential values of ab + bc + ac given extremums.",
+      "6": "Derive the difference between these maximum and minimum values found in step 5.",
+      "7": "Interpret the geometrical or physical significance of the results, if applicable."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Recall and verify the given equation a² + b² + c² = 1, and understand what it represents in a geometric context.",
+      "Express the expression ab + bc + ca and consider its bounds.",
+      "Use the Cauchy-Schwarz inequality or another suitable method to find the maximum value of ab + bc + ca under the constraint a² + b² + c² = 1.",
+      "Explore transformations or symmetry arguments that might help in expressing ab + bc + ca using other meaningful quantities.",
+      "Determine an approach to compute the minimum value of ab + bc + ca.",
+      "Calculate the difference between the maximum and minimum values obtained for ab + bc + ca.",
+      "Consider special cases or use trigonometric identities or parameterization (e.g., spherical coordinates) to verify the solution or explore alternative methods for finding these bounds."
+    ],
+    {
+      "1": "Recall and verify the given equation a² + b² + c² = 1, and understand what it represents in a geometric context.",
+      "2": "Express the expression ab + bc + ca and consider its bounds.",
+      "3": "Use the Cauchy-Schwarz inequality or another suitable method to find the maximum value of ab + bc + ca under the constraint a² + b² + c² = 1.",
+      "4": "Explore transformations or symmetry arguments that might help in expressing ab + bc + ca using other meaningful quantities.",
+      "5": "Determine an approach to compute the minimum value of ab + bc + ca.",
+      "6": "Calculate the difference between the maximum and minimum values obtained for ab + bc + ca.",
+      "7": "Consider special cases or use trigonometric identities or parameterization (e.g., spherical coordinates) to verify the solution or explore alternative methods for finding these bounds."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 4"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 5",
+        "Step 3"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        2
+      ]
+    ]
+  ],
+  [
+    [
+      "Write the expanded form of the expression (ab + bc + ac)², considering a² + b² + c² = 1.",
+      "Use the identity to express (ab + bc + ac)² in terms of a², b², and c².",
+      "Deduce the range of possible values that ab + bc + ac can take, based on the constraints a² + b² + c² = 1.",
+      "Calculate the square root of the maximum and minimum values obtained for (ab + bc + ac)² to find the range for ab + bc + ac itself.",
+      "Determine the difference between the maximum and minimum values of ab + bc + ac."
+    ],
+    {
+      "1": "Write the expanded form of the expression (ab + bc + ac)², considering a² + b² + c² = 1.",
+      "2": "Use the identity to express (ab + bc + ac)² in terms of a², b², and c².",
+      "3": "Deduce the range of possible values that ab + bc + ac can take, based on the constraints a² + b² + c² = 1.",
+      "4": "Calculate the square root of the maximum and minimum values obtained for (ab + bc + ac)² to find the range for ab + bc + ac itself.",
+      "5": "Determine the difference between the maximum and minimum values of ab + bc + ac."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize and state the given equation a^2 + b^2 + c^2 = 1.",
+      "Identify the expression whose range you need to find: ab + bc + ac.",
+      "Consider the relationship between the square of (a + b + c) and a^2 + b^2 + c^2 to express (a + b + c)^2 in terms of a^2, b^2, c^2, and 2(ab + bc + ac).",
+      "Rewrite the relationship to express 2(ab + bc + ac) in terms of a^2 + b^2 + c^2 and (a + b + c)^2.",
+      "Investigate the bounds for the value of a + b + c given that a^2 + b^2 + c^2 = 1.",
+      "Use the established bounds for a + b + c to find the bounds of (a + b + c)^2.",
+      "Plug these bounds back into the expression for 2(ab + bc + ac) to find its minimum and maximum values.",
+      "Calculate the difference between the largest and smallest possible values of ab + bc + ac."
+    ],
+    {
+      "1": "Recognize and state the given equation a^2 + b^2 + c^2 = 1.",
+      "2": "Identify the expression whose range you need to find: ab + bc + ac.",
+      "3": "Consider the relationship between the square of (a + b + c) and a^2 + b^2 + c^2 to express (a + b + c)^2 in terms of a^2, b^2, c^2, and 2(ab + bc + ac).",
+      "4": "Rewrite the relationship to express 2(ab + bc + ac) in terms of a^2 + b^2 + c^2 and (a + b + c)^2.",
+      "5": "Investigate the bounds for the value of a + b + c given that a^2 + b^2 + c^2 = 1.",
+      "6": "Use the established bounds for a + b + c to find the bounds of (a + b + c)^2.",
+      "7": "Plug these bounds back into the expression for 2(ab + bc + ac) to find its minimum and maximum values.",
+      "8": "Calculate the difference between the largest and smallest possible values of ab + bc + ac."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 5",
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 6",
+        "Step 4"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the geometrical representation of the equation \\(a^2 + b^2 + c^2 = 1\\) in three-dimensional space?",
+      "What mathematical form represents the expression \\(ab + bc + ca\\) in terms of vector and matrix operations?",
+      "How can the Cauchy-Schwarz inequality be applied to find the bounds of \\(ab + bc + ca\\) given the condition \\(a^2 + b^2 + c^2 = 1\\)?",
+      "What specific vectors when plugged into \\(ab + bc + ca\\) will potentially yield the maximum and minimum values for this expression?",
+      "How does the principle of symmetry and algebraic manipulation further help in simplifying the expression \\(ab + bc + ca\\) to find its maximum and minimum?",
+      "Can the unit sphere's properties and trigonometric identities be used to solve for the angles between the vectors \\(a, b, c\\) to directly calculate or estimate \\(ab + bc + ca\\)?",
+      "What are the special cases where \\(ab + bc + ca\\) reaches its extremum values?",
+      "Calculate the difference between the maximum and minimum values of \\(ab + bc + ca\\)."
+    ],
+    {
+      "1": "What is the geometrical representation of the equation \\(a^2 + b^2 + c^2 = 1\\) in three-dimensional space?",
+      "2": "What mathematical form represents the expression \\(ab + bc + ca\\) in terms of vector and matrix operations?",
+      "3": "How can the Cauchy-Schwarz inequality be applied to find the bounds of \\(ab + bc + ca\\) given the condition \\(a^2 + b^2 + c^2 = 1\\)?",
+      "4": "What specific vectors when plugged into \\(ab + bc + ca\\) will potentially yield the maximum and minimum values for this expression?",
+      "5": "How does the principle of symmetry and algebraic manipulation further help in simplifying the expression \\(ab + bc + ca\\) to find its maximum and minimum?",
+      "6": "Can the unit sphere's properties and trigonometric identities be used to solve for the angles between the vectors \\(a, b, c\\) to directly calculate or estimate \\(ab + bc + ca\\)?",
+      "7": "What are the special cases where \\(ab + bc + ca\\) reaches its extremum values?",
+      "8": "Calculate the difference between the maximum and minimum values of \\(ab + bc + ca\\)."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 6"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 5"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the given equation a^2 + b^2 + c^2 = 1 represents a sphere of radius 1 centered at the origin.",
+      "Understand the expression ab + bc + ca as a dot product of specific vectors or in terms of the angle between vectors.",
+      "Identify the boundaries for the value of ab + bc + ca using geometric or algebraic methods, knowing the constraint from step 1.",
+      "Investigate the maximum value of ab + bc + ca within the constraint that a, b, and c lie on the sphere.",
+      "Investigate the minimum value of ab + bc + ca similarly.",
+      "Calculate the difference between the maximum and minimum values obtained in the previous steps."
+    ],
+    {
+      "1": "Recognize the given equation a^2 + b^2 + c^2 = 1 represents a sphere of radius 1 centered at the origin.",
+      "2": "Understand the expression ab + bc + ca as a dot product of specific vectors or in terms of the angle between vectors.",
+      "3": "Identify the boundaries for the value of ab + bc + ca using geometric or algebraic methods, knowing the constraint from step 1.",
+      "4": "Investigate the maximum value of ab + bc + ca within the constraint that a, b, and c lie on the sphere.",
+      "5": "Investigate the minimum value of ab + bc + ca similarly.",
+      "6": "Calculate the difference between the maximum and minimum values obtained in the previous steps."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the expression for ab+bc+ca in terms of a, b, and c.",
+      "Recognize that a^2+b^2+c^2=1 represents the equation of a sphere.",
+      "Determine what constraints or relationships between a, b, and c might lead to maximizing or minimizing the expression ab+bc+ca.",
+      "Consider substituting expressions like a=cos(θ)sin(ϕ), b=sin(θ)sin(ϕ), c=cos(ϕ) into ab+bc+ca, simplifying the expression, and exploring how θ and ϕ affect ab+bc+ca.",
+      "Explore geometric interpretation on the sphere and its possible implications for the values of ab+bc+ca.",
+      "Calculate the potential maximum value of ab+bc+ca given the constraint a^2+b^2+c^2=1.",
+      "Calculate the potential minimum value of ab+bc+ca under the same constraint.",
+      "Find the difference between the maximum and minimum values of ab+bc+ca."
+    ],
+    {
+      "1": "Identify the expression for ab+bc+ca in terms of a, b, and c.",
+      "2": "Recognize that a^2+b^2+c^2=1 represents the equation of a sphere.",
+      "3": "Determine what constraints or relationships between a, b, and c might lead to maximizing or minimizing the expression ab+bc+ca.",
+      "4": "Consider substituting expressions like a=cos(θ)sin(ϕ), b=sin(θ)sin(ϕ), c=cos(ϕ) into ab+bc+ca, simplifying the expression, and exploring how θ and ϕ affect ab+bc+ca.",
+      "5": "Explore geometric interpretation on the sphere and its possible implications for the values of ab+bc+ca.",
+      "6": "Calculate the potential maximum value of ab+bc+ca given the constraint a^2+b^2+c^2=1.",
+      "7": "Calculate the potential minimum value of ab+bc+ca under the same constraint.",
+      "8": "Find the difference between the maximum and minimum values of ab+bc+ca."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 5"
+      ],
+      "2": [
+        "Step 6",
+        "Step 7",
+        "Step 4"
+      ],
+      "3": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the relationship between the expression \\( ab + bc + ac \\) and the given condition \\( a^2 + b^2 + c^2 = 1 \\).",
+      "Express the terms \\( ab + bc + ac \\) in a form that relates directly to the condition using a known identity involving squares (hint: consider expanding \\( (a+b+c)^2 \\)).",
+      "Determine the mathematical bounds for \\( ab + bc + ac \\) based on the identity and the constraint on \\( a^2 + b^2 + c^2 \\).",
+      "Explore the symmetry and possible values of \\( a, b, c \\) that maximize or minimize \\( ab + bc + ac \\) under the equation \\( a^2 + b^2 + c^2 = 1 \\).",
+      "Calculate the maximum possible value of \\( ab + bc + ac \\) by setting appropriate values to \\( a, b, \\) and \\( c \\).",
+      "Calculate the minimum possible value of \\( ab + bc + ac \\) by setting other appropriate values to \\( a, b, \\) and \\( c \\).",
+      "Compute the difference between the maximum and minimum values found in the previous steps."
+    ],
+    {
+      "1": "Identify the relationship between the expression \\( ab + bc + ac \\) and the given condition \\( a^2 + b^2 + c^2 = 1 \\).",
+      "2": "Express the terms \\( ab + bc + ac \\) in a form that relates directly to the condition using a known identity involving squares (hint: consider expanding \\( (a+b+c)^2 \\)).",
+      "3": "Determine the mathematical bounds for \\( ab + bc + ac \\) based on the identity and the constraint on \\( a^2 + b^2 + c^2 \\).",
+      "4": "Explore the symmetry and possible values of \\( a, b, c \\) that maximize or minimize \\( ab + bc + ac \\) under the equation \\( a^2 + b^2 + c^2 = 1 \\).",
+      "5": "Calculate the maximum possible value of \\( ab + bc + ac \\) by setting appropriate values to \\( a, b, \\) and \\( c \\).",
+      "6": "Calculate the minimum possible value of \\( ab + bc + ac \\) by setting other appropriate values to \\( a, b, \\) and \\( c \\).",
+      "7": "Compute the difference between the maximum and minimum values found in the previous steps."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6",
+        "Step 5"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Express ab+bc+ac in terms of (a+b+c)^2 and a^2+b^2+c^2.",
+      "Identify the constraints provided by a^2+b^2+c^2=1.",
+      "Determine the range of possible values for (a+b+c)^2 given the constraint a^2+b^2+c^2=1.",
+      "Calculate the maximum and minimum values of ab+bc+ac using the range found in step 3.",
+      "Substract the minimum value of ab+bc+ac from the maximum value to find the difference."
+    ],
+    {
+      "1": "Express ab+bc+ac in terms of (a+b+c)^2 and a^2+b^2+c^2.",
+      "2": "Identify the constraints provided by a^2+b^2+c^2=1.",
+      "3": "Determine the range of possible values for (a+b+c)^2 given the constraint a^2+b^2+c^2=1.",
+      "4": "Calculate the maximum and minimum values of ab+bc+ac using the range found in step 3.",
+      "5": "Substract the minimum value of ab+bc+ac from the maximum value to find the difference."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the problem as a constraint optimization problem where a, b, and c must satisfy a specific constraint (a^2 + b^2 + c^2 = 1).",
+      "Identify that you need to maximize and minimize the expression ab + bc + ac under the given constraint.",
+      "Consider the substitution of variables or transformation techniques that might simplify the problem, such as using spherical or polar coordinates.",
+      "Use a substitution, if applicable, to express a, b, and c in terms of new variables that might help in simplifying the expression and constraint.",
+      "Determine the range of values for the new variables ensuring the original constraint remains satisfied.",
+      "Express ab + bc + ac in terms of the new variables.",
+      "Determine the critical points of ab + bc + ac in this new context.",
+      "Verify these critical points satisfy the original constraint.",
+      "Analyze the end points of the range of possible values for the new variables to ascertain bounds for ab + bc + ac.",
+      "Calculate the maximum and minimum values of ab + bc + ac obtained from critical and end points.",
+      "Find the difference between the maximum and minimum values calculated in the previous step, giving the range of possible values for ab + bc + ac under the given constraint."
+    ],
+    {
+      "1": "Recognize the problem as a constraint optimization problem where a, b, and c must satisfy a specific constraint (a^2 + b^2 + c^2 = 1).",
+      "2": "Identify that you need to maximize and minimize the expression ab + bc + ac under the given constraint.",
+      "3": "Consider the substitution of variables or transformation techniques that might simplify the problem, such as using spherical or polar coordinates.",
+      "4": "Use a substitution, if applicable, to express a, b, and c in terms of new variables that might help in simplifying the expression and constraint.",
+      "5": "Determine the range of values for the new variables ensuring the original constraint remains satisfied.",
+      "6": "Express ab + bc + ac in terms of the new variables.",
+      "7": "Determine the critical points of ab + bc + ac in this new context.",
+      "8": "Verify these critical points satisfy the original constraint.",
+      "9": "Analyze the end points of the range of possible values for the new variables to ascertain bounds for ab + bc + ac.",
+      "10": "Calculate the maximum and minimum values of ab + bc + ac obtained from critical and end points.",
+      "11": "Find the difference between the maximum and minimum values calculated in the previous step, giving the range of possible values for ab + bc + ac under the given constraint."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ],
+      "8": [
+        "Step 9"
+      ],
+      "9": [
+        "Step 10"
+      ],
+      "10": [
+        "Step 11"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Express the problem using a well-known mathematical identity involving squares and products of variables.",
+      "Identify an expression or expressions that could potentially maximize and minimize ab+bc+ac under the constraint a^2+b^2+c^2=1.",
+      "Substitute any findings from step 2 into the identified mathematical identity to find the forms of a, b, and c that lead to maximum and minimum values.",
+      "Calculate the maximum value of ab+bc+ac based on the findings from step 3.",
+      "Calculate the minimum value of ab+bc+ac based on the findings from step 3.",
+      "Compute the difference between the maximum and minimum values obtained in steps 4 and 5."
+    ],
+    {
+      "1": "Express the problem using a well-known mathematical identity involving squares and products of variables.",
+      "2": "Identify an expression or expressions that could potentially maximize and minimize ab+bc+ac under the constraint a^2+b^2+c^2=1.",
+      "3": "Substitute any findings from step 2 into the identified mathematical identity to find the forms of a, b, and c that lead to maximum and minimum values.",
+      "4": "Calculate the maximum value of ab+bc+ac based on the findings from step 3.",
+      "5": "Calculate the minimum value of ab+bc+ac based on the findings from step 3.",
+      "6": "Compute the difference between the maximum and minimum values obtained in steps 4 and 5."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5",
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the relationship between \\( a^2 + b^2 + c^2 = 1 \\) and \\( ab + bc + ac \\) by considering how to express the latter in terms of the former.",
+      "Use the identity involving squares to express \\( (a+b+c)^2 \\) and relate it to the given condition.",
+      "Determine the range of possible values of \\( ab + bc + ac \\) by manipulating the expressions derived from the identities and inequalities.",
+      "Analyze how the maximum and minimum values of \\( ab + bc + ac \\) can be achieved given the constraint \\( a^2 + b^2 + c^2 = 1 \\).",
+      "Calculate the difference between these maximum and minimum values for \\( ab + bc + ac \\)."
+    ],
+    {
+      "1": "Identify the relationship between \\( a^2 + b^2 + c^2 = 1 \\) and \\( ab + bc + ac \\) by considering how to express the latter in terms of the former.",
+      "2": "Use the identity involving squares to express \\( (a+b+c)^2 \\) and relate it to the given condition.",
+      "3": "Determine the range of possible values of \\( ab + bc + ac \\) by manipulating the expressions derived from the identities and inequalities.",
+      "4": "Analyze how the maximum and minimum values of \\( ab + bc + ac \\) can be achieved given the constraint \\( a^2 + b^2 + c^2 = 1 \\).",
+      "5": "Calculate the difference between these maximum and minimum values for \\( ab + bc + ac \\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Express ab + bc + ac in terms of a single variable by substituting c from the equation a^2 + b^2 + c^2 = 1.",
+      "Maximization & Minimization: Determine the function to maximize and minimize to find the largest and smallest values of ab + bc + ac.",
+      "Use calculus (find the derivative and solve for critical points) or other optimization strategies to find the maximum and minimum values of the function obtained in the previous step.",
+      "Calculate the difference between the maximum and minimum values obtained."
+    ],
+    {
+      "1": "Express ab + bc + ac in terms of a single variable by substituting c from the equation a^2 + b^2 + c^2 = 1.",
+      "2": "Maximization & Minimization: Determine the function to maximize and minimize to find the largest and smallest values of ab + bc + ac.",
+      "3": "Use calculus (find the derivative and solve for critical points) or other optimization strategies to find the maximum and minimum values of the function obtained in the previous step.",
+      "4": "Calculate the difference between the maximum and minimum values obtained."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the relationship between \\( a^2 + b^2 + c^2 \\) and \\( ab + bc + ac \\).",
+      "Apply the algebraic identity or formula that links \\( (a + b + c)^2 \\) with \\( a^2 + b^2 + c^2 \\) and \\( ab + bc + ac \\).",
+      "Considering \\( a^2 + b^2 + c^2 = 1 \\), find the bounds for \\( ab + bc + ac \\) by analyzing the expression derived in the previous step.",
+      "Determine the possible range of values for \\( a+b+c \\) based on \\( a^2 + b^2 + c^2 = 1 \\).",
+      "Find the maximum and minimum values of \\( ab + bc + ac \\) by considering extreme cases (e.g., when \\( a = b = c \\) or other specific configurations of \\( a, b, \\) and \\( c \\)).",
+      "Calculate the difference between the largest and smallest values of \\( ab + bc + ac \\) found in the previous step."
+    ],
+    {
+      "1": "Determine the relationship between \\( a^2 + b^2 + c^2 \\) and \\( ab + bc + ac \\).",
+      "2": "Apply the algebraic identity or formula that links \\( (a + b + c)^2 \\) with \\( a^2 + b^2 + c^2 \\) and \\( ab + bc + ac \\).",
+      "3": "Considering \\( a^2 + b^2 + c^2 = 1 \\), find the bounds for \\( ab + bc + ac \\) by analyzing the expression derived in the previous step.",
+      "4": "Determine the possible range of values for \\( a+b+c \\) based on \\( a^2 + b^2 + c^2 = 1 \\).",
+      "5": "Find the maximum and minimum values of \\( ab + bc + ac \\) by considering extreme cases (e.g., when \\( a = b = c \\) or other specific configurations of \\( a, b, \\) and \\( c \\)).",
+      "6": "Calculate the difference between the largest and smallest values of \\( ab + bc + ac \\) found in the previous step."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Recast the problem in terms of understanding how the expression ab+bc+ac behaves given the constraint a^2+b^2+c^2=1.",
+      "Consider applying a known inequality such as the Cauchy-Schwarz inequality or AM-GM inequality to bound the product expressions (ab, bc, ac).",
+      "Examine cases where the extremes (maximum and minimum) of ab+bc+ac could occur, perhaps by considering specific values or arrangements of a, b, and c.",
+      "Calculate or derive expressions for the maximum and minimum values of ab+bc+ac under the given constraint.",
+      "Calculate the difference between the maximum and minimum values found in the previous step."
+    ],
+    {
+      "1": "Recast the problem in terms of understanding how the expression ab+bc+ac behaves given the constraint a^2+b^2+c^2=1.",
+      "2": "Consider applying a known inequality such as the Cauchy-Schwarz inequality or AM-GM inequality to bound the product expressions (ab, bc, ac).",
+      "3": "Examine cases where the extremes (maximum and minimum) of ab+bc+ac could occur, perhaps by considering specific values or arrangements of a, b, and c.",
+      "4": "Calculate or derive expressions for the maximum and minimum values of ab+bc+ac under the given constraint.",
+      "5": "Calculate the difference between the maximum and minimum values found in the previous step."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the problem as an optimization (finding maxima and minima) under the given constraint a^2 + b^2 + c^2 = 1.",
+      "Identify the expression (ab + bc + ca) that needs to be maximized and minimized subject to the constraint.",
+      "Consider Lagrange multipliers or any substitute method to handle the condition a^2 + b^2 + c^2 = 1 while exploring extreme values of ab + bc + ca.",
+      "Set up the necessary function for the method chosen in step 3, incorporating the constraint.",
+      "Solve the resultant equations to find critical points that may yield the maxima and minima of ab + bc + ca.",
+      "Evaluate ab + bc + ca at the critical points and compare these values to determine the largest and smallest possible values.",
+      "Compute the difference between the maximum and minimum values obtained."
+    ],
+    {
+      "1": "Recognize the problem as an optimization (finding maxima and minima) under the given constraint a^2 + b^2 + c^2 = 1.",
+      "2": "Identify the expression (ab + bc + ca) that needs to be maximized and minimized subject to the constraint.",
+      "3": "Consider Lagrange multipliers or any substitute method to handle the condition a^2 + b^2 + c^2 = 1 while exploring extreme values of ab + bc + ca.",
+      "4": "Set up the necessary function for the method chosen in step 3, incorporating the constraint.",
+      "5": "Solve the resultant equations to find critical points that may yield the maxima and minima of ab + bc + ca.",
+      "6": "Evaluate ab + bc + ca at the critical points and compare these values to determine the largest and smallest possible values.",
+      "7": "Compute the difference between the maximum and minimum values obtained."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Express the given constraint \\( a^2 + b^2 + c^2 = 1 \\) in a useful form or context.",
+      "Recall any identities or inequalities that relate \\( ab + bc + ca \\) to \\( a^2 + b^2 + c^2 \\).",
+      "Determine the maximum and minimum values \\( ab + bc + ca \\) can achieve given the constraint.",
+      "Calculate the difference between the maximum and minimum values of \\( ab + bc + ca \\)."
+    ],
+    {
+      "1": "Express the given constraint \\( a^2 + b^2 + c^2 = 1 \\) in a useful form or context.",
+      "2": "Recall any identities or inequalities that relate \\( ab + bc + ca \\) to \\( a^2 + b^2 + c^2 \\).",
+      "3": "Determine the maximum and minimum values \\( ab + bc + ca \\) can achieve given the constraint.",
+      "4": "Calculate the difference between the maximum and minimum values of \\( ab + bc + ca \\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ]
+]

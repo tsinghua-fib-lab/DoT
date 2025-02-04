@@ -1,0 +1,918 @@
+[
+  [
+    [
+      "Recognize the form of the equation and identify the variables and constants involved.",
+      "Determine the variety of values that each variable can potentially take.",
+      "Find the relationship between the sum and its components, understanding how changing one variable affects the others.",
+      "Calculate the number of combinations for one fixed value of a variable (preferably the easiest one to handle).",
+      "Sum the number of combinations over the entire range of values that the chosen fixed variable can take."
+    ],
+    {
+      "1": "Recognize the form of the equation and identify the variables and constants involved.",
+      "2": "Determine the variety of values that each variable can potentially take.",
+      "3": "Find the relationship between the sum and its components, understanding how changing one variable affects the others.",
+      "4": "Calculate the number of combinations for one fixed value of a variable (preferably the easiest one to handle).",
+      "5": "Sum the number of combinations over the entire range of values that the chosen fixed variable can take."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the possible range for one of the variables, say c, given that a+b+c=99.",
+      "For a fixed value of c, derive the equation that a and b must satisfy.",
+      "Identify how many combinations of non-negative integers (a, b) satisfy the derived equation for each fixed value of c.",
+      "Calculate the total number of ordered triples (a, b, c) by summing the possible combinations for all values of c from its minimum to its maximum."
+    ],
+    {
+      "1": "Determine the possible range for one of the variables, say c, given that a+b+c=99.",
+      "2": "For a fixed value of c, derive the equation that a and b must satisfy.",
+      "3": "Identify how many combinations of non-negative integers (a, b) satisfy the derived equation for each fixed value of c.",
+      "4": "Calculate the total number of ordered triples (a, b, c) by summing the possible combinations for all values of c from its minimum to its maximum."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the range of possible values for one of the variables, say c, given that a + b + c = 99.",
+      "Identify the equation that the remaining variables a and b must satisfy for a specific value of c.",
+      "Calculate the number of combinations for non-negative integers a and b that satisfy the equation from step 2 for each value of c.",
+      "Sum up the total number of combinations of (a, b) for all possible values of c to find the total number of different ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Determine the range of possible values for one of the variables, say c, given that a + b + c = 99.",
+      "2": "Identify the equation that the remaining variables a and b must satisfy for a specific value of c.",
+      "3": "Calculate the number of combinations for non-negative integers a and b that satisfy the equation from step 2 for each value of c.",
+      "4": "Sum up the total number of combinations of (a, b) for all possible values of c to find the total number of different ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the primary equation that defines the condition of the ordered triples (a, b, c).",
+      "Determine the range of possible values for one of the variables (e.g., c) based on this equation.",
+      "Express the relationship between the remaining two variables (a and b) given a particular fixed value of c.",
+      "Calculate the number of non-negative integer solutions for a and b for each fixed value of c.",
+      "Sum the solutions across all possible values of c to find the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Identify the primary equation that defines the condition of the ordered triples (a, b, c).",
+      "2": "Determine the range of possible values for one of the variables (e.g., c) based on this equation.",
+      "3": "Express the relationship between the remaining two variables (a and b) given a particular fixed value of c.",
+      "4": "Calculate the number of non-negative integer solutions for a and b for each fixed value of c.",
+      "5": "Sum the solutions across all possible values of c to find the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the equation that a, b, and c must satisfy to form ordered triples.",
+      "Determine the range of possible values for one of the variables, say c.",
+      "Derive a new equation for the sum of the remaining two variables (a and b) based on the chosen value of c.",
+      "Calculate the number of different combinations of a and b that satisfy the new equation for each specific value of c.",
+      "Sum up combinations of a and b across all valid values of c to find the total number of ordered triples."
+    ],
+    {
+      "1": "Identify the equation that a, b, and c must satisfy to form ordered triples.",
+      "2": "Determine the range of possible values for one of the variables, say c.",
+      "3": "Derive a new equation for the sum of the remaining two variables (a and b) based on the chosen value of c.",
+      "4": "Calculate the number of different combinations of a and b that satisfy the new equation for each specific value of c.",
+      "5": "Sum up combinations of a and b across all valid values of c to find the total number of ordered triples."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the given equation that the ordered triples need to satisfy.",
+      "Determine the possible ranges of values for each variable (a, b, c) based on the constraints.",
+      "Fix the value of one variable and express the remaining variables' sum in terms of the fixed variable.",
+      "Calculate how many pairs of non-negative integers meet the condition for each fixed value of the first variable.",
+      "Sum the number of valid pairs across all potential values of the fixed variable to find the total number of ordered triples."
+    ],
+    {
+      "1": "Identify the given equation that the ordered triples need to satisfy.",
+      "2": "Determine the possible ranges of values for each variable (a, b, c) based on the constraints.",
+      "3": "Fix the value of one variable and express the remaining variables' sum in terms of the fixed variable.",
+      "4": "Calculate how many pairs of non-negative integers meet the condition for each fixed value of the first variable.",
+      "5": "Sum the number of valid pairs across all potential values of the fixed variable to find the total number of ordered triples."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the possible range of values for variable c given the equation a + b + c = 99.",
+      "Determine the resulting equation for a and b when c is fixed at a specific value.",
+      "Calculate the total number of combinations for variables a and b that satisfy the equation derived in step 2, for each specific value of c.",
+      "Sum the calculations from step 3 over all possible values of c to find the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Identify the possible range of values for variable c given the equation a + b + c = 99.",
+      "2": "Determine the resulting equation for a and b when c is fixed at a specific value.",
+      "3": "Calculate the total number of combinations for variables a and b that satisfy the equation derived in step 2, for each specific value of c.",
+      "4": "Sum the calculations from step 3 over all possible values of c to find the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the range of possible values for the variable \\( c \\) given the equation \\( a + b + c = 99 \\).",
+      "Determine the equation that \\( a \\) and \\( b \\) must satisfy when \\( c \\) is fixed at a particular value.",
+      "Calculate the number of combinations of non-negative integers \\( (a, b) \\) that satisfy the equation from the previous step.",
+      "Sum the number of valid combinations for all possible values of \\( c \\) to find the total number of different ordered triples \\( (a, b, c) \\)."
+    ],
+    {
+      "1": "Define the range of possible values for the variable \\( c \\) given the equation \\( a + b + c = 99 \\).",
+      "2": "Determine the equation that \\( a \\) and \\( b \\) must satisfy when \\( c \\) is fixed at a particular value.",
+      "3": "Calculate the number of combinations of non-negative integers \\( (a, b) \\) that satisfy the equation from the previous step.",
+      "4": "Sum the number of valid combinations for all possible values of \\( c \\) to find the total number of different ordered triples \\( (a, b, c) \\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the possible values for one of the variables, say c, given the equation a+b+c=99.",
+      "For a fixed value of c, derive the equation that a and b must satisfy.",
+      "Calculate the number of combinations of non-negative integers (a, b) that satisfy the derived equation from step 2 for each fixed value of c.",
+      "Sum the number of valid combinations for all possible values of c to determine the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Determine the possible values for one of the variables, say c, given the equation a+b+c=99.",
+      "2": "For a fixed value of c, derive the equation that a and b must satisfy.",
+      "3": "Calculate the number of combinations of non-negative integers (a, b) that satisfy the derived equation from step 2 for each fixed value of c.",
+      "4": "Sum the number of valid combinations for all possible values of c to determine the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the range of possible values for c in the equation a+b+c=99.",
+      "Identify the equation that a and b must satisfy for a fixed value of c.",
+      "Calculate the number of combinations of non-negative integers (a, b) that solve the equation from step 2 for each value of c from step 1.",
+      "Sum the solutions across all possible values of c to get the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Determine the range of possible values for c in the equation a+b+c=99.",
+      "2": "Identify the equation that a and b must satisfy for a fixed value of c.",
+      "3": "Calculate the number of combinations of non-negative integers (a, b) that solve the equation from step 2 for each value of c from step 1.",
+      "4": "Sum the solutions across all possible values of c to get the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the problem defining equation that the ordered triples (a, b, c) need to satisfy?",
+      "For a chosen specific value of c, what equation must a and b satisfy?",
+      "How many combinations of non-negative integers (a, b) are there for each specific value of c?",
+      "How do you compute the total number of ordered triples (a, b, c) by considering all possible values of c from its minimum to its maximum value?"
+    ],
+    {
+      "1": "What is the problem defining equation that the ordered triples (a, b, c) need to satisfy?",
+      "2": "For a chosen specific value of c, what equation must a and b satisfy?",
+      "3": "How many combinations of non-negative integers (a, b) are there for each specific value of c?",
+      "4": "How do you compute the total number of ordered triples (a, b, c) by considering all possible values of c from its minimum to its maximum value?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the range of possible values for c given the equation a+b+c=99.",
+      "Determine the equation that a and b must satisfy for a fixed value of c.",
+      "Calculate the number of combinations of a and b that satisfy the equation a+b=99-c.",
+      "Sum the number of valid combinations for each potential value of c from the defined range to find the total number of different ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Define the range of possible values for c given the equation a+b+c=99.",
+      "2": "Determine the equation that a and b must satisfy for a fixed value of c.",
+      "3": "Calculate the number of combinations of a and b that satisfy the equation a+b=99-c.",
+      "4": "Sum the number of valid combinations for each potential value of c from the defined range to find the total number of different ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the range of possible values for c where the sum of a, b, and c equals 99.",
+      "For a fixed value of c, determine the equation that a and b must satisfy.",
+      "Calculate how many combinations of non-negative integers (a, b) satisfy the equation for each value of c.",
+      "Sum the combinations across all possible values of c to find the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Define the range of possible values for c where the sum of a, b, and c equals 99.",
+      "2": "For a fixed value of c, determine the equation that a and b must satisfy.",
+      "3": "Calculate how many combinations of non-negative integers (a, b) satisfy the equation for each value of c.",
+      "4": "Sum the combinations across all possible values of c to find the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the total expression that needs to be satisfied by the non-negative integers a, b, and c?",
+      "How can we classify possible values of one of the variables (c for instance) to simplify the equation?",
+      "For a fixed value of c (ranging from its minimum to maximum possible value), what equation do the variables a and b need to satisfy?",
+      "How can the number of non-negative integer solutions (a, b) be determined for each fixed value of c?",
+      "How do we express the range of values that variable c can hold?",
+      "How do we calculate the total number of solutions by handling the results obtained from each value in the range of variable c?",
+      "What is the sum formula or method to aggregate the individual counts of solutions from step 6 into a total count?"
+    ],
+    {
+      "1": "What is the total expression that needs to be satisfied by the non-negative integers a, b, and c?",
+      "2": "How can we classify possible values of one of the variables (c for instance) to simplify the equation?",
+      "3": "For a fixed value of c (ranging from its minimum to maximum possible value), what equation do the variables a and b need to satisfy?",
+      "4": "How can the number of non-negative integer solutions (a, b) be determined for each fixed value of c?",
+      "5": "How do we express the range of values that variable c can hold?",
+      "6": "How do we calculate the total number of solutions by handling the results obtained from each value in the range of variable c?",
+      "7": "What is the sum formula or method to aggregate the individual counts of solutions from step 6 into a total count?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 5"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the range of possible values for c given the equation a+b+c=99, where a, b, and c are non-negative integers.",
+      "For a particular value of c, establish the equation that a and b must satisfy.",
+      "Calculate the number of combinations of non-negative integers (a, b) that satisfy the equation from step 2 for a fixed value of c.",
+      "Sum the total number of combinations for each possible value of c from the range found in step 1 to get the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Determine the range of possible values for c given the equation a+b+c=99, where a, b, and c are non-negative integers.",
+      "2": "For a particular value of c, establish the equation that a and b must satisfy.",
+      "3": "Calculate the number of combinations of non-negative integers (a, b) that satisfy the equation from step 2 for a fixed value of c.",
+      "4": "Sum the total number of combinations for each possible value of c from the range found in step 1 to get the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the equation a+b+c=99 and identify the possible values for c.",
+      "Fix a value of c and determine the new equation for a and b.",
+      "Calculate the number of non-negative integer solutions for (a, b) that satisfy the new equation for each fixed value of c.",
+      "Sum the combinations of (a, b) for all possible values of c from 0 to 99 to get the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Recognize the equation a+b+c=99 and identify the possible values for c.",
+      "2": "Fix a value of c and determine the new equation for a and b.",
+      "3": "Calculate the number of non-negative integer solutions for (a, b) that satisfy the new equation for each fixed value of c.",
+      "4": "Sum the combinations of (a, b) for all possible values of c from 0 to 99 to get the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the equation representing the sum of the three variables.",
+      "Determine a range of possible values for one of the variables (e.g., variable c).",
+      "Reformulate the equation in terms of the remaining two variables based on a fixed value of the one chosen variable.",
+      "Calculate possible combinations of values for the two variables for each fixed value of the chosen variable.",
+      "Sum the combinations across all possible values of the chosen variable to find the total number of ordered triples."
+    ],
+    {
+      "1": "Identify the equation representing the sum of the three variables.",
+      "2": "Determine a range of possible values for one of the variables (e.g., variable c).",
+      "3": "Reformulate the equation in terms of the remaining two variables based on a fixed value of the one chosen variable.",
+      "4": "Calculate possible combinations of values for the two variables for each fixed value of the chosen variable.",
+      "5": "Sum the combinations across all possible values of the chosen variable to find the total number of ordered triples."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range of possible values for c given that a+b+c=99.",
+      "Determine the equation a and b must satisfy when c is fixed at a specific value.",
+      "Calculate how many combinations of non-negative integers (a, b) satisfy the equation where sum is 99-c for each specific value of c.",
+      "Sum all combinations from each possible value of c to find the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Identify the range of possible values for c given that a+b+c=99.",
+      "2": "Determine the equation a and b must satisfy when c is fixed at a specific value.",
+      "3": "Calculate how many combinations of non-negative integers (a, b) satisfy the equation where sum is 99-c for each specific value of c.",
+      "4": "Sum all combinations from each possible value of c to find the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range of possible values for each variable a, b, and c in the equation a+b+c=99 where each must be a non-negative integer.",
+      "Determine the relationship between any two variables (say a and b) for a fixed value of the third variable (c).",
+      "Calculate the number of possible combinations of a and b for each fixed value of c.",
+      "Sum the total number of combinations across all possible values of c to determine the total number of ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Identify the range of possible values for each variable a, b, and c in the equation a+b+c=99 where each must be a non-negative integer.",
+      "2": "Determine the relationship between any two variables (say a and b) for a fixed value of the third variable (c).",
+      "3": "Calculate the number of possible combinations of a and b for each fixed value of c.",
+      "4": "Sum the total number of combinations across all possible values of c to determine the total number of ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range for the variable c when the sum of a, b, and c equals 99.",
+      "Determine the equation that the variables a and b must satisfy when c is fixed.",
+      "Calculate the number of combinations of non-negative integers (a, b) that satisfy the equation for each fixed value of c.",
+      "Sum the total number of combinations calculated for each possible value of c to find the total number of different ordered triples (a, b, c)."
+    ],
+    {
+      "1": "Identify the range for the variable c when the sum of a, b, and c equals 99.",
+      "2": "Determine the equation that the variables a and b must satisfy when c is fixed.",
+      "3": "Calculate the number of combinations of non-negative integers (a, b) that satisfy the equation for each fixed value of c.",
+      "4": "Sum the total number of combinations calculated for each possible value of c to find the total number of different ordered triples (a, b, c)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ]
+]

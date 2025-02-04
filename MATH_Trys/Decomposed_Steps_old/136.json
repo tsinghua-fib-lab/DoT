@@ -1,0 +1,142 @@
+[
+  [
+    [
+      "Calculate values of \\(\\sqrt{120 - \\sqrt{x}}\\) that result in integer outcomes, focusing first on finding potential values for \\(120 - \\sqrt{x}\\).",
+      "Identify perfect square numbers that can be values for \\(120 - \\sqrt{x}\\) because perfect squares are required under the square root to maintain an integer result.",
+      "Rewriting \\(120 - \\sqrt{x} = n^2\\) for integer values of \\(n\\), calculate the respective equations and solve for \\(\\sqrt{x}\\).",
+      "Solve for \\(\\sqrt{x} = 120 - n^2\\) to find \\(x\\) from \\(x = (120 - n^2)^2\\).",
+      "Determine the range and values of \\(n\\) such that \\(120 - n^2\\) is non-negative (since square root of a negative number is not defined in the set of real numbers).",
+      "Calculation: Count the number of valid perfect squares \\(\\sqrt{x}\\) that can be formed and thus the number of permissible real values for \\(x\\)."
+    ],
+    {
+      "1": "Calculate values of \\(\\sqrt{120 - \\sqrt{x}}\\) that result in integer outcomes, focusing first on finding potential values for \\(120 - \\sqrt{x}\\).",
+      "2": "Identify perfect square numbers that can be values for \\(120 - \\sqrt{x}\\) because perfect squares are required under the square root to maintain an integer result.",
+      "3": "Rewriting \\(120 - \\sqrt{x} = n^2\\) for integer values of \\(n\\), calculate the respective equations and solve for \\(\\sqrt{x}\\).",
+      "4": "Solve for \\(\\sqrt{x} = 120 - n^2\\) to find \\(x\\) from \\(x = (120 - n^2)^2\\).",
+      "5": "Determine the range and values of \\(n\\) such that \\(120 - n^2\\) is non-negative (since square root of a negative number is not defined in the set of real numbers).",
+      "6": "Calculation: Count the number of valid perfect squares \\(\\sqrt{x}\\) that can be formed and thus the number of permissible real values for \\(x\\)."
+    }
+  ],
+  [
+    [
+      "What integer values \\(y\\) can the inner expression under the square root \\(120-\\sqrt{x}\\) take, such that \\(y\\) is a non-negative integer?",
+      "What values of \\(\\sqrt{x}\\) result in \\(y = 120-\\sqrt{x}\\) equaling those potential integer values identified in step 1?",
+      "For each integer value of \\(\\sqrt{x}\\) found in step 2, calculate \\(x\\) by squaring \\(\\sqrt{x}\\).",
+      "Count all distinct real values of \\(x\\) obtained in step 3."
+    ],
+    {
+      "1": "What integer values \\(y\\) can the inner expression under the square root \\(120-\\sqrt{x}\\) take, such that \\(y\\) is a non-negative integer?",
+      "2": "What values of \\(\\sqrt{x}\\) result in \\(y = 120-\\sqrt{x}\\) equaling those potential integer values identified in step 1?",
+      "3": "For each integer value of \\(\\sqrt{x}\\) found in step 2, calculate \\(x\\) by squaring \\(\\sqrt{x}\\).",
+      "4": "Count all distinct real values of \\(x\\) obtained in step 3."
+    }
+  ],
+  [
+    [
+      "What integer values can $\\sqrt{120-\\sqrt{x}}$ take?",
+      "For each integer value, what does $120-\\sqrt{x}$ equal?",
+      "How can we express the equation $120-\\sqrt{x} = \\text{(integer value)}^2$?",
+      "What values of $\\sqrt{x}$ result from solving each equation from step 3?",
+      "What values of $x$ correspond to each value of $\\sqrt{x}$ obtained in step 4?",
+      "Verify each calculated value of $x$ to ensure it is a real number.",
+      "Count the number of valid, real values of $x$."
+    ],
+    {
+      "1": "What integer values can $\\sqrt{120-\\sqrt{x}}$ take?",
+      "2": "For each integer value, what does $120-\\sqrt{x}$ equal?",
+      "3": "How can we express the equation $120-\\sqrt{x} = \\text{(integer value)}^2$?",
+      "4": "What values of $\\sqrt{x}$ result from solving each equation from step 3?",
+      "5": "What values of $x$ correspond to each value of $\\sqrt{x}$ obtained in step 4?",
+      "6": "Verify each calculated value of $x$ to ensure it is a real number.",
+      "7": "Count the number of valid, real values of $x$."
+    }
+  ],
+  [
+    [
+      "Determine all possible integer values for \\(y\\) such that \\(y = \\sqrt{120 - \\sqrt{x}}\\).",
+      "Express each possible integer value of \\(y\\) in the equation form \\(y^2 = 120 - \\sqrt{x}\\).",
+      "Rearrange each resulting equation to express \\(\\sqrt{x}\\) in terms of \\(y\\), i.e., \\(\\sqrt{x} = 120 - y^2\\).",
+      "For each equation, square both sides to eliminate the square root, resulting in \\(x = (120 - y^2)^2\\).",
+      "Check if each value of \\(x\\) calculated from \\(x = (120 - y^2)^2\\) yields a real number.",
+      "Count all distinct real values of \\(x\\) obtained that satisfy the original condition."
+    ],
+    {
+      "1": "Determine all possible integer values for \\(y\\) such that \\(y = \\sqrt{120 - \\sqrt{x}}\\).",
+      "2": "Express each possible integer value of \\(y\\) in the equation form \\(y^2 = 120 - \\sqrt{x}\\).",
+      "3": "Rearrange each resulting equation to express \\(\\sqrt{x}\\) in terms of \\(y\\), i.e., \\(\\sqrt{x} = 120 - y^2\\).",
+      "4": "For each equation, square both sides to eliminate the square root, resulting in \\(x = (120 - y^2)^2\\).",
+      "5": "Check if each value of \\(x\\) calculated from \\(x = (120 - y^2)^2\\) yields a real number.",
+      "6": "Count all distinct real values of \\(x\\) obtained that satisfy the original condition."
+    }
+  ],
+  [
+    [
+      "What values can \\( 120 - \\sqrt{x} \\) take so that its square root is an integer?",
+      "What possible integers can \\( \\sqrt{120-\\sqrt{x}} \\) be?",
+      "If \\( \\sqrt{120-\\sqrt{x}} = n \\) where \\( n \\) is an integer, then what values does \\( 120 - \\sqrt{x} \\) equal?",
+      "For the values of \\( 120 - \\sqrt{x} \\) found in Step 3, what must \\( \\sqrt{x} \\) be for each case?",
+      "Finally, what are the possible values of \\( x \\) for each value of \\( \\sqrt{x} \\) deduced from Step 4?"
+    ],
+    {
+      "1": "What values can \\( 120 - \\sqrt{x} \\) take so that its square root is an integer?",
+      "2": "What possible integers can \\( \\sqrt{120-\\sqrt{x}} \\) be?",
+      "3": "If \\( \\sqrt{120-\\sqrt{x}} = n \\) where \\( n \\) is an integer, then what values does \\( 120 - \\sqrt{x} \\) equal?",
+      "4": "For the values of \\( 120 - \\sqrt{x} \\) found in Step 3, what must \\( \\sqrt{x} \\) be for each case?",
+      "5": "Finally, what are the possible values of \\( x \\) for each value of \\( \\sqrt{x} \\) deduced from Step 4?"
+    }
+  ],
+  [
+    [
+      "What values makes \\(120 - \\sqrt{x}\\) a perfect square, since the expression \\(\\sqrt{120-\\sqrt{x}}\\) implies we're looking for integers?",
+      "Let \\(n\\) represent the integer such that \\(120 - \\sqrt{x} = n^2\\). What equation must \\(\\sqrt{x}\\) satisfy?",
+      "How do you solve for \\(x\\) from the expression \\(\\sqrt{x} = 120 - n^2\\)?",
+      "For what range of values of \\(n\\) does this expression result in a non-negative value for \\(x\\), knowing that \\(\\sqrt{x}\\) must be real and non-negative?",
+      "Which values of \\(n\\) guarantee that the value of \\(x\\) derived from \\(120 - n^2\\) falls within the range of possible real values of \\(\\sqrt{x}\\) such that \\(x\\) as a square maintains \\(\\sqrt{x}\\) real and non-negative?",
+      "Finally, count all these integer values of \\(n\\) to determine the total number of real values for \\(x\\) where \\(\\sqrt{120-\\sqrt{x}}\\) is an integer."
+    ],
+    {
+      "1": "What values makes \\(120 - \\sqrt{x}\\) a perfect square, since the expression \\(\\sqrt{120-\\sqrt{x}}\\) implies we're looking for integers?",
+      "2": "Let \\(n\\) represent the integer such that \\(120 - \\sqrt{x} = n^2\\). What equation must \\(\\sqrt{x}\\) satisfy?",
+      "3": "How do you solve for \\(x\\) from the expression \\(\\sqrt{x} = 120 - n^2\\)?",
+      "4": "For what range of values of \\(n\\) does this expression result in a non-negative value for \\(x\\), knowing that \\(\\sqrt{x}\\) must be real and non-negative?",
+      "5": "Which values of \\(n\\) guarantee that the value of \\(x\\) derived from \\(120 - n^2\\) falls within the range of possible real values of \\(\\sqrt{x}\\) such that \\(x\\) as a square maintains \\(\\sqrt{x}\\) real and non-negative?",
+      "6": "Finally, count all these integer values of \\(n\\) to determine the total number of real values for \\(x\\) where \\(\\sqrt{120-\\sqrt{x}}\\) is an integer."
+    }
+  ],
+  [
+    [
+      "What integer values can $\\sqrt{120 - \\sqrt{x}}$ take?",
+      "How can we express $120 - \\sqrt{x}$ as a perfect square to satisfy the condition that $\\sqrt{120 - \\sqrt{x}}$ is an integer?",
+      "For each valid integer value found in step 1, solve the equation $120 - \\sqrt{x} = k^2$ where k is an integer, and find the corresponding value of $\\sqrt{x}$.",
+      "Calculate $x$ by squaring the results obtained for $\\sqrt{x}$ in step 3.",
+      "Determine the range of $x$ values and count how many valid real solutions exist for $x$.",
+      "Verify each solution to confirm that it satisfies the original condition."
+    ],
+    {
+      "1": "What integer values can $\\sqrt{120 - \\sqrt{x}}$ take?",
+      "2": "How can we express $120 - \\sqrt{x}$ as a perfect square to satisfy the condition that $\\sqrt{120 - \\sqrt{x}}$ is an integer?",
+      "3": "For each valid integer value found in step 1, solve the equation $120 - \\sqrt{x} = k^2$ where k is an integer, and find the corresponding value of $\\sqrt{x}$.",
+      "4": "Calculate $x$ by squaring the results obtained for $\\sqrt{x}$ in step 3.",
+      "5": "Determine the range of $x$ values and count how many valid real solutions exist for $x$.",
+      "6": "Verify each solution to confirm that it satisfies the original condition."
+    }
+  ],
+  [
+    [
+      "What values can $\\sqrt{120-\\sqrt{x}}$ take such that it is an integer?",
+      "For which integer values of $y$ (given $y = \\sqrt{120-\\sqrt{x}}$) does $120 - \\sqrt{x} = y^2$?",
+      "How can we express $\\sqrt{x}$ in terms of $y$ from the equation in step 2?",
+      "What is the range of values for $y^2$ that keeps $\\sqrt{x}$ non-negative and real?",
+      "How many integer values of $y$ satisfy the condition set in step 4?",
+      "Verify each of these integer values of $y$ to see if they provide a valid real value for $x$ when plugged back into the equation $\\sqrt{x} = 120 - y^2$."
+    ],
+    {
+      "1": "What values can $\\sqrt{120-\\sqrt{x}}$ take such that it is an integer?",
+      "2": "For which integer values of $y$ (given $y = \\sqrt{120-\\sqrt{x}}$) does $120 - \\sqrt{x} = y^2$?",
+      "3": "How can we express $\\sqrt{x}$ in terms of $y$ from the equation in step 2?",
+      "4": "What is the range of values for $y^2$ that keeps $\\sqrt{x}$ non-negative and real?",
+      "5": "How many integer values of $y$ satisfy the condition set in step 4?",
+      "6": "Verify each of these integer values of $y$ to see if they provide a valid real value for $x$ when plugged back into the equation $\\sqrt{x} = 120 - y^2$."
+    }
+  ]
+]

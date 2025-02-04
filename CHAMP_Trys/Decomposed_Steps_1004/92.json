@@ -1,0 +1,1226 @@
+[
+  [
+    [
+      "Define an automorphic number in context of its properties regarding its square.",
+      "Establish the mathematical relationship needed to identify an automorphic number.",
+      "Determine the range of three-digit numbers to be checked.",
+      "For each three-digit number, compute the square of the number.",
+      "Compare the last three digits of the squared number with the original number to check if it is automorphic.",
+      "List all numbers that meet the criteria of being automorphic."
+    ],
+    {
+      "1": "Define an automorphic number in context of its properties regarding its square.",
+      "2": "Establish the mathematical relationship needed to identify an automorphic number.",
+      "3": "Determine the range of three-digit numbers to be checked.",
+      "4": "For each three-digit number, compute the square of the number.",
+      "5": "Compare the last three digits of the squared number with the original number to check if it is automorphic.",
+      "6": "List all numbers that meet the criteria of being automorphic."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the criteria for a number being automorphic: the square of the number must end in the number itself.",
+      "Determine the characteristics of squaring numbers to understand number trails (i.e., last digits).",
+      "Recognize the pattern of the last three digits of squares of numbers, specifically focusing on those from 100 to 999.",
+      "Identify numbers in the range from 100 to 999 whose square's last three digits are the number itself.",
+      "Verify calculations and ensure no automorphic numbers outside the intended check range are missed.",
+      "Compile a list of all three-digit automorphic numbers identified."
+    ],
+    {
+      "1": "Define the criteria for a number being automorphic: the square of the number must end in the number itself.",
+      "2": "Determine the characteristics of squaring numbers to understand number trails (i.e., last digits).",
+      "3": "Recognize the pattern of the last three digits of squares of numbers, specifically focusing on those from 100 to 999.",
+      "4": "Identify numbers in the range from 100 to 999 whose square's last three digits are the number itself.",
+      "5": "Verify calculations and ensure no automorphic numbers outside the intended check range are missed.",
+      "6": "Compile a list of all three-digit automorphic numbers identified."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the definition of an automorphic number?",
+      "Which mathematical operation can be used to determine if the last digits of a^2 are the same as a?",
+      "What is the range of three-digit numbers?",
+      "For each number in the specified range, compute its square (a^2).",
+      "Determine the number of digits a has.",
+      "Extract the last digits of a^2 (the same number as the digits in a).",
+      "Check if these last digits perfectly match the original number a.",
+      "List all numbers that meet the criteria of being automorphic."
+    ],
+    {
+      "1": "What is the definition of an automorphic number?",
+      "2": "Which mathematical operation can be used to determine if the last digits of a^2 are the same as a?",
+      "3": "What is the range of three-digit numbers?",
+      "4": "For each number in the specified range, compute its square (a^2).",
+      "5": "Determine the number of digits a has.",
+      "6": "Extract the last digits of a^2 (the same number as the digits in a).",
+      "7": "Check if these last digits perfectly match the original number a.",
+      "8": "List all numbers that meet the criteria of being automorphic."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the definition of an automorphic number: what does it mean for a number \\( a \\) if \\( a^2 \\) ends in \\( a \\)?",
+      "Define the range of three-digit numbers to consider for checking.",
+      "Determine the requirements for a three-digit number's square to end in the number itself.",
+      "Implement a method to compute \\( a^2 \\) for each three-digit number \\( a \\).",
+      "Check if the last three digits of \\( a^2 \\) match \\( a \\).",
+      "Collect all three-digit numbers that meet the automorphic condition.",
+      "Verify or mathematically derive why these numbers qualify as automorphic numbers."
+    ],
+    {
+      "1": "Understand the definition of an automorphic number: what does it mean for a number \\( a \\) if \\( a^2 \\) ends in \\( a \\)?",
+      "2": "Define the range of three-digit numbers to consider for checking.",
+      "3": "Determine the requirements for a three-digit number's square to end in the number itself.",
+      "4": "Implement a method to compute \\( a^2 \\) for each three-digit number \\( a \\).",
+      "5": "Check if the last three digits of \\( a^2 \\) match \\( a \\).",
+      "6": "Collect all three-digit numbers that meet the automorphic condition.",
+      "7": "Verify or mathematically derive why these numbers qualify as automorphic numbers."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for a number to be automorphic.",
+      "Determine the mathematical condition that a three-digit automorphic number must satisfy.",
+      "Iterate through all three-digit numbers (100 to 999) to check for the automorphic property.",
+      "For each number, calculate the square of the number.",
+      "Check if the last digits of the squared number match the original number.",
+      "Record all numbers that fulfill the automorphic condition.",
+      "Summarize the list of all automorphic numbers found within the three-digit range."
+    ],
+    {
+      "1": "Define what it means for a number to be automorphic.",
+      "2": "Determine the mathematical condition that a three-digit automorphic number must satisfy.",
+      "3": "Iterate through all three-digit numbers (100 to 999) to check for the automorphic property.",
+      "4": "For each number, calculate the square of the number.",
+      "5": "Check if the last digits of the squared number match the original number.",
+      "6": "Record all numbers that fulfill the automorphic condition.",
+      "7": "Summarize the list of all automorphic numbers found within the three-digit range."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what is meant by a three-digit automorphic number.",
+      "Set up an equation where the square of a number ends in the original number itself.",
+      "Loop through all three-digit numbers (from 100 to 999).",
+      "For each number, calculate its square.",
+      "Check if the last three digits of the square are the same as the number itself.",
+      "Record all numbers that meet the criteria of step 5.",
+      "Summarize all the recorded numbers to provide the complete list of three-digit automorphic numbers."
+    ],
+    {
+      "1": "Define what is meant by a three-digit automorphic number.",
+      "2": "Set up an equation where the square of a number ends in the original number itself.",
+      "3": "Loop through all three-digit numbers (from 100 to 999).",
+      "4": "For each number, calculate its square.",
+      "5": "Check if the last three digits of the square are the same as the number itself.",
+      "6": "Record all numbers that meet the criteria of step 5.",
+      "7": "Summarize all the recorded numbers to provide the complete list of three-digit automorphic numbers."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what constitutes a three-digit automorphic number.",
+      "Establish the relationship between a number and its square in terms of ending digits.",
+      "Determine the range of three-digit numbers to investigate (100 to 999).",
+      "For each number in the specified range, compute the square of the number.",
+      "Check if the last three digits of each squared number match the original number.",
+      "Record numbers that meet the criteria of an automorphic number.",
+      "Summarize all discovered three-digit automorphic numbers."
+    ],
+    {
+      "1": "Define what constitutes a three-digit automorphic number.",
+      "2": "Establish the relationship between a number and its square in terms of ending digits.",
+      "3": "Determine the range of three-digit numbers to investigate (100 to 999).",
+      "4": "For each number in the specified range, compute the square of the number.",
+      "5": "Check if the last three digits of each squared number match the original number.",
+      "6": "Record numbers that meet the criteria of an automorphic number.",
+      "7": "Summarize all discovered three-digit automorphic numbers."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the definition of an automorphic number: An integer a is automorphic if a^2 ends in a.",
+      "Determine the general form of a number whose square ends in the same last digits of the original number.",
+      "Limit the search to three-digit numbers, i.e., numbers ranging from 100 to 999.",
+      "For each number in this range, compute the square of the number.",
+      "Extract the last three digits of the computed square.",
+      "Compare these last three digits with the original number to check if they are the same.",
+      "List all numbers for which the last three digits of their square match the number itself."
+    ],
+    {
+      "1": "Understand the definition of an automorphic number: An integer a is automorphic if a^2 ends in a.",
+      "2": "Determine the general form of a number whose square ends in the same last digits of the original number.",
+      "3": "Limit the search to three-digit numbers, i.e., numbers ranging from 100 to 999.",
+      "4": "For each number in this range, compute the square of the number.",
+      "5": "Extract the last three digits of the computed square.",
+      "6": "Compare these last three digits with the original number to check if they are the same.",
+      "7": "List all numbers for which the last three digits of their square match the number itself."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the definition of an automorphic number?",
+      "How can we represent the condition mathematically that a number \\( a \\)'s square \\( a^2 \\) ends with \\( a \\)?",
+      "What are the bounds of \\( a \\) for three-digit numbers?",
+      "How can we check for each three-digit number whether it satisfies the automorphic condition using modular arithmetic?",
+      "Implement a process, method, or formula to verify each number from 100 to 999 to see if it is automorphic.",
+      "Summarize all found automorphic numbers within the specified range."
+    ],
+    {
+      "1": "What is the definition of an automorphic number?",
+      "2": "How can we represent the condition mathematically that a number \\( a \\)'s square \\( a^2 \\) ends with \\( a \\)?",
+      "3": "What are the bounds of \\( a \\) for three-digit numbers?",
+      "4": "How can we check for each three-digit number whether it satisfies the automorphic condition using modular arithmetic?",
+      "5": "Implement a process, method, or formula to verify each number from 100 to 999 to see if it is automorphic.",
+      "6": "Summarize all found automorphic numbers within the specified range."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for a number to be automorphic.",
+      "Establish the criteria that the last three digits of \\(a^2\\) must be equal to \\(a\\) for three-digit numbers \\(a\\).",
+      "Iterate through all three-digit numbers (100 to 999).",
+      "For each number \\(a\\), calculate \\(a^2\\).",
+      "Check if the last three digits of \\(a^2\\) are the same as \\(a\\).",
+      "Compile a list of all numbers \\(a\\) that meet the above criteria (i.e., the numbers that are three-digit and automorphic)."
+    ],
+    {
+      "1": "Define what it means for a number to be automorphic.",
+      "2": "Establish the criteria that the last three digits of \\(a^2\\) must be equal to \\(a\\) for three-digit numbers \\(a\\).",
+      "3": "Iterate through all three-digit numbers (100 to 999).",
+      "4": "For each number \\(a\\), calculate \\(a^2\\).",
+      "5": "Check if the last three digits of \\(a^2\\) are the same as \\(a\\).",
+      "6": "Compile a list of all numbers \\(a\\) that meet the above criteria (i.e., the numbers that are three-digit and automorphic)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand and define what it means for a number to be automorphic.",
+      "Determine the range of three-digit numbers to be analyzed.",
+      "Set up a method to check if the last three digits of a number's square match the number itself.",
+      "Enumerate through all three-digit numbers and apply the method to each.",
+      "Collect all numbers that satisfy the automorphic condition.",
+      "List or count the three-digit automorphic numbers found in the previous step."
+    ],
+    {
+      "1": "Understand and define what it means for a number to be automorphic.",
+      "2": "Determine the range of three-digit numbers to be analyzed.",
+      "3": "Set up a method to check if the last three digits of a number's square match the number itself.",
+      "4": "Enumerate through all three-digit numbers and apply the method to each.",
+      "5": "Collect all numbers that satisfy the automorphic condition.",
+      "6": "List or count the three-digit automorphic numbers found in the previous step."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the definition of an automorphic number.",
+      "Determine the conditions under which a three-digit number \\( a \\) would be automorphic.",
+      "Analyze the specific property that \\( a^2 \\) must have to fulfill these conditions.",
+      "Write down the mathematical representation for three-digit numbers and their squares.",
+      "Calculate the possible values for \\( a \\) such that \\( a^2 \\) ends in \\( a \\).",
+      "Verify through numerical computation whether each candidate three-digit number meets the automorphic condition.",
+      "List all valid three-digit automorphic numbers."
+    ],
+    {
+      "1": "Understand the definition of an automorphic number.",
+      "2": "Determine the conditions under which a three-digit number \\( a \\) would be automorphic.",
+      "3": "Analyze the specific property that \\( a^2 \\) must have to fulfill these conditions.",
+      "4": "Write down the mathematical representation for three-digit numbers and their squares.",
+      "5": "Calculate the possible values for \\( a \\) such that \\( a^2 \\) ends in \\( a \\).",
+      "6": "Verify through numerical computation whether each candidate three-digit number meets the automorphic condition.",
+      "7": "List all valid three-digit automorphic numbers."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for a number to be automorphic.",
+      "Determine the conditions under which the square of a three-digit number ends in the number itself.",
+      "Calculate the last three digits of the square of each three-digit number from 100 to 999.",
+      "Check if the last three digits of a squared number match the original three-digit number.",
+      "Compile a list of all three-digit numbers that meet the automorphic condition."
+    ],
+    {
+      "1": "Define what it means for a number to be automorphic.",
+      "2": "Determine the conditions under which the square of a three-digit number ends in the number itself.",
+      "3": "Calculate the last three digits of the square of each three-digit number from 100 to 999.",
+      "4": "Check if the last three digits of a squared number match the original three-digit number.",
+      "5": "Compile a list of all three-digit numbers that meet the automorphic condition."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the definition of an automorphic number.",
+      "Determine the property that a three-digit automorphic number must satisfy with respect to its square.",
+      "Identify the pattern or last digits that a number must have to potentially be a three-digit automorphic number.",
+      "Generate a list of all three-digit numbers ending with each identified pattern from step 3.",
+      "Square each number in the list from step 4 and check if the square ends in the original number.",
+      "Collect all numbers that fulfill the automorphic condition (i.e., their square ends in the number itself)."
+    ],
+    {
+      "1": "Understand the definition of an automorphic number.",
+      "2": "Determine the property that a three-digit automorphic number must satisfy with respect to its square.",
+      "3": "Identify the pattern or last digits that a number must have to potentially be a three-digit automorphic number.",
+      "4": "Generate a list of all three-digit numbers ending with each identified pattern from step 3.",
+      "5": "Square each number in the list from step 4 and check if the square ends in the original number.",
+      "6": "Collect all numbers that fulfill the automorphic condition (i.e., their square ends in the number itself)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the properties of an automorphic number, especially focused on three-digit numbers.",
+      "Determine the range of three-digit numbers to check for the automorphic property.",
+      "For each number in the range, calculate the square of the number.",
+      "Check if the last three digits of the squared number match the original number.",
+      "Compile a list of all numbers that meet the criteria of being automorphic."
+    ],
+    {
+      "1": "Define the properties of an automorphic number, especially focused on three-digit numbers.",
+      "2": "Determine the range of three-digit numbers to check for the automorphic property.",
+      "3": "For each number in the range, calculate the square of the number.",
+      "4": "Check if the last three digits of the squared number match the original number.",
+      "5": "Compile a list of all numbers that meet the criteria of being automorphic."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what an automorphic number is.",
+      "Calculate the range of three-digit numbers.",
+      "Enumerate the last two digits for each three-digit number from the calculated range.",
+      "Determine the condition under which the square of a number ends in the same last two digits as the number itself.",
+      "Test whether each three-digit number in the defined range meets the condition for being an automorphic number.",
+      "Compile a list of all numbers that meet this condition."
+    ],
+    {
+      "1": "Define what an automorphic number is.",
+      "2": "Calculate the range of three-digit numbers.",
+      "3": "Enumerate the last two digits for each three-digit number from the calculated range.",
+      "4": "Determine the condition under which the square of a number ends in the same last two digits as the number itself.",
+      "5": "Test whether each three-digit number in the defined range meets the condition for being an automorphic number.",
+      "6": "Compile a list of all numbers that meet this condition."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 4",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for a number to be automorphic.",
+      "Consider the properties a number must have for its square to end in the number itself.",
+      "Enumerate the possible three-digit numbers (100 to 999).",
+      "Calculate the square of each three-digit number.",
+      "Determine if the last three digits of each squared number match the original three-digit number.",
+      "Compile a list of all three-digit automorphic numbers based on the results from step 5."
+    ],
+    {
+      "1": "Define what it means for a number to be automorphic.",
+      "2": "Consider the properties a number must have for its square to end in the number itself.",
+      "3": "Enumerate the possible three-digit numbers (100 to 999).",
+      "4": "Calculate the square of each three-digit number.",
+      "5": "Determine if the last three digits of each squared number match the original three-digit number.",
+      "6": "Compile a list of all three-digit automorphic numbers based on the results from step 5."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for a number to be automorphic.",
+      "Set the range for three-digit numbers (100 to 999) to be considered for this problem.",
+      "Determine the condition that allows a number's square to end in the number itself.",
+      "For each number in the given range, compute the square of the number.",
+      "Check if the last three digits of the squared number match the original number.",
+      "List all numbers that meet the automorphic condition."
+    ],
+    {
+      "1": "Define what it means for a number to be automorphic.",
+      "2": "Set the range for three-digit numbers (100 to 999) to be considered for this problem.",
+      "3": "Determine the condition that allows a number's square to end in the number itself.",
+      "4": "For each number in the given range, compute the square of the number.",
+      "5": "Check if the last three digits of the squared number match the original number.",
+      "6": "List all numbers that meet the automorphic condition."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What does it mean for a number to be automorphic?",
+      "How does one check if a number a is automorphic?",
+      "What is the range of three-digit numbers?",
+      "Develop a procedure to test each three-digit number to see if its square ends in the number itself.",
+      "Implement the procedure to find all three-digit automorphic numbers.",
+      "Analyze the results to ensure all found numbers meet the criteria of automorphic numbers."
+    ],
+    {
+      "1": "What does it mean for a number to be automorphic?",
+      "2": "How does one check if a number a is automorphic?",
+      "3": "What is the range of three-digit numbers?",
+      "4": "Develop a procedure to test each three-digit number to see if its square ends in the number itself.",
+      "5": "Implement the procedure to find all three-digit automorphic numbers.",
+      "6": "Analyze the results to ensure all found numbers meet the criteria of automorphic numbers."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for an integer \\( a \\) to be automorphic.",
+      "Determine the condition under which the last three digits of \\( a^2 \\) are equal to \\( a \\).",
+      "Understand how to perform calculations to preserve only the last three digits of \\( a^2 \\).",
+      "Set up an iterative mechanism to test each three-digit number \\( a \\) (from 100 to 999) for the automorphic condition.",
+      "Check the last three digits of \\( a^2 \\) for each value of \\( a \\) to see if they match \\( a \\).",
+      "Compile a list of all \\( a \\) for which the condition from step 4 holds true."
+    ],
+    {
+      "1": "Define what it means for an integer \\( a \\) to be automorphic.",
+      "2": "Determine the condition under which the last three digits of \\( a^2 \\) are equal to \\( a \\).",
+      "3": "Understand how to perform calculations to preserve only the last three digits of \\( a^2 \\).",
+      "4": "Set up an iterative mechanism to test each three-digit number \\( a \\) (from 100 to 999) for the automorphic condition.",
+      "5": "Check the last three digits of \\( a^2 \\) for each value of \\( a \\) to see if they match \\( a \\).",
+      "6": "Compile a list of all \\( a \\) for which the condition from step 4 holds true."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,148 @@
+[
+  [
+    [
+      "Determine the properties of integers modulo 5 and the implications for a square of an integer.",
+      "Analyze the squares of all integers from 0 to 4 modulo 5.",
+      "Derive the possible values of \\(x^2 \\mod 5\\), \\(y^2 \\mod 5\\), and \\(z^2 \\mod 5\\) based on step 2.",
+      "List all possible combinations for the sums \\(x^2 + y^2 \\mod 5\\) and compare them to the possible values of \\(z^2 \\mod 5\\).",
+      "Identify patterns or conditions where \\(x^2 + y^2 \\equiv z^2 \\pmod{5}\\) necessarily leads to x, y, or z being divisible by 5.",
+      "Determine how many, and which, among x, y, or z must be divisible by 5 considering their modulo 5 squares for the identified patterns."
+    ],
+    {
+      "1": "Determine the properties of integers modulo 5 and the implications for a square of an integer.",
+      "2": "Analyze the squares of all integers from 0 to 4 modulo 5.",
+      "3": "Derive the possible values of \\(x^2 \\mod 5\\), \\(y^2 \\mod 5\\), and \\(z^2 \\mod 5\\) based on step 2.",
+      "4": "List all possible combinations for the sums \\(x^2 + y^2 \\mod 5\\) and compare them to the possible values of \\(z^2 \\mod 5\\).",
+      "5": "Identify patterns or conditions where \\(x^2 + y^2 \\equiv z^2 \\pmod{5}\\) necessarily leads to x, y, or z being divisible by 5.",
+      "6": "Determine how many, and which, among x, y, or z must be divisible by 5 considering their modulo 5 squares for the identified patterns."
+    }
+  ],
+  [
+    [
+      "Review the properties of Pythagorean triples, which are integer solutions to the equation x^2 + y^2 = z^2.",
+      "Analyze the possible remainder of x, y, and z when each is divided by 5.",
+      "Consider the implications of each remainder on the equation x^2 + y^2 ≡ z^2 (mod 5).",
+      "Determine combinations of remainders of x and y which make x^2 + y^2 divisible by 5.",
+      "Analyze how many of x, y, or z must be divisible by 5 based on the results from the previous step.",
+      "Summarize the minimum number of variables among x, y, and z that must be divisible by 5 to satisfy the equation under the modulo 5 condition."
+    ],
+    {
+      "1": "Review the properties of Pythagorean triples, which are integer solutions to the equation x^2 + y^2 = z^2.",
+      "2": "Analyze the possible remainder of x, y, and z when each is divided by 5.",
+      "3": "Consider the implications of each remainder on the equation x^2 + y^2 ≡ z^2 (mod 5).",
+      "4": "Determine combinations of remainders of x and y which make x^2 + y^2 divisible by 5.",
+      "5": "Analyze how many of x, y, or z must be divisible by 5 based on the results from the previous step.",
+      "6": "Summarize the minimum number of variables among x, y, and z that must be divisible by 5 to satisfy the equation under the modulo 5 condition."
+    }
+  ],
+  [
+    [
+      "Review properties of squares modulo 5.",
+      "Analyze the values x^2, y^2, and z^2 can take modulo 5.",
+      "Consider cases where none, one, or more of x, y, z are divisible by 5.",
+      "Use properties of Pythagorean triplets (given x^2 + y^2 = z^2) to establish relationships among x, y, z modulo 5.",
+      "Conclude with the minimum number of integers (x, y, z) that must be divisible by 5 for the equation x^2 + y^2 = z^2 to hold."
+    ],
+    {
+      "1": "Review properties of squares modulo 5.",
+      "2": "Analyze the values x^2, y^2, and z^2 can take modulo 5.",
+      "3": "Consider cases where none, one, or more of x, y, z are divisible by 5.",
+      "4": "Use properties of Pythagorean triplets (given x^2 + y^2 = z^2) to establish relationships among x, y, z modulo 5.",
+      "5": "Conclude with the minimum number of integers (x, y, z) that must be divisible by 5 for the equation x^2 + y^2 = z^2 to hold."
+    }
+  ],
+  [
+    [
+      "What are the properties of Pythagorean triples (integer solutions to \\(x^2 + y^2 = z^2\\))?",
+      "How does modular arithmetic (specifically mod 5) apply to the squares of integers?",
+      "What are possible residues when squaring integers modulo 5?",
+      "Analyze the equation \\(x^2 + y^2 = z^2\\) modulo 5.",
+      "Identify all cases for \\(x^2\\), \\(y^2\\), and \\(z^2\\) modulo 5 and check their consistency with the Pythagorean equation.",
+      "Determine how many of \\(x\\), \\(y\\), and \\(z\\) can remain non-divisible by 5 based on these cases.",
+      "Conclude the minimum number of variables among \\(x\\), \\(y\\), and \\(z\\) that must be divisible by 5 to satisfy the equation."
+    ],
+    {
+      "1": "What are the properties of Pythagorean triples (integer solutions to \\(x^2 + y^2 = z^2\\))?",
+      "2": "How does modular arithmetic (specifically mod 5) apply to the squares of integers?",
+      "3": "What are possible residues when squaring integers modulo 5?",
+      "4": "Analyze the equation \\(x^2 + y^2 = z^2\\) modulo 5.",
+      "5": "Identify all cases for \\(x^2\\), \\(y^2\\), and \\(z^2\\) modulo 5 and check their consistency with the Pythagorean equation.",
+      "6": "Determine how many of \\(x\\), \\(y\\), and \\(z\\) can remain non-divisible by 5 based on these cases.",
+      "7": "Conclude the minimum number of variables among \\(x\\), \\(y\\), and \\(z\\) that must be divisible by 5 to satisfy the equation."
+    }
+  ],
+  [
+    [
+      "Understand the properties of square numbers modulo 5.",
+      "Calculate the possible values of x^2 mod 5 and y^2 mod 5.",
+      "Determine all the possible sums of x^2 mod 5 and y^2 mod 5, and check which of these sums are equivalent to z^2 mod 5 for some z.",
+      "Analyze the cases when zero, one, two, or all three of the values x, y, z are divisible by 5.",
+      "Apply the results from the previous steps to determine the minimum number of values among x, y, z that must be divisible by 5 to satisfy the equation x^2 + y^2 = z^2."
+    ],
+    {
+      "1": "Understand the properties of square numbers modulo 5.",
+      "2": "Calculate the possible values of x^2 mod 5 and y^2 mod 5.",
+      "3": "Determine all the possible sums of x^2 mod 5 and y^2 mod 5, and check which of these sums are equivalent to z^2 mod 5 for some z.",
+      "4": "Analyze the cases when zero, one, two, or all three of the values x, y, z are divisible by 5.",
+      "5": "Apply the results from the previous steps to determine the minimum number of values among x, y, z that must be divisible by 5 to satisfy the equation x^2 + y^2 = z^2."
+    }
+  ],
+  [
+    [
+      "What is the general form of the equation x^2 + y^2 = z^2 known as?",
+      "In the context of the equation x^2 + y^2 = z^2, identify scenarios in which modular arithmetic (specifically mod 5) might provide useful insights.",
+      "Analyze the squares of integers modulo 5 and list the possible results.",
+      "Calculate x^2 mod 5, y^2 mod 5, and z^2 mod 5 separately.",
+      "Assess the combinations of these results that satisfy the equation a^2 + b^2 ≡ c^2 (mod 5).",
+      "Determine the conditions under which at least one of x, y, or z must be divisible by 5 based on the results of mod 5 analysis.",
+      "Establish how many of the numbers (x, y, z) must be divisible by 5 under those conditions.",
+      "Conclude with the minimum number of these variables (x, y, z) that must be divisible by 5 for the original equation to hold true."
+    ],
+    {
+      "1": "What is the general form of the equation x^2 + y^2 = z^2 known as?",
+      "2": "In the context of the equation x^2 + y^2 = z^2, identify scenarios in which modular arithmetic (specifically mod 5) might provide useful insights.",
+      "3": "Analyze the squares of integers modulo 5 and list the possible results.",
+      "4": "Calculate x^2 mod 5, y^2 mod 5, and z^2 mod 5 separately.",
+      "5": "Assess the combinations of these results that satisfy the equation a^2 + b^2 ≡ c^2 (mod 5).",
+      "6": "Determine the conditions under which at least one of x, y, or z must be divisible by 5 based on the results of mod 5 analysis.",
+      "7": "Establish how many of the numbers (x, y, z) must be divisible by 5 under those conditions.",
+      "8": "Conclude with the minimum number of these variables (x, y, z) that must be divisible by 5 for the original equation to hold true."
+    }
+  ],
+  [
+    [
+      "Analyze the properties of Pythagorean triples (x, y, z) such that \\(x^2 + y^2 = z^2\\).",
+      "Investigate the divisibility properties of squares of integers modulo 5.",
+      "Determine all the congruences modulo 5 that either x, y, or z must satisfy given that \\(x^2 + y^2 \\equiv z^2 \\mod 5\\).",
+      "Review case scenarios based on the values of \\(x^2\\), \\(y^2\\), and \\(z^2\\) modulo 5 and how many of these must be divisible by 5 to satisfy \\(x^2 + y^2 = z^2\\).",
+      "Conclude with the minimum number of variables (either x, y, or z) that must necessarily be divisible by 5 for the equation to hold true."
+    ],
+    {
+      "1": "Analyze the properties of Pythagorean triples (x, y, z) such that \\(x^2 + y^2 = z^2\\).",
+      "2": "Investigate the divisibility properties of squares of integers modulo 5.",
+      "3": "Determine all the congruences modulo 5 that either x, y, or z must satisfy given that \\(x^2 + y^2 \\equiv z^2 \\mod 5\\).",
+      "4": "Review case scenarios based on the values of \\(x^2\\), \\(y^2\\), and \\(z^2\\) modulo 5 and how many of these must be divisible by 5 to satisfy \\(x^2 + y^2 = z^2\\).",
+      "5": "Conclude with the minimum number of variables (either x, y, or z) that must necessarily be divisible by 5 for the equation to hold true."
+    }
+  ],
+  [
+    [
+      "Consider the Pythagorean triple (x, y, z) modulo 5.",
+      "List out all possible values for x, y, and z modulo 5.",
+      "Compute the squares of these possible values to see their results modulo 5.",
+      "Check combinations of x^2 + y^2 modulo 5 to see which equal z^2 modulo 5.",
+      "Deduce which of the variables x, y, or z must be divisible by 5 based on their modulo 5 results in order to satisfy the equation x^2 + y^2 = z^2.",
+      "",
+      "These steps will help to systematically approach and analyze the problem using properties of integers modulo 5 and how they pertain to divisibility by 5 in the context of Pythagorean triples."
+    ],
+    {
+      "1": "Consider the Pythagorean triple (x, y, z) modulo 5.",
+      "2": "List out all possible values for x, y, and z modulo 5.",
+      "3": "Compute the squares of these possible values to see their results modulo 5.",
+      "4": "Check combinations of x^2 + y^2 modulo 5 to see which equal z^2 modulo 5.",
+      "5": "Deduce which of the variables x, y, or z must be divisible by 5 based on their modulo 5 results in order to satisfy the equation x^2 + y^2 = z^2.",
+      "6": "",
+      "7": "These steps will help to systematically approach and analyze the problem using properties of integers modulo 5 and how they pertain to divisibility by 5 in the context of Pythagorean triples."
+    }
+  ]
+]

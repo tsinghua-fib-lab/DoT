@@ -1,0 +1,1430 @@
+[
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements the string s should meet: characters limited to \"18-+*/\", exactly two '8's, one '1', and the expression evaluates to 63. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate different arrangements of the characters '1', '8', '8' combined with operators '+', '-', '*', '/'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Filter out arrangements that do not obey the correct count of each character. "
+      },
+      {
+        "stepId": 4,
+        "step": " Evaluate the mathematical expression of each valid string to see if it evaluates to 63. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return valid string that satisfies all conditions. "
+      }
+    ],
+    {
+      "1": " Understand the requirements the string s should meet: characters limited to \"18-+*/\", exactly two '8's, one '1', and the expression evaluates to 63. ",
+      "2": " Generate different arrangements of the characters '1', '8', '8' combined with operators '+', '-', '*', '/'. ",
+      "3": " Filter out arrangements that do not obey the correct count of each character. ",
+      "4": " Evaluate the mathematical expression of each valid string to see if it evaluates to 63. ",
+      "5": " Return valid string that satisfies all conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Ensure that all characters in the string s are found within the set {\"1\", \"8\", \"-\", \"+\", \"*\", \"/\"} "
+      },
+      {
+        "stepId": 2,
+        "step": " Confirm that the string contains exactly two '8's and one '1' "
+      },
+      {
+        "stepId": 3,
+        "step": " Try combinations of allowed characters using '1' and '8' with the operators to form a string "
+      },
+      {
+        "stepId": 4,
+        "step": " Evaluate the mathematical expression formed by the string s "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if the result of the evaluation equals 63 "
+      },
+      {
+        "stepId": 6,
+        "step": " If the expression evaluates to 63, return s as the solution "
+      }
+    ],
+    {
+      "1": " Ensure that all characters in the string s are found within the set {\"1\", \"8\", \"-\", \"+\", \"*\", \"/\"} ",
+      "2": " Confirm that the string contains exactly two '8's and one '1' ",
+      "3": " Try combinations of allowed characters using '1' and '8' with the operators to form a string ",
+      "4": " Evaluate the mathematical expression formed by the string s ",
+      "5": " Check if the result of the evaluation equals 63 ",
+      "6": " If the expression evaluates to 63, return s as the solution "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the input string must only contain characters from the set \"18-+*/\" "
+      },
+      {
+        "stepId": 2,
+        "step": " Confirm that the string has exactly two '8' characters and one '1' character "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate potential combinations of the characters '1', '8', and \"-+*/\" to form the string "
+      },
+      {
+        "stepId": 4,
+        "step": " Use the eval function to evaluate the expression represented by the string "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if the result of the evaluation is 63 "
+      },
+      {
+        "stepId": 6,
+        "step": " If the evaluated result is 63, confirm that the string meets all criteria and output the string "
+      }
+    ],
+    {
+      "1": " Understand that the input string must only contain characters from the set \"18-+*/\" ",
+      "2": " Confirm that the string has exactly two '8' characters and one '1' character ",
+      "3": " Generate potential combinations of the characters '1', '8', and \"-+*/\" to form the string ",
+      "4": " Use the eval function to evaluate the expression represented by the string ",
+      "5": " Check if the result of the evaluation is 63 ",
+      "6": " If the evaluated result is 63, confirm that the string meets all criteria and output the string "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Verify that the string 's' only contains characters within the set \"18-+*/\" "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure that the string 's' contains exactly two '8's "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure that the string 's' contains exactly one '1' "
+      },
+      {
+        "stepId": 4,
+        "step": " Construct different combinations of the characters '1', '8', '8' and '-+*/' "
+      },
+      {
+        "stepId": 5,
+        "step": " Evaluate each valid combination to see if its result equals 63 "
+      },
+      {
+        "stepId": 6,
+        "step": " Select the string that fulfills all conditions and makes the function return True "
+      }
+    ],
+    {
+      "1": " Verify that the string 's' only contains characters within the set \"18-+*/\" ",
+      "2": " Ensure that the string 's' contains exactly two '8's ",
+      "3": " Ensure that the string 's' contains exactly one '1' ",
+      "4": " Construct different combinations of the characters '1', '8', '8' and '-+*/' ",
+      "5": " Evaluate each valid combination to see if its result equals 63 ",
+      "6": " Select the string that fulfills all conditions and makes the function return True "
+    },
+    {
+      "0": [
+        "Step 3",
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirement that all characters in string s must be from the set \"18-+*/\" "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure the string s has exactly two '8's and one '1' "
+      },
+      {
+        "stepId": 3,
+        "step": " Formulate different combinations of the string using '1', '8', '-', '+', '*', and '/' while adhering to valid arithmetic syntax "
+      },
+      {
+        "stepId": 4,
+        "step": " Calculate the result of each valid arithmetic expression "
+      },
+      {
+        "stepId": 5,
+        "step": " Compare each result with 63 to check for equality "
+      },
+      {
+        "stepId": 6,
+        "step": " Select the string that satisfies all the given conditions: characters restriction, count of '1' and '8', and evaluates to 63 "
+      }
+    ],
+    {
+      "1": " Understand the requirement that all characters in string s must be from the set \"18-+*/\" ",
+      "2": " Ensure the string s has exactly two '8's and one '1' ",
+      "3": " Formulate different combinations of the string using '1', '8', '-', '+', '*', and '/' while adhering to valid arithmetic syntax ",
+      "4": " Calculate the result of each valid arithmetic expression ",
+      "5": " Compare each result with 63 to check for equality ",
+      "6": " Select the string that satisfies all the given conditions: characters restriction, count of '1' and '8', and evaluates to 63 "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Ensure the string s only contains characters from the set \"18-+*/\" "
+      },
+      {
+        "stepId": 2,
+        "step": " Confirm that the count of '8' in the string s is exactly 2 "
+      },
+      {
+        "stepId": 3,
+        "step": " Confirm that the count of '1' in the string s is exactly 1 "
+      },
+      {
+        "stepId": 4,
+        "step": " Generate possible valid string combinations using the characters '1', '8', '-', '+', '*', '/' with the counts from steps 2 and 3 "
+      },
+      {
+        "stepId": 5,
+        "step": " Evaluate each string combination to see if it equals 63 "
+      },
+      {
+        "stepId": 6,
+        "step": " Select the string combination that meets all the conditions "
+      }
+    ],
+    {
+      "1": " Ensure the string s only contains characters from the set \"18-+*/\" ",
+      "2": " Confirm that the count of '8' in the string s is exactly 2 ",
+      "3": " Confirm that the count of '1' in the string s is exactly 1 ",
+      "4": " Generate possible valid string combinations using the characters '1', '8', '-', '+', '*', '/' with the counts from steps 2 and 3 ",
+      "5": " Evaluate each string combination to see if it equals 63 ",
+      "6": " Select the string combination that meets all the conditions "
+    },
+    {
+      "0": [
+        "Step 3",
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions required by the function: The input string should only contain characters from the set \"18-+*/\", must have exactly two '8's, one '1', and when evaluated, the result should be 63. "
+      },
+      {
+        "stepId": 2,
+        "step": " Start forming different combinations of strings using the allowed characters \"18-+*/\" that include exactly two '8's and one '1'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Concatenate the numbers with different permutations of operators \"+\", \"-\", \"*\", and \"/\" between them, aiming to formulate an arithmetic expression. "
+      },
+      {
+        "stepId": 4,
+        "step": " Evaluate each created string to see if the result equates to 63. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check each valid expression if it fulfills the character constraints set by the original function. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the string that satisfies all the conditions outlined by the sat function. "
+      }
+    ],
+    {
+      "1": " Understand the conditions required by the function: The input string should only contain characters from the set \"18-+*/\", must have exactly two '8's, one '1', and when evaluated, the result should be 63. ",
+      "2": " Start forming different combinations of strings using the allowed characters \"18-+*/\" that include exactly two '8's and one '1'. ",
+      "3": " Concatenate the numbers with different permutations of operators \"+\", \"-\", \"*\", and \"/\" between them, aiming to formulate an arithmetic expression. ",
+      "4": " Evaluate each created string to see if the result equates to 63. ",
+      "5": " Check each valid expression if it fulfills the character constraints set by the original function. ",
+      "6": " Return the string that satisfies all the conditions outlined by the sat function. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints: characters in the string must come from \"18-+*/\", there must be two '8's and one '1', and the evaluation of the string expression must equal 63. "
+      },
+      {
+        "stepId": 2,
+        "step": " Write down all possible arrangements of '188' with different combinations of \"-+*/\" between them, ensuring a valid expression syntax. "
+      },
+      {
+        "stepId": 3,
+        "step": " Execute each possible expression to check if the result is equal to 63. "
+      },
+      {
+        "stepId": 4,
+        "step": " Return the first valid string expression meeting all conditions. "
+      }
+    ],
+    {
+      "1": " Understand the constraints: characters in the string must come from \"18-+*/\", there must be two '8's and one '1', and the evaluation of the string expression must equal 63. ",
+      "2": " Write down all possible arrangements of '188' with different combinations of \"-+*/\" between them, ensuring a valid expression syntax. ",
+      "3": " Execute each possible expression to check if the result is equal to 63. ",
+      "4": " Return the first valid string expression meeting all conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Ensure all characters in the string s are from the set \"18-+*/\" "
+      },
+      {
+        "stepId": 2,
+        "step": " Confirm the string s contains exactly two '8's and one '1' "
+      },
+      {
+        "stepId": 3,
+        "step": " Begin constructing possible expressions using two '8's, one '1', and allowed operators "
+      },
+      {
+        "stepId": 4,
+        "step": " Evaluate each valid expression to see if it equals 63 "
+      },
+      {
+        "stepId": 5,
+        "step": " Return the expression that satisfies the eval(s) == 63 condition "
+      }
+    ],
+    {
+      "1": " Ensure all characters in the string s are from the set \"18-+*/\" ",
+      "2": " Confirm the string s contains exactly two '8's and one '1' ",
+      "3": " Begin constructing possible expressions using two '8's, one '1', and allowed operators ",
+      "4": " Evaluate each valid expression to see if it equals 63 ",
+      "5": " Return the expression that satisfies the eval(s) == 63 condition "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that s should only contain characters from \"18-+*/\" and consist of two '8's and one '1' "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate combinations of characters \"18-+*/\" ensuring \"8\" appears twice and \"1\" appears once "
+      },
+      {
+        "stepId": 3,
+        "step": " Concatenate each combination with different permutations of arithmetic operators \"-, +, *, /\" "
+      },
+      {
+        "stepId": 4,
+        "step": " Filter only those strings where arithmetic operation upon evaluation using `eval` function equals 63 "
+      },
+      {
+        "stepId": 5,
+        "step": " Return each valid string that meets all criteria and makes eval(s) return 63 "
+      }
+    ],
+    {
+      "1": " Understand that s should only contain characters from \"18-+*/\" and consist of two '8's and one '1' ",
+      "2": " Generate combinations of characters \"18-+*/\" ensuring \"8\" appears twice and \"1\" appears once ",
+      "3": " Concatenate each combination with different permutations of arithmetic operators \"-, +, *, /\" ",
+      "4": " Filter only those strings where arithmetic operation upon evaluation using `eval` function equals 63 ",
+      "5": " Return each valid string that meets all criteria and makes eval(s) return 63 "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the string s should comprise characters only from the set \"18-+*/\". "
+      },
+      {
+        "stepId": 2,
+        "step": " Also understand that the string s should contain exactly two '8' digits and one '1' digit. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate various combinations of allowed characters ensuring the conditions in STEP2 are met. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each string combination, evaluate the expression it represents. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if the evaluation result equals 63. "
+      },
+      {
+        "stepId": 6,
+        "step": " If found, output the string s that meets all the above criteria. "
+      }
+    ],
+    {
+      "1": " Understand that the string s should comprise characters only from the set \"18-+*/\". ",
+      "2": " Also understand that the string s should contain exactly two '8' digits and one '1' digit. ",
+      "3": " Generate various combinations of allowed characters ensuring the conditions in STEP2 are met. ",
+      "4": " For each string combination, evaluate the expression it represents. ",
+      "5": " Check if the evaluation result equals 63. ",
+      "6": " If found, output the string s that meets all the above criteria. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Confirm the characters in the string are only from the set \"18-+*/\" "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure the string contains exactly two '8' characters "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure the string contains exactly one '1' character "
+      },
+      {
+        "stepId": 4,
+        "step": " Use combinations of the characters to form valid arithmetic operations "
+      },
+      {
+        "stepId": 5,
+        "step": " Evaluate the arithmetic expression and check if it equals 63 "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the valid string that meets all the above requirements "
+      }
+    ],
+    {
+      "1": " Confirm the characters in the string are only from the set \"18-+*/\" ",
+      "2": " Ensure the string contains exactly two '8' characters ",
+      "3": " Ensure the string contains exactly one '1' character ",
+      "4": " Use combinations of the characters to form valid arithmetic operations ",
+      "5": " Evaluate the arithmetic expression and check if it equals 63 ",
+      "6": " Return the valid string that meets all the above requirements "
+    },
+    {
+      "0": [
+        "Step 3",
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Ensure all characters in the string s are from the set {'1', '8', '-', '+', '*', '/'} "
+      },
+      {
+        "stepId": 2,
+        "step": " Count the number of '8's and ensure there are exactly two '8's in the string s "
+      },
+      {
+        "stepId": 3,
+        "step": " Count the number of '1's and ensure there is exactly one '1' in the string s "
+      },
+      {
+        "stepId": 4,
+        "step": " Form different combinations of the allowed characters until they all meet the previous criteria "
+      },
+      {
+        "stepId": 5,
+        "step": " Use the eval function to calculate the result of the expression formed by the string s "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if the result of the eval function equals 63 "
+      },
+      {
+        "stepId": 7,
+        "step": " Output the string s that meets all the above conditions "
+      }
+    ],
+    {
+      "1": " Ensure all characters in the string s are from the set {'1', '8', '-', '+', '*', '/'} ",
+      "2": " Count the number of '8's and ensure there are exactly two '8's in the string s ",
+      "3": " Count the number of '1's and ensure there is exactly one '1' in the string s ",
+      "4": " Form different combinations of the allowed characters until they all meet the previous criteria ",
+      "5": " Use the eval function to calculate the result of the expression formed by the string s ",
+      "6": " Check if the result of the eval function equals 63 ",
+      "7": " Output the string s that meets all the above conditions "
+    },
+    {
+      "0": [
+        "Step 3",
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the string s must only contain characters from the set \"18-+*/\", have exactly two '8's, one '1', and when evaluated as a mathematical expression, the result must be 63. "
+      },
+      {
+        "stepId": 2,
+        "step": " Enumerate all possible combinations of the characters \"18-+*/\" that include exactly two '8's and one '1'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Form mathematical expressions using the combinations generated. "
+      },
+      {
+        "stepId": 4,
+        "step": " Evaluate each mathematical expression. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify which expressions equal 63, and ensure they follow the condition of having the characters from the set \"18-+*/\". "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the valid expression string as the answer. "
+      }
+    ],
+    {
+      "1": " Understand that the string s must only contain characters from the set \"18-+*/\", have exactly two '8's, one '1', and when evaluated as a mathematical expression, the result must be 63. ",
+      "2": " Enumerate all possible combinations of the characters \"18-+*/\" that include exactly two '8's and one '1'. ",
+      "3": " Form mathematical expressions using the combinations generated. ",
+      "4": " Evaluate each mathematical expression. ",
+      "5": " Verify which expressions equal 63, and ensure they follow the condition of having the characters from the set \"18-+*/\". ",
+      "6": " Return the valid expression string as the answer. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify characters and symbols allowed in the string s. "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure s contains exactly two '8's and one '1'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Formulate combinations using the characters '8', '1' and symbols '-+*/'. "
+      },
+      {
+        "stepId": 4,
+        "step": " Evaluate each formulated string to check if the result equals 63. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return the string s that satisfies all the given conditions. "
+      }
+    ],
+    {
+      "1": " Identify characters and symbols allowed in the string s. ",
+      "2": " Ensure s contains exactly two '8's and one '1'. ",
+      "3": " Formulate combinations using the characters '8', '1' and symbols '-+*/'. ",
+      "4": " Evaluate each formulated string to check if the result equals 63. ",
+      "5": " Return the string s that satisfies all the given conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify the requirement that all characters in string s must be from the set \"18-+*/\". "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure there are exactly two '8's and one '1' in string s as required. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate combinations of '8', '1', and operations from \"+-*/\" to form the string s. "
+      },
+      {
+        "stepId": 4,
+        "step": " Evaluate each valid combination to check if it evaluates to 63. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return the valid string s that meets all the above conditions. "
+      }
+    ],
+    {
+      "1": " Identify the requirement that all characters in string s must be from the set \"18-+*/\". ",
+      "2": " Ensure there are exactly two '8's and one '1' in string s as required. ",
+      "3": " Generate combinations of '8', '1', and operations from \"+-*/\" to form the string s. ",
+      "4": " Evaluate each valid combination to check if it evaluates to 63. ",
+      "5": " Return the valid string s that meets all the above conditions. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints: characters in string s must all be from the set \"18-+*/\", s must have exactly two '8's, one '1', and the result of eval(s) must be 63. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate permutations of operators and numbers to create strings that meet the character constraint. "
+      },
+      {
+        "stepId": 3,
+        "step": " Filter out any permutations that do not have exactly two '8's and one '1'. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each valid permutation, evaluate its arithmetic result. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check whether the evaluated result from step 4 equals 63. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the valid string s that satisfies all conditions. "
+      }
+    ],
+    {
+      "1": " Understand the constraints: characters in string s must all be from the set \"18-+*/\", s must have exactly two '8's, one '1', and the result of eval(s) must be 63. ",
+      "2": " Generate permutations of operators and numbers to create strings that meet the character constraint. ",
+      "3": " Filter out any permutations that do not have exactly two '8's and one '1'. ",
+      "4": " For each valid permutation, evaluate its arithmetic result. ",
+      "5": " Check whether the evaluated result from step 4 equals 63. ",
+      "6": " Return the valid string s that satisfies all conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints: characters must be from set(\"18-+*/\"), two '8's and one '1', and the evaluation of s must equal 63. "
+      },
+      {
+        "stepId": 2,
+        "step": " Formulate multiple string patterns using '1', '8', '8', and any of '-+*/', while maintaining valid mathematical expression rules. "
+      },
+      {
+        "stepId": 3,
+        "step": " Calculate and check each formulated string pattern to evaluate if its result equals to 63. "
+      },
+      {
+        "stepId": 4,
+        "step": " If the evaluated result equals 63, confirm that it uses exactly two '8's and one '1'. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return the valid string that meets all conditions. "
+      }
+    ],
+    {
+      "1": " Understand the constraints: characters must be from set(\"18-+*/\"), two '8's and one '1', and the evaluation of s must equal 63. ",
+      "2": " Formulate multiple string patterns using '1', '8', '8', and any of '-+*/', while maintaining valid mathematical expression rules. ",
+      "3": " Calculate and check each formulated string pattern to evaluate if its result equals to 63. ",
+      "4": " If the evaluated result equals 63, confirm that it uses exactly two '8's and one '1'. ",
+      "5": " Return the valid string that meets all conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions: string s should only contain characters from \"18-+*/\", must contain exactly two '8's and one '1'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Evaluate possible expressions that can be formed with '8', '1', and any combination of '+', '-', '*', '/'. "
+      },
+      {
+        "stepId": 3,
+        "step": " For each expression, check if it evaluates to 63. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify that length and character frequency match the constraints. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return the correct string that satisfies all conditions. "
+      }
+    ],
+    {
+      "1": " Understand the conditions: string s should only contain characters from \"18-+*/\", must contain exactly two '8's and one '1'. ",
+      "2": " Evaluate possible expressions that can be formed with '8', '1', and any combination of '+', '-', '*', '/'. ",
+      "3": " For each expression, check if it evaluates to 63. ",
+      "4": " Verify that length and character frequency match the constraints. ",
+      "5": " Return the correct string that satisfies all conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand input conditions: must only contain characters from \"18-+*/\", contains exactly two '8's and one '1'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Create possible combinations of these characters forming expressions. "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure the concatenation respects arithmetic expression rules, especially with usage of operators. "
+      },
+      {
+        "stepId": 4,
+        "step": " Calculate and verify each generated expression to ensure it matches eval(s) == 63. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify and select the expression that fulfills all conditions. "
+      }
+    ],
+    {
+      "1": " Understand input conditions: must only contain characters from \"18-+*/\", contains exactly two '8's and one '1'. ",
+      "2": " Create possible combinations of these characters forming expressions. ",
+      "3": " Ensure the concatenation respects arithmetic expression rules, especially with usage of operators. ",
+      "4": " Calculate and verify each generated expression to ensure it matches eval(s) == 63. ",
+      "5": " Verify and select the expression that fulfills all conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,212 @@
+[
+  [
+    [
+      "Define the terms of sequences {x_n}, {y_n}, {z_n} explicitly and the relationship among them.",
+      "Examine whether the recurrence relations given indicate that each term positively influences the growth of the subsequent terms in the other sequences.",
+      "Identify initial conditions or cases to see how the sequences behave with very small or very large starting values.",
+      "Look for qualitative behavior or trends in the sequences by calculating several terms manually or using computational tools.",
+      "Determine if there is a way to prove that one or more of these sequences grow unboundedly, using inequalities or other mathematical tools.",
+      "Research the possibility that one or two sequences could be bounded while the others are unbounded.",
+      "Check if the potential unbounded nature of one sequence imposes conditions on the other sequences that either necessitate or prevent bounding.",
+      "Explore any available mathematical literature or previous studies on similar types of sequence relationships and their boundedness properties.",
+      "Consider whether embedding the sequences into a higher-dimensional space (like a phase plot) provides insights into their mutual growth dynamics and limiting behaviors.",
+      "Summarize findings to conclude how many of the sequences can be bounded, and under what specific conditions or conjectures."
+    ],
+    {
+      "1": "Define the terms of sequences {x_n}, {y_n}, {z_n} explicitly and the relationship among them.",
+      "2": "Examine whether the recurrence relations given indicate that each term positively influences the growth of the subsequent terms in the other sequences.",
+      "3": "Identify initial conditions or cases to see how the sequences behave with very small or very large starting values.",
+      "4": "Look for qualitative behavior or trends in the sequences by calculating several terms manually or using computational tools.",
+      "5": "Determine if there is a way to prove that one or more of these sequences grow unboundedly, using inequalities or other mathematical tools.",
+      "6": "Research the possibility that one or two sequences could be bounded while the others are unbounded.",
+      "7": "Check if the potential unbounded nature of one sequence imposes conditions on the other sequences that either necessitate or prevent bounding.",
+      "8": "Explore any available mathematical literature or previous studies on similar types of sequence relationships and their boundedness properties.",
+      "9": "Consider whether embedding the sequences into a higher-dimensional space (like a phase plot) provides insights into their mutual growth dynamics and limiting behaviors.",
+      "10": "Summarize findings to conclude how many of the sequences can be bounded, and under what specific conditions or conjectures."
+    }
+  ],
+  [
+    [
+      "Define the given sequences and their initial conditions.",
+      "Understand how each sequence relates to the others through its recursion formula.",
+      "Analyze the behavior of the sequence {x_n} as n increases based on its recursive relation with {y_n} and {z_n}.",
+      "Analyze the behavior of the sequence {y_n} as n increases based on its recursive relation with {z_n} and {x_n}.",
+      "Analyze the behavior of the sequence {z_n} as n increases based on its recursive relation with {x_n} and {y_n}.",
+      "Evaluate whether the sequences show signs of boundedness individually.",
+      "Determine the interaction and dependency of the growth or boundedness of one sequence on the others.",
+      "Explore conditions or criteria under which any of the sequences might be bounded.",
+      "Consider the implications if one sequence is unbounded on the potential boundedness of the others.",
+      "Based on recursive relations, evaluate the possibility of all sequences being bounded or unbounded simultaneously.",
+      "Conclude whether it is possible for zero, one, two, or all three sequences to remain bounded."
+    ],
+    {
+      "1": "Define the given sequences and their initial conditions.",
+      "2": "Understand how each sequence relates to the others through its recursion formula.",
+      "3": "Analyze the behavior of the sequence {x_n} as n increases based on its recursive relation with {y_n} and {z_n}.",
+      "4": "Analyze the behavior of the sequence {y_n} as n increases based on its recursive relation with {z_n} and {x_n}.",
+      "5": "Analyze the behavior of the sequence {z_n} as n increases based on its recursive relation with {x_n} and {y_n}.",
+      "6": "Evaluate whether the sequences show signs of boundedness individually.",
+      "7": "Determine the interaction and dependency of the growth or boundedness of one sequence on the others.",
+      "8": "Explore conditions or criteria under which any of the sequences might be bounded.",
+      "9": "Consider the implications if one sequence is unbounded on the potential boundedness of the others.",
+      "10": "Based on recursive relations, evaluate the possibility of all sequences being bounded or unbounded simultaneously.",
+      "11": "Conclude whether it is possible for zero, one, two, or all three sequences to remain bounded."
+    }
+  ],
+  [
+    [
+      "Define what it means for a sequence to be bounded.",
+      "Analyze the recursion formula for the sequence {x_n} in terms of its dependency on {y_n} and {z_n}.",
+      "Analyze the recursion formula for the sequence {y_n} in terms of its dependency on {z_n} and {x_n}.",
+      "Analyze the recursion formula for the sequence {z_n} in terms of its dependency on {x_n} and {y_n}.",
+      "Investigate possible bounds for {x_n} based on the values of {y_n} and {z_n}.",
+      "Consider the behavior of the sequences as n approaches infinity, focusing on divergence or convergence.",
+      "Determine conditions under which {x_n}, {y_n}, or {z_n} might surpass any given limit (prove unboundedness).",
+      "Establish a relationship between the head start of a sequence’s growth compared to the others.",
+      "Explore if a chain reaction of unbounded growth occurs if one sequence starts to grow unboundedly."
+    ],
+    {
+      "1": "Define what it means for a sequence to be bounded.",
+      "2": "Analyze the recursion formula for the sequence {x_n} in terms of its dependency on {y_n} and {z_n}.",
+      "3": "Analyze the recursion formula for the sequence {y_n} in terms of its dependency on {z_n} and {x_n}.",
+      "4": "Analyze the recursion formula for the sequence {z_n} in terms of its dependency on {x_n} and {y_n}.",
+      "5": "Investigate possible bounds for {x_n} based on the values of {y_n} and {z_n}.",
+      "6": "Consider the behavior of the sequences as n approaches infinity, focusing on divergence or convergence.",
+      "7": "Determine conditions under which {x_n}, {y_n}, or {z_n} might surpass any given limit (prove unboundedness).",
+      "8": "Establish a relationship between the head start of a sequence’s growth compared to the others.",
+      "9": "Explore if a chain reaction of unbounded growth occurs if one sequence starts to grow unboundedly."
+    }
+  ],
+  [
+    [
+      "Understand the recursive definition of each sequence more clearly.",
+      "Analyze the initial behavior of the sequences with concrete initial values (e.g., x_1=1, y_1=1, z_1=1) to identify any regular patterns or trends.",
+      "Investigate a general behavior of sequences for varying initial values, focusing on the nature of growth in x_n, y_n, and z_n and whether they converge or diverge.",
+      "Analyze if the growth rate of the sequences can be bounded by some function.",
+      "Determine conditions or scenarios under which each sequence might be bounded.",
+      "Check if an upper bound exists for large values of n for any of the sequences.",
+      "Explore the mutual influence of the sequences on each other given their interdependencies, to see if the increment of one sequence restricts or accelerates the growth of the others.",
+      "Explore if any known mathematical theories or methods (such as those associated with nonlinear dynamical systems or fixed-point theorems) can be applied to find the boundedness of these sequences.",
+      "Conclude if 0, 1, 2, or all 3 of the sequences can be bounded based on the analysis."
+    ],
+    {
+      "1": "Understand the recursive definition of each sequence more clearly.",
+      "2": "Analyze the initial behavior of the sequences with concrete initial values (e.g., x_1=1, y_1=1, z_1=1) to identify any regular patterns or trends.",
+      "3": "Investigate a general behavior of sequences for varying initial values, focusing on the nature of growth in x_n, y_n, and z_n and whether they converge or diverge.",
+      "4": "Analyze if the growth rate of the sequences can be bounded by some function.",
+      "5": "Determine conditions or scenarios under which each sequence might be bounded.",
+      "6": "Check if an upper bound exists for large values of n for any of the sequences.",
+      "7": "Explore the mutual influence of the sequences on each other given their interdependencies, to see if the increment of one sequence restricts or accelerates the growth of the others.",
+      "8": "Explore if any known mathematical theories or methods (such as those associated with nonlinear dynamical systems or fixed-point theorems) can be applied to find the boundedness of these sequences.",
+      "9": "Conclude if 0, 1, 2, or all 3 of the sequences can be bounded based on the analysis."
+    }
+  ],
+  [
+    [
+      "Define what it means for a sequence to be bounded.",
+      "Examine the recursive relationships among x_n, y_n, and z_n to understand how changes in one sequence affect the others.",
+      "Analyze the behavior of the sequence x_(n+1)=y_n+1/z_n to determine if the sequence can grow unbounded.",
+      "Analyze the behavior of the sequence y_(n+1)=z_n+1/x_n to determine if the sequence can grow unbounded.",
+      "Analyze the behavior of the sequence z_(n+1)=x_n+1/y_n to determine if the sequence can grow unbounded.",
+      "Explore if the simultaneous growth of x_n, y_n, and z_n affects the boundedness of each sequence.",
+      "Determine if there are any bounds on the sequences that can be established based on their relationships.",
+      "Consider special cases or smaller values of n to see if any patterns emerge that might suggest general behavior.",
+      "Evaluate if the dependency of each sequence on the others inherently limits or promotes unbounded growth.",
+      "Consolidate findings about the boundedness of each sequence and draw conclusions about how many of the sequences can be bounded."
+    ],
+    {
+      "1": "Define what it means for a sequence to be bounded.",
+      "2": "Examine the recursive relationships among x_n, y_n, and z_n to understand how changes in one sequence affect the others.",
+      "3": "Analyze the behavior of the sequence x_(n+1)=y_n+1/z_n to determine if the sequence can grow unbounded.",
+      "4": "Analyze the behavior of the sequence y_(n+1)=z_n+1/x_n to determine if the sequence can grow unbounded.",
+      "5": "Analyze the behavior of the sequence z_(n+1)=x_n+1/y_n to determine if the sequence can grow unbounded.",
+      "6": "Explore if the simultaneous growth of x_n, y_n, and z_n affects the boundedness of each sequence.",
+      "7": "Determine if there are any bounds on the sequences that can be established based on their relationships.",
+      "8": "Consider special cases or smaller values of n to see if any patterns emerge that might suggest general behavior.",
+      "9": "Evaluate if the dependency of each sequence on the others inherently limits or promotes unbounded growth.",
+      "10": "Consolidate findings about the boundedness of each sequence and draw conclusions about how many of the sequences can be bounded."
+    }
+  ],
+  [
+    [
+      "Define and understand the nature of the recurrence relations given for x_(n+1), y_(n+1), and z_(n+1).",
+      "Analyze whether each of the sequences {x_n}, {y_n}, {z_n} depends on the other sequences in order to investigate the interdependence.",
+      "Explore potential behaviors for small values of n in the sequences to identify patterns or tendencies.",
+      "Determine criteria for boundedness in sequences and apply them to each sequence {x_n}, {y_n}, {z_n}.",
+      "Investigate any possibility of one sequence stabilizing or converging based on the behavior of the other sequences.",
+      "Analyze whether all three sequences can be simultaneously bounded considering their definitions.",
+      "If possible, look for mathematical or numerical methods (e.g., fixed point analysis, numerical simulation) to test the boundedness of the sequences.",
+      "Summarize the results to conclude how many of the sequences can be bounded based on the given setup and findings."
+    ],
+    {
+      "1": "Define and understand the nature of the recurrence relations given for x_(n+1), y_(n+1), and z_(n+1).",
+      "2": "Analyze whether each of the sequences {x_n}, {y_n}, {z_n} depends on the other sequences in order to investigate the interdependence.",
+      "3": "Explore potential behaviors for small values of n in the sequences to identify patterns or tendencies.",
+      "4": "Determine criteria for boundedness in sequences and apply them to each sequence {x_n}, {y_n}, {z_n}.",
+      "5": "Investigate any possibility of one sequence stabilizing or converging based on the behavior of the other sequences.",
+      "6": "Analyze whether all three sequences can be simultaneously bounded considering their definitions.",
+      "7": "If possible, look for mathematical or numerical methods (e.g., fixed point analysis, numerical simulation) to test the boundedness of the sequences.",
+      "8": "Summarize the results to conclude how many of the sequences can be bounded based on the given setup and findings."
+    }
+  ],
+  [
+    [
+      "Define what it means for a sequence to be bounded.",
+      "Analyze the relationship between successive terms of each sequence.",
+      "Determine conditions under which an initial term affects the boundedness of the sequence.",
+      "Explore the possibility of a sequence being monotonic, either increasing or decreasing.",
+      "Analyze the interdependency of the sequences based on their recursive definitions.",
+      "Establish whether a growth pattern emerges in any of the sequences.",
+      "Consider limiting behavior or equilibrium points, if any, for the sequence terms.",
+      "Analyze if one sequence being unbounded might imply the same for another sequence or affect boundedness oppositely.",
+      "Use numerical simulations for specific initial conditions to observe the behavior of each sequence.",
+      "Examine mathematical literature or known results for insights on recursively defined sequences with mixed operations (addition and division).",
+      "Formulate a general conjecture about the boundedness of each sequence based on analytical discoveries or numerical findings.",
+      "Explore the mathematical implications of each sequence impacting the dynamic of the others, leading to potential boundedness or unboundedness.",
+      "Summarize findings and conclude about the maximal number of sequences that can be bounded for given conditions."
+    ],
+    {
+      "1": "Define what it means for a sequence to be bounded.",
+      "2": "Analyze the relationship between successive terms of each sequence.",
+      "3": "Determine conditions under which an initial term affects the boundedness of the sequence.",
+      "4": "Explore the possibility of a sequence being monotonic, either increasing or decreasing.",
+      "5": "Analyze the interdependency of the sequences based on their recursive definitions.",
+      "6": "Establish whether a growth pattern emerges in any of the sequences.",
+      "7": "Consider limiting behavior or equilibrium points, if any, for the sequence terms.",
+      "8": "Analyze if one sequence being unbounded might imply the same for another sequence or affect boundedness oppositely.",
+      "9": "Use numerical simulations for specific initial conditions to observe the behavior of each sequence.",
+      "10": "Examine mathematical literature or known results for insights on recursively defined sequences with mixed operations (addition and division).",
+      "11": "Formulate a general conjecture about the boundedness of each sequence based on analytical discoveries or numerical findings.",
+      "12": "Explore the mathematical implications of each sequence impacting the dynamic of the others, leading to potential boundedness or unboundedness.",
+      "13": "Summarize findings and conclude about the maximal number of sequences that can be bounded for given conditions."
+    }
+  ],
+  [
+    [
+      "Define what it means for a sequence to be bounded.",
+      "Express x_(n+1), y_(n+1), and z_(n+1) in terms of x_n, y_n, and z_n directly to explore potential patterns or behaviors.",
+      "Analyze the dependency and interaction between the sequences to see how one sequence affects the others in future terms.",
+      "Assess initial conditions and their influence on the long-term behavior of the sequences.",
+      "Consider different types or cases of initial conditions (e.g., all three starting values being equal, two being equal and one different, or all three different) and analyze whether that affects boundedness.",
+      "Examine whether increasing values in any sequence necessarily lead to increases or decreases in subsequent values of the other sequences.",
+      "Formulate or hypothesize about the nature of growth or limitation in each sequence.",
+      "Explore the possibility of cyclic behavior or repetition of values within the sequences that could imply boundedness.",
+      "Determine under what conditions, if any, one or more of the series fail to remain bounded.",
+      "Evaluate stability conditions under small perturbations in initial values.",
+      "Develop a test or sequence of calculations to determine the maximum number of these sequences that can be bounded based on specific initial values or general properties of the sequences."
+    ],
+    {
+      "1": "Define what it means for a sequence to be bounded.",
+      "2": "Express x_(n+1), y_(n+1), and z_(n+1) in terms of x_n, y_n, and z_n directly to explore potential patterns or behaviors.",
+      "3": "Analyze the dependency and interaction between the sequences to see how one sequence affects the others in future terms.",
+      "4": "Assess initial conditions and their influence on the long-term behavior of the sequences.",
+      "5": "Consider different types or cases of initial conditions (e.g., all three starting values being equal, two being equal and one different, or all three different) and analyze whether that affects boundedness.",
+      "6": "Examine whether increasing values in any sequence necessarily lead to increases or decreases in subsequent values of the other sequences.",
+      "7": "Formulate or hypothesize about the nature of growth or limitation in each sequence.",
+      "8": "Explore the possibility of cyclic behavior or repetition of values within the sequences that could imply boundedness.",
+      "9": "Determine under what conditions, if any, one or more of the series fail to remain bounded.",
+      "10": "Evaluate stability conditions under small perturbations in initial values.",
+      "11": "Develop a test or sequence of calculations to determine the maximum number of these sequences that can be bounded based on specific initial values or general properties of the sequences."
+    }
+  ]
+]

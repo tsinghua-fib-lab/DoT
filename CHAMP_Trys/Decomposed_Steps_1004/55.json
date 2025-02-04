@@ -1,0 +1,1592 @@
+[
+  [
+    [
+      "Recognize the expression given and identify that it is a type of inequality problem involving a combination of fractions and sum.",
+      "Note any symmetrical properties or simplifications that apply due to the nature of the expressions and variables being positive.",
+      "Apply well-known algebraic inequalities (such as AM-GM, Cauchy-Schwarz, or others) to simplify or set a lower bound for the expression.",
+      "Apply specific inequality theorems if any, like Nesbitt’s inequality, which could directly help in getting a lower bound or simplification.",
+      "Investigate any equality cases by setting a, b, and c to specific values to test if the minimum value can be achieved under these conditions.",
+      "Calculate the value of the expression for the equality cases to affirm the minimum value or find a condition that will provide a minimum value.",
+      "Generalize a result or formula that applies for all positive numbers a, b, c based on the exploration and calculations done."
+    ],
+    {
+      "1": "Recognize the expression given and identify that it is a type of inequality problem involving a combination of fractions and sum.",
+      "2": "Note any symmetrical properties or simplifications that apply due to the nature of the expressions and variables being positive.",
+      "3": "Apply well-known algebraic inequalities (such as AM-GM, Cauchy-Schwarz, or others) to simplify or set a lower bound for the expression.",
+      "4": "Apply specific inequality theorems if any, like Nesbitt’s inequality, which could directly help in getting a lower bound or simplification.",
+      "5": "Investigate any equality cases by setting a, b, and c to specific values to test if the minimum value can be achieved under these conditions.",
+      "6": "Calculate the value of the expression for the equality cases to affirm the minimum value or find a condition that will provide a minimum value.",
+      "7": "Generalize a result or formula that applies for all positive numbers a, b, c based on the exploration and calculations done."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize and state the mathematical problem in terms of variable expressions.",
+      "Investigate if inequalities such as AM-GM, Cauchy-Schwarz, or Jensen might apply to the expression.",
+      "Apply the AM-GM inequality to the expression \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) to explore potential simplifications or lower bounds.",
+      "Identify the conditions where equality holds for the applied inequalities, indicating the potential for minimal values.",
+      "Conduct algebraic manipulations or substitutions to simplify the expression and handle it more easily.",
+      "Examine any symmetrical properties or solutions of the variables (e.g., setting \\(a = b = c\\)) to check if they yield a minimum value.",
+      "Perform calculation or verification to confirm the minimum value obtained from steps above.",
+      "If not directly solvable, consider numerical methods or software tools for deeper analysis and confirmation of results.",
+      "Conclude by summarizing the smallest value identified and under what conditions it occurs."
+    ],
+    {
+      "1": "Recognize and state the mathematical problem in terms of variable expressions.",
+      "2": "Investigate if inequalities such as AM-GM, Cauchy-Schwarz, or Jensen might apply to the expression.",
+      "3": "Apply the AM-GM inequality to the expression \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) to explore potential simplifications or lower bounds.",
+      "4": "Identify the conditions where equality holds for the applied inequalities, indicating the potential for minimal values.",
+      "5": "Conduct algebraic manipulations or substitutions to simplify the expression and handle it more easily.",
+      "6": "Examine any symmetrical properties or solutions of the variables (e.g., setting \\(a = b = c\\)) to check if they yield a minimum value.",
+      "7": "Perform calculation or verification to confirm the minimum value obtained from steps above.",
+      "8": "If not directly solvable, consider numerical methods or software tools for deeper analysis and confirmation of results.",
+      "9": "Conclude by summarizing the smallest value identified and under what conditions it occurs."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ],
+      "8": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the expression to be minimized: a/(b+c) + b/(a+c) + c/(a+b).",
+      "Recognize if any known inequalities can potentially simplify or provide insights into the problem (such as the AM-GM inequality, Cauchy-Schwarz, or others).",
+      "Consider if setting variables equal to each other (like a=b, b=c, etc.) simplifies the problem or leads to a potential minimum.",
+      "Consider the behavior of the expression when variables approach certain limits, such as when one of the variables is much larger or smaller than the others.",
+      "Use calculus, if necessary, to find critical points of the function defined by the expression with respect to the variables under constraints.",
+      "Verify whether any found critical points or special cases correspond to the global minimum of the expression given the condition of positivity for a, b, and c.",
+      "Assess the expression's value at these points to determine if it indeed represents the smallest value.",
+      "Consider any symmetrical properties of the function which might simplify calculation or verification of the minimum value."
+    ],
+    {
+      "1": "Identify the expression to be minimized: a/(b+c) + b/(a+c) + c/(a+b).",
+      "2": "Recognize if any known inequalities can potentially simplify or provide insights into the problem (such as the AM-GM inequality, Cauchy-Schwarz, or others).",
+      "3": "Consider if setting variables equal to each other (like a=b, b=c, etc.) simplifies the problem or leads to a potential minimum.",
+      "4": "Consider the behavior of the expression when variables approach certain limits, such as when one of the variables is much larger or smaller than the others.",
+      "5": "Use calculus, if necessary, to find critical points of the function defined by the expression with respect to the variables under constraints.",
+      "6": "Verify whether any found critical points or special cases correspond to the global minimum of the expression given the condition of positivity for a, b, and c.",
+      "7": "Assess the expression's value at these points to determine if it indeed represents the smallest value.",
+      "8": "Consider any symmetrical properties of the function which might simplify calculation or verification of the minimum value."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 8"
+      ],
+      "1": [
+        "Step 2",
+        "Step 4",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize that a/(b+c) + b/(a+c) + c/(a+b) is symmetric in a, b, c.",
+      "Consider minimizing the expression with constraints on the variables a, b, and c.",
+      "Test the possibility that setting a = b = c might simplify the expression or reveal a pattern.",
+      "Use calculus or inequalities to find extremum points for the function a/(b+c) + b/(a+c) + c/(a+b).",
+      "Consider applying known inequalities such as the AM-GM (Arithmetic Mean - Geometric Mean) inequality to bound the expression.",
+      "Analyze the behavior of the expression as any of the variables a, b, or c approach large values or values close to zero.",
+      "Check if there is a simpler or special case that can provide insights or an exact answer, like examining integer values or special ratios between a, b, and c.",
+      "Investigate if there are any algebraic manipulations that simplify the expression or facilitate using inequalities.",
+      "Derive conditions or use Lagrange multipliers if necessary, considering that the variables are positive."
+    ],
+    {
+      "1": "Recognize that a/(b+c) + b/(a+c) + c/(a+b) is symmetric in a, b, c.",
+      "2": "Consider minimizing the expression with constraints on the variables a, b, and c.",
+      "3": "Test the possibility that setting a = b = c might simplify the expression or reveal a pattern.",
+      "4": "Use calculus or inequalities to find extremum points for the function a/(b+c) + b/(a+c) + c/(a+b).",
+      "5": "Consider applying known inequalities such as the AM-GM (Arithmetic Mean - Geometric Mean) inequality to bound the expression.",
+      "6": "Analyze the behavior of the expression as any of the variables a, b, or c approach large values or values close to zero.",
+      "7": "Check if there is a simpler or special case that can provide insights or an exact answer, like examining integer values or special ratios between a, b, and c.",
+      "8": "Investigate if there are any algebraic manipulations that simplify the expression or facilitate using inequalities.",
+      "9": "Derive conditions or use Lagrange multipliers if necessary, considering that the variables are positive."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 7"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3",
+        "Step 8"
+      ],
+      "2": [
+        "Step 6",
+        "Step 5"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        7,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Restate the main problem to focus on the task of minimizing the expression a/(b+c) + b/(a+c) + c/(a+b) for positive values of a, b, and c.",
+      "Consider if there is symmetry in the problem that suggests setting a, b, and c to equal or specific ratios could simplify the expression or its analysis.",
+      "Derive and analyze the behavior of the function when the values of a, b, and c approach zero or very large numbers, respectively.",
+      "Apply the Arithmetic Mean-Geometric Mean (AM-GM) inequality or other inequalities to bound the expression from below.",
+      "Search for relevant theorems or inequalities involving sums of fractions like the ones in the given expression, which might provide minimum value directly or insights towards bounding the expression.",
+      "Utilize calculus, specifically the method of Lagrange multipliers, to find critical points which potentially minimize the expression under the constraint a + b + c = constant.",
+      "Verify if any derived critical points or values indeed provide a minimum in the operational domain through second derivative tests or comparing values at boundaries.",
+      "Determine the behavior of the expression under permutations of a, b, and c to ensure the minimum is independent of the assignment of particular values to a, b, and c.",
+      "Compile the calculations and compare derived values to decisively identify the smallest value of the expression.",
+      "Provide justification or mathematical proof for why the identified value is the absolute minimum of the given expression."
+    ],
+    {
+      "1": "Restate the main problem to focus on the task of minimizing the expression a/(b+c) + b/(a+c) + c/(a+b) for positive values of a, b, and c.",
+      "2": "Consider if there is symmetry in the problem that suggests setting a, b, and c to equal or specific ratios could simplify the expression or its analysis.",
+      "3": "Derive and analyze the behavior of the function when the values of a, b, and c approach zero or very large numbers, respectively.",
+      "4": "Apply the Arithmetic Mean-Geometric Mean (AM-GM) inequality or other inequalities to bound the expression from below.",
+      "5": "Search for relevant theorems or inequalities involving sums of fractions like the ones in the given expression, which might provide minimum value directly or insights towards bounding the expression.",
+      "6": "Utilize calculus, specifically the method of Lagrange multipliers, to find critical points which potentially minimize the expression under the constraint a + b + c = constant.",
+      "7": "Verify if any derived critical points or values indeed provide a minimum in the operational domain through second derivative tests or comparing values at boundaries.",
+      "8": "Determine the behavior of the expression under permutations of a, b, and c to ensure the minimum is independent of the assignment of particular values to a, b, and c.",
+      "9": "Compile the calculations and compare derived values to decisively identify the smallest value of the expression.",
+      "10": "Provide justification or mathematical proof for why the identified value is the absolute minimum of the given expression."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 4"
+      ],
+      "1": [
+        "Step 5",
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 6",
+        "Step 8"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 9"
+      ],
+      "5": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        7,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the mathematical expression in simpler terms or general mathematical theorems that could help simplify or bound the expression a/(b+c) + b/(a+c) + c/(a+b).",
+      "Consider symmetry or specific conditions where a, b, and c are equal, and possibly calculate the expression for these specific scenarios to derive insights.",
+      "Look for simplifications of the expression using algebraic identities or inequalities (like the AM-GM inequality).",
+      "Check if introducing new variables or applying substitutions simplifies the evaluation of the expression.",
+      "Determine if any known inequalities (such as the Cauchy-Schwarz inequality or Nesbitt's inequality) can be applied to establish the minimum value.",
+      "Use calculus if feasible to find the local minima of the expression by setting up equations involving derivatives and solving them.",
+      "Explore special cases or limits, such as what happens when one of the variables is significantly smaller or larger than the other two.",
+      "Verify the solution obtained through special cases and inequalities by back-substitution into the original expression, or through numerical examples to check consistency."
+    ],
+    {
+      "1": "Identify the mathematical expression in simpler terms or general mathematical theorems that could help simplify or bound the expression a/(b+c) + b/(a+c) + c/(a+b).",
+      "2": "Consider symmetry or specific conditions where a, b, and c are equal, and possibly calculate the expression for these specific scenarios to derive insights.",
+      "3": "Look for simplifications of the expression using algebraic identities or inequalities (like the AM-GM inequality).",
+      "4": "Check if introducing new variables or applying substitutions simplifies the evaluation of the expression.",
+      "5": "Determine if any known inequalities (such as the Cauchy-Schwarz inequality or Nesbitt's inequality) can be applied to establish the minimum value.",
+      "6": "Use calculus if feasible to find the local minima of the expression by setting up equations involving derivatives and solving them.",
+      "7": "Explore special cases or limits, such as what happens when one of the variables is significantly smaller or larger than the other two.",
+      "8": "Verify the solution obtained through special cases and inequalities by back-substitution into the original expression, or through numerical examples to check consistency."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 7",
+        "Step 2"
+      ],
+      "1": [
+        "Step 5",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the type of mathematical problem and identify known inequalities or theorems related to sums of fractions like a/(b+c) + b/(a+c) + c/(a+b) for positive numbers a, b, and c.",
+      "Replace the variables a, b, and c with expressions involving other variables, if it simplifies the problem or makes a pattern more evident.",
+      "Determine if there is symmetry or any other properties in the expression that can be exploited to simplify the problem.",
+      "Use known strategies for minimizing or maximizing expressions involving sums of fractions, possibly involving derivatives and stationary points if seen as a function.",
+      "Calculate or estimate the expression for specific simpler values of a, b, and c (such as equal values) to see if a pattern or principle can be detected.",
+      "Analyze and compare the resulting value from specific values to predictions made from theoretical or conjectural approaches, to check if the obtained value might be the answer or at least close to it.",
+      "Explore any constraints set by the inequality and ensure that all conditions (like positivity of a, b, and c) are satisfied in the final answer.",
+      "Confirm if the smallest value found is indeed a global minimum by considering limits or behavior at boundaries, or by referring to further mathematical analyses or properties."
+    ],
+    {
+      "1": "Recognize the type of mathematical problem and identify known inequalities or theorems related to sums of fractions like a/(b+c) + b/(a+c) + c/(a+b) for positive numbers a, b, and c.",
+      "2": "Replace the variables a, b, and c with expressions involving other variables, if it simplifies the problem or makes a pattern more evident.",
+      "3": "Determine if there is symmetry or any other properties in the expression that can be exploited to simplify the problem.",
+      "4": "Use known strategies for minimizing or maximizing expressions involving sums of fractions, possibly involving derivatives and stationary points if seen as a function.",
+      "5": "Calculate or estimate the expression for specific simpler values of a, b, and c (such as equal values) to see if a pattern or principle can be detected.",
+      "6": "Analyze and compare the resulting value from specific values to predictions made from theoretical or conjectural approaches, to check if the obtained value might be the answer or at least close to it.",
+      "7": "Explore any constraints set by the inequality and ensure that all conditions (like positivity of a, b, and c) are satisfied in the final answer.",
+      "8": "Confirm if the smallest value found is indeed a global minimum by considering limits or behavior at boundaries, or by referring to further mathematical analyses or properties."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5",
+        "Step 7"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the target function to be minimized: a/(b+c) + b/(a+c) + c/(a+b).",
+      "Explore the properties and behavior of the function, possibly by examining special cases or simplifications.",
+      "Use the inequality principles such as Cauchy-Schwarz or AM-GM inequality to find bounds for the function.",
+      "Test the derived inequality or formula by substituting specific values for a, b, c to check if there could be a lower bound.",
+      "If possible, determine the conditions under which equality holds or when the minimum value is achieved.",
+      "Verify the solution by checking against any potential contradictions or alternative calculations.",
+      "Consider the impact of symmetry in the variables a, b, and c on the problem's minimization.",
+      "Evaluate the continuously differentiable and well-defined nature of the function over positive numbers to use calculus tools if applicable."
+    ],
+    {
+      "1": "Identify the target function to be minimized: a/(b+c) + b/(a+c) + c/(a+b).",
+      "2": "Explore the properties and behavior of the function, possibly by examining special cases or simplifications.",
+      "3": "Use the inequality principles such as Cauchy-Schwarz or AM-GM inequality to find bounds for the function.",
+      "4": "Test the derived inequality or formula by substituting specific values for a, b, c to check if there could be a lower bound.",
+      "5": "If possible, determine the conditions under which equality holds or when the minimum value is achieved.",
+      "6": "Verify the solution by checking against any potential contradictions or alternative calculations.",
+      "7": "Consider the impact of symmetry in the variables a, b, and c on the problem's minimization.",
+      "8": "Evaluate the continuously differentiable and well-defined nature of the function over positive numbers to use calculus tools if applicable."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 8",
+        "Step 2"
+      ],
+      "2": [
+        "Step 7",
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the given expression and what are its properties (symmetrical, homogenous, etc.)?",
+      "What are the possible methods or approaches to minimize the expression?",
+      "Apply the AM-GM (Arithmetic Mean - Geometric Mean) Inequality to derive a potentially useful inequality involving a, b, and c.",
+      "Consider any achievable equality conditions of the inequality derived in the previous step.",
+      "Analyze if these conditions lead to the minimal value of the expression for all positive a, b, and c.",
+      "Confirm if there exists any other set of values for a, b, and c which results in a smaller value than derived in earlier steps.",
+      "Conclude with the minimum value of the expression based on the analysis and calculations done in the previous steps."
+    ],
+    {
+      "1": "What is the given expression and what are its properties (symmetrical, homogenous, etc.)?",
+      "2": "What are the possible methods or approaches to minimize the expression?",
+      "3": "Apply the AM-GM (Arithmetic Mean - Geometric Mean) Inequality to derive a potentially useful inequality involving a, b, and c.",
+      "4": "Consider any achievable equality conditions of the inequality derived in the previous step.",
+      "5": "Analyze if these conditions lead to the minimal value of the expression for all positive a, b, and c.",
+      "6": "Confirm if there exists any other set of values for a, b, and c which results in a smaller value than derived in earlier steps.",
+      "7": "Conclude with the minimum value of the expression based on the analysis and calculations done in the previous steps."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize that the expression a/(b+c)+b/(a+c)+c/(a+b) includes the sum of fractions, each fraction with a sum of terms in the denominator excluding its respective numerator term.",
+      "Identify known inequalities or mathematical identities that can simplify or provide bounds for the expression, such as the AM-GM (Arithmetic Mean-Geometric Mean) inequality or the Cauchy-Schwarz inequality.",
+      "Apply the chosen inequality or identity to each term of the expression to perhaps derive a lower bound for each fraction or the entire expression.",
+      "Simplify the expression or inequality derived in the previous step to make it easier to analyze or solve.",
+      "Analyze extremal cases (possibly consider when two of the variables are equal, or one variable is much smaller than the others) to see how the value of the expression changes.",
+      "Use calculus, if necessary, to find the minimum value based on the conditions derived or by optimizing the expression directly.",
+      "Verify that the solution found satisfies the conditions of the problem and check if this leads to the minimum possible value of the expression.",
+      "Consider any symmetrical properties of the expression to reduce the problem's complexity or number of cases that need to be examined.",
+      "Conclude whether the expression has a minimum value under the given conditions and determine that value if it exists."
+    ],
+    {
+      "1": "Recognize that the expression a/(b+c)+b/(a+c)+c/(a+b) includes the sum of fractions, each fraction with a sum of terms in the denominator excluding its respective numerator term.",
+      "2": "Identify known inequalities or mathematical identities that can simplify or provide bounds for the expression, such as the AM-GM (Arithmetic Mean-Geometric Mean) inequality or the Cauchy-Schwarz inequality.",
+      "3": "Apply the chosen inequality or identity to each term of the expression to perhaps derive a lower bound for each fraction or the entire expression.",
+      "4": "Simplify the expression or inequality derived in the previous step to make it easier to analyze or solve.",
+      "5": "Analyze extremal cases (possibly consider when two of the variables are equal, or one variable is much smaller than the others) to see how the value of the expression changes.",
+      "6": "Use calculus, if necessary, to find the minimum value based on the conditions derived or by optimizing the expression directly.",
+      "7": "Verify that the solution found satisfies the conditions of the problem and check if this leads to the minimum possible value of the expression.",
+      "8": "Consider any symmetrical properties of the expression to reduce the problem's complexity or number of cases that need to be examined.",
+      "9": "Conclude whether the expression has a minimum value under the given conditions and determine that value if it exists."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 8",
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the type of problem: exploration of inequalities related to sums of ratios of a, b, and c.",
+      "Explore symmetry considerations in the expression a/(b+c)+b/(a+c)+c/(a+b).",
+      "Check known inequality results like AM-GM (Arithmetic Mean-Geometric Mean Inequality) to find potential uses.",
+      "Check for possible substitution strategies to simplify the expression (e.g., let a=b=c=1).",
+      "Determine whether there are any helpful standard forms or transformations that could simplify the inequality.",
+      "Formulate an inequality, if applicable, that provides a lower bound for the expression.",
+      "Test the formulated inequality using valid triples (a, b, c) that may attain the equality condition.",
+      "Consider if scaling properties or symmetrical arguments can limit the number of cases to check.",
+      "Deduce the smallest value from the tried test cases or proven theoretical bounds.",
+      "Confirm whether the minimum value discovered is valid for all positive numbers a, b, and c."
+    ],
+    {
+      "1": "Recognize the type of problem: exploration of inequalities related to sums of ratios of a, b, and c.",
+      "2": "Explore symmetry considerations in the expression a/(b+c)+b/(a+c)+c/(a+b).",
+      "3": "Check known inequality results like AM-GM (Arithmetic Mean-Geometric Mean Inequality) to find potential uses.",
+      "4": "Check for possible substitution strategies to simplify the expression (e.g., let a=b=c=1).",
+      "5": "Determine whether there are any helpful standard forms or transformations that could simplify the inequality.",
+      "6": "Formulate an inequality, if applicable, that provides a lower bound for the expression.",
+      "7": "Test the formulated inequality using valid triples (a, b, c) that may attain the equality condition.",
+      "8": "Consider if scaling properties or symmetrical arguments can limit the number of cases to check.",
+      "9": "Deduce the smallest value from the tried test cases or proven theoretical bounds.",
+      "10": "Confirm whether the minimum value discovered is valid for all positive numbers a, b, and c."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 2",
+        "Step 5",
+        "Step 3"
+      ],
+      "2": [
+        "Step 8",
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 9"
+      ],
+      "5": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the expression a/(b+c), b/(a+c), and c/(a+b) and how each fraction behaves as values of a, b, and c change.",
+      "Consider using inequalities such as AM-GM (Arithmetic Mean-Geometric Mean Inequality) or Cauchy-Schwarz Inequality to establish a lower bound for the expression.",
+      "Identify if there is any symmetrical property or condition when all variables (a, b, c) are equal or proportional, which might simplify the expression.",
+      "Use calculus tools if necessary to find a critical point that minimizes or maximizes the expression under the constraint a + b + c = constant.",
+      "Look for any achievable bounds by exploring extremes (like setting one of the variables much smaller or larger compared to the others) and seeing the impact on the expression value.",
+      "Check if substitution or transformation of variables might simplify the problem.",
+      "Ensure to verify minimization or maximization by checking the second derivative (if calculus is used), or through logical analysis of the expression behavior based on changes in a, b, and c.",
+      "Summarize all findings and confirm the minimum value achieved under the considered constraints and conditions."
+    ],
+    {
+      "1": "Understand the expression a/(b+c), b/(a+c), and c/(a+b) and how each fraction behaves as values of a, b, and c change.",
+      "2": "Consider using inequalities such as AM-GM (Arithmetic Mean-Geometric Mean Inequality) or Cauchy-Schwarz Inequality to establish a lower bound for the expression.",
+      "3": "Identify if there is any symmetrical property or condition when all variables (a, b, c) are equal or proportional, which might simplify the expression.",
+      "4": "Use calculus tools if necessary to find a critical point that minimizes or maximizes the expression under the constraint a + b + c = constant.",
+      "5": "Look for any achievable bounds by exploring extremes (like setting one of the variables much smaller or larger compared to the others) and seeing the impact on the expression value.",
+      "6": "Check if substitution or transformation of variables might simplify the problem.",
+      "7": "Ensure to verify minimization or maximization by checking the second derivative (if calculus is used), or through logical analysis of the expression behavior based on changes in a, b, and c.",
+      "8": "Summarize all findings and confirm the minimum value achieved under the considered constraints and conditions."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 6",
+        "Step 3",
+        "Step 5"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        4,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the expression to be minimized: a/(b+c) + b/(a+c) + c/(a+b).",
+      "Determine whether inequalities or identities (like AM-GM, Cauchy-Schwarz, or Jensen's Inequality) might simplify or rearrange the expression into a more workable form.",
+      "Apply any relevant inequality to find a lower bound of the expression.",
+      "Discuss the conditions under which the equality of the applied inequality holds (if any).",
+      "Verify if the minimized value determined through inequalities is practically achievable by finding explicit values of a, b, and c that meet these conditions.",
+      "Analyze the expression's behavior by setting up possible scenarios or simpler examples with specific values to gain insights into its nature and value range.",
+      "Calculate derivatives if further optimization or refinement is required around critical points or minimum value conjectures.",
+      "Conclude the minimal value of the expression and the necessary conditions (values of a, b, c) that achieve this minimum (if attainable)."
+    ],
+    {
+      "1": "Identify the expression to be minimized: a/(b+c) + b/(a+c) + c/(a+b).",
+      "2": "Determine whether inequalities or identities (like AM-GM, Cauchy-Schwarz, or Jensen's Inequality) might simplify or rearrange the expression into a more workable form.",
+      "3": "Apply any relevant inequality to find a lower bound of the expression.",
+      "4": "Discuss the conditions under which the equality of the applied inequality holds (if any).",
+      "5": "Verify if the minimized value determined through inequalities is practically achievable by finding explicit values of a, b, and c that meet these conditions.",
+      "6": "Analyze the expression's behavior by setting up possible scenarios or simpler examples with specific values to gain insights into its nature and value range.",
+      "7": "Calculate derivatives if further optimization or refinement is required around critical points or minimum value conjectures.",
+      "8": "Conclude the minimal value of the expression and the necessary conditions (values of a, b, c) that achieve this minimum (if attainable)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 6"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the given expression a/(b+c) + b/(a+c) + c/(a+b) and identify its relationship with symmetric inequalities involving homogeneous functions.",
+      "Consider special cases where two variables are equal, such as setting a = b and examining how this affects the expression.",
+      "Apply the AM-HM (Arithmetic Mean-Harmonic Mean) inequality or other relevant inequalities to simplify or find lower bounds for the expression.",
+      "Calculate the expression under optimal conditions derived from inequalities or equalities determined in the previous steps.",
+      "Analyze how permutations of a, b, c affect the expression and if it leads to useful symmetry properties.",
+      "Determine whether applying Cauchy-Schwarz inequality or Jensen's inequality provides insights or a solution pathway.",
+      "Confirm any findings by substituting feasible particular values of a, b, and c into the expression and comparing these outcomes.",
+      "Summarize the computations and reasoning to conclude the smallest value or range of values for the expression."
+    ],
+    {
+      "1": "Recognize the given expression a/(b+c) + b/(a+c) + c/(a+b) and identify its relationship with symmetric inequalities involving homogeneous functions.",
+      "2": "Consider special cases where two variables are equal, such as setting a = b and examining how this affects the expression.",
+      "3": "Apply the AM-HM (Arithmetic Mean-Harmonic Mean) inequality or other relevant inequalities to simplify or find lower bounds for the expression.",
+      "4": "Calculate the expression under optimal conditions derived from inequalities or equalities determined in the previous steps.",
+      "5": "Analyze how permutations of a, b, c affect the expression and if it leads to useful symmetry properties.",
+      "6": "Determine whether applying Cauchy-Schwarz inequality or Jensen's inequality provides insights or a solution pathway.",
+      "7": "Confirm any findings by substituting feasible particular values of a, b, and c into the expression and comparing these outcomes.",
+      "8": "Summarize the computations and reasoning to conclude the smallest value or range of values for the expression."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 5",
+        "Step 6",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the form of the expression \\( \\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b} \\) and identify if there are symmetry properties or inequalities that make simplifications possible.",
+      "Apply known algebraic inequalities or principles (like the AM-GM inequality) to find a lower bound for the expression.",
+      "Check if the expression achieves equality under specific conditions or values.",
+      "Analyze whether simplifications such as substituting variables or using specific tests (like setting \\( a = b = c \\)) help to minimize the expression.",
+      "Determine if rearranging or expressing the terms in a different form simplifies the minimization process.",
+      "Explore the behavior of the expression by considering extreme values or limits for the variables a, b, and c.",
+      "Calculate the precise value or range of values where the minimum of the expression is achieved."
+    ],
+    {
+      "1": "Understand the form of the expression \\( \\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b} \\) and identify if there are symmetry properties or inequalities that make simplifications possible.",
+      "2": "Apply known algebraic inequalities or principles (like the AM-GM inequality) to find a lower bound for the expression.",
+      "3": "Check if the expression achieves equality under specific conditions or values.",
+      "4": "Analyze whether simplifications such as substituting variables or using specific tests (like setting \\( a = b = c \\)) help to minimize the expression.",
+      "5": "Determine if rearranging or expressing the terms in a different form simplifies the minimization process.",
+      "6": "Explore the behavior of the expression by considering extreme values or limits for the variables a, b, and c.",
+      "7": "Calculate the precise value or range of values where the minimum of the expression is achieved."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 6"
+      ],
+      "1": [
+        "Step 2",
+        "Step 4",
+        "Step 5"
+      ],
+      "2": [
+        "Step 3",
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the expression to be minimized and confirm the domain in which the values of a, b, and c must lie.",
+      "Research if there exists a known inequality that can help simplify or bound the expression.",
+      "Examine symmetry properties in the expression and consider possible simplifications by setting two variables equal (e.g., let a = b).",
+      "Apply calculus tools such as taking derivatives to find critical points if applicable, focusing on the behavior of the function as variables vary.",
+      "Evaluate the obtained critical points or simplified expressions either directly or by employing additional mathematical tools like the AM-GM inequality.",
+      "Analyze limiting cases where one or more variables approach zero or become very large compared to the others.",
+      "Verify by testing the expression with known values or special cases to ensure that the minimal value conjectured is indeed correct or reasonable."
+    ],
+    {
+      "1": "Identify the expression to be minimized and confirm the domain in which the values of a, b, and c must lie.",
+      "2": "Research if there exists a known inequality that can help simplify or bound the expression.",
+      "3": "Examine symmetry properties in the expression and consider possible simplifications by setting two variables equal (e.g., let a = b).",
+      "4": "Apply calculus tools such as taking derivatives to find critical points if applicable, focusing on the behavior of the function as variables vary.",
+      "5": "Evaluate the obtained critical points or simplified expressions either directly or by employing additional mathematical tools like the AM-GM inequality.",
+      "6": "Analyze limiting cases where one or more variables approach zero or become very large compared to the others.",
+      "7": "Verify by testing the expression with known values or special cases to ensure that the minimal value conjectured is indeed correct or reasonable."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 6",
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify and state the inequality or principle used to work with expressions that have the form of sums like a/(b+c).",
+      "Consider potential symmetrical cases that simplify the complexity of the expression, such as setting all variables equal to each other (a = b = c).",
+      "Explore how changes in the values of a, b, and c influence the value of the expression a/(b+c) + b/(a+c) + c/(a+b).",
+      "Investigate any applicable inequalities (e.g., AM-GM inequality) to find lower bounds for the expression.",
+      "Calculate or estimate the minimal value assuming any useful transformations or simplifications deduced from the previous steps.",
+      "Determine if specific values for a, b, and c achieve the minimal value suspected from the exploration of inequalities and transformations.",
+      "Confirm the minimal value is robust by testing if small deviations from the potentially optimal values (a, b, c) increase the value of the expression.",
+      "Summarize the findings and conclude with the smallest value achievable for the expression."
+    ],
+    {
+      "1": "Identify and state the inequality or principle used to work with expressions that have the form of sums like a/(b+c).",
+      "2": "Consider potential symmetrical cases that simplify the complexity of the expression, such as setting all variables equal to each other (a = b = c).",
+      "3": "Explore how changes in the values of a, b, and c influence the value of the expression a/(b+c) + b/(a+c) + c/(a+b).",
+      "4": "Investigate any applicable inequalities (e.g., AM-GM inequality) to find lower bounds for the expression.",
+      "5": "Calculate or estimate the minimal value assuming any useful transformations or simplifications deduced from the previous steps.",
+      "6": "Determine if specific values for a, b, and c achieve the minimal value suspected from the exploration of inequalities and transformations.",
+      "7": "Confirm the minimal value is robust by testing if small deviations from the potentially optimal values (a, b, c) increase the value of the expression.",
+      "8": "Summarize the findings and conclude with the smallest value achievable for the expression."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3",
+        "Step 2"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the expression format and its relation to the inequality of arithmetic and harmonic means.",
+      "Set a lower limit guess using simpler symmetrical cases where a = b = c.",
+      "Apply the AM-HM (Arithmetic Mean - Harmonic Mean) inequality to derive an inequality involving a/(b+c), b/(a+c), and c/(a+b).",
+      "Rearrange and simplify the derived inequality to form an expression in terms of a, b, and c.",
+      "Analyze how changes in the values of a, b, and c impact the total expression a/(b+c) + b/(a+c) + c/(a+b).",
+      "Consider extremal principles or calculus to examine potential minimum values and at which values of a, b, c they occur.",
+      "Verify the calculation and critical points by substituting back into the original expression to confirm the minimum value."
+    ],
+    {
+      "1": "Recognize the expression format and its relation to the inequality of arithmetic and harmonic means.",
+      "2": "Set a lower limit guess using simpler symmetrical cases where a = b = c.",
+      "3": "Apply the AM-HM (Arithmetic Mean - Harmonic Mean) inequality to derive an inequality involving a/(b+c), b/(a+c), and c/(a+b).",
+      "4": "Rearrange and simplify the derived inequality to form an expression in terms of a, b, and c.",
+      "5": "Analyze how changes in the values of a, b, and c impact the total expression a/(b+c) + b/(a+c) + c/(a+b).",
+      "6": "Consider extremal principles or calculus to examine potential minimum values and at which values of a, b, c they occur.",
+      "7": "Verify the calculation and critical points by substituting back into the original expression to confirm the minimum value."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the expression for a/(b+c) + b/(a+c) + c/(a+b) using the given variables a, b, and c.",
+      "Consider any inherent symmetries in the expression or simplifications that might apply because the variables a, b, and c are positive numbers.",
+      "Apply the inequality techniques like AM-GM, Cauchy-Schwarz, or Jensen's inequality to estimate or bound the expression.",
+      "Investigate special cases or conditions that might simplify or bind the expression further, such as assuming a = b = c or other ratios between a, b, and c.",
+      "Determine the conditions under which the expression attains its minimum value.",
+      "Verify the solution by substituting the values from step 5 back into the original expression to confirm whether it matches the minimum value found.",
+      "Analyze if there's a need for a proof of uniqueness for the minimum value established."
+    ],
+    {
+      "1": "Define the expression for a/(b+c) + b/(a+c) + c/(a+b) using the given variables a, b, and c.",
+      "2": "Consider any inherent symmetries in the expression or simplifications that might apply because the variables a, b, and c are positive numbers.",
+      "3": "Apply the inequality techniques like AM-GM, Cauchy-Schwarz, or Jensen's inequality to estimate or bound the expression.",
+      "4": "Investigate special cases or conditions that might simplify or bind the expression further, such as assuming a = b = c or other ratios between a, b, and c.",
+      "5": "Determine the conditions under which the expression attains its minimum value.",
+      "6": "Verify the solution by substituting the values from step 5 back into the original expression to confirm whether it matches the minimum value found.",
+      "7": "Analyze if there's a need for a proof of uniqueness for the minimum value established."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the general behavior of the function \\(f(a, b, c) = \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b}\\) with respect to the positivity of the variables a, b, and c.",
+      "Recognize simplifications or transformations of the problem to reduce complexity, such as substituting or equalizing variables.",
+      "Apply inequalities such as the AM-GM (Arithmetic Mean-Geometric Mean) inequality, which might simplify the expression or provide a boundary.",
+      "Investigate the behavior of the function by examining specific cases or by setting \\(a = b = c\\) to find a simpler representation.",
+      "Analyze any derived expressions or simplified results from former steps to infer the global minimum of the function.",
+      "Confirm if any found minimum meets the requirement of the original problem and does not occur at boundary or special conditions invalidating assumptions.",
+      "Determine if there are conditions or restrictions needed on a, b, c beyond positivity to further reduce the search space or complex calculations."
+    ],
+    {
+      "1": "Understand the general behavior of the function \\(f(a, b, c) = \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b}\\) with respect to the positivity of the variables a, b, and c.",
+      "2": "Recognize simplifications or transformations of the problem to reduce complexity, such as substituting or equalizing variables.",
+      "3": "Apply inequalities such as the AM-GM (Arithmetic Mean-Geometric Mean) inequality, which might simplify the expression or provide a boundary.",
+      "4": "Investigate the behavior of the function by examining specific cases or by setting \\(a = b = c\\) to find a simpler representation.",
+      "5": "Analyze any derived expressions or simplified results from former steps to infer the global minimum of the function.",
+      "6": "Confirm if any found minimum meets the requirement of the original problem and does not occur at boundary or special conditions invalidating assumptions.",
+      "7": "Determine if there are conditions or restrictions needed on a, b, c beyond positivity to further reduce the search space or complex calculations."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ]
+]

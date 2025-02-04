@@ -1,0 +1,158 @@
+[
+  [
+    [
+      "Establish the expression in terms of n for which n^3 + 100 is divisible by n + 10.",
+      "Rewrite the equation to look for values of n such that (n^3 + 100) / (n + 10) is an integer.",
+      "Simplify the equation n^3 + 100 = k(n + 10), where k is an integer, to find a relationship between n and k.",
+      "Use polynomial division to simplify n^3 + 100 by n + 10, analyzing the remainder.",
+      "Set conditions under which the remainder from this division is zero, ensuring divisibility.",
+      "Analyze possible integer values of n that satisfy these conditions and ensure n + 10 is a divisor of n^3 + 100.",
+      "Determine the constraints on values of n from the divisibility conditions.",
+      "Identify the maximum integer value of n that meets these conditions."
+    ],
+    {
+      "1": "Establish the expression in terms of n for which n^3 + 100 is divisible by n + 10.",
+      "2": "Rewrite the equation to look for values of n such that (n^3 + 100) / (n + 10) is an integer.",
+      "3": "Simplify the equation n^3 + 100 = k(n + 10), where k is an integer, to find a relationship between n and k.",
+      "4": "Use polynomial division to simplify n^3 + 100 by n + 10, analyzing the remainder.",
+      "5": "Set conditions under which the remainder from this division is zero, ensuring divisibility.",
+      "6": "Analyze possible integer values of n that satisfy these conditions and ensure n + 10 is a divisor of n^3 + 100.",
+      "7": "Determine the constraints on values of n from the divisibility conditions.",
+      "8": "Identify the maximum integer value of n that meets these conditions."
+    }
+  ],
+  [
+    [
+      "Express the divisibility condition \\( n^3 + 100 \\) is divisible by \\( n+10 \\).",
+      "Substitute \\( n = m - 10 \\) into the original equation to change the variable and simplify the expression.",
+      "Expand and simplify the expression resulting from the substitution to obtain a new equation in terms of m.",
+      "Determine the divisibility condition for the new equation by \\( m \\).",
+      "Solve the simpler equation to find values of \\( m \\) for which the condition holds true.",
+      "Convert all valid \\( m \\) values back to \\( n \\) values using the substitution \\( n = m - 10 \\).",
+      "Identify the largest integer \\( n \\) among the solutions."
+    ],
+    {
+      "1": "Express the divisibility condition \\( n^3 + 100 \\) is divisible by \\( n+10 \\).",
+      "2": "Substitute \\( n = m - 10 \\) into the original equation to change the variable and simplify the expression.",
+      "3": "Expand and simplify the expression resulting from the substitution to obtain a new equation in terms of m.",
+      "4": "Determine the divisibility condition for the new equation by \\( m \\).",
+      "5": "Solve the simpler equation to find values of \\( m \\) for which the condition holds true.",
+      "6": "Convert all valid \\( m \\) values back to \\( n \\) values using the substitution \\( n = m - 10 \\).",
+      "7": "Identify the largest integer \\( n \\) among the solutions."
+    }
+  ],
+  [
+    [
+      "Define the condition for divisibility by transforming the expression: What does it mean for \\( n^3 + 100 \\) to be divisible by \\( n + 10 \\)?",
+      "Rewrite \\( n^3 + 100 \\) in terms of \\( n + 10 \\) using polynomial division to identify any remainder.",
+      "Determine the values of \\( n \\) for which the remainder is zero.",
+      "Which of these \\( n \\) values is the largest integer satisfying the condition? Consider practical constraints, such as divisibility or value limits.",
+      "Verify the calculation by substituting back the largest \\( n \\) value into the original divisibility condition.",
+      "Ensure completeness by testing any edge cases or potentially overlooked values of \\( n \\) near the determined largest value.",
+      "Confirm that there are no larger possible values of \\( n \\) by logical or additional mathematical reasoning related to the structure of the equation."
+    ],
+    {
+      "1": "Define the condition for divisibility by transforming the expression: What does it mean for \\( n^3 + 100 \\) to be divisible by \\( n + 10 \\)?",
+      "2": "Rewrite \\( n^3 + 100 \\) in terms of \\( n + 10 \\) using polynomial division to identify any remainder.",
+      "3": "Determine the values of \\( n \\) for which the remainder is zero.",
+      "4": "Which of these \\( n \\) values is the largest integer satisfying the condition? Consider practical constraints, such as divisibility or value limits.",
+      "5": "Verify the calculation by substituting back the largest \\( n \\) value into the original divisibility condition.",
+      "6": "Ensure completeness by testing any edge cases or potentially overlooked values of \\( n \\) near the determined largest value.",
+      "7": "Confirm that there are no larger possible values of \\( n \\) by logical or additional mathematical reasoning related to the structure of the equation."
+    }
+  ],
+  [
+    [
+      "Restate the problem to understand the mathematical operation to be performed. Here, it involves analyzing the condition n^3 + 100 is divisible by n + 10.",
+      "Express the divisibility condition in terms of remainder to translate it into an algebraic equation. This involves setting n^3 + 100 modulo (n + 10) equal to zero.",
+      "Simplify the expression n^3 + 100 to reduce it under the modulus of n + 10. This might involve polynomial long division or manipulating the equation.",
+      "Consider the factors of the simplified expression to identify values of n for which the expression is zero.",
+      "Determine the range of possible values for n, ensuring that n+10 does not result in division by zero.",
+      "Test the set of possible values of n to find the largest integer for which n^3 + 100 is exactly divisible by n + 10.",
+      "Examine and verify the solution to ensure no subtleties or alternate solutions exist."
+    ],
+    {
+      "1": "Restate the problem to understand the mathematical operation to be performed. Here, it involves analyzing the condition n^3 + 100 is divisible by n + 10.",
+      "2": "Express the divisibility condition in terms of remainder to translate it into an algebraic equation. This involves setting n^3 + 100 modulo (n + 10) equal to zero.",
+      "3": "Simplify the expression n^3 + 100 to reduce it under the modulus of n + 10. This might involve polynomial long division or manipulating the equation.",
+      "4": "Consider the factors of the simplified expression to identify values of n for which the expression is zero.",
+      "5": "Determine the range of possible values for n, ensuring that n+10 does not result in division by zero.",
+      "6": "Test the set of possible values of n to find the largest integer for which n^3 + 100 is exactly divisible by n + 10.",
+      "7": "Examine and verify the solution to ensure no subtleties or alternate solutions exist."
+    }
+  ],
+  [
+    [
+      "Express n^3 + 100 in terms of (n+10) to check for divisibility conditions.",
+      "Expand the polynomial expression n^3 + 100 and simplify using the binomial theorem.",
+      "Rewrite the expression n^3 + 100 to include (n+10)k for some integer k and determine the remainder when divided by n+10.",
+      "Set the remainder equal to zero to find a condition that n must satisfy.",
+      "Solve for the integer values of n where n + 10 divides n^3 + 100 exactly.",
+      "Identify the largest integer value of n that meets the divisibility condition."
+    ],
+    {
+      "1": "Express n^3 + 100 in terms of (n+10) to check for divisibility conditions.",
+      "2": "Expand the polynomial expression n^3 + 100 and simplify using the binomial theorem.",
+      "3": "Rewrite the expression n^3 + 100 to include (n+10)k for some integer k and determine the remainder when divided by n+10.",
+      "4": "Set the remainder equal to zero to find a condition that n must satisfy.",
+      "5": "Solve for the integer values of n where n + 10 divides n^3 + 100 exactly.",
+      "6": "Identify the largest integer value of n that meets the divisibility condition."
+    }
+  ],
+  [
+    [
+      "Formulate the condition for divisibility: \\((n^3 + 100)\\) is divisible by \\((n + 10)\\).",
+      "Rewrite the divisibility condition using polynomial division to check if \\((n + 10)\\) is a factor of \\((n^3 + 100)\\).",
+      "Use the remainder theorem to set up an equation with the remainder from the polynomial division.",
+      "Analyze and solve the equation obtained from the remainder theorem for possible values of \\(n\\).",
+      "Determine and verify the largest integer value of \\(n\\) that satisfies the divisibility condition."
+    ],
+    {
+      "1": "Formulate the condition for divisibility: \\((n^3 + 100)\\) is divisible by \\((n + 10)\\).",
+      "2": "Rewrite the divisibility condition using polynomial division to check if \\((n + 10)\\) is a factor of \\((n^3 + 100)\\).",
+      "3": "Use the remainder theorem to set up an equation with the remainder from the polynomial division.",
+      "4": "Analyze and solve the equation obtained from the remainder theorem for possible values of \\(n\\).",
+      "5": "Determine and verify the largest integer value of \\(n\\) that satisfies the divisibility condition."
+    }
+  ],
+  [
+    [
+      "Rewrite the equation n^3 + 100 as divisible by n + 10.",
+      "Substitute n = m - 10 (where m = n + 10) into the modified equation.",
+      "Simplify the equation using the binomial theorem or polynomial expansion.",
+      "Determine the values of m that make the expression (m-10)^3 + 100 divisible by m.",
+      "Identify the values of m for which the divisibility holds true.",
+      "Convert the feasible values of m back to values of n.",
+      "Identify the largest value of n among the feasible options."
+    ],
+    {
+      "1": "Rewrite the equation n^3 + 100 as divisible by n + 10.",
+      "2": "Substitute n = m - 10 (where m = n + 10) into the modified equation.",
+      "3": "Simplify the equation using the binomial theorem or polynomial expansion.",
+      "4": "Determine the values of m that make the expression (m-10)^3 + 100 divisible by m.",
+      "5": "Identify the values of m for which the divisibility holds true.",
+      "6": "Convert the feasible values of m back to values of n.",
+      "7": "Identify the largest value of n among the feasible options."
+    }
+  ],
+  [
+    [
+      "Recognize that for n^3 + 100 to be divisible by n + 10, (n^3 + 100) must equal k(n + 10) for some integer k.",
+      "Rewrite the equation n^3 + 100 = k(n + 10) to simplify the expression.",
+      "Substitute n = -10 into the simplified expression to find if -10 is possibly a root (as this would make n + 10 = 0 and satisfy the divisibility condition).",
+      "Determine the polynomial resulted from the substitution and factorization.",
+      "Analyze the factors of the polynomial to find possible integer values of n where n + 10 divides n^3 + 100.",
+      "Confirm each candidate n by checking if substitution into the original divisibility condition yields a valid integer k.",
+      "Conclude with the largest integer n that satisfies the original condition."
+    ],
+    {
+      "1": "Recognize that for n^3 + 100 to be divisible by n + 10, (n^3 + 100) must equal k(n + 10) for some integer k.",
+      "2": "Rewrite the equation n^3 + 100 = k(n + 10) to simplify the expression.",
+      "3": "Substitute n = -10 into the simplified expression to find if -10 is possibly a root (as this would make n + 10 = 0 and satisfy the divisibility condition).",
+      "4": "Determine the polynomial resulted from the substitution and factorization.",
+      "5": "Analyze the factors of the polynomial to find possible integer values of n where n + 10 divides n^3 + 100.",
+      "6": "Confirm each candidate n by checking if substitution into the original divisibility condition yields a valid integer k.",
+      "7": "Conclude with the largest integer n that satisfies the original condition."
+    }
+  ]
+]

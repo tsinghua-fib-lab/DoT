@@ -1,0 +1,172 @@
+[
+  [
+    [
+      "Determine what the polynomial f(x) looks like when f(x) = 5 at four distinct integers x = a, b, c, d.",
+      "Construct a polynomial g(x) from f(x) such that g(x) = f(x) - 5, and identify the roots and degree of g(x).",
+      "Analyze g(x) to understand its properties and the conditions under which f(x) can also take the value 8.",
+      "Set up the equation for h(x) = f(x) - 8 and identify the difference between the polynomials g(x) and h(x).",
+      "Determine the number of roots the equation h(x) = 0 can have based on the degree of the polynomial and the given information about g(x).",
+      "Consider the possible degrees of f(x) and how this affects the degree of h(x).",
+      "Discuss any theorems or principles that restrict the number of integer solutions h(x) = 0 can have, such as the Integer Root theorem.",
+      "Summarize the findings and establish an upper bound for the number of integer values k for which f(k) = 8 based on the preceding analysis."
+    ],
+    {
+      "1": "Determine what the polynomial f(x) looks like when f(x) = 5 at four distinct integers x = a, b, c, d.",
+      "2": "Construct a polynomial g(x) from f(x) such that g(x) = f(x) - 5, and identify the roots and degree of g(x).",
+      "3": "Analyze g(x) to understand its properties and the conditions under which f(x) can also take the value 8.",
+      "4": "Set up the equation for h(x) = f(x) - 8 and identify the difference between the polynomials g(x) and h(x).",
+      "5": "Determine the number of roots the equation h(x) = 0 can have based on the degree of the polynomial and the given information about g(x).",
+      "6": "Consider the possible degrees of f(x) and how this affects the degree of h(x).",
+      "7": "Discuss any theorems or principles that restrict the number of integer solutions h(x) = 0 can have, such as the Integer Root theorem.",
+      "8": "Summarize the findings and establish an upper bound for the number of integer values k for which f(k) = 8 based on the preceding analysis."
+    }
+  ],
+  [
+    [
+      "Consider the polynomial function f(x) and the given points at which f(x)=5. How do these points relate to the coefficients of f(x)?",
+      "Write a new polynomial g(x) such that g(x) = f(x) - 5, and identify its roots.",
+      "Determine the degree of polynomial g(x).",
+      "Explore the constraints on the values of g(x) at integers other than a, b, c, d such that f(x)=8. Define a new relationship for these constraints.",
+      "Formulate a new polynomial h(x) = g(x) - 3 and find conditions under which its integer solutions occur.",
+      "Analyze how the degree of the polynomial g(x) limits the number of roots for polynomial h(x).",
+      "Calculate the potential maximum number of integer roots of h(x) using its degree."
+    ],
+    {
+      "1": "Consider the polynomial function f(x) and the given points at which f(x)=5. How do these points relate to the coefficients of f(x)?",
+      "2": "Write a new polynomial g(x) such that g(x) = f(x) - 5, and identify its roots.",
+      "3": "Determine the degree of polynomial g(x).",
+      "4": "Explore the constraints on the values of g(x) at integers other than a, b, c, d such that f(x)=8. Define a new relationship for these constraints.",
+      "5": "Formulate a new polynomial h(x) = g(x) - 3 and find conditions under which its integer solutions occur.",
+      "6": "Analyze how the degree of the polynomial g(x) limits the number of roots for polynomial h(x).",
+      "7": "Calculate the potential maximum number of integer roots of h(x) using its degree."
+    }
+  ],
+  [
+    [
+      "Determine the form of the polynomial g(x) = f(x) - 5.",
+      "Analyze the roots of g(x) = 0 given that g(x) is zero at x = a, b, c, and d.",
+      "Conclude the minimum possible degree of the polynomial g(x) based on its roots.",
+      "Define a new polynomial h(x) = f(x) - 8 and relate it to g(x).",
+      "Identify the number of integer roots h(x) = 0 can have based on the structure of g(x).",
+      "Calculate the number of distinct integer values k such that f(k) = 8.",
+      "Conclude the maximum number of such k values based on the degree of f(x)."
+    ],
+    {
+      "1": "Determine the form of the polynomial g(x) = f(x) - 5.",
+      "2": "Analyze the roots of g(x) = 0 given that g(x) is zero at x = a, b, c, and d.",
+      "3": "Conclude the minimum possible degree of the polynomial g(x) based on its roots.",
+      "4": "Define a new polynomial h(x) = f(x) - 8 and relate it to g(x).",
+      "5": "Identify the number of integer roots h(x) = 0 can have based on the structure of g(x).",
+      "6": "Calculate the number of distinct integer values k such that f(k) = 8.",
+      "7": "Conclude the maximum number of such k values based on the degree of f(x)."
+    }
+  ],
+  [
+    [
+      "Understand the given conditions: f(x) is a polynomial with integer coefficients and f(x)=5 at x=a, b, c, d.",
+      "Recognize what it means for a polynomial to have a value of 5 at four distinct integer points — a, b, c, d.",
+      "Determine the minimum degree of the polynomial given that it has at least four roots.",
+      "Formulate a new polynomial g(x) = f(x) - 5, and determine its roots and factors.",
+      "Consider the effect of the polynomial g(x) having specific roots a, b, c, and d.",
+      "Consider any additional factors g(x) might have beyond (x-a)(x-b)(x-c)(x-d).",
+      "Examine what values g(x) will have when f(x) is set to 8, thus forming a new polynomial h(x)=g(x)-3.",
+      "Analyze the roots and possible values of h(x).",
+      "Calculate how many integer roots h(x) could potentially have based on its degree and known roots.",
+      "Summarise the possibility and constraints on k, for which f(k)=8, based on the behavior of h(x)."
+    ],
+    {
+      "1": "Understand the given conditions: f(x) is a polynomial with integer coefficients and f(x)=5 at x=a, b, c, d.",
+      "2": "Recognize what it means for a polynomial to have a value of 5 at four distinct integer points — a, b, c, d.",
+      "3": "Determine the minimum degree of the polynomial given that it has at least four roots.",
+      "4": "Formulate a new polynomial g(x) = f(x) - 5, and determine its roots and factors.",
+      "5": "Consider the effect of the polynomial g(x) having specific roots a, b, c, and d.",
+      "6": "Consider any additional factors g(x) might have beyond (x-a)(x-b)(x-c)(x-d).",
+      "7": "Examine what values g(x) will have when f(x) is set to 8, thus forming a new polynomial h(x)=g(x)-3.",
+      "8": "Analyze the roots and possible values of h(x).",
+      "9": "Calculate how many integer roots h(x) could potentially have based on its degree and known roots.",
+      "10": "Summarise the possibility and constraints on k, for which f(k)=8, based on the behavior of h(x)."
+    }
+  ],
+  [
+    [
+      "Determine the form of the polynomial f(x) using the fact that f(x) = 5 at four distinct integers x = a, b, c, d.",
+      "Express the difference between f(x) and 5, say g(x), which should have roots at x = a, b, c, d.",
+      "Determine the general form and degree of g(x) given it has roots at x = a, b, c, d.",
+      "Study the possibility of f(x) = 8, in other words, set g(x) = 3 (since f(x) = 5 + g(x) and solve for g(x) = 8 - 5).",
+      "Analyze how the degree of g(x) impacts the number of roots/values k where g(k) = 3.",
+      "Evaluate at most how many distinct integer values of k can satisfy the equation g(k) = 3, assuming the degree and leading coefficient of the polynomial g(x).",
+      "Summarize the findings to state the maximum number of integer roots possible for g(k) = 3 based on polynomial degree n.",
+      "Discuss the relevance of continuity and the integer coefficients constraint in concluding the maximum possible number of solutions k."
+    ],
+    {
+      "1": "Determine the form of the polynomial f(x) using the fact that f(x) = 5 at four distinct integers x = a, b, c, d.",
+      "2": "Express the difference between f(x) and 5, say g(x), which should have roots at x = a, b, c, d.",
+      "3": "Determine the general form and degree of g(x) given it has roots at x = a, b, c, d.",
+      "4": "Study the possibility of f(x) = 8, in other words, set g(x) = 3 (since f(x) = 5 + g(x) and solve for g(x) = 8 - 5).",
+      "5": "Analyze how the degree of g(x) impacts the number of roots/values k where g(k) = 3.",
+      "6": "Evaluate at most how many distinct integer values of k can satisfy the equation g(k) = 3, assuming the degree and leading coefficient of the polynomial g(x).",
+      "7": "Summarize the findings to state the maximum number of integer roots possible for g(k) = 3 based on polynomial degree n.",
+      "8": "Discuss the relevance of continuity and the integer coefficients constraint in concluding the maximum possible number of solutions k."
+    }
+  ],
+  [
+    [
+      "Define the polynomial \\( g(x) = f(x) - 5 \\), which has roots at \\( x = a, b, c, d \\).",
+      "Analyze the degree of \\( g(x) \\) given that it has these four roots.",
+      "Determine how \\( g(x) \\) being zero at four points affects the formulation of \\( f(x) \\).",
+      "Calculate the polynomial \\( h(x) \\), defined by \\( h(x) = f(x) - 8 \\).",
+      "Explore the relationship and possible degree of \\( h(x) \\), knowing \\( f(x) \\) and its roots.",
+      "Identify the possible roots of \\( h(x) = 0 \\) and their characteristics.",
+      "Determine the conditions under which these roots are integers.",
+      "Calculate or estimate the maximum number of integer values \\( k \\) such that \\( h(k) = 0 \\), given the degree \\( n \\) of \\( f(x) \\)."
+    ],
+    {
+      "1": "Define the polynomial \\( g(x) = f(x) - 5 \\), which has roots at \\( x = a, b, c, d \\).",
+      "2": "Analyze the degree of \\( g(x) \\) given that it has these four roots.",
+      "3": "Determine how \\( g(x) \\) being zero at four points affects the formulation of \\( f(x) \\).",
+      "4": "Calculate the polynomial \\( h(x) \\), defined by \\( h(x) = f(x) - 8 \\).",
+      "5": "Explore the relationship and possible degree of \\( h(x) \\), knowing \\( f(x) \\) and its roots.",
+      "6": "Identify the possible roots of \\( h(x) = 0 \\) and their characteristics.",
+      "7": "Determine the conditions under which these roots are integers.",
+      "8": "Calculate or estimate the maximum number of integer values \\( k \\) such that \\( h(k) = 0 \\), given the degree \\( n \\) of \\( f(x) \\)."
+    }
+  ],
+  [
+    [
+      "Identify the properties of the polynomial \\( g(x) = f(x) - 5 \\).",
+      "Determine the roots of the polynomial \\( g(x) \\) given that \\( g(a) = g(b) = g(c) = g(d) = 0 \\).",
+      "Analyze the degree of the polynomial \\( f(x) \\) and how it relates to \\( g(x) \\).",
+      "Define a new polynomial \\( h(x) = f(x) - 8 \\) and determine its roots.",
+      "Connect the roots of \\( h(x) \\) and \\( g(x) \\) to find all possible integer values \\( k \\) such that \\( f(k) = 8 \\).",
+      "Compute or estimate the maximum number of distinct integer solutions \\( k \\) given the constraints on the polynomial \\( f(x) \\) and its degree \\( n \\)."
+    ],
+    {
+      "1": "Identify the properties of the polynomial \\( g(x) = f(x) - 5 \\).",
+      "2": "Determine the roots of the polynomial \\( g(x) \\) given that \\( g(a) = g(b) = g(c) = g(d) = 0 \\).",
+      "3": "Analyze the degree of the polynomial \\( f(x) \\) and how it relates to \\( g(x) \\).",
+      "4": "Define a new polynomial \\( h(x) = f(x) - 8 \\) and determine its roots.",
+      "5": "Connect the roots of \\( h(x) \\) and \\( g(x) \\) to find all possible integer values \\( k \\) such that \\( f(k) = 8 \\).",
+      "6": "Compute or estimate the maximum number of distinct integer solutions \\( k \\) given the constraints on the polynomial \\( f(x) \\) and its degree \\( n \\)."
+    }
+  ],
+  [
+    [
+      "What is the polynomial g(x) defined by the polynomial f(x) - 5?",
+      "Establish the properties of the polynomial g(x) given that it equals 0 when x is a, b, c, or d.",
+      "Identify the potential form and degree of g(x) knowing it has roots a, b, c, and d.",
+      "Define a new polynomial h(x) as f(x) - 8, and express h(x) in terms of g(x).",
+      "Investigate the equation g(x) = 3 and identify conditions under which this equation can have integer solutions.",
+      "Determine the number of distinct integer roots h(x) = 0 can have, using properties of polynomial roots and their relation to the coefficients.",
+      "Confirm the degree n of the original polynomial f(x) and assess how it impacts the maximum number of possible integer roots for the equation g(x) = 3."
+    ],
+    {
+      "1": "What is the polynomial g(x) defined by the polynomial f(x) - 5?",
+      "2": "Establish the properties of the polynomial g(x) given that it equals 0 when x is a, b, c, or d.",
+      "3": "Identify the potential form and degree of g(x) knowing it has roots a, b, c, and d.",
+      "4": "Define a new polynomial h(x) as f(x) - 8, and express h(x) in terms of g(x).",
+      "5": "Investigate the equation g(x) = 3 and identify conditions under which this equation can have integer solutions.",
+      "6": "Determine the number of distinct integer roots h(x) = 0 can have, using properties of polynomial roots and their relation to the coefficients.",
+      "7": "Confirm the degree n of the original polynomial f(x) and assess how it impacts the maximum number of possible integer roots for the equation g(x) = 3."
+    }
+  ]
+]

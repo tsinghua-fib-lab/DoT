@@ -1,0 +1,1575 @@
+[
+  [
+    [
+      "What constraints do a, b, and c need to satisfy to be side lengths of a triangle?",
+      "Verify the condition based on the triangle inequality theorem for side lengths a, b, and c.",
+      "What mathematical property or inequality can be used to analyze the expression \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\)?",
+      "Identify possible symmetry or transformations that might simplify the analysis of the given expression.",
+      "Determine possible maximum values of each individual term or find a pattern to guess the maximum value of their sum.",
+      "Use algebraic manipulation or calculus (finding derivatives and critical points) to find and verify the maximum of the expression.",
+      "Confirm if the obtained solution for the maximum satisfies the triangle inequality and other applicable constraints."
+    ],
+    {
+      "1": "What constraints do a, b, and c need to satisfy to be side lengths of a triangle?",
+      "2": "Verify the condition based on the triangle inequality theorem for side lengths a, b, and c.",
+      "3": "What mathematical property or inequality can be used to analyze the expression \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\)?",
+      "4": "Identify possible symmetry or transformations that might simplify the analysis of the given expression.",
+      "5": "Determine possible maximum values of each individual term or find a pattern to guess the maximum value of their sum.",
+      "6": "Use algebraic manipulation or calculus (finding derivatives and critical points) to find and verify the maximum of the expression.",
+      "7": "Confirm if the obtained solution for the maximum satisfies the triangle inequality and other applicable constraints."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3",
+        "Step 4"
+      ],
+      "1": [
+        "Step 2",
+        "Step 5"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the conditions that a, b, and c must satisfy for them to be the side lengths of a (possibly degenerate) triangle.",
+      "Understand the mathematical expression given: \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) and identify its constraints based on triangle properties.",
+      "Reformulate the expression as needed to simplify analysis or apply known inequalities.",
+      "Search for extremum values (maximums or minimums) of the expression under the constraints set by the triangle inequality.",
+      "Explore special cases where values of a, b, and c yield simplifications of the expression (e.g., when two sides are equal or one side equals the sum of the other two).",
+      "Employ algebraic manipulation or inequalities (such as AM-GM inequality, Cauchy-Schwarz inequality) to derive bounds for the expression.",
+      "Verify if potential maximum values found meet all initial conditions laid down by the triangle inequality and other identified constraints.",
+      "Conclude the largest possible value of \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) or establish that it occurs under specific scenarios or triangle configurations."
+    ],
+    {
+      "1": "Determine the conditions that a, b, and c must satisfy for them to be the side lengths of a (possibly degenerate) triangle.",
+      "2": "Understand the mathematical expression given: \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) and identify its constraints based on triangle properties.",
+      "3": "Reformulate the expression as needed to simplify analysis or apply known inequalities.",
+      "4": "Search for extremum values (maximums or minimums) of the expression under the constraints set by the triangle inequality.",
+      "5": "Explore special cases where values of a, b, and c yield simplifications of the expression (e.g., when two sides are equal or one side equals the sum of the other two).",
+      "6": "Employ algebraic manipulation or inequalities (such as AM-GM inequality, Cauchy-Schwarz inequality) to derive bounds for the expression.",
+      "7": "Verify if potential maximum values found meet all initial conditions laid down by the triangle inequality and other identified constraints.",
+      "8": "Conclude the largest possible value of \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) or establish that it occurs under specific scenarios or triangle configurations."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5",
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "What are the triangle inequalities involving the sides a, b, and c?",
+      "Establish the function to be maximized, namely f(a, b, c) = a/(b+c) + b/(a+c) + c/(a+b).",
+      "Determine whether function f is well-defined for all non-negative values of a, b, and c that satisfy the triangle inequalities.",
+      "Identify any patterns or symmetry properties of the function that might simplify the analysis or optimization.",
+      "Analyze the behavior of the function as one or more of the variables approach zero.",
+      "Consider special cases where at least two variables are equal, i.e., a=b, b=c, or a=c.",
+      "Apply mathematical techniques such as the use of derivatives to find critical points or the use of inequalities such as the Arithmetic Mean-Geometric Mean Inequality if applicable.",
+      "Discuss the behavior of the function at the boundaries of the domain defined by the triangle inequality.",
+      "Determine the maximum value of the function, or argue if no absolute maximum exists within the range allowed by the triangle inequalities.",
+      "Verify the solution through a specific example or by mathematical proof, confirming that the inequalities and computations are satisfied."
+    ],
+    {
+      "1": "What are the triangle inequalities involving the sides a, b, and c?",
+      "2": "Establish the function to be maximized, namely f(a, b, c) = a/(b+c) + b/(a+c) + c/(a+b).",
+      "3": "Determine whether function f is well-defined for all non-negative values of a, b, and c that satisfy the triangle inequalities.",
+      "4": "Identify any patterns or symmetry properties of the function that might simplify the analysis or optimization.",
+      "5": "Analyze the behavior of the function as one or more of the variables approach zero.",
+      "6": "Consider special cases where at least two variables are equal, i.e., a=b, b=c, or a=c.",
+      "7": "Apply mathematical techniques such as the use of derivatives to find critical points or the use of inequalities such as the Arithmetic Mean-Geometric Mean Inequality if applicable.",
+      "8": "Discuss the behavior of the function at the boundaries of the domain defined by the triangle inequality.",
+      "9": "Determine the maximum value of the function, or argue if no absolute maximum exists within the range allowed by the triangle inequalities.",
+      "10": "Verify the solution through a specific example or by mathematical proof, confirming that the inequalities and computations are satisfied."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 8",
+        "Step 4",
+        "Step 3",
+        "Step 6",
+        "Step 5"
+      ],
+      "2": [
+        "Step 7"
+      ],
+      "3": [
+        "Step 9"
+      ],
+      "4": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify and understand the inequality a, b, and c must satisfy in order to form a triangle, known as the triangle inequality.",
+      "Assume initial cases, such as equal or distinct values among a, b, and c, to analyze simpler scenarios first.",
+      "Define the function f(a, b, c) = a/(b+c) + b/(a+c) + c/(a+b) and explore its properties, such as symmetry and behavior under various transformations of a, b, and c.",
+      "Use calculus to find the critical points of the function f(a, b, c) on the domain constrained by the triangle inequality.",
+      "Determine whether the calculated critical points provide a maximum or minimum value of the function or if additional analysis or edge cases need to be considered.",
+      "Investigate any possible constraints or simplifications that can arise when a, b, or c approaches zero or other specific values.",
+      "Derive the maximum value of the function from the obtained results or analyze additional cases if the previous results are inconclusive."
+    ],
+    {
+      "1": "Identify and understand the inequality a, b, and c must satisfy in order to form a triangle, known as the triangle inequality.",
+      "2": "Assume initial cases, such as equal or distinct values among a, b, and c, to analyze simpler scenarios first.",
+      "3": "Define the function f(a, b, c) = a/(b+c) + b/(a+c) + c/(a+b) and explore its properties, such as symmetry and behavior under various transformations of a, b, and c.",
+      "4": "Use calculus to find the critical points of the function f(a, b, c) on the domain constrained by the triangle inequality.",
+      "5": "Determine whether the calculated critical points provide a maximum or minimum value of the function or if additional analysis or edge cases need to be considered.",
+      "6": "Investigate any possible constraints or simplifications that can arise when a, b, or c approaches zero or other specific values.",
+      "7": "Derive the maximum value of the function from the obtained results or analyze additional cases if the previous results are inconclusive."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 6",
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify and define the properties of a triangle involving its side lengths.",
+      "Express the inequality condition necessary for \\(a\\), \\(b\\), and \\(c\\) to be side lengths of a triangle.",
+      "Formulate the expression \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) and explore its behavior as the side lengths change under the triangle inequality constraint.",
+      "Determine the conditions under which the expression reaches its maximum value, considering the triangle inequality.",
+      "Apply algebraic or calculus tools to optimize the expression and find the maximum value.",
+      "Check if any degenerate (where one side length is zero) or specific cases (like equilateral triangle) give larger values and compare with the optimal value found.",
+      "Conclude with the maximum possible value of the expression for a (possibly degenerate) triangle.",
+      "Ensure the solution's validity by testing with specific triangle examples and compare results with the theoretical maximum."
+    ],
+    {
+      "1": "Identify and define the properties of a triangle involving its side lengths.",
+      "2": "Express the inequality condition necessary for \\(a\\), \\(b\\), and \\(c\\) to be side lengths of a triangle.",
+      "3": "Formulate the expression \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) and explore its behavior as the side lengths change under the triangle inequality constraint.",
+      "4": "Determine the conditions under which the expression reaches its maximum value, considering the triangle inequality.",
+      "5": "Apply algebraic or calculus tools to optimize the expression and find the maximum value.",
+      "6": "Check if any degenerate (where one side length is zero) or specific cases (like equilateral triangle) give larger values and compare with the optimal value found.",
+      "7": "Conclude with the maximum possible value of the expression for a (possibly degenerate) triangle.",
+      "8": "Ensure the solution's validity by testing with specific triangle examples and compare results with the theoretical maximum."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand and define the degeneracy conditions of a triangle with side lengths a, b, and c.",
+      "Analyze the expression a/(b+c) + b/(a+c) + c/(a+b) and identify under what conditions the triangle inequality applies.",
+      "Explore the behavior of the expression when a, b, and c are varied while still satisfying the triangle inequality.",
+      "Investigate any possible symmetrical properties or substitutions that may simplify the expression or its optimization.",
+      "Determine the theoretical maximum or bounds for the expression a/(b+c) + b/(a+c) + c/(a+b) possibly using calculus for optimization or an analytical approach.",
+      "Verify the solution through substitution test values to see if the theoretical maximum meets those values under the triangle's constraints."
+    ],
+    {
+      "1": "Understand and define the degeneracy conditions of a triangle with side lengths a, b, and c.",
+      "2": "Analyze the expression a/(b+c) + b/(a+c) + c/(a+b) and identify under what conditions the triangle inequality applies.",
+      "3": "Explore the behavior of the expression when a, b, and c are varied while still satisfying the triangle inequality.",
+      "4": "Investigate any possible symmetrical properties or substitutions that may simplify the expression or its optimization.",
+      "5": "Determine the theoretical maximum or bounds for the expression a/(b+c) + b/(a+c) + c/(a+b) possibly using calculus for optimization or an analytical approach.",
+      "6": "Verify the solution through substitution test values to see if the theoretical maximum meets those values under the triangle's constraints."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Review the triangle inequality condition to ensure the values provided can form a triangle.",
+      "Establish if there are constraints on the values of a, b, and c (such as being non-negative integers).",
+      "Express the quantity a/(b+c) + b/(a+c) + c/(a+b) in a form that could simplify the analysis or comparison.",
+      "Investigate if there is symmetry or a scenario where the values of a, b, and c can be adjusted while maintaining the validity of a triangle (e.g., testing the behavior when two sides are equal or when one side is much larger than the others).",
+      "Utilize algebraic or calculus tools to maximize the expression a/(b+c) + b/(a+c) + c/(a+b), possibly involving differentiation or critical point analysis if applicable.",
+      "Consider any special or edge cases that might influence the maximum value (such as degenerate triangles where one side length approaches zero).",
+      "Determine if a numerical approach or examples can aid in finding an upper bound for the expression.",
+      "Apply any relevant inequalities from geometric or algebraic principles to bound the expression further.",
+      "Conclude if there exists an upper limit to the expression, and summarize the findings."
+    ],
+    {
+      "1": "Review the triangle inequality condition to ensure the values provided can form a triangle.",
+      "2": "Establish if there are constraints on the values of a, b, and c (such as being non-negative integers).",
+      "3": "Express the quantity a/(b+c) + b/(a+c) + c/(a+b) in a form that could simplify the analysis or comparison.",
+      "4": "Investigate if there is symmetry or a scenario where the values of a, b, and c can be adjusted while maintaining the validity of a triangle (e.g., testing the behavior when two sides are equal or when one side is much larger than the others).",
+      "5": "Utilize algebraic or calculus tools to maximize the expression a/(b+c) + b/(a+c) + c/(a+b), possibly involving differentiation or critical point analysis if applicable.",
+      "6": "Consider any special or edge cases that might influence the maximum value (such as degenerate triangles where one side length approaches zero).",
+      "7": "Determine if a numerical approach or examples can aid in finding an upper bound for the expression.",
+      "8": "Apply any relevant inequalities from geometric or algebraic principles to bound the expression further.",
+      "9": "Conclude if there exists an upper limit to the expression, and summarize the findings."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3",
+        "Step 4"
+      ],
+      "2": [
+        "Step 6",
+        "Step 5"
+      ],
+      "3": [
+        "Step 7",
+        "Step 8"
+      ],
+      "4": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Establish the inequality conditions for a, b, and c to form a triangle, known as the triangle inequality.",
+      "Identify the expression we need to maximize, which is a/(b+c) + b/(a+c) + c/(a+b).",
+      "Investigate properties of a, b, and c that might simplify the problem, such as symmetry or assigning specific values.",
+      "Set up the expression under constraints (like assuming a ≥ b ≥ c or c = a + b - ε for small ε).",
+      "Use calculus tools such as derivatives to find critical points or investigate limiting behaviors of the expression.",
+      "Ensure that any solutions found also satisfy the triangle inequality.",
+      "Investigate if the sum of the fractions can exceed 1 and under which conditions.",
+      "Consider extremal cases where the value of one variable is much larger than the others.",
+      "Use inequality tools (such as AM-HM inequality or Jensen's inequality) to potentially establish upper bounds for the expression.",
+      "Review results from steps 5 to 9 to find the maximum value allowed by these constraints."
+    ],
+    {
+      "1": "Establish the inequality conditions for a, b, and c to form a triangle, known as the triangle inequality.",
+      "2": "Identify the expression we need to maximize, which is a/(b+c) + b/(a+c) + c/(a+b).",
+      "3": "Investigate properties of a, b, and c that might simplify the problem, such as symmetry or assigning specific values.",
+      "4": "Set up the expression under constraints (like assuming a ≥ b ≥ c or c = a + b - ε for small ε).",
+      "5": "Use calculus tools such as derivatives to find critical points or investigate limiting behaviors of the expression.",
+      "6": "Ensure that any solutions found also satisfy the triangle inequality.",
+      "7": "Investigate if the sum of the fractions can exceed 1 and under which conditions.",
+      "8": "Consider extremal cases where the value of one variable is much larger than the others.",
+      "9": "Use inequality tools (such as AM-HM inequality or Jensen's inequality) to potentially establish upper bounds for the expression.",
+      "10": "Review results from steps 5 to 9 to find the maximum value allowed by these constraints."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 9"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 8",
+        "Step 5"
+      ],
+      "5": [
+        "Step 6",
+        "Step 7"
+      ],
+      "6": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Review and understand the triangle inequality theorem which states the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.",
+      "Identify and record the constraints from the inequality theorem that apply to each fraction: a/(b+c), b/(a+c), and c/(a+b).",
+      "Simplify the expression a/(b+c) + b/(a+c) + c/(a+b) and identify how variations in values of a, b, and c affect this sum.",
+      "Consider the boundary cases where one value of a, b, or c is much larger than the others or where values approach zero, ensuring the triangle still meets the inequality criteria.",
+      "Determine if there is a general method to maximize the sum such as fixing two variables and varying the third, or using symmetry.",
+      "Explore using differentiation to locate maxima in terms of a, b, and c independently if necessary.",
+      "Analyze the behavior of the function graphically or through plots if possible to visually confirm the theoretical results.",
+      "Summarize the findings and determine the specific conditions or values of a, b, and c that maximize the sum under the given constraints."
+    ],
+    {
+      "1": "Review and understand the triangle inequality theorem which states the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.",
+      "2": "Identify and record the constraints from the inequality theorem that apply to each fraction: a/(b+c), b/(a+c), and c/(a+b).",
+      "3": "Simplify the expression a/(b+c) + b/(a+c) + c/(a+b) and identify how variations in values of a, b, and c affect this sum.",
+      "4": "Consider the boundary cases where one value of a, b, or c is much larger than the others or where values approach zero, ensuring the triangle still meets the inequality criteria.",
+      "5": "Determine if there is a general method to maximize the sum such as fixing two variables and varying the third, or using symmetry.",
+      "6": "Explore using differentiation to locate maxima in terms of a, b, and c independently if necessary.",
+      "7": "Analyze the behavior of the function graphically or through plots if possible to visually confirm the theoretical results.",
+      "8": "Summarize the findings and determine the specific conditions or values of a, b, and c that maximize the sum under the given constraints."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand and define the conditions a, b, c must satisfy to form the sides of a triangle (Triangle Inequality Theorem).",
+      "Analyze the identity of a triangle if any of the side lengths is zero (degenerate case).",
+      "Represent the expression a/(b+c) + b/(a+c) + c/(a+b) algebraically.",
+      "Determine whether the expression can be simplified or if an inequality can be applied.",
+      "Explore if there exists an inequality relevant to expressions involving sums of ratios of sides of a triangle.",
+      "Apply the obtained inequality, if any, to identify the possible maximum or evaluate the expression assuming different proportional relations among a, b, and c.",
+      "Consider specific examples (like equilateral triangle) to test calculated possibilities or limits."
+    ],
+    {
+      "1": "Understand and define the conditions a, b, c must satisfy to form the sides of a triangle (Triangle Inequality Theorem).",
+      "2": "Analyze the identity of a triangle if any of the side lengths is zero (degenerate case).",
+      "3": "Represent the expression a/(b+c) + b/(a+c) + c/(a+b) algebraically.",
+      "4": "Determine whether the expression can be simplified or if an inequality can be applied.",
+      "5": "Explore if there exists an inequality relevant to expressions involving sums of ratios of sides of a triangle.",
+      "6": "Apply the obtained inequality, if any, to identify the possible maximum or evaluate the expression assuming different proportional relations among a, b, and c.",
+      "7": "Consider specific examples (like equilateral triangle) to test calculated possibilities or limits."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Analyze the expression a/(b+c) + b/(a+c) + c/(a+b) in the context of triangle inequality: b + c > a, c + a > b, a + b > c.",
+      "Consider cases where one side tends to be much larger than the other two, and check whether this maximizes or minimizes the value of the expression.",
+      "Discuss the impact of making two sides equal (such as setting a = b, b = c, etc.) on the expression to simplify and possibly optimize the sum.",
+      "Use algebraic manipulation techniques to simplify or rearrange the expression.",
+      "Apply known inequalities (like the AM-GM inequality or Cauchy-Schwarz inequality) to derive bounds for the expression.",
+      "Examine possible extremal cases where the value of the expression reaches its maximum under the side-length constraints.",
+      "Reason whether the obtained maximum value can be achieved with real values of a, b, and c, considering the constraints of a triangle."
+    ],
+    {
+      "1": "Analyze the expression a/(b+c) + b/(a+c) + c/(a+b) in the context of triangle inequality: b + c > a, c + a > b, a + b > c.",
+      "2": "Consider cases where one side tends to be much larger than the other two, and check whether this maximizes or minimizes the value of the expression.",
+      "3": "Discuss the impact of making two sides equal (such as setting a = b, b = c, etc.) on the expression to simplify and possibly optimize the sum.",
+      "4": "Use algebraic manipulation techniques to simplify or rearrange the expression.",
+      "5": "Apply known inequalities (like the AM-GM inequality or Cauchy-Schwarz inequality) to derive bounds for the expression.",
+      "6": "Examine possible extremal cases where the value of the expression reaches its maximum under the side-length constraints.",
+      "7": "Reason whether the obtained maximum value can be achieved with real values of a, b, and c, considering the constraints of a triangle."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand and apply the triangle inequality theorem, which states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.",
+      "Establish whether there are special cases to consider such as when one of the side lengths approaches zero, turning it into a degenerate triangle.",
+      "Use a theoretical approach, such as calculus, to maximize the expression a/(b+c) + b/(a+c) + c/(a+b), considering the conditions given by the triangle inequality.",
+      "Identify necessary mathematical tools or derivations needed, such as solving a system of equations or using derivatives to identify maximum or minimum values.",
+      "Evaluate if there is an upper bound or limiting value for the expression as one or more variables increase unboundedly.",
+      "Consider symmetry and other properties of the expression that might simplify computation or provide insights into its behavior."
+    ],
+    {
+      "1": "Understand and apply the triangle inequality theorem, which states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.",
+      "2": "Establish whether there are special cases to consider such as when one of the side lengths approaches zero, turning it into a degenerate triangle.",
+      "3": "Use a theoretical approach, such as calculus, to maximize the expression a/(b+c) + b/(a+c) + c/(a+b), considering the conditions given by the triangle inequality.",
+      "4": "Identify necessary mathematical tools or derivations needed, such as solving a system of equations or using derivatives to identify maximum or minimum values.",
+      "5": "Evaluate if there is an upper bound or limiting value for the expression as one or more variables increase unboundedly.",
+      "6": "Consider symmetry and other properties of the expression that might simplify computation or provide insights into its behavior."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4",
+        "Step 6"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Consider what conditions a, b, c must satisfy to be the side lengths of a triangle.",
+      "Analyze the given expression a/(b+c)+b/(a+c)+c/(a+b) in terms of its components.",
+      "Express each term as a function of the other two terms to search for relationships and dependencies.",
+      "Investigate scenarios where the values of a, b, and c could be equal or disproportionate.",
+      "Determine if there are specific ratios or configurations of a, b, and c that will maximize the expression.",
+      "Check edge cases where one or more of the side lengths approach zero.",
+      "Examine any mathematical inequalities or principles (like the triangle inequality or AM-GM inequality) that could guide the analysis.",
+      "Synthesize findings into a conjecture or hypothesis for the maximum value.",
+      "Prove or disprove the hypothesis through mathematical reasoning or calculation.",
+      "Conclude with a statement of the maximum value or conditions under which the maximum value is achieved."
+    ],
+    {
+      "1": "Consider what conditions a, b, c must satisfy to be the side lengths of a triangle.",
+      "2": "Analyze the given expression a/(b+c)+b/(a+c)+c/(a+b) in terms of its components.",
+      "3": "Express each term as a function of the other two terms to search for relationships and dependencies.",
+      "4": "Investigate scenarios where the values of a, b, and c could be equal or disproportionate.",
+      "5": "Determine if there are specific ratios or configurations of a, b, and c that will maximize the expression.",
+      "6": "Check edge cases where one or more of the side lengths approach zero.",
+      "7": "Examine any mathematical inequalities or principles (like the triangle inequality or AM-GM inequality) that could guide the analysis.",
+      "8": "Synthesize findings into a conjecture or hypothesis for the maximum value.",
+      "9": "Prove or disprove the hypothesis through mathematical reasoning or calculation.",
+      "10": "Conclude with a statement of the maximum value or conditions under which the maximum value is achieved."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 7",
+        "Step 2"
+      ],
+      "2": [
+        "Step 6",
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 8"
+      ],
+      "6": [
+        "Step 9"
+      ],
+      "7": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Analyze the domain of the function \\( f(a, b, c) = \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) where a, b, c are non-negative real numbers.",
+      "Confirm if the function is defined for all triangles, including degenerate triangles where one side may equal the sum of the other two.",
+      "Consider any inequality constraints relating the side lengths a, b, and c due to the triangle inequality.",
+      "Investigate if the function \\( f(a, b, c) \\) has any symmetry properties that could simplify the analysis.",
+      "Determine cases or conditions under which \\( f(a, b, c) \\) achieves its extremum (maximum or minimum) values.",
+      "Use known inequalities such as the AM-GM inequality or the Cauchy-Schwarz inequality to establish bounds for \\( f(a, b, c) \\).",
+      "Calculate or provide estimates for extremum values of \\( f(a, b, c) \\) under specific conditions or configurations of the triangle sides.",
+      "Prove or disprove whether these calculated bounds can be attained by actual triangles (or degenerate triangles).",
+      "Summarize the results and possibly identify any interesting characteristics of the function \\( f(a, b, c) \\) in the special cases examined."
+    ],
+    {
+      "1": "Analyze the domain of the function \\( f(a, b, c) = \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) where a, b, c are non-negative real numbers.",
+      "2": "Confirm if the function is defined for all triangles, including degenerate triangles where one side may equal the sum of the other two.",
+      "3": "Consider any inequality constraints relating the side lengths a, b, and c due to the triangle inequality.",
+      "4": "Investigate if the function \\( f(a, b, c) \\) has any symmetry properties that could simplify the analysis.",
+      "5": "Determine cases or conditions under which \\( f(a, b, c) \\) achieves its extremum (maximum or minimum) values.",
+      "6": "Use known inequalities such as the AM-GM inequality or the Cauchy-Schwarz inequality to establish bounds for \\( f(a, b, c) \\).",
+      "7": "Calculate or provide estimates for extremum values of \\( f(a, b, c) \\) under specific conditions or configurations of the triangle sides.",
+      "8": "Prove or disprove whether these calculated bounds can be attained by actual triangles (or degenerate triangles).",
+      "9": "Summarize the results and possibly identify any interesting characteristics of the function \\( f(a, b, c) \\) in the special cases examined."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 4"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ],
+      "7": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the characteristics of a degenerate triangle and when it occurs.",
+      "Discuss the inequality required for a, b, and c to be side lengths of a triangle (triangle inequality).",
+      "Write down the expression a/(b+c) + b/(a+c) + c/(a+b) and analyze its behavior when values of a, b, and c change.",
+      "Consider extreme cases to test the limits of the expression, such as the cases where one of the side lengths is extremely small compared to the others.",
+      "Use algebraic manipulation to simplify or rearrange the expression for potential insights into maximizing or minimizing it.",
+      "Investigate any known inequalities or algebraic identities that could bound or define the maximum value of the expression.",
+      "Determine if calculus or optimization methods might be useful for finding critical points that could represent maximum or minimum values.",
+      "Check the feasibility of found critical points or solutions against the triangle inequality to ensure they represent real triangles.",
+      "Summarize the findings and conclude the largest possible value of the expression within the constraints of triangle side lengths."
+    ],
+    {
+      "1": "Identify the characteristics of a degenerate triangle and when it occurs.",
+      "2": "Discuss the inequality required for a, b, and c to be side lengths of a triangle (triangle inequality).",
+      "3": "Write down the expression a/(b+c) + b/(a+c) + c/(a+b) and analyze its behavior when values of a, b, and c change.",
+      "4": "Consider extreme cases to test the limits of the expression, such as the cases where one of the side lengths is extremely small compared to the others.",
+      "5": "Use algebraic manipulation to simplify or rearrange the expression for potential insights into maximizing or minimizing it.",
+      "6": "Investigate any known inequalities or algebraic identities that could bound or define the maximum value of the expression.",
+      "7": "Determine if calculus or optimization methods might be useful for finding critical points that could represent maximum or minimum values.",
+      "8": "Check the feasibility of found critical points or solutions against the triangle inequality to ensure they represent real triangles.",
+      "9": "Summarize the findings and conclude the largest possible value of the expression within the constraints of triangle side lengths."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5",
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ],
+      "7": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "What are the triangle inequality conditions that must be satisfied by a, b, and c?",
+      "Express the function f(a, b, c) = a/(b+c) + b/(a+c) + c/(a+b).",
+      "Consider the homogeneity of f(a, b, c) and evaluate f(ta, tb, tc) to explore how the function behaves when scaling the triangle sides.",
+      "Derive the local maximum condition by assuming a condition of equality among triangle sides such as a = b or b = c, and hence simplify the expression.",
+      "Use calculus (if necessary) to check whether these critical points yield local maxima.",
+      "Determine if there exists an absolute maximum for the values of f over valid triangles and compute possible maximal values under the constraint of triangle inequality.",
+      "If required, analyze the function's behavior at extreme values (e.g., when one side length approaches zero).",
+      "Check special or degenerate cases that could potentially maximize the expression, such as when one or two sides of the triangle become very small compared to the other(s)."
+    ],
+    {
+      "1": "What are the triangle inequality conditions that must be satisfied by a, b, and c?",
+      "2": "Express the function f(a, b, c) = a/(b+c) + b/(a+c) + c/(a+b).",
+      "3": "Consider the homogeneity of f(a, b, c) and evaluate f(ta, tb, tc) to explore how the function behaves when scaling the triangle sides.",
+      "4": "Derive the local maximum condition by assuming a condition of equality among triangle sides such as a = b or b = c, and hence simplify the expression.",
+      "5": "Use calculus (if necessary) to check whether these critical points yield local maxima.",
+      "6": "Determine if there exists an absolute maximum for the values of f over valid triangles and compute possible maximal values under the constraint of triangle inequality.",
+      "7": "If required, analyze the function's behavior at extreme values (e.g., when one side length approaches zero).",
+      "8": "Check special or degenerate cases that could potentially maximize the expression, such as when one or two sides of the triangle become very small compared to the other(s)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recall the triangle inequality theorem which states that for any triangle with sides a, b, and c, the sum of the lengths of any two sides must be greater than the length of the third side.",
+      "Define the expression S = a/(b+c) + b/(a+c) + c/(a+b) and identify the constraints on a, b, and c from the triangle inequality.",
+      "Analyze the behavior of the expression S when a, b, and c approach specific values or configurations, possibly using inequalities or limits.",
+      "Consider any symmetrical properties or any inequality theorems (like Jensen's inequality) that might simplify the analysis or provide paths to finding the maximum value.",
+      "Determine whether there are any well-known formulae or results in mathematical literature regarding similar expressions or configurations that might offer insights or shortcuts to evaluating or bounding S.",
+      "Formulate a conjecture based on observations and calculations about when S attains its maximum value.",
+      "Develop a proof or a rigorous argument to verify that the conjectured maximum value of S is correct, or adjust the conjecture based on findings.",
+      "Check extremes or special cases (such as degenerate triangles) to confirm if the expression S attains the maximum value in these cases as well."
+    ],
+    {
+      "1": "Recall the triangle inequality theorem which states that for any triangle with sides a, b, and c, the sum of the lengths of any two sides must be greater than the length of the third side.",
+      "2": "Define the expression S = a/(b+c) + b/(a+c) + c/(a+b) and identify the constraints on a, b, and c from the triangle inequality.",
+      "3": "Analyze the behavior of the expression S when a, b, and c approach specific values or configurations, possibly using inequalities or limits.",
+      "4": "Consider any symmetrical properties or any inequality theorems (like Jensen's inequality) that might simplify the analysis or provide paths to finding the maximum value.",
+      "5": "Determine whether there are any well-known formulae or results in mathematical literature regarding similar expressions or configurations that might offer insights or shortcuts to evaluating or bounding S.",
+      "6": "Formulate a conjecture based on observations and calculations about when S attains its maximum value.",
+      "7": "Develop a proof or a rigorous argument to verify that the conjectured maximum value of S is correct, or adjust the conjecture based on findings.",
+      "8": "Check extremes or special cases (such as degenerate triangles) to confirm if the expression S attains the maximum value in these cases as well."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5",
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize and state the conditions under which a, b, c can form a triangle, focusing on the triangle inequality theorem.",
+      "Convert the question into a mathematical expression involving the sides of the triangle and arrange it for easy analysis (e.g., expression a/(b+c) + b/(a+c) + c/(a+b)).",
+      "Determine what properties or inequalities apply to fractions of the form x/(y+z), used in the context of the sides of triangles.",
+      "Revisit known inequalities or principles in algebra that might simplify or bound the expression a/(b+c) + b/(a+c) + c/(a+b).",
+      "Analyze or hypothesize how the expression behaves when the triangle side lengths are varied, considering scenarios where the sides are equal or distinctly different.",
+      "Set up equations or systems of inequalities based on those observations or potential simplifications to find the maximal value.",
+      "Determine if any special types of triangles (such as isosceles, equilateral) yield higher values for the given sum.",
+      "Summarize findings and conclude what the largest value of a/(b+c) + b/(a+c) + c/(a+b) could be based on the analyses."
+    ],
+    {
+      "1": "Recognize and state the conditions under which a, b, c can form a triangle, focusing on the triangle inequality theorem.",
+      "2": "Convert the question into a mathematical expression involving the sides of the triangle and arrange it for easy analysis (e.g., expression a/(b+c) + b/(a+c) + c/(a+b)).",
+      "3": "Determine what properties or inequalities apply to fractions of the form x/(y+z), used in the context of the sides of triangles.",
+      "4": "Revisit known inequalities or principles in algebra that might simplify or bound the expression a/(b+c) + b/(a+c) + c/(a+b).",
+      "5": "Analyze or hypothesize how the expression behaves when the triangle side lengths are varied, considering scenarios where the sides are equal or distinctly different.",
+      "6": "Set up equations or systems of inequalities based on those observations or potential simplifications to find the maximal value.",
+      "7": "Determine if any special types of triangles (such as isosceles, equilateral) yield higher values for the given sum.",
+      "8": "Summarize findings and conclude what the largest value of a/(b+c) + b/(a+c) + c/(a+b) could be based on the analyses."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 5"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the conditions under which \\(a\\), \\(b\\), and \\(c\\) can be the side lengths of a triangle (triangle inequality).",
+      "Formulate the expression \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) based on given side lengths.",
+      "Determine any conditions or constraints that simplify the evaluation of the expression.",
+      "Investigate the behavior of the expression when one of the variables, \\( a\\), \\( b\\), or \\( c\\), approaches zero or when two sides are equal.",
+      "Use calculus or inequalities to maximize the expression within the valid range of \\( a\\), \\( b\\), and \\( c\\).",
+      "Check edge cases where \\( a\\), \\( b\\), or \\( c\\) might dominate the others significantly to see how the expression behaves.",
+      "Summarize findings and deduce the maximum possible value of the expression."
+    ],
+    {
+      "1": "Identify the conditions under which \\(a\\), \\(b\\), and \\(c\\) can be the side lengths of a triangle (triangle inequality).",
+      "2": "Formulate the expression \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) based on given side lengths.",
+      "3": "Determine any conditions or constraints that simplify the evaluation of the expression.",
+      "4": "Investigate the behavior of the expression when one of the variables, \\( a\\), \\( b\\), or \\( c\\), approaches zero or when two sides are equal.",
+      "5": "Use calculus or inequalities to maximize the expression within the valid range of \\( a\\), \\( b\\), and \\( c\\).",
+      "6": "Check edge cases where \\( a\\), \\( b\\), or \\( c\\) might dominate the others significantly to see how the expression behaves.",
+      "7": "Summarize findings and deduce the maximum possible value of the expression."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Analyze the problem statement: Identify which algebraic inequality or identity could be applied in the scenario where a, b, c are side lengths of a triangle.",
+      "Recognize the necessity of the triangle inequality which states a + b > c, b + c > a, and c + a > b.",
+      "Establish an expression for the sum \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) and seek maximization conditions.",
+      "Reflect upon the relations or symmetries among a, b, and c that might simplify the analysis or reveal extremal values.",
+      "Consider the algebraic manipulation to reduce the expression into a possibly recognized form, e.g., using substitutions or transformations.",
+      "Evaluate special or edge cases (like when two sides are equal or when one side is much smaller than the others) and their impact on the value of the sum.",
+      "Explore inequalities such as the AM-GM inequality or Jensen's inequality that might help establish upper or lower bounds for the expression.",
+      "If bounds are found, check their achievability i.e., whether there exist values of a, b, and c that reach these bounds under the triangle inequality condition.",
+      "Synthesize findings to conclude what the maximum possible value of the expression is, under the triangle condition constraints."
+    ],
+    {
+      "1": "Analyze the problem statement: Identify which algebraic inequality or identity could be applied in the scenario where a, b, c are side lengths of a triangle.",
+      "2": "Recognize the necessity of the triangle inequality which states a + b > c, b + c > a, and c + a > b.",
+      "3": "Establish an expression for the sum \\( \\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a+b} \\) and seek maximization conditions.",
+      "4": "Reflect upon the relations or symmetries among a, b, and c that might simplify the analysis or reveal extremal values.",
+      "5": "Consider the algebraic manipulation to reduce the expression into a possibly recognized form, e.g., using substitutions or transformations.",
+      "6": "Evaluate special or edge cases (like when two sides are equal or when one side is much smaller than the others) and their impact on the value of the sum.",
+      "7": "Explore inequalities such as the AM-GM inequality or Jensen's inequality that might help establish upper or lower bounds for the expression.",
+      "8": "If bounds are found, check their achievability i.e., whether there exist values of a, b, and c that reach these bounds under the triangle inequality condition.",
+      "9": "Synthesize findings to conclude what the maximum possible value of the expression is, under the triangle condition constraints."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ],
+      "6": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ]
+]

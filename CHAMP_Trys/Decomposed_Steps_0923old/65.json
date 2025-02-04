@@ -1,0 +1,196 @@
+[
+  [
+    [
+      "Define the function f(x) = |x|/(1+|x|) and understand its properties such as range and behavior with different values of x.",
+      "Express the function F(a, b) = |a+b|/(1+|a+b|) - |a|/(1+|a|) - |b|/(1+|b|) using the defined function f(x) for substitution.",
+      "Analyze the behavior of the function F(a, b) for different cases of a and b (e.g., both positive, both negative, one positive and one negative).",
+      "Examine the influence of the absolute value operations inside f(x), focusing specifically on how the sum and individual values a and b contribute to outcomes where |a+b| may be greater or less than individual |a| or |b|.",
+      "Deduce whether maxima/minima occurs at certain notable locations (like endpoints of ranges or when a or b are zero).",
+      "Explore the possible values of F(a, b) under conditions that simplify calculations (e.g., when a, b are equal; when one of a or b is zero).",
+      "Discuss the symmetry of the function F(a, b) when swapping a and b, or when changing the signs of a and/or b.",
+      "Utilize graphical methods or computation to estimate maxima and minima values, if necessary.",
+      "Summarize results by identifying the conditions under which F(a, b) achieves its maximum value."
+    ],
+    {
+      "1": "Define the function f(x) = |x|/(1+|x|) and understand its properties such as range and behavior with different values of x.",
+      "2": "Express the function F(a, b) = |a+b|/(1+|a+b|) - |a|/(1+|a|) - |b|/(1+|b|) using the defined function f(x) for substitution.",
+      "3": "Analyze the behavior of the function F(a, b) for different cases of a and b (e.g., both positive, both negative, one positive and one negative).",
+      "4": "Examine the influence of the absolute value operations inside f(x), focusing specifically on how the sum and individual values a and b contribute to outcomes where |a+b| may be greater or less than individual |a| or |b|.",
+      "5": "Deduce whether maxima/minima occurs at certain notable locations (like endpoints of ranges or when a or b are zero).",
+      "6": "Explore the possible values of F(a, b) under conditions that simplify calculations (e.g., when a, b are equal; when one of a or b is zero).",
+      "7": "Discuss the symmetry of the function F(a, b) when swapping a and b, or when changing the signs of a and/or b.",
+      "8": "Utilize graphical methods or computation to estimate maxima and minima values, if necessary.",
+      "9": "Summarize results by identifying the conditions under which F(a, b) achieves its maximum value."
+    }
+  ],
+  [
+    [
+      "Understand the function forms: Analyze and simplify the expression |a+b|/(1+|a+b|), |a|/(1+|a|), and |b|/(1+|b|).",
+      "Investigate the ranges and properties of the function f(x) = |x|/(1 + |x|) for a real number x.",
+      "Examine the behavior of f(x) when x approaches zero and when x approaches infinity.",
+      "Consider the cases when both a and b are non-negative, both are non-positive, and when they have opposite signs.",
+      "Determine under what conditions the sum |a+b| is maximized relative to |a| and |b|.",
+      "Explore how these maxima affect the overall expression |a+b|/(1+|a+b|) - |a|/(1+|a|) - |b|/(1+|b|).",
+      "Calculate or establish bounds for the expression when both a and b are positive, both are negative, and when they have differing signs.",
+      "Compare these scenarios to identify which yields the largest value of the expression.",
+      "Verify if the identified maximum value can indeed be achieved, given the constraints of the function f(x)."
+    ],
+    {
+      "1": "Understand the function forms: Analyze and simplify the expression |a+b|/(1+|a+b|), |a|/(1+|a|), and |b|/(1+|b|).",
+      "2": "Investigate the ranges and properties of the function f(x) = |x|/(1 + |x|) for a real number x.",
+      "3": "Examine the behavior of f(x) when x approaches zero and when x approaches infinity.",
+      "4": "Consider the cases when both a and b are non-negative, both are non-positive, and when they have opposite signs.",
+      "5": "Determine under what conditions the sum |a+b| is maximized relative to |a| and |b|.",
+      "6": "Explore how these maxima affect the overall expression |a+b|/(1+|a+b|) - |a|/(1+|a|) - |b|/(1+|b|).",
+      "7": "Calculate or establish bounds for the expression when both a and b are positive, both are negative, and when they have differing signs.",
+      "8": "Compare these scenarios to identify which yields the largest value of the expression.",
+      "9": "Verify if the identified maximum value can indeed be achieved, given the constraints of the function f(x)."
+    }
+  ],
+  [
+    [
+      "Define the function F(a, b) = |a+b|/(1+|a+b|) - |a|/(1+|a|) - |b|/(1+|b|).",
+      "Analyze the properties of F(a, b), specifically examining how F changes when a and b are either both positive, both negative, or have opposite signs.",
+      "Study the cases where a or b is zero to simplify the expressions and understand their impacts on the function's value.",
+      "Consider the behavior of the function |x|/(1+|x|) for x ≥ 0, and generalize how the function behaves with varying inputs.",
+      "Evaluate symmetry in the function with respect to the signs and magnitudes of a and b.",
+      "Derive the maximum and minimum values of |a+b|/(1+|a+b|) for fixed values of a and b.",
+      "Calculate the first derivative of F(a, b) with respect to a and with respect to b to find critical points where maxima or minima might occur.",
+      "Analyze the boundaries of the specified domain, particularly as either a or b or both approach infinity, or all approach zero.",
+      "Solve for the conditions under which F(a, b) achieves its maximum value.",
+      "Verify the solution by substituting back into the original function and checking the surrounding values for local maxima or minima."
+    ],
+    {
+      "1": "Define the function F(a, b) = |a+b|/(1+|a+b|) - |a|/(1+|a|) - |b|/(1+|b|).",
+      "2": "Analyze the properties of F(a, b), specifically examining how F changes when a and b are either both positive, both negative, or have opposite signs.",
+      "3": "Study the cases where a or b is zero to simplify the expressions and understand their impacts on the function's value.",
+      "4": "Consider the behavior of the function |x|/(1+|x|) for x ≥ 0, and generalize how the function behaves with varying inputs.",
+      "5": "Evaluate symmetry in the function with respect to the signs and magnitudes of a and b.",
+      "6": "Derive the maximum and minimum values of |a+b|/(1+|a+b|) for fixed values of a and b.",
+      "7": "Calculate the first derivative of F(a, b) with respect to a and with respect to b to find critical points where maxima or minima might occur.",
+      "8": "Analyze the boundaries of the specified domain, particularly as either a or b or both approach infinity, or all approach zero.",
+      "9": "Solve for the conditions under which F(a, b) achieves its maximum value.",
+      "10": "Verify the solution by substituting back into the original function and checking the surrounding values for local maxima or minima."
+    }
+  ],
+  [
+    [
+      "Define and understand the function f(x) = |x| / (1 + |x|) and how it behaves with respect to x in terms of increasing or decreasing nature and boundary limits.",
+      "Analyze how the function f(x) reacts to addition operation, particularly considering non-negative numbers and negative numbers.",
+      "Explore properties of f(x) for values x = a, b, and a + b, especially focusing on the constraints imposed by the values of a and b (considering cases when a and b have the same signs and when they have opposite signs).",
+      "Determine the maximum value of |a+b| / (1 + |a+b|) subject to the variability of a and b.",
+      "Evaluate the expression f(a+b) - f(a) - f(b) by substituting the potential maximum values obtained from step 4 and verify if they reach the theoretical maximum or behave differently under practical instances.",
+      "Consider the impact of the triangle inequality on |a|, |b|, and |a + b| in relation to their contribution to the function's output.",
+      "Calculate the hypothetical maximum by identifying if there's a ceiling or optimal values of a and b where f(a+b) - f(a) - f(b) reaches a maximum, considering symmetry and bounds.",
+      "Summarize the findings and conclude whether the maxima obtained are absolute or conditional based on the values of a and b."
+    ],
+    {
+      "1": "Define and understand the function f(x) = |x| / (1 + |x|) and how it behaves with respect to x in terms of increasing or decreasing nature and boundary limits.",
+      "2": "Analyze how the function f(x) reacts to addition operation, particularly considering non-negative numbers and negative numbers.",
+      "3": "Explore properties of f(x) for values x = a, b, and a + b, especially focusing on the constraints imposed by the values of a and b (considering cases when a and b have the same signs and when they have opposite signs).",
+      "4": "Determine the maximum value of |a+b| / (1 + |a+b|) subject to the variability of a and b.",
+      "5": "Evaluate the expression f(a+b) - f(a) - f(b) by substituting the potential maximum values obtained from step 4 and verify if they reach the theoretical maximum or behave differently under practical instances.",
+      "6": "Consider the impact of the triangle inequality on |a|, |b|, and |a + b| in relation to their contribution to the function's output.",
+      "7": "Calculate the hypothetical maximum by identifying if there's a ceiling or optimal values of a and b where f(a+b) - f(a) - f(b) reaches a maximum, considering symmetry and bounds.",
+      "8": "Summarize the findings and conclude whether the maxima obtained are absolute or conditional based on the values of a and b."
+    }
+  ],
+  [
+    [
+      "Analyze how the function \\( f(x) = \\frac{|x|}{1 + |x|} \\) behaves for a real number x, especially focusing on the values as x approaches infinity and the properties around x equals zero.",
+      "Examine the relationship and composition of the expression \\(\\frac{|a+b|}{1+|a+b|}\\) relative to the individual terms \\(\\frac{|a|}{1+|a|}\\) and \\(\\frac{|b|}{1+|b|}\\).",
+      "Identify the potential maxima or minima, and zeros of the combined function \\( g(a, b) = \\frac{|a+b|}{1+|a+b|} - \\frac{|a|}{1+|a|} - \\frac{|b|}{1+|b|} \\) using calculus tools such as differentiation.",
+      "Consider and verify symmetry properties of \\( g(a, b) \\) when \\( a \\) and \\( b \\) have the same or opposite signs.",
+      "Determine how \\( g(a, b) \\) depends on the choices of specific values of \\( a \\) and \\( b \\) whether positive, negative or zero.",
+      "Check special cases where either \\( a \\) or \\( b \\) is zero to analyze how it simplifies \\( g(a, b) \\).",
+      "Employ numerical or symbolic computation tools to evaluate \\( g(a, b) \\) over a range of \\( a \\) and \\( b \\) values if an algebraic maximization is intractable."
+    ],
+    {
+      "1": "Analyze how the function \\( f(x) = \\frac{|x|}{1 + |x|} \\) behaves for a real number x, especially focusing on the values as x approaches infinity and the properties around x equals zero.",
+      "2": "Examine the relationship and composition of the expression \\(\\frac{|a+b|}{1+|a+b|}\\) relative to the individual terms \\(\\frac{|a|}{1+|a|}\\) and \\(\\frac{|b|}{1+|b|}\\).",
+      "3": "Identify the potential maxima or minima, and zeros of the combined function \\( g(a, b) = \\frac{|a+b|}{1+|a+b|} - \\frac{|a|}{1+|a|} - \\frac{|b|}{1+|b|} \\) using calculus tools such as differentiation.",
+      "4": "Consider and verify symmetry properties of \\( g(a, b) \\) when \\( a \\) and \\( b \\) have the same or opposite signs.",
+      "5": "Determine how \\( g(a, b) \\) depends on the choices of specific values of \\( a \\) and \\( b \\) whether positive, negative or zero.",
+      "6": "Check special cases where either \\( a \\) or \\( b \\) is zero to analyze how it simplifies \\( g(a, b) \\).",
+      "7": "Employ numerical or symbolic computation tools to evaluate \\( g(a, b) \\) over a range of \\( a \\) and \\( b \\) values if an algebraic maximization is intractable."
+    }
+  ],
+  [
+    [
+      "Define the function \\( f(x) = \\frac{|x|}{1 + |x|} \\) to simplify the expression.",
+      "Analyze the properties of the function \\( f(x) \\), including its range and behavior based on the values of \\( x \\).",
+      "Substitute \\( a \\) and \\( b \\) into the simplified expression addressing their combined function \\( f(a+b) - f(a) - f(b) \\).",
+      "Examine the cases separately depending on the signs of \\( a \\) and \\( b \\) (e.g., both non-negative, both non-positive, one non-negative and the other non-positive).",
+      "Explore the behavior of the function for large magnitudes of \\( a \\) and \\( b \\) to understand asymptotic behavior.",
+      "Attempt to maximize \\( f(a+b) - f(a) - f(b) \\) under different scenarios or constraints about \\( a \\) and \\( b \\).",
+      "Consider how transformations and symmetry in \\( a \\) and \\( b \\) (like swapping \\( a \\) and \\( b \\), or replacing \\( a \\) with \\(-a\\) and similarly for \\( b \\)) affect the result.",
+      "Calculate derivatives or other calculus tools if reasonable to explore critical points or maxima/minima.",
+      "Conclude whether there is a global maximum, and under what conditions it is achieved."
+    ],
+    {
+      "1": "Define the function \\( f(x) = \\frac{|x|}{1 + |x|} \\) to simplify the expression.",
+      "2": "Analyze the properties of the function \\( f(x) \\), including its range and behavior based on the values of \\( x \\).",
+      "3": "Substitute \\( a \\) and \\( b \\) into the simplified expression addressing their combined function \\( f(a+b) - f(a) - f(b) \\).",
+      "4": "Examine the cases separately depending on the signs of \\( a \\) and \\( b \\) (e.g., both non-negative, both non-positive, one non-negative and the other non-positive).",
+      "5": "Explore the behavior of the function for large magnitudes of \\( a \\) and \\( b \\) to understand asymptotic behavior.",
+      "6": "Attempt to maximize \\( f(a+b) - f(a) - f(b) \\) under different scenarios or constraints about \\( a \\) and \\( b \\).",
+      "7": "Consider how transformations and symmetry in \\( a \\) and \\( b \\) (like swapping \\( a \\) and \\( b \\), or replacing \\( a \\) with \\(-a\\) and similarly for \\( b \\)) affect the result.",
+      "8": "Calculate derivatives or other calculus tools if reasonable to explore critical points or maxima/minima.",
+      "9": "Conclude whether there is a global maximum, and under what conditions it is achieved."
+    }
+  ],
+  [
+    [
+      "Understand and simplify the expression \\( \\frac{|a+b|}{1+|a+b|} - \\frac{|a|}{1+|a|} - \\frac{|b|}{1+|b|} \\).",
+      "Analyze how the expression behaves based on the signs of \\(a\\) and \\(b\\) (positive, negative, zero).",
+      "Determine the range of values for \\(|a+b|\\), \\(|a|\\), and \\(|b|\\) separately.",
+      "Investigate if \\(|a+b|\\) can be simplified when \\(a\\) and \\(b\\) are either both positive, both negative, or of opposite signs.",
+      "Consider special or boundary cases, such as one of the values \\(a\\) or \\(b\\) being zero.",
+      "Calculate the maxima and minima of the function separately for each case determined in previous steps.",
+      "Utilize properties of inequalities and absolute values to simplify the expressions further.",
+      "Derive a general formula if possible, or numerical bounds if a closed form is infeasible.",
+      "Use a graphical or numerical approach if the algebraic simplification becomes too complex.",
+      "Summarize the findings to identify the overall maximum value of the expression across all scenarios."
+    ],
+    {
+      "1": "Understand and simplify the expression \\( \\frac{|a+b|}{1+|a+b|} - \\frac{|a|}{1+|a|} - \\frac{|b|}{1+|b|} \\).",
+      "2": "Analyze how the expression behaves based on the signs of \\(a\\) and \\(b\\) (positive, negative, zero).",
+      "3": "Determine the range of values for \\(|a+b|\\), \\(|a|\\), and \\(|b|\\) separately.",
+      "4": "Investigate if \\(|a+b|\\) can be simplified when \\(a\\) and \\(b\\) are either both positive, both negative, or of opposite signs.",
+      "5": "Consider special or boundary cases, such as one of the values \\(a\\) or \\(b\\) being zero.",
+      "6": "Calculate the maxima and minima of the function separately for each case determined in previous steps.",
+      "7": "Utilize properties of inequalities and absolute values to simplify the expressions further.",
+      "8": "Derive a general formula if possible, or numerical bounds if a closed form is infeasible.",
+      "9": "Use a graphical or numerical approach if the algebraic simplification becomes too complex.",
+      "10": "Summarize the findings to identify the overall maximum value of the expression across all scenarios."
+    }
+  ],
+  [
+    [
+      "Define the expressions |a+b|/(1+|a+b|), |a|/(1+|a|), and |b|/(1+|b|) and understand their behavior as functions from R (the set of real numbers) to [0,1].",
+      "Explore the properties of these functions, such as boundedness, symmetry, and the behavior at extremes (e.g., when a, b -> 0 or a, b -> ±∞).",
+      "Examine the sum and subtraction properties of the functions |a+b|/(1+|a+b|), |a|/(1+|a|), and |b|/(1+|b|).",
+      "Represent the original expression algebraically and look for potential simplifications or transformations that clarify the effect of differing values of a and b.",
+      "Analyze the impact of the signs (positive, negative) and relative sizes of a and b on the expression |a+b|/(1+|a+b|) - |a|/(1+|a|) - |b|/(1+|b|).",
+      "Investigate if there are any values of a and b for which |a+b| = |a| + |b|, and evaluate the expression in such cases.",
+      "Investigate if there are any values of a and b for which |a+b| ≠ |a| + |b| (specifically when a and b have opposite signs), and evaluate the expression in such cases.",
+      "Determine the conditions under which the maximum value of the full expression might occur, considering the insights from the previous steps.",
+      "Check edge conditions or special cases where a or b (or both) equal zero — does this lead to a maximum, minimum, or an intermediate value?",
+      "Evaluate the expression for random example points (such as when a = b, a = -b, a = 0, b = 0) to gain insight into possible solutions and their qualities.",
+      "Determine the maximum value of the expression based on calculations and analysis from all the above steps."
+    ],
+    {
+      "1": "Define the expressions |a+b|/(1+|a+b|), |a|/(1+|a|), and |b|/(1+|b|) and understand their behavior as functions from R (the set of real numbers) to [0,1].",
+      "2": "Explore the properties of these functions, such as boundedness, symmetry, and the behavior at extremes (e.g., when a, b -> 0 or a, b -> ±∞).",
+      "3": "Examine the sum and subtraction properties of the functions |a+b|/(1+|a+b|), |a|/(1+|a|), and |b|/(1+|b|).",
+      "4": "Represent the original expression algebraically and look for potential simplifications or transformations that clarify the effect of differing values of a and b.",
+      "5": "Analyze the impact of the signs (positive, negative) and relative sizes of a and b on the expression |a+b|/(1+|a+b|) - |a|/(1+|a|) - |b|/(1+|b|).",
+      "6": "Investigate if there are any values of a and b for which |a+b| = |a| + |b|, and evaluate the expression in such cases.",
+      "7": "Investigate if there are any values of a and b for which |a+b| ≠ |a| + |b| (specifically when a and b have opposite signs), and evaluate the expression in such cases.",
+      "8": "Determine the conditions under which the maximum value of the full expression might occur, considering the insights from the previous steps.",
+      "9": "Check edge conditions or special cases where a or b (or both) equal zero — does this lead to a maximum, minimum, or an intermediate value?",
+      "10": "Evaluate the expression for random example points (such as when a = b, a = -b, a = 0, b = 0) to gain insight into possible solutions and their qualities.",
+      "11": "Determine the maximum value of the expression based on calculations and analysis from all the above steps."
+    }
+  ]
+]

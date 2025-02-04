@@ -1,0 +1,1645 @@
+[
+  [
+    [
+      "Identify any restrictions or bounded conditions for the variables x, y, and z other than being positive.",
+      "Recognize the general form of the expression x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) and look for potential symmetries or patterns.",
+      "Consider cases or values where the variables x, y, z might be equal, as symmetry could simplify the expression.",
+      "Search for any possible transformations or substitutions that could simplify the problem, such as expressing one variable in terms of others.",
+      "Apply the Arithmetic Mean-Geometric Mean (AM-GM) inequality or any other relevant inequalities to the expression to estimate or bound the target expression.",
+      "Determine if the approach of differentiation might be needed to find minimum values by setting up and solving partial derivative equations with respect to x, y, and z.",
+      "Evaluate and calculate the simplified expression for specific numerically convenient or critical values obtained from previous steps.",
+      "Verify the minimum value by substituting back into the original expression to ensure that all conditions of the problem are satisfied."
+    ],
+    {
+      "1": "Identify any restrictions or bounded conditions for the variables x, y, and z other than being positive.",
+      "2": "Recognize the general form of the expression x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) and look for potential symmetries or patterns.",
+      "3": "Consider cases or values where the variables x, y, z might be equal, as symmetry could simplify the expression.",
+      "4": "Search for any possible transformations or substitutions that could simplify the problem, such as expressing one variable in terms of others.",
+      "5": "Apply the Arithmetic Mean-Geometric Mean (AM-GM) inequality or any other relevant inequalities to the expression to estimate or bound the target expression.",
+      "6": "Determine if the approach of differentiation might be needed to find minimum values by setting up and solving partial derivative equations with respect to x, y, and z.",
+      "7": "Evaluate and calculate the simplified expression for specific numerically convenient or critical values obtained from previous steps.",
+      "8": "Verify the minimum value by substituting back into the original expression to ensure that all conditions of the problem are satisfied."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5",
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize and rewrite the original expression x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) in terms of known inequalities or identities.",
+      "Apply the Cauchy-Schwarz Inequality or AM-GM Inequality as potential approaches to bound or simplify the expression.",
+      "Focus on minimizing the expression by examining special cases, such as setting two variables equal, e.g., x = y or y = z or z = x.",
+      "Calculate the expression for these special cases to see if simpler forms or smaller values emerge.",
+      "Explore the symmetry in the problem by interchanging variables to check for consistency in minimized values.",
+      "Attempt to prove that any value found in the simpler cases is the minimum possible value for the expression over all positive x, y, z.",
+      "Consider the impact of the positivity constraints on x, y, and z and how they affect the bounds of the expression.",
+      "Validate the solution by considering small perturbations around the candidates for optimal (x, y, z) values to ensure that no smaller value exists.",
+      "Formally verify that all steps and calculations align with the principles of inequality and algebra utilized in the problem-solving approach."
+    ],
+    {
+      "1": "Recognize and rewrite the original expression x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) in terms of known inequalities or identities.",
+      "2": "Apply the Cauchy-Schwarz Inequality or AM-GM Inequality as potential approaches to bound or simplify the expression.",
+      "3": "Focus on minimizing the expression by examining special cases, such as setting two variables equal, e.g., x = y or y = z or z = x.",
+      "4": "Calculate the expression for these special cases to see if simpler forms or smaller values emerge.",
+      "5": "Explore the symmetry in the problem by interchanging variables to check for consistency in minimized values.",
+      "6": "Attempt to prove that any value found in the simpler cases is the minimum possible value for the expression over all positive x, y, z.",
+      "7": "Consider the impact of the positivity constraints on x, y, and z and how they affect the bounds of the expression.",
+      "8": "Validate the solution by considering small perturbations around the candidates for optimal (x, y, z) values to ensure that no smaller value exists.",
+      "9": "Formally verify that all steps and calculations align with the principles of inequality and algebra utilized in the problem-solving approach."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ],
+      "8": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the formula and simplify if possible.",
+      "Analyze the format of the expression to see if there are symmetries that can reduce the complexity.",
+      "Consider assigning special values such as 1 to some of the variables (x, y, z) to simplify initial exploration.",
+      "Apply the Arithmetic Mean-Geometric Mean (AM-GM) inequality if suitable, to bound expressions from below.",
+      "Make a conjecture about which values of x, y, z might minimize the expression based on insights gained from initial explorations and/or inequality applications.",
+      "Verify the conjecture and ensure the assigned values of x, y, and z meet the conditions (x, y, z > 0).",
+      "Explore the calculus approach by taking partial derivatives with respect to x, y, z, setting them to zero, and solving the ensuing system of equations for any critical points in the positive domain.",
+      "Confirm that the found solution (if any) indeed provides a minimum by checking the second-order conditions or comparing to boundaries.",
+      "Consider alternative expressions or transformations that might simplify the computation or finding the minimum value.",
+      "Summarize findings to conclude the smallest possible value of the given expression."
+    ],
+    {
+      "1": "Recognize the formula and simplify if possible.",
+      "2": "Analyze the format of the expression to see if there are symmetries that can reduce the complexity.",
+      "3": "Consider assigning special values such as 1 to some of the variables (x, y, z) to simplify initial exploration.",
+      "4": "Apply the Arithmetic Mean-Geometric Mean (AM-GM) inequality if suitable, to bound expressions from below.",
+      "5": "Make a conjecture about which values of x, y, z might minimize the expression based on insights gained from initial explorations and/or inequality applications.",
+      "6": "Verify the conjecture and ensure the assigned values of x, y, and z meet the conditions (x, y, z > 0).",
+      "7": "Explore the calculus approach by taking partial derivatives with respect to x, y, z, setting them to zero, and solving the ensuing system of equations for any critical points in the positive domain.",
+      "8": "Confirm that the found solution (if any) indeed provides a minimum by checking the second-order conditions or comparing to boundaries.",
+      "9": "Consider alternative expressions or transformations that might simplify the computation or finding the minimum value.",
+      "10": "Summarize findings to conclude the smallest possible value of the given expression."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 7"
+      ],
+      "1": [
+        "Step 2",
+        "Step 9"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 8"
+      ],
+      "6": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Apply the Cauchy-Schwarz inequality in its multiplicative form to the terms \\(x^2/y^2\\), \\(y^2/z^2\\), and \\(z^2/x^2\\).",
+      "Express the relation between \\(x^2/y^2 + y^2/z^2 + z^2/x^2\\) and \\((y/x + z/y + x/z)^2\\) using the inequality result.",
+      "Simplify the expression \\(x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z)\\) with the inequality and algebraic identity.",
+      "Investigate any possible values or substitutions that make it easier to handle \\(y/x + z/y + x/z\\) or similar expressions.",
+      "Find the minimum value of the simplified expression using either direct calculation or by comparing critical points from the derivative (if needed).",
+      "Validate or check if the obtained minimum value holds for all positive values of \\(x\\), \\(y\\), and \\(z\\) by plugging in specific values or considering symmetry.",
+      "Derive final condition or statement for \\(x\\), \\(y\\), \\(z\\) that achieves the minimum value of the expression, or prove that the minimum is bound under certain relations or properties of \\(x\\), \\(y\\), and \\(z\\)."
+    ],
+    {
+      "1": "Apply the Cauchy-Schwarz inequality in its multiplicative form to the terms \\(x^2/y^2\\), \\(y^2/z^2\\), and \\(z^2/x^2\\).",
+      "2": "Express the relation between \\(x^2/y^2 + y^2/z^2 + z^2/x^2\\) and \\((y/x + z/y + x/z)^2\\) using the inequality result.",
+      "3": "Simplify the expression \\(x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z)\\) with the inequality and algebraic identity.",
+      "4": "Investigate any possible values or substitutions that make it easier to handle \\(y/x + z/y + x/z\\) or similar expressions.",
+      "5": "Find the minimum value of the simplified expression using either direct calculation or by comparing critical points from the derivative (if needed).",
+      "6": "Validate or check if the obtained minimum value holds for all positive values of \\(x\\), \\(y\\), and \\(z\\) by plugging in specific values or considering symmetry.",
+      "7": "Derive final condition or statement for \\(x\\), \\(y\\), \\(z\\) that achieves the minimum value of the expression, or prove that the minimum is bound under certain relations or properties of \\(x\\), \\(y\\), and \\(z\\)."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 4"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify and rewrite the expression in a more symmetric form to simplify analysis.",
+      "Consider applying the AM-GM (Arithmetic Mean - Geometric Mean) inequality to each pair of terms, investigate how equality can be achieved in those inequalities.",
+      "Evaluate the case when x = y = z to check if this provides a lower bound for the expression.",
+      "Analyze conditions where equality holds in the AM-GM inequality application to determine if x = y = z is indeed the minimum configuration or if other ratios of x, y, z might yield a smaller value.",
+      "Calculate the value of the expression when equality conditions determined in previous steps are met.",
+      "Verify if any other special conditions or cases exist where the expression might attain values less than previously calculated cases.",
+      "Summarize the findings to determine the smallest value of the expression based on explored cases and equality conditions."
+    ],
+    {
+      "1": "Identify and rewrite the expression in a more symmetric form to simplify analysis.",
+      "2": "Consider applying the AM-GM (Arithmetic Mean - Geometric Mean) inequality to each pair of terms, investigate how equality can be achieved in those inequalities.",
+      "3": "Evaluate the case when x = y = z to check if this provides a lower bound for the expression.",
+      "4": "Analyze conditions where equality holds in the AM-GM inequality application to determine if x = y = z is indeed the minimum configuration or if other ratios of x, y, z might yield a smaller value.",
+      "5": "Calculate the value of the expression when equality conditions determined in previous steps are met.",
+      "6": "Verify if any other special conditions or cases exist where the expression might attain values less than previously calculated cases.",
+      "7": "Summarize the findings to determine the smallest value of the expression based on explored cases and equality conditions."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Rewrite the expression x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) to discern any potential simplifications or notable algebraic identities.",
+      "Explore any inequalities such as the AM-GM (Arithmetic Mean - Geometric Mean) inequality that might simplify or bound the expression.",
+      "Determine the behavior of the expression under the substitution of special sets of values for x, y, z (e.g., x = y = z, x = y ≠ z).",
+      "Evaluate the necessity and utility of applying calculus methods like taking partial derivatives to find critical points in terms of x, y, z which could help identify the minimum of the expression.",
+      "Examine the Lagrange multipliers approach if necessary to solve the problem involving optimization with the constraints x, y, z > 0.",
+      "Execute algebraic manipulation or simplification that might help in minimizing the expression, keeping in mind the constraints of the problem.",
+      "Identify symmetries or permutations of x, y, z that leave the expression invariant, as these might provide insights or shortcuts to finding the minimum.",
+      "Check limiting behavior of the expression as any of x, y, or z approach infinity or other extreme values within their allowed range.",
+      "Verify the candidate for the smallest value using direct substitution back into the original expression."
+    ],
+    {
+      "1": "Rewrite the expression x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) to discern any potential simplifications or notable algebraic identities.",
+      "2": "Explore any inequalities such as the AM-GM (Arithmetic Mean - Geometric Mean) inequality that might simplify or bound the expression.",
+      "3": "Determine the behavior of the expression under the substitution of special sets of values for x, y, z (e.g., x = y = z, x = y ≠ z).",
+      "4": "Evaluate the necessity and utility of applying calculus methods like taking partial derivatives to find critical points in terms of x, y, z which could help identify the minimum of the expression.",
+      "5": "Examine the Lagrange multipliers approach if necessary to solve the problem involving optimization with the constraints x, y, z > 0.",
+      "6": "Execute algebraic manipulation or simplification that might help in minimizing the expression, keeping in mind the constraints of the problem.",
+      "7": "Identify symmetries or permutations of x, y, z that leave the expression invariant, as these might provide insights or shortcuts to finding the minimum.",
+      "8": "Check limiting behavior of the expression as any of x, y, or z approach infinity or other extreme values within their allowed range.",
+      "9": "Verify the candidate for the smallest value using direct substitution back into the original expression."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 8",
+        "Step 3",
+        "Step 7",
+        "Step 4",
+        "Step 5"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify and express the given function P = x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) in a simplified form if possible.",
+      "Analyze the function for symmetrical relationships among x, y, and z, which might simplify the study of the function.",
+      "Use the method of substitutions or constraints to reduce the number of variables, for example, setting x = y = z and analyzing how changes in these values affect P.",
+      "Apply calculus (finding derivatives) to determine the critical points of the function P, which might give local minima or maxima if they exist.",
+      "Evaluate the boundary behavior of the function P; consider extreme ratios such as x/y, y/z, or z/x tending to 0 or infinity.",
+      "Utilize inequalities such as the AM-GM (Arithmetic Mean-Geometric Mean) inequality to establish lower bounds for the expression components.",
+      "Calculate or estimate P for specific values or ratios of x, y, and z to check if further optimization or simplification is possible.",
+      "Sum up the insights and conjectures based on the calculations to determine or infer the smallest possible value of P."
+    ],
+    {
+      "1": "Identify and express the given function P = x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) in a simplified form if possible.",
+      "2": "Analyze the function for symmetrical relationships among x, y, and z, which might simplify the study of the function.",
+      "3": "Use the method of substitutions or constraints to reduce the number of variables, for example, setting x = y = z and analyzing how changes in these values affect P.",
+      "4": "Apply calculus (finding derivatives) to determine the critical points of the function P, which might give local minima or maxima if they exist.",
+      "5": "Evaluate the boundary behavior of the function P; consider extreme ratios such as x/y, y/z, or z/x tending to 0 or infinity.",
+      "6": "Utilize inequalities such as the AM-GM (Arithmetic Mean-Geometric Mean) inequality to establish lower bounds for the expression components.",
+      "7": "Calculate or estimate P for specific values or ratios of x, y, and z to check if further optimization or simplification is possible.",
+      "8": "Sum up the insights and conjectures based on the calculations to determine or infer the smallest possible value of P."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 6",
+        "Step 5",
+        "Step 7",
+        "Step 4"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the types of variables involved (x, y, z) and their constraints (x, y, z > 0).",
+      "Understand the terms of the equation x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) and note the interrelationships among the variables (x, y, z).",
+      "Identify the mathematical properties of the expression, such as symmetry and homogeneity.",
+      "Research or derive any existing inequalities that relate these types of sums or ratios, focusing on squares and reciprocals.",
+      "Consider special cases such as when x = y = z or ratios x/y, y/z, z/x are integers or other specific forms to gather insight about the behavior of the function.",
+      "Apply Calculus tools, specifically the method of Lagrange multipliers, to identify critical points since direct optimization doesn't seem straightforward.",
+      "Simplify the expression by substituting potential minimizing values or setting variables in relation to each other (e.g., let x = y = z).",
+      "Calculate the value of the expression for these simplified cases to test if they indeed provide the minimum value.",
+      "Assess the need to use computational tools or numeric methods if a straightforward minimum isn't obvious from symbolic manipulation or special cases.",
+      "Analyze the found solution to make sure it satisfies the given condition (x, y, z > 0) and that no other combination of variables gives a smaller value for the expression."
+    ],
+    {
+      "1": "Recognize the types of variables involved (x, y, z) and their constraints (x, y, z > 0).",
+      "2": "Understand the terms of the equation x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) and note the interrelationships among the variables (x, y, z).",
+      "3": "Identify the mathematical properties of the expression, such as symmetry and homogeneity.",
+      "4": "Research or derive any existing inequalities that relate these types of sums or ratios, focusing on squares and reciprocals.",
+      "5": "Consider special cases such as when x = y = z or ratios x/y, y/z, z/x are integers or other specific forms to gather insight about the behavior of the function.",
+      "6": "Apply Calculus tools, specifically the method of Lagrange multipliers, to identify critical points since direct optimization doesn't seem straightforward.",
+      "7": "Simplify the expression by substituting potential minimizing values or setting variables in relation to each other (e.g., let x = y = z).",
+      "8": "Calculate the value of the expression for these simplified cases to test if they indeed provide the minimum value.",
+      "9": "Assess the need to use computational tools or numeric methods if a straightforward minimum isn't obvious from symbolic manipulation or special cases.",
+      "10": "Analyze the found solution to make sure it satisfies the given condition (x, y, z > 0) and that no other combination of variables gives a smaller value for the expression."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 6"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 5",
+        "Step 3"
+      ],
+      "3": [
+        "Step 9",
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ],
+      "5": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        6,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize and understand the given expression: \\(x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z)\\).",
+      "Analyze the expression in terms of symmetry and simplifications based on ratios or relationships between x, y, and z.",
+      "Apply the Cauchy-Schwarz inequality to explore upper or lower bounds for \\(x^2/y^2 + y^2/z^2 + z^2/x^2\\) and \\(y/x + z/y + x/z\\).",
+      "Investigate the conditions under which equality in Cauchy-Schwarz (or other relevant inequalities) holds to possibly simplify the problem or find critical points.",
+      "Explore the introduction of new variables or substitution to simplify the algebraic manipulation, such as setting \\(u = y/x\\), \\(v = z/y\\), and \\(w = x/z\\), ensuring \\(uvw = 1\\).",
+      "Derive and solve equations or inequalities from the substitution to find extreme values (minimum or maximum) of the expression.",
+      "Verify potential solutions and check back into the original expression to ensure they satisfy the given conditions (x, y, z > 0).",
+      "Conclude with the smallest value obtained from calculations and confirm the conditions under which this value occurs."
+    ],
+    {
+      "1": "Recognize and understand the given expression: \\(x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z)\\).",
+      "2": "Analyze the expression in terms of symmetry and simplifications based on ratios or relationships between x, y, and z.",
+      "3": "Apply the Cauchy-Schwarz inequality to explore upper or lower bounds for \\(x^2/y^2 + y^2/z^2 + z^2/x^2\\) and \\(y/x + z/y + x/z\\).",
+      "4": "Investigate the conditions under which equality in Cauchy-Schwarz (or other relevant inequalities) holds to possibly simplify the problem or find critical points.",
+      "5": "Explore the introduction of new variables or substitution to simplify the algebraic manipulation, such as setting \\(u = y/x\\), \\(v = z/y\\), and \\(w = x/z\\), ensuring \\(uvw = 1\\).",
+      "6": "Derive and solve equations or inequalities from the substitution to find extreme values (minimum or maximum) of the expression.",
+      "7": "Verify potential solutions and check back into the original expression to ensure they satisfy the given conditions (x, y, z > 0).",
+      "8": "Conclude with the smallest value obtained from calculations and confirm the conditions under which this value occurs."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the expression to be minimized: x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z).",
+      "Analyze the terms x^2/y^2, y^2/z^2, z^2/x^2 separately to understand their behavior given x, y, z > 0.",
+      "Investigate the terms y/x, z/y, x/z and their behavior in relation to x, y, z.",
+      "Explore whether there are any symmetries, inequalities, or algebraic identities that can simplify or help in analyzing the given expression.",
+      "Develop a hypothesis or educated guess for potential values of x, y, and z that could minimize the expression.",
+      "Apply known mathematical inequalities (such as AM-GM inequality) to possibly derive a lower bound for x^2/y^2 + y^2/z^2 + z^2/x^2 given the terms y/x + z/y + x/z.",
+      "Consider constructing Lagrange Multipliers or applying calculus of variations if required to find critical points or minima of a multivariable function involving ratios x/y, y/z, and z/x.",
+      "Perform a verification step to check if the proposed solution actually minimizes the expression by substituting back the values of x, y, and z.",
+      "Furthermore, explore if there are any specific values of x, y, z (like them being equal) that simplify the evaluation of the expression and possibly attain the minimum.",
+      "Summarize the findings or determine if more deeper or numerical analysis is required based on the complexity of the expression and behavior under different values of x, y, z."
+    ],
+    {
+      "1": "Identify the expression to be minimized: x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z).",
+      "2": "Analyze the terms x^2/y^2, y^2/z^2, z^2/x^2 separately to understand their behavior given x, y, z > 0.",
+      "3": "Investigate the terms y/x, z/y, x/z and their behavior in relation to x, y, z.",
+      "4": "Explore whether there are any symmetries, inequalities, or algebraic identities that can simplify or help in analyzing the given expression.",
+      "5": "Develop a hypothesis or educated guess for potential values of x, y, and z that could minimize the expression.",
+      "6": "Apply known mathematical inequalities (such as AM-GM inequality) to possibly derive a lower bound for x^2/y^2 + y^2/z^2 + z^2/x^2 given the terms y/x + z/y + x/z.",
+      "7": "Consider constructing Lagrange Multipliers or applying calculus of variations if required to find critical points or minima of a multivariable function involving ratios x/y, y/z, and z/x.",
+      "8": "Perform a verification step to check if the proposed solution actually minimizes the expression by substituting back the values of x, y, and z.",
+      "9": "Furthermore, explore if there are any specific values of x, y, z (like them being equal) that simplify the evaluation of the expression and possibly attain the minimum.",
+      "10": "Summarize the findings or determine if more deeper or numerical analysis is required based on the complexity of the expression and behavior under different values of x, y, z."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4",
+        "Step 2"
+      ],
+      "2": [
+        "Step 7",
+        "Step 5",
+        "Step 6"
+      ],
+      "3": [
+        "Step 8"
+      ],
+      "4": [
+        "Step 9"
+      ],
+      "5": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the expression to be minimized: x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z).",
+      "Consider possible simplifications or substitutions to reduce the problem's complexity.",
+      "Apply the inequality of arithmetic and geometric means (AM-GM) to parts of the expression if applicable.",
+      "Analyze symmetrical cases, such as setting two of the variables equal (e.g., let x = y) to see if this simplifies the problem.",
+      "Explore setting the expression under common denominators to comprehensively compare terms.",
+      "Test small, concrete values of x, y, z to possibly identify a pattern or bounds.",
+      "Look for known inequalities that might help bound the expression or parts of it, such as the Cauchy-Schwarz inequality.",
+      "Solve the simplified or substituted expression and verify if this is minimal.",
+      "Consider derivatives or an extremum-finding approach if the problem allows or if simplification reveals a continuous function.",
+      "Sum up findings from easier cases, such as symmetric cases, to determine if a smaller value can't exist."
+    ],
+    {
+      "1": "Identify the expression to be minimized: x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z).",
+      "2": "Consider possible simplifications or substitutions to reduce the problem's complexity.",
+      "3": "Apply the inequality of arithmetic and geometric means (AM-GM) to parts of the expression if applicable.",
+      "4": "Analyze symmetrical cases, such as setting two of the variables equal (e.g., let x = y) to see if this simplifies the problem.",
+      "5": "Explore setting the expression under common denominators to comprehensively compare terms.",
+      "6": "Test small, concrete values of x, y, z to possibly identify a pattern or bounds.",
+      "7": "Look for known inequalities that might help bound the expression or parts of it, such as the Cauchy-Schwarz inequality.",
+      "8": "Solve the simplified or substituted expression and verify if this is minimal.",
+      "9": "Consider derivatives or an extremum-finding approach if the problem allows or if simplification reveals a continuous function.",
+      "10": "Sum up findings from easier cases, such as symmetric cases, to determine if a smaller value can't exist."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 6",
+        "Step 4",
+        "Step 9"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2",
+        "Step 5",
+        "Step 10"
+      ],
+      "2": [
+        "Step 7"
+      ],
+      "3": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        9,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the individual components of the expression x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) and analyze their behavior.",
+      "Consider possible symmetry or simplification in the expression by setting any two variables equal (e.g., x = y or y = z or z = x).",
+      "Apply the AM-GM (Arithmetic Mean-Geometric Mean) inequality appropriately to estimate each component of the expression, especially focusing on x^2/y^2, y^2/z^2, z^2/x^2, y/x, z/y, and x/z.",
+      "Summarize and compare the results of step 3 to find a lower bound for the expression.",
+      "Investigate if the equality condition of the AM-GM inequality can be achieved, indicating a potential minimum value of the expression.",
+      "Verify if the obtained solution in step 5 satisfies the condition x, y, z > 0.",
+      "Confirm that the computed minimum value is also valid and no smaller value exists by analyzing possible variations or perturbations from the assumed conditions in step 2.",
+      "Compile the overall results and conclude the smallest possible value of the expression given the constraints x, y, z > 0."
+    ],
+    {
+      "1": "Identify the individual components of the expression x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) and analyze their behavior.",
+      "2": "Consider possible symmetry or simplification in the expression by setting any two variables equal (e.g., x = y or y = z or z = x).",
+      "3": "Apply the AM-GM (Arithmetic Mean-Geometric Mean) inequality appropriately to estimate each component of the expression, especially focusing on x^2/y^2, y^2/z^2, z^2/x^2, y/x, z/y, and x/z.",
+      "4": "Summarize and compare the results of step 3 to find a lower bound for the expression.",
+      "5": "Investigate if the equality condition of the AM-GM inequality can be achieved, indicating a potential minimum value of the expression.",
+      "6": "Verify if the obtained solution in step 5 satisfies the condition x, y, z > 0.",
+      "7": "Confirm that the computed minimum value is also valid and no smaller value exists by analyzing possible variations or perturbations from the assumed conditions in step 2.",
+      "8": "Compile the overall results and conclude the smallest possible value of the expression given the constraints x, y, z > 0."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine if there are existing formulas or identities that can simplify expressions involving x^2/y^2, y^2/z^2, and z^2/x^2.",
+      "Examine if there are conditions or substitutions that make x^2/y^2 + y^2/z^2 + z^2/x^2 minimal or more manageable.",
+      "Analyze the expression y/x + z/y + x/z to understand how it behaves when x, y, and z possess certain relationships or proportions.",
+      "Combine the results from both expressions (additive and subtractive parts) to get a simplified version of the expression.",
+      "Determine the conditions under which x^2/y^2 + y^2/z^2 + z^2/x^2 − (y/x + z/y + x/z) achieves its minimum value.",
+      "Evaluate if applying inequalities like AM-GM (Arithmetic Mean - Geometric Mean) or Cauchy-Schwarz helps in restricting or optimizing the expression.",
+      "Calculate the simplified version using determined values or relationships among x, y, and z to find the smallest value.",
+      "Verify the solution by considering edge cases or extreme values of x, y, and z."
+    ],
+    {
+      "1": "Determine if there are existing formulas or identities that can simplify expressions involving x^2/y^2, y^2/z^2, and z^2/x^2.",
+      "2": "Examine if there are conditions or substitutions that make x^2/y^2 + y^2/z^2 + z^2/x^2 minimal or more manageable.",
+      "3": "Analyze the expression y/x + z/y + x/z to understand how it behaves when x, y, and z possess certain relationships or proportions.",
+      "4": "Combine the results from both expressions (additive and subtractive parts) to get a simplified version of the expression.",
+      "5": "Determine the conditions under which x^2/y^2 + y^2/z^2 + z^2/x^2 − (y/x + z/y + x/z) achieves its minimum value.",
+      "6": "Evaluate if applying inequalities like AM-GM (Arithmetic Mean - Geometric Mean) or Cauchy-Schwarz helps in restricting or optimizing the expression.",
+      "7": "Calculate the simplified version using determined values or relationships among x, y, and z to find the smallest value.",
+      "8": "Verify the solution by considering edge cases or extreme values of x, y, and z."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3",
+        "Step 2",
+        "Step 6"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand and simplify the expression given: x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z).",
+      "Explore properties or inequalities that relate sums of squares and quotients, such as the Cauchy-Schwarz inequality or AM-GM inequality.",
+      "Apply appropriate inequalities to estimate or calculate a lower bound for the expression \\( x^2/y^2 + y^2/z^2 + z^2/x^2 \\).",
+      "Similarly, use inequalities to estimate or calculate an upper bound for the expression \\( y/x + z/y + x/z \\).",
+      "Combine these relationships and simplify to get a minimized form of the original expression.",
+      "Check boundary and special conditions, such as equal values of x, y, z, or other configurations to verify if these provide the minimum value of the expression.",
+      "Evaluate the simplified expression to find the smallest value for specific sets of positive x, y, z or demonstrate algebraically the smallest possible value.",
+      "Verify the solution by substituting the values back into the original expression and comparing with previously calculated conditions or bounds."
+    ],
+    {
+      "1": "Understand and simplify the expression given: x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z).",
+      "2": "Explore properties or inequalities that relate sums of squares and quotients, such as the Cauchy-Schwarz inequality or AM-GM inequality.",
+      "3": "Apply appropriate inequalities to estimate or calculate a lower bound for the expression \\( x^2/y^2 + y^2/z^2 + z^2/x^2 \\).",
+      "4": "Similarly, use inequalities to estimate or calculate an upper bound for the expression \\( y/x + z/y + x/z \\).",
+      "5": "Combine these relationships and simplify to get a minimized form of the original expression.",
+      "6": "Check boundary and special conditions, such as equal values of x, y, z, or other configurations to verify if these provide the minimum value of the expression.",
+      "7": "Evaluate the simplified expression to find the smallest value for specific sets of positive x, y, z or demonstrate algebraically the smallest possible value.",
+      "8": "Verify the solution by substituting the values back into the original expression and comparing with previously calculated conditions or bounds."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6",
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Simplify the formula to better understand the components interacting within the expression: x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z).",
+      "Apply the AM-GM inequality to estimate the minimum value of x^2/y^2 + y^2/z^2 + z^2/x^2.",
+      "Apply the AM-GM inequality again to the terms y/x + z/y + x/z.",
+      "Consider the relationship between the sums of the squared ratios and the ratios themselves.",
+      "Combine and compare the results of the steps involving inequalities to find a condition where equality holds.",
+      "Test values that meet this condition to check if they indeed give the minimum value.",
+      "Validate the result and ensure the conditions x, y, z > 0 are fulfilled."
+    ],
+    {
+      "1": "Simplify the formula to better understand the components interacting within the expression: x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z).",
+      "2": "Apply the AM-GM inequality to estimate the minimum value of x^2/y^2 + y^2/z^2 + z^2/x^2.",
+      "3": "Apply the AM-GM inequality again to the terms y/x + z/y + x/z.",
+      "4": "Consider the relationship between the sums of the squared ratios and the ratios themselves.",
+      "5": "Combine and compare the results of the steps involving inequalities to find a condition where equality holds.",
+      "6": "Test values that meet this condition to check if they indeed give the minimum value.",
+      "7": "Validate the result and ensure the conditions x, y, z > 0 are fulfilled."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Simplify and express the terms x^2/y^2, y^2/z^2, z^2/x^2, y/x, z/y, and x/z in terms of a new variable to reduce the number of variables.",
+      "Analyze the conditions under which each term x^2/y^2, y^2/z^2, z^2/x^2, y/x, z/y, and x/z would be minimized or maximized.",
+      "Explore the interaction between the squared terms and the fractional terms, identifying any known inequalities that might simplify understanding these relationships.",
+      "Use symmetric properties if applicable, to see whether equating any of the variables leads to a simplification.",
+      "Choose a strategy to minimize the expression - whether by substitution, applying inequalities like AM-GM or Cauchy-Schwarz, or another method.",
+      "Apply calculus if necessary to find the minimum of the simplified expression (taking derivatives and setting them to zero to find critical points).",
+      "Verify the conditions for minimum by checking the second derivative or using other confirmation methods to ensure that the calculated critical points are indeed minima.",
+      "Calculate the specific numerical or algebraic value based on substitutions and simplifications established in earlier steps."
+    ],
+    {
+      "1": "Simplify and express the terms x^2/y^2, y^2/z^2, z^2/x^2, y/x, z/y, and x/z in terms of a new variable to reduce the number of variables.",
+      "2": "Analyze the conditions under which each term x^2/y^2, y^2/z^2, z^2/x^2, y/x, z/y, and x/z would be minimized or maximized.",
+      "3": "Explore the interaction between the squared terms and the fractional terms, identifying any known inequalities that might simplify understanding these relationships.",
+      "4": "Use symmetric properties if applicable, to see whether equating any of the variables leads to a simplification.",
+      "5": "Choose a strategy to minimize the expression - whether by substitution, applying inequalities like AM-GM or Cauchy-Schwarz, or another method.",
+      "6": "Apply calculus if necessary to find the minimum of the simplified expression (taking derivatives and setting them to zero to find critical points).",
+      "7": "Verify the conditions for minimum by checking the second derivative or using other confirmation methods to ensure that the calculated critical points are indeed minima.",
+      "8": "Calculate the specific numerical or algebraic value based on substitutions and simplifications established in earlier steps."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify if there are any known inequalities that relate the terms x, y, z in the expression x^2/y^2 + y^2/z^2 + z^2/x^2 to y/x + z/y + x/z.",
+      "Explore the possibility of applying the AM-GM (Arithmetic Mean-Geometric Mean) inequality to simplify or bound the expressions.",
+      "Substitute hypothetical simple values for x, y, z such as x=y=z to check how the expression behaves with equal values.",
+      "Analyze the behavior of the expression when the variables x, y, z increase or decrease proportionally.",
+      "Consider whether setting one or more variables as proportions of others (e.g. y = kx, z = ky) leads to simplification or minimum value identification.",
+      "Determine if a known geometric or algebraic identity could simplify computation or reveal symmetric properties.",
+      "Calculate derivatives if needed to find critical points that might represent minimum values for continuous and differentiable segments of the function.",
+      "Check the end behavior or limits as x, y, z approach zero or infinity to understand the range of possible values.",
+      "Confirm if any recorded values from steps 3-8 are indeed minimums by comparing or using a verification method such as plugging back into the original expression.",
+      "Summarize findings to draw a conclusion about the smallest value and under what conditions (values of x,y,z) it occurs."
+    ],
+    {
+      "1": "Identify if there are any known inequalities that relate the terms x, y, z in the expression x^2/y^2 + y^2/z^2 + z^2/x^2 to y/x + z/y + x/z.",
+      "2": "Explore the possibility of applying the AM-GM (Arithmetic Mean-Geometric Mean) inequality to simplify or bound the expressions.",
+      "3": "Substitute hypothetical simple values for x, y, z such as x=y=z to check how the expression behaves with equal values.",
+      "4": "Analyze the behavior of the expression when the variables x, y, z increase or decrease proportionally.",
+      "5": "Consider whether setting one or more variables as proportions of others (e.g. y = kx, z = ky) leads to simplification or minimum value identification.",
+      "6": "Determine if a known geometric or algebraic identity could simplify computation or reveal symmetric properties.",
+      "7": "Calculate derivatives if needed to find critical points that might represent minimum values for continuous and differentiable segments of the function.",
+      "8": "Check the end behavior or limits as x, y, z approach zero or infinity to understand the range of possible values.",
+      "9": "Confirm if any recorded values from steps 3-8 are indeed minimums by comparing or using a verification method such as plugging back into the original expression.",
+      "10": "Summarize findings to draw a conclusion about the smallest value and under what conditions (values of x,y,z) it occurs."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 8",
+        "Step 3",
+        "Step 7",
+        "Step 4",
+        "Step 5"
+      ],
+      "1": [
+        "Step 6",
+        "Step 2"
+      ],
+      "2": [
+        "Step 9"
+      ],
+      "3": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize and simplify the expression: What algebraic manipulations can be applied to x²/y² + y²/z² + z²/x² - (y/x + z/y + x/z)?",
+      "Identify symmetry: What happens if you exchange any two variables in the expression, such as swapping x and y?",
+      "Apply the AM-GM (Arithmetic Mean-Geometric Mean) inequality to x²/y², y²/z², and z²/x².",
+      "Apply the AM-GM inequality to y/x, z/y, and x/z.",
+      "Combine the results from the AM-GM inequalities to find lower bounds for the quantities x²/y² + y²/z² + z²/x² and y/x + z/y + x/z separately.",
+      "Explore specific values or cases (like setting x = y = z) to analyze the behavior of the expression and to search for possible minimum values.",
+      "Aggregate the findings to hypothesize what the lowest possible value of the expression might be.",
+      "Verify the hypothesized minimum value by substituting back into the original expression and checking if any conditions or inequalities are violated.",
+      "Conclude if the hypothesized minimum value meets all the established conditions and indeed represents the minimum of the expression."
+    ],
+    {
+      "1": "Recognize and simplify the expression: What algebraic manipulations can be applied to x²/y² + y²/z² + z²/x² - (y/x + z/y + x/z)?",
+      "2": "Identify symmetry: What happens if you exchange any two variables in the expression, such as swapping x and y?",
+      "3": "Apply the AM-GM (Arithmetic Mean-Geometric Mean) inequality to x²/y², y²/z², and z²/x².",
+      "4": "Apply the AM-GM inequality to y/x, z/y, and x/z.",
+      "5": "Combine the results from the AM-GM inequalities to find lower bounds for the quantities x²/y² + y²/z² + z²/x² and y/x + z/y + x/z separately.",
+      "6": "Explore specific values or cases (like setting x = y = z) to analyze the behavior of the expression and to search for possible minimum values.",
+      "7": "Aggregate the findings to hypothesize what the lowest possible value of the expression might be.",
+      "8": "Verify the hypothesized minimum value by substituting back into the original expression and checking if any conditions or inequalities are violated.",
+      "9": "Conclude if the hypothesized minimum value meets all the established conditions and indeed represents the minimum of the expression."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ],
+      "6": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the general form and structure of the expression \\( x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) \\).",
+      "Consider how the variables interact in each term and explore the potential use of inequalities such as AM-GM (Arithmetic Mean - Geometric Mean), Cauchy-Schwarz, or other inequalities to simplify or bound the expression.",
+      "Analyze whether setting any of the variables \\(x\\), \\(y\\), \\(z\\) equal to each other (like \\(x = y\\) or \\(y = z\\)) might simplify the expression or reveal minimum values.",
+      "Apply any identified inequalities to each term of the expression to find ways to combine or reduce the terms.",
+      "Determine whether certain assigned values, like positive integers, distinct values, or special cases (such as \\(x = y = z\\)) minimize the expression.",
+      "Calculate or estimate the resulting value from these simplifications or substitutions to find potential minimum values.",
+      "Verify the calculated minimum by substituting back into the original expression and checking through direct computation or further inequality validation.",
+      "Confirm that the found minimum meets all original conditions set by \\(x, y, z > 0\\) and that it is indeed the smallest value the expression can attain."
+    ],
+    {
+      "1": "Identify the general form and structure of the expression \\( x^2/y^2 + y^2/z^2 + z^2/x^2 - (y/x + z/y + x/z) \\).",
+      "2": "Consider how the variables interact in each term and explore the potential use of inequalities such as AM-GM (Arithmetic Mean - Geometric Mean), Cauchy-Schwarz, or other inequalities to simplify or bound the expression.",
+      "3": "Analyze whether setting any of the variables \\(x\\), \\(y\\), \\(z\\) equal to each other (like \\(x = y\\) or \\(y = z\\)) might simplify the expression or reveal minimum values.",
+      "4": "Apply any identified inequalities to each term of the expression to find ways to combine or reduce the terms.",
+      "5": "Determine whether certain assigned values, like positive integers, distinct values, or special cases (such as \\(x = y = z\\)) minimize the expression.",
+      "6": "Calculate or estimate the resulting value from these simplifications or substitutions to find potential minimum values.",
+      "7": "Verify the calculated minimum by substituting back into the original expression and checking through direct computation or further inequality validation.",
+      "8": "Confirm that the found minimum meets all original conditions set by \\(x, y, z > 0\\) and that it is indeed the smallest value the expression can attain."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the structure of the expression and identify any symmetries or inherent properties.",
+      "Simplify the expression if possible.",
+      "Apply the AM-GM (Arithmetic Mean - Geometric Mean) inequality or any other relevant inequalities to simplify the terms and derive bounds.",
+      "Substitute particular values for x, y, z to check if the derived bounds are sharp or if they can be approached closely.",
+      "Analyze the equality conditions of the used inequalities to understand the cases where the minimum value is achieved.",
+      "Evaluate the simplified expression or inequality with the values obtained from the equality condition to find the minimum value.",
+      "Verify the solution by checking other combinations or by using a different approach or inequality to ensure that the derived value is indeed the minimum."
+    ],
+    {
+      "1": "Recognize the structure of the expression and identify any symmetries or inherent properties.",
+      "2": "Simplify the expression if possible.",
+      "3": "Apply the AM-GM (Arithmetic Mean - Geometric Mean) inequality or any other relevant inequalities to simplify the terms and derive bounds.",
+      "4": "Substitute particular values for x, y, z to check if the derived bounds are sharp or if they can be approached closely.",
+      "5": "Analyze the equality conditions of the used inequalities to understand the cases where the minimum value is achieved.",
+      "6": "Evaluate the simplified expression or inequality with the values obtained from the equality condition to find the minimum value.",
+      "7": "Verify the solution by checking other combinations or by using a different approach or inequality to ensure that the derived value is indeed the minimum."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5",
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,1235 @@
+[
+  [
+    [
+      "estion \"What is \\(A + M + C?\\)\" using the sum of the two $5$-digit numbers $AMC10$ and $AMC12$ which is $123422$, we need to understand the steps and components involved in their addition:",
+      "Recognize that the numbers $AMC10$ and $AMC12$ can be expanded to $A \\times 10000 + M \\times 1000 + C \\times 100 + 10$ and $A \\times 10000 + M \\times 1000 + C \\times 100 + 12$ respectively.",
+      "Sum these two numbers: $(A \\times 10000 + M \\times 1000 + C \\times 100 + 10) + (A \\times 10000 + M \\times 1000 + C \\times 100 + 12) = 2A \\times 10000 + 2M \\times 1000 + 2C \\times 100 + 22$.",
+      "Set up the equation based on the given sum of these numbers: $2A \\times 10000 + 2M \\times 1000 + 2C \\times 100 + 22 = 123422$.",
+      "Simplify the equation by isolating the numerical coefficients of $A$, $M$, and $C$: $2A \\times 10000 + 2M \\times 1000 + 2C \\times 100 = 123400$, by subtracting 22 from both sides.",
+      "Divide the entire equation by 2 to reduce the coefficients: $A \\times 10000 + M \\times 1000 + C \\times 100 = 61700$.",
+      "Extract $A$, $M$, and $C$ by dividing by their respective place values (i.e., 10000 for $A$, 1000 for $M$, 100 for $C$):",
+      "- $A$ can be obtained by dividing 61700 by 10000, which gives an integer quotient.",
+      "- Calculate the remainder after subtracting $A \\times 10000$ from 61700 and divide that remainder by 1000 for $M$.",
+      "- Calculate the further remainder and divide it by 100 to find $C$.",
+      "Finally, calculate the sum $A + M + C$."
+    ],
+    {
+      "1": "estion \"What is \\(A + M + C?\\)\" using the sum of the two $5$-digit numbers $AMC10$ and $AMC12$ which is $123422$, we need to understand the steps and components involved in their addition:",
+      "2": "Recognize that the numbers $AMC10$ and $AMC12$ can be expanded to $A \\times 10000 + M \\times 1000 + C \\times 100 + 10$ and $A \\times 10000 + M \\times 1000 + C \\times 100 + 12$ respectively.",
+      "3": "Sum these two numbers: $(A \\times 10000 + M \\times 1000 + C \\times 100 + 10) + (A \\times 10000 + M \\times 1000 + C \\times 100 + 12) = 2A \\times 10000 + 2M \\times 1000 + 2C \\times 100 + 22$.",
+      "4": "Set up the equation based on the given sum of these numbers: $2A \\times 10000 + 2M \\times 1000 + 2C \\times 100 + 22 = 123422$.",
+      "5": "Simplify the equation by isolating the numerical coefficients of $A$, $M$, and $C$: $2A \\times 10000 + 2M \\times 1000 + 2C \\times 100 = 123400$, by subtracting 22 from both sides.",
+      "6": "Divide the entire equation by 2 to reduce the coefficients: $A \\times 10000 + M \\times 1000 + C \\times 100 = 61700$.",
+      "7": "Extract $A$, $M$, and $C$ by dividing by their respective place values (i.e., 10000 for $A$, 1000 for $M$, 100 for $C$):",
+      "8": "- $A$ can be obtained by dividing 61700 by 10000, which gives an integer quotient.",
+      "9": "- Calculate the remainder after subtracting $A \\times 10000$ from 61700 and divide that remainder by 1000 for $M$.",
+      "10": "- Calculate the further remainder and divide it by 100 to find $C$.",
+      "11": "Finally, calculate the sum $A + M + C$."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8",
+        "Step 9",
+        "Step 10"
+      ],
+      "8": [
+        "Step 11"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        11
+      ]
+    ]
+  ],
+  [
+    [
+      "How to interpret the symbolic notation of the sums \\(AMC10\\) and \\(AMC12\\) as five-digit numbers.",
+      "Convert the symbolic notation to variables, understanding \\(AMC10\\) as \\(10000A + 1000M + 100C + 10\\) and \\(AMC12\\) as \\(10000A + 1000M + 100C + 12\\).",
+      "Set up the equation based on the given sum of these two numbers: \\(10000A + 1000M + 100C + 10 + 10000A + 1000M + 100C + 12 = 123422\\).",
+      "Simplify and solve the equation to find the values of \\(A\\), \\(M\\), and \\(C\\).",
+      "Finally, calculate \\(A + M + C\\) based on the values found."
+    ],
+    {
+      "1": "How to interpret the symbolic notation of the sums \\(AMC10\\) and \\(AMC12\\) as five-digit numbers.",
+      "2": "Convert the symbolic notation to variables, understanding \\(AMC10\\) as \\(10000A + 1000M + 100C + 10\\) and \\(AMC12\\) as \\(10000A + 1000M + 100C + 12\\).",
+      "3": "Set up the equation based on the given sum of these two numbers: \\(10000A + 1000M + 100C + 10 + 10000A + 1000M + 100C + 12 = 123422\\).",
+      "4": "Simplify and solve the equation to find the values of \\(A\\), \\(M\\), and \\(C\\).",
+      "5": "Finally, calculate \\(A + M + C\\) based on the values found."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "What does AMC10 represent in terms of digits?",
+      "What does AMC12 represent in terms of digits?",
+      "How does the sum of AMC10 and AMC12 equal 123422?",
+      "How can we break down the number 123422 to ascertain the individual values of A, M, and C?",
+      "How should we add A, M, and C once their values are identified?"
+    ],
+    {
+      "1": "What does AMC10 represent in terms of digits?",
+      "2": "What does AMC12 represent in terms of digits?",
+      "3": "How does the sum of AMC10 and AMC12 equal 123422?",
+      "4": "How can we break down the number 123422 to ascertain the individual values of A, M, and C?",
+      "5": "How should we add A, M, and C once their values are identified?"
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Given the equation \\(AMC10 + AMC12 = 123422\\), understand that \\(A\\), \\(M\\), and \\(C\\) are placeholders for digits in these two 5-digit numbers.",
+      "Break down the numbers \\(AMC10\\) and \\(AMC12\\) to reveal that they are similar in the first three digits \\(A\\), \\(M\\), and \\(C\\) and differ in their last two digits, where they end in 10 and 12, respectively.",
+      "Recognize that the equation can be rewritten as \\(1000 \\cdot AMC + 10 + 1000 \\cdot AMC + 12 = 123422\\) which simplifies to \\(2000 \\cdot AMC + 22 = 123422\\).",
+      "Simplify the equation to find \\(AMC\\) by solving \\(2000 \\cdot AMC = 123400\\), which then simplifies to \\(AMC = 123400 / 2000 = 61.7\\). However, since \\(AMC\\) must be an integer, we adjust our equation to factor in possible arithmetic errors in the setup.",
+      "Reconsider the possible base equation, noting arithmetical mistakes; since \\(AMC\\) should be an integer, re-analyze the base equation \\(AMC10 + AMC12 = 123422\\) by recognizing \\(AMC10\\) and \\(AMC12\\) are simply \\(AMC \\times 100 + 10\\) and \\(AMC \\times 100 + 12\\), thus giving the simpler equation \\(200 \\cdot AMC + 22 = 123422\\).",
+      "Re-solve the simplified equation \\(200 \\cdot AMC + 22 = 123422\\) for \\(AMC\\) leading to \\(AMC = (123422 - 22) / 200 = 617\\).",
+      "Confirm that \\(AMC = 617\\) correctly fits \\(AMC \\times 100 + 10 + AMC \\times 100 + 12 = 123422\\).",
+      "Determine \\(A\\), \\(M\\), and \\(C\\) individually by recognizing \\(AMC = 617\\) where \\(A = 6\\), \\(M = 1\\), and \\(C = 7\\).",
+      "Add the individual values \\(A + M + C = 6 + 1 + 7\\).",
+      "Conclude \\(A + M + C = 14\\)."
+    ],
+    {
+      "1": "Given the equation \\(AMC10 + AMC12 = 123422\\), understand that \\(A\\), \\(M\\), and \\(C\\) are placeholders for digits in these two 5-digit numbers.",
+      "2": "Break down the numbers \\(AMC10\\) and \\(AMC12\\) to reveal that they are similar in the first three digits \\(A\\), \\(M\\), and \\(C\\) and differ in their last two digits, where they end in 10 and 12, respectively.",
+      "3": "Recognize that the equation can be rewritten as \\(1000 \\cdot AMC + 10 + 1000 \\cdot AMC + 12 = 123422\\) which simplifies to \\(2000 \\cdot AMC + 22 = 123422\\).",
+      "4": "Simplify the equation to find \\(AMC\\) by solving \\(2000 \\cdot AMC = 123400\\), which then simplifies to \\(AMC = 123400 / 2000 = 61.7\\). However, since \\(AMC\\) must be an integer, we adjust our equation to factor in possible arithmetic errors in the setup.",
+      "5": "Reconsider the possible base equation, noting arithmetical mistakes; since \\(AMC\\) should be an integer, re-analyze the base equation \\(AMC10 + AMC12 = 123422\\) by recognizing \\(AMC10\\) and \\(AMC12\\) are simply \\(AMC \\times 100 + 10\\) and \\(AMC \\times 100 + 12\\), thus giving the simpler equation \\(200 \\cdot AMC + 22 = 123422\\).",
+      "6": "Re-solve the simplified equation \\(200 \\cdot AMC + 22 = 123422\\) for \\(AMC\\) leading to \\(AMC = (123422 - 22) / 200 = 617\\).",
+      "7": "Confirm that \\(AMC = 617\\) correctly fits \\(AMC \\times 100 + 10 + AMC \\times 100 + 12 = 123422\\).",
+      "8": "Determine \\(A\\), \\(M\\), and \\(C\\) individually by recognizing \\(AMC = 617\\) where \\(A = 6\\), \\(M = 1\\), and \\(C = 7\\).",
+      "9": "Add the individual values \\(A + M + C = 6 + 1 + 7\\).",
+      "10": "Conclude \\(A + M + C = 14\\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ],
+      "8": [
+        "Step 9"
+      ],
+      "9": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the numerical value of the digit \\(A\\)?",
+      "What is the numerical value of the digit \\(M\\)?",
+      "What is the numerical value of the digit \\(C\\)?",
+      "What number represents the sum of \\(AMC10\\) and \\(AMC12\\)?",
+      "Adding further steps for effectively solving the problem:",
+      "Express the numbers \\(AMC10\\) and \\(AMC12\\) as algebraic expressions in terms of the digits \\(A\\), \\(M\\), and \\(C\\).",
+      "Use the fact that the sum of \\(AMC10\\) and \\(AMC12\\) is 123422 to create an equation.",
+      "Solve the equation to find the values of the digits \\(A\\), \\(M\\), and \\(C\\).",
+      "Add together the values of \\(A\\), \\(M\\), and \\(C\\) once they are determined."
+    ],
+    {
+      "1": "What is the numerical value of the digit \\(A\\)?",
+      "2": "What is the numerical value of the digit \\(M\\)?",
+      "3": "What is the numerical value of the digit \\(C\\)?",
+      "4": "What number represents the sum of \\(AMC10\\) and \\(AMC12\\)?",
+      "5": "Adding further steps for effectively solving the problem:",
+      "6": "Express the numbers \\(AMC10\\) and \\(AMC12\\) as algebraic expressions in terms of the digits \\(A\\), \\(M\\), and \\(C\\).",
+      "7": "Use the fact that the sum of \\(AMC10\\) and \\(AMC12\\) is 123422 to create an equation.",
+      "8": "Solve the equation to find the values of the digits \\(A\\), \\(M\\), and \\(C\\).",
+      "9": "Add together the values of \\(A\\), \\(M\\), and \\(C\\) once they are determined."
+    },
+    {
+      "0": [
+        "Step 6"
+      ],
+      "1": [
+        "Step 7"
+      ],
+      "2": [
+        "Step 8"
+      ],
+      "3": [
+        "Step 1",
+        "Step 2",
+        "Step 3"
+      ],
+      "4": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the values of A, M, and C such that the sum of the numbers $AMC10$ and $AMC12$ equals $123422$.",
+      "Express the numbers $AMC10$ and $AMC12$ in a formulaic way to facilitate addition.",
+      "Add the numbers $AMC10$ and $AMC12$ together.",
+      "Set their sum equal to $123422$ and find the values of A, M, and C that satisfy this equation.",
+      "Compute the sum \\(A + M + C\\)."
+    ],
+    {
+      "1": "Determine the values of A, M, and C such that the sum of the numbers $AMC10$ and $AMC12$ equals $123422$.",
+      "2": "Express the numbers $AMC10$ and $AMC12$ in a formulaic way to facilitate addition.",
+      "3": "Add the numbers $AMC10$ and $AMC12$ together.",
+      "4": "Set their sum equal to $123422$ and find the values of A, M, and C that satisfy this equation.",
+      "5": "Compute the sum \\(A + M + C\\)."
+    },
+    {
+      "0": [
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 1"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "What are the values that \\(A\\), \\(M\\), and \\(C\\) represent in the numbers \\(AMC10\\) and \\(AMC12\\)?",
+      "Convert \\(AMC10\\) and \\(AMC12\\) into algebraic terms to represent the actual numeric values.",
+      "Calculate the combined value of \\(AMC10\\) and \\(AMC12\\) and set this sum equal to 123422.",
+      "Solve the resulting equation to find the values of \\(A\\), \\(M\\), and \\(C\\).",
+      "Add \\(A\\), \\(M\\), and \\(C\\) together to find \\(A + M + C\\)."
+    ],
+    {
+      "1": "What are the values that \\(A\\), \\(M\\), and \\(C\\) represent in the numbers \\(AMC10\\) and \\(AMC12\\)?",
+      "2": "Convert \\(AMC10\\) and \\(AMC12\\) into algebraic terms to represent the actual numeric values.",
+      "3": "Calculate the combined value of \\(AMC10\\) and \\(AMC12\\) and set this sum equal to 123422.",
+      "4": "Solve the resulting equation to find the values of \\(A\\), \\(M\\), and \\(C\\).",
+      "5": "Add \\(A\\), \\(M\\), and \\(C\\) together to find \\(A + M + C\\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "How are the numbers $AMC10$ and $AMC12$ structured in terms of their digits $A$, $M$, and $C$?",
+      "What is the relationship between the digits of $AMC10$ and $AMC12$?",
+      "What are the individual contributions of $A$, $M$, and $C$ in the sum to reach the total of $123422$?",
+      "What equations can be formed with the given total sum ($123422$) and the structures of $AMC10$ and $AMC12$?",
+      "Solve the equations to find the values of $A$, $M$, and $C$.",
+      "Calculate the sum $A + M + C$ using the values obtained from the equations."
+    ],
+    {
+      "1": "How are the numbers $AMC10$ and $AMC12$ structured in terms of their digits $A$, $M$, and $C$?",
+      "2": "What is the relationship between the digits of $AMC10$ and $AMC12$?",
+      "3": "What are the individual contributions of $A$, $M$, and $C$ in the sum to reach the total of $123422$?",
+      "4": "What equations can be formed with the given total sum ($123422$) and the structures of $AMC10$ and $AMC12$?",
+      "5": "Solve the equations to find the values of $A$, $M$, and $C$.",
+      "6": "Calculate the sum $A + M + C$ using the values obtained from the equations."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Assign a numerical value for each letter (A, M, C, 1, 0, 2) in the $5$-digit numbers $AMC10$ and $AMC12$ such that their sum gives $123422$.",
+      "Analyze how the digits A, M, and C in $AMC10$ and $AMC12$ combine in the sum.",
+      "Determine the possible values for A, M, and C based on their contribution to the total sum over the places they occupy.",
+      "Solve and check whether the sum of $AMC10$ and $AMC12$ meets the given total.",
+      "If the equation satisfies the given total, calculate \\( A + M + C \\)."
+    ],
+    {
+      "1": "Assign a numerical value for each letter (A, M, C, 1, 0, 2) in the $5$-digit numbers $AMC10$ and $AMC12$ such that their sum gives $123422$.",
+      "2": "Analyze how the digits A, M, and C in $AMC10$ and $AMC12$ combine in the sum.",
+      "3": "Determine the possible values for A, M, and C based on their contribution to the total sum over the places they occupy.",
+      "4": "Solve and check whether the sum of $AMC10$ and $AMC12$ meets the given total.",
+      "5": "If the equation satisfies the given total, calculate \\( A + M + C \\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "What does each letter \\(A\\), \\(M\\), and \\(C\\) represent in the numbers \\(AMC10\\) and \\(AMC12\\)?",
+      "What value does each digit \\(A\\), \\(M\\), and \\(C\\) take to make the sum of \\(AMC10\\) and \\(AMC12\\) equal to 123422?",
+      "How does the addition of the numbers \\(AMC10\\) and \\(AMC12\\) work, particularly focusing on how the digits \\(A\\), \\(M\\), and \\(C\\) contribute to the sum?",
+      "Once the values of \\(A\\), \\(M\\), and \\(C\\) are found, sum these values to find \\(A + M + C\\)."
+    ],
+    {
+      "1": "What does each letter \\(A\\), \\(M\\), and \\(C\\) represent in the numbers \\(AMC10\\) and \\(AMC12\\)?",
+      "2": "What value does each digit \\(A\\), \\(M\\), and \\(C\\) take to make the sum of \\(AMC10\\) and \\(AMC12\\) equal to 123422?",
+      "3": "How does the addition of the numbers \\(AMC10\\) and \\(AMC12\\) work, particularly focusing on how the digits \\(A\\), \\(M\\), and \\(C\\) contribute to the sum?",
+      "4": "Once the values of \\(A\\), \\(M\\), and \\(C\\) are found, sum these values to find \\(A + M + C\\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "What does each variable in the numbers \\( AMC10 \\) and \\( AMC12 \\) represent?",
+      "How does each digit contribute to the sum of the two numbers?",
+      "How can we represent \\( AMC10 \\) and \\( AMC12 \\) algebraically considering they are 5-digit numbers and share the first three digits?",
+      "Given the equation \\( AMC10 + AMC12 = 123422 \\), what does this implies about the last two digits of each number?",
+      "How can we derive the values of \\( A \\), \\( M \\), and \\( C \\) from the provided conditions and sum?",
+      "Calculate \\( A + M + C \\) after determining the individual values."
+    ],
+    {
+      "1": "What does each variable in the numbers \\( AMC10 \\) and \\( AMC12 \\) represent?",
+      "2": "How does each digit contribute to the sum of the two numbers?",
+      "3": "How can we represent \\( AMC10 \\) and \\( AMC12 \\) algebraically considering they are 5-digit numbers and share the first three digits?",
+      "4": "Given the equation \\( AMC10 + AMC12 = 123422 \\), what does this implies about the last two digits of each number?",
+      "5": "How can we derive the values of \\( A \\), \\( M \\), and \\( C \\) from the provided conditions and sum?",
+      "6": "Calculate \\( A + M + C \\) after determining the individual values."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 2"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What are the values of $A$, $M$, and $C$ in the numbers $AMC10$ and $AMC12$?",
+      "How do $AMC10$ and $AMC12$ relate to their sum, 123422?",
+      "Extract the value of $A$, $M$, and $C$ from the equation caused by their sum being 123422.",
+      "Compute $A + M + C$ based on the values extracted."
+    ],
+    {
+      "1": "What are the values of $A$, $M$, and $C$ in the numbers $AMC10$ and $AMC12$?",
+      "2": "How do $AMC10$ and $AMC12$ relate to their sum, 123422?",
+      "3": "Extract the value of $A$, $M$, and $C$ from the equation caused by their sum being 123422.",
+      "4": "Compute $A + M + C$ based on the values extracted."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "What does the sum of the two numbers being $123422$ tell us about the digits $A$, $M$, and $C$?",
+      "How do the digits $A$, $M$, and $C$ in $AMC10$ and $AMC12$ contribute to the final sum?",
+      "How can we equate the corresponding place values of the digits in $AMC10$ and $AMC12$ to reach the sum $123422$?",
+      "How to ensure the alignment of digits since $AMC10$ and $AMC12$ only share three digits $A$, $M$, and $C$, with unique digits appending and prepending?",
+      "What are possible values for $A$, $M$, and $C$ so that when we add $AMC10$ and $AMC12$, we arrive at the sum $123422$?",
+      "How to verify that the sum of $A + M + C$ matches the requirements set by the identified digits $A$, $M$, and $C$ from the calculations?"
+    ],
+    {
+      "1": "What does the sum of the two numbers being $123422$ tell us about the digits $A$, $M$, and $C$?",
+      "2": "How do the digits $A$, $M$, and $C$ in $AMC10$ and $AMC12$ contribute to the final sum?",
+      "3": "How can we equate the corresponding place values of the digits in $AMC10$ and $AMC12$ to reach the sum $123422$?",
+      "4": "How to ensure the alignment of digits since $AMC10$ and $AMC12$ only share three digits $A$, $M$, and $C$, with unique digits appending and prepending?",
+      "5": "What are possible values for $A$, $M$, and $C$ so that when we add $AMC10$ and $AMC12$, we arrive at the sum $123422$?",
+      "6": "How to verify that the sum of $A + M + C$ matches the requirements set by the identified digits $A$, $M$, and $C$ from the calculations?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the value of \\( AMC10 \\) expressed as a number in terms of \\( A \\), \\( M \\), and \\( C \\)?",
+      "What is the value of \\( AMC12 \\) expressed as a number in terms of \\( A \\), \\( M \\), and \\( C \\)?",
+      "What equation can be formed using the sum of \\( AMC10 \\) and \\( AMC12 \\)?",
+      "What is the sum of \\( AMC10 \\) and \\( AMC12 \\)?",
+      "Solving the equation from step 3, what values do \\( A \\), \\( M \\), and \\( C \\) represent?",
+      "Calculate \\( A + M + C \\) using the values found in step 5."
+    ],
+    {
+      "1": "What is the value of \\( AMC10 \\) expressed as a number in terms of \\( A \\), \\( M \\), and \\( C \\)?",
+      "2": "What is the value of \\( AMC12 \\) expressed as a number in terms of \\( A \\), \\( M \\), and \\( C \\)?",
+      "3": "What equation can be formed using the sum of \\( AMC10 \\) and \\( AMC12 \\)?",
+      "4": "What is the sum of \\( AMC10 \\) and \\( AMC12 \\)?",
+      "5": "Solving the equation from step 3, what values do \\( A \\), \\( M \\), and \\( C \\) represent?",
+      "6": "Calculate \\( A + M + C \\) using the values found in step 5."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "First, recognize that \\( AMC10 \\) and \\( AMC12 \\) are representations of the numbers for the calculations.",
+      "Understand that \\( AMC10 \\) can be expressed as \\( 10000A + 1000M + 100C + 10 \\) and \\( AMC12 \\) can be expressed as \\( 10000A + 1000M + 100C + 12 \\).",
+      "Add these two numbers to set up the equation: \\( (10000A + 1000M + 100C + 10) + (10000A + 1000M + 100C + 12) = 123422 \\).",
+      "Simplify the equation: \\( 20000A + 2000M + 200C + 22 = 123422 \\).",
+      "Subtract 22 from both sides to further simplify: \\( 20000A + 2000M + 200C = 123400 \\).",
+      "Divide the entire equation by 200 to simplify the coefficients: \\( 100A + 10M + C = 617 \\).",
+      "Using this simplified equation, determine \\( A \\), \\( M \\), and \\( C \\) given the structure of the problem constraints (e.g., reasonable values for single-digit \\( A \\), \\( M \\), \\( C \\)).",
+      "Calculate \\( A + M + C \\) using the values obtained from solving the previous equation."
+    ],
+    {
+      "1": "First, recognize that \\( AMC10 \\) and \\( AMC12 \\) are representations of the numbers for the calculations.",
+      "2": "Understand that \\( AMC10 \\) can be expressed as \\( 10000A + 1000M + 100C + 10 \\) and \\( AMC12 \\) can be expressed as \\( 10000A + 1000M + 100C + 12 \\).",
+      "3": "Add these two numbers to set up the equation: \\( (10000A + 1000M + 100C + 10) + (10000A + 1000M + 100C + 12) = 123422 \\).",
+      "4": "Simplify the equation: \\( 20000A + 2000M + 200C + 22 = 123422 \\).",
+      "5": "Subtract 22 from both sides to further simplify: \\( 20000A + 2000M + 200C = 123400 \\).",
+      "6": "Divide the entire equation by 200 to simplify the coefficients: \\( 100A + 10M + C = 617 \\).",
+      "7": "Using this simplified equation, determine \\( A \\), \\( M \\), and \\( C \\) given the structure of the problem constraints (e.g., reasonable values for single-digit \\( A \\), \\( M \\), \\( C \\)).",
+      "8": "Calculate \\( A + M + C \\) using the values obtained from solving the previous equation."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "What do the variables \\( A \\), \\( M \\), and \\( C \\) represent in the numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "How do these digits contribute to the sums \\( AMC10 \\) and \\( AMC12 \\)?",
+      "What does the total sum of \\( 123422 \\) imply about the values of \\( A \\), \\( M \\), \\( C \\)?",
+      "Calculate the specific contribution of \\( A \\), \\( M \\), and \\( C \\) separately to the sum \\( 123422 \\).",
+      "Add \\( A \\), \\( M \\), and \\( C \\) to find the sum \\( A + M + C \\)."
+    ],
+    {
+      "1": "What do the variables \\( A \\), \\( M \\), and \\( C \\) represent in the numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "2": "How do these digits contribute to the sums \\( AMC10 \\) and \\( AMC12 \\)?",
+      "3": "What does the total sum of \\( 123422 \\) imply about the values of \\( A \\), \\( M \\), \\( C \\)?",
+      "4": "Calculate the specific contribution of \\( A \\), \\( M \\), and \\( C \\) separately to the sum \\( 123422 \\).",
+      "5": "Add \\( A \\), \\( M \\), and \\( C \\) to find the sum \\( A + M + C \\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "What are the individual digits that make up the numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "How to calculate the sum of the two numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "How to use the given total sum of \\( 123422 \\) to find the values of \\( A \\), \\( M \\), and \\( C \\)?",
+      "How to add together the values of \\( A \\), \\( M \\), and \\( C \\) once they are found?"
+    ],
+    {
+      "1": "What are the individual digits that make up the numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "2": "How to calculate the sum of the two numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "3": "How to use the given total sum of \\( 123422 \\) to find the values of \\( A \\), \\( M \\), and \\( C \\)?",
+      "4": "How to add together the values of \\( A \\), \\( M \\), and \\( C \\) once they are found?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the numerical representation of the number \\( AMC10 \\)?",
+      "What is the numerical representation of the number \\( AMC12 \\)?",
+      "What is the sum of the two 5-digit numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "Since the sum of \\( AMC10 \\) and \\( AMC12 \\) equals 123422, how can we express this in terms of \\( A \\), \\( M \\), and \\( C \\)?",
+      "What equation can be set up to solve for \\( A \\), \\( M \\), and \\( C \\) based on \\( AMC10 + AMC12 = 123422 \\)?",
+      "How do we isolate and calculate the value of \\( A \\), \\( M \\), and \\( C \\) from the equation?",
+      "What is the sum \\( A + M + C \\)?"
+    ],
+    {
+      "1": "What is the numerical representation of the number \\( AMC10 \\)?",
+      "2": "What is the numerical representation of the number \\( AMC12 \\)?",
+      "3": "What is the sum of the two 5-digit numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "4": "Since the sum of \\( AMC10 \\) and \\( AMC12 \\) equals 123422, how can we express this in terms of \\( A \\), \\( M \\), and \\( C \\)?",
+      "5": "What equation can be set up to solve for \\( A \\), \\( M \\), and \\( C \\) based on \\( AMC10 + AMC12 = 123422 \\)?",
+      "6": "How do we isolate and calculate the value of \\( A \\), \\( M \\), and \\( C \\) from the equation?",
+      "7": "What is the sum \\( A + M + C \\)?"
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the structure of the numbers \\( AMC10 \\) and \\( AMC12 \\) in terms of digits, where \\( A \\), \\( M \\), and \\( C \\) represent the same digit in each number.",
+      "Understand that the numbers can be expressed as \\( AMC10 = 10000A + 1000M + 100C + 10 \\) and \\( AMC12 = 10000A + 1000M + 100C + 12 \\).",
+      "Sum the two numbers, set their sum equal to 123422, and derive an equation: \\( (10000A + 1000M + 100C + 10) + (10000A + 1000M + 100C + 12) = 123422 \\).",
+      "Simplify the equation to \\( 20000A + 2000M + 200C + 22 = 123422 \\).",
+      "Subtract 22 from 123422 to get \\( 20000A + 2000M + 200C = 123400 \\).",
+      "Divide the equation by 200 to simplify: \\( 100A + 10M + C = 617 \\).",
+      "By understanding the structure of the two numbers, identify possible values for \\( A \\), \\( M \\), and \\( C \\) such that \\( 100A + 10M + C = 617 \\), noting each must be a single digit.",
+      "Verify that the candidate values for \\( A \\), \\( M \\), and \\( C \\) make both \\( AMC10 \\) and \\( AMC12 \\) valid 5-digit numbers.",
+      "Compute \\( A + M + C \\) based on the identified values that satisfy the conditions."
+    ],
+    {
+      "1": "Determine the structure of the numbers \\( AMC10 \\) and \\( AMC12 \\) in terms of digits, where \\( A \\), \\( M \\), and \\( C \\) represent the same digit in each number.",
+      "2": "Understand that the numbers can be expressed as \\( AMC10 = 10000A + 1000M + 100C + 10 \\) and \\( AMC12 = 10000A + 1000M + 100C + 12 \\).",
+      "3": "Sum the two numbers, set their sum equal to 123422, and derive an equation: \\( (10000A + 1000M + 100C + 10) + (10000A + 1000M + 100C + 12) = 123422 \\).",
+      "4": "Simplify the equation to \\( 20000A + 2000M + 200C + 22 = 123422 \\).",
+      "5": "Subtract 22 from 123422 to get \\( 20000A + 2000M + 200C = 123400 \\).",
+      "6": "Divide the equation by 200 to simplify: \\( 100A + 10M + C = 617 \\).",
+      "7": "By understanding the structure of the two numbers, identify possible values for \\( A \\), \\( M \\), and \\( C \\) such that \\( 100A + 10M + C = 617 \\), noting each must be a single digit.",
+      "8": "Verify that the candidate values for \\( A \\), \\( M \\), and \\( C \\) make both \\( AMC10 \\) and \\( AMC12 \\) valid 5-digit numbers.",
+      "9": "Compute \\( A + M + C \\) based on the identified values that satisfy the conditions."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ],
+      "8": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "What do the variables \\( A \\), \\( M \\), and \\( C \\) represent in the numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "What is the format of the five-digit numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "How to set up an equation using these numbers and the given sum \\( 123422 \\)?",
+      "How to solve the equation for \\( A \\), \\( M \\), and \\( C \\)?",
+      "How to calculate \\( A + M + C \\) using the values of \\( A \\), \\( M \\), and \\( C \\)?"
+    ],
+    {
+      "1": "What do the variables \\( A \\), \\( M \\), and \\( C \\) represent in the numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "2": "What is the format of the five-digit numbers \\( AMC10 \\) and \\( AMC12 \\)?",
+      "3": "How to set up an equation using these numbers and the given sum \\( 123422 \\)?",
+      "4": "How to solve the equation for \\( A \\), \\( M \\), and \\( C \\)?",
+      "5": "How to calculate \\( A + M + C \\) using the values of \\( A \\), \\( M \\), and \\( C \\)?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ]
+]

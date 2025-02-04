@@ -1,0 +1,2605 @@
+2024-10-11 11:53:02 [INFO] 
+
+
+
+2024-10-11 11:53:02 [INFO] number id: 0
+2024-10-11 11:53:02 [INFO] instruction content:
+2024-10-11 11:53:02 [INFO] walk opposite right thrice after run opposite right
+2024-10-11 11:53:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:04 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:53:04 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:53:04 [INFO] accuracy: 0.0
+2024-10-11 11:53:04 [INFO] 
+
+
+
+2024-10-11 11:53:04 [INFO] number id: 1
+2024-10-11 11:53:04 [INFO] instruction content:
+2024-10-11 11:53:04 [INFO] turn around right thrice after run opposite right twice
+2024-10-11 11:53:05 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:08 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:15 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 11:53:15 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 11:53:15 [INFO] correct
+2024-10-11 11:53:15 [INFO] accuracy: 0.5
+2024-10-11 11:53:15 [INFO] 
+
+
+
+2024-10-11 11:53:15 [INFO] number id: 2
+2024-10-11 11:53:15 [INFO] instruction content:
+2024-10-11 11:53:15 [INFO] look opposite left twice after walk around right twice
+2024-10-11 11:53:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:29 [INFO] final answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+2024-10-11 11:53:29 [INFO] gold answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+2024-10-11 11:53:29 [INFO] correct
+2024-10-11 11:53:29 [INFO] accuracy: 0.6666666666666666
+2024-10-11 11:53:29 [INFO] 
+
+
+
+2024-10-11 11:53:29 [INFO] number id: 3
+2024-10-11 11:53:29 [INFO] instruction content:
+2024-10-11 11:53:29 [INFO] run opposite left and look around left twice
+2024-10-11 11:53:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:30 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:53:30 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:53:30 [INFO] accuracy: 0.5
+2024-10-11 11:53:30 [INFO] 
+
+
+
+2024-10-11 11:53:30 [INFO] number id: 4
+2024-10-11 11:53:30 [INFO] instruction content:
+2024-10-11 11:53:30 [INFO] look right thrice and look opposite left twice
+2024-10-11 11:53:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:31 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:53:31 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:53:31 [INFO] accuracy: 0.4
+2024-10-11 11:53:31 [INFO] 
+
+
+
+2024-10-11 11:53:31 [INFO] number id: 5
+2024-10-11 11:53:31 [INFO] instruction content:
+2024-10-11 11:53:31 [INFO] walk opposite left twice and run
+2024-10-11 11:53:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:40 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'RUN']
+2024-10-11 11:53:40 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'RUN']
+2024-10-11 11:53:40 [INFO] correct
+2024-10-11 11:53:40 [INFO] accuracy: 0.5
+2024-10-11 11:53:40 [INFO] 
+
+
+
+2024-10-11 11:53:40 [INFO] number id: 6
+2024-10-11 11:53:40 [INFO] instruction content:
+2024-10-11 11:53:40 [INFO] look thrice after jump opposite right thrice
+2024-10-11 11:53:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:54 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'LOOK', 'LOOK', 'LOOK']
+2024-10-11 11:53:54 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'LOOK', 'LOOK', 'LOOK']
+2024-10-11 11:53:54 [INFO] correct
+2024-10-11 11:53:54 [INFO] accuracy: 0.5714285714285714
+2024-10-11 11:53:54 [INFO] 
+
+
+
+2024-10-11 11:53:54 [INFO] number id: 7
+2024-10-11 11:53:54 [INFO] instruction content:
+2024-10-11 11:53:54 [INFO] turn opposite left twice after look opposite right twice
+2024-10-11 11:53:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:55 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:53:55 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:53:55 [INFO] accuracy: 0.5
+2024-10-11 11:53:55 [INFO] 
+
+
+
+2024-10-11 11:53:55 [INFO] number id: 8
+2024-10-11 11:53:55 [INFO] instruction content:
+2024-10-11 11:53:55 [INFO] jump left twice after turn around right twice
+2024-10-11 11:53:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:56 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:53:56 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:53:56 [INFO] accuracy: 0.4444444444444444
+2024-10-11 11:53:56 [INFO] 
+
+
+
+2024-10-11 11:53:56 [INFO] number id: 9
+2024-10-11 11:53:56 [INFO] instruction content:
+2024-10-11 11:53:56 [INFO] look around right and run opposite left thrice
+2024-10-11 11:53:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:53:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:06 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:08 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:11 [INFO] final answer: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+2024-10-11 11:54:11 [INFO] gold answer: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+2024-10-11 11:54:11 [INFO] correct
+2024-10-11 11:54:11 [INFO] accuracy: 0.5
+2024-10-11 11:54:11 [INFO] 
+
+
+
+2024-10-11 11:54:11 [INFO] number id: 10
+2024-10-11 11:54:11 [INFO] instruction content:
+2024-10-11 11:54:11 [INFO] look right twice and turn around left twice
+2024-10-11 11:54:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:12 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:54:12 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:54:12 [INFO] accuracy: 0.45454545454545453
+2024-10-11 11:54:12 [INFO] 
+
+
+
+2024-10-11 11:54:12 [INFO] number id: 11
+2024-10-11 11:54:12 [INFO] instruction content:
+2024-10-11 11:54:12 [INFO] look opposite left after jump opposite right thrice
+2024-10-11 11:54:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:26 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+2024-10-11 11:54:26 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+2024-10-11 11:54:26 [INFO] correct
+2024-10-11 11:54:26 [INFO] accuracy: 0.5
+2024-10-11 11:54:26 [INFO] 
+
+
+
+2024-10-11 11:54:26 [INFO] number id: 12
+2024-10-11 11:54:26 [INFO] instruction content:
+2024-10-11 11:54:26 [INFO] run thrice after look right thrice
+2024-10-11 11:54:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:26 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:54:26 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:54:26 [INFO] accuracy: 0.46153846153846156
+2024-10-11 11:54:26 [INFO] 
+
+
+
+2024-10-11 11:54:26 [INFO] number id: 13
+2024-10-11 11:54:26 [INFO] instruction content:
+2024-10-11 11:54:26 [INFO] walk twice after look around right twice
+2024-10-11 11:54:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:27 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:54:27 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:54:27 [INFO] accuracy: 0.42857142857142855
+2024-10-11 11:54:27 [INFO] 
+
+
+
+2024-10-11 11:54:27 [INFO] number id: 14
+2024-10-11 11:54:27 [INFO] instruction content:
+2024-10-11 11:54:27 [INFO] jump opposite left thrice after walk left twice
+2024-10-11 11:54:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:28 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:54:28 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:54:28 [INFO] accuracy: 0.4
+2024-10-11 11:54:28 [INFO] 
+
+
+
+2024-10-11 11:54:28 [INFO] number id: 15
+2024-10-11 11:54:28 [INFO] instruction content:
+2024-10-11 11:54:28 [INFO] turn opposite right twice after look around left thrice
+2024-10-11 11:54:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:54:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:00 [INFO] final answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 11:55:00 [INFO] gold answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 11:55:00 [INFO] correct
+2024-10-11 11:55:00 [INFO] accuracy: 0.4375
+2024-10-11 11:55:00 [INFO] 
+
+
+
+2024-10-11 11:55:00 [INFO] number id: 16
+2024-10-11 11:55:00 [INFO] instruction content:
+2024-10-11 11:55:00 [INFO] jump around right thrice after look around right
+2024-10-11 11:55:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:01 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:01 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:01 [INFO] accuracy: 0.4117647058823529
+2024-10-11 11:55:01 [INFO] 
+
+
+
+2024-10-11 11:55:01 [INFO] number id: 17
+2024-10-11 11:55:01 [INFO] instruction content:
+2024-10-11 11:55:01 [INFO] turn around right thrice and jump opposite right thrice
+2024-10-11 11:55:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:01 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:01 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:01 [INFO] accuracy: 0.3888888888888889
+2024-10-11 11:55:01 [INFO] 
+
+
+
+2024-10-11 11:55:01 [INFO] number id: 18
+2024-10-11 11:55:01 [INFO] instruction content:
+2024-10-11 11:55:01 [INFO] walk right twice after jump around right thrice
+2024-10-11 11:55:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:02 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:02 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:02 [INFO] accuracy: 0.3684210526315789
+2024-10-11 11:55:02 [INFO] 
+
+
+
+2024-10-11 11:55:02 [INFO] number id: 19
+2024-10-11 11:55:02 [INFO] instruction content:
+2024-10-11 11:55:02 [INFO] look right thrice after look around left thrice
+2024-10-11 11:55:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:03 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:03 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:03 [INFO] accuracy: 0.35
+2024-10-11 11:55:03 [INFO] 
+
+
+
+2024-10-11 11:55:03 [INFO] number id: 20
+2024-10-11 11:55:03 [INFO] instruction content:
+2024-10-11 11:55:03 [INFO] turn left thrice and look opposite right
+2024-10-11 11:55:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:04 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:04 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:04 [INFO] accuracy: 0.3333333333333333
+2024-10-11 11:55:04 [INFO] 
+
+
+
+2024-10-11 11:55:04 [INFO] number id: 21
+2024-10-11 11:55:04 [INFO] instruction content:
+2024-10-11 11:55:04 [INFO] walk left twice after turn opposite left thrice
+2024-10-11 11:55:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:06 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:08 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:15 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+2024-10-11 11:55:15 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+2024-10-11 11:55:15 [INFO] correct
+2024-10-11 11:55:15 [INFO] accuracy: 0.36363636363636365
+2024-10-11 11:55:15 [INFO] 
+
+
+
+2024-10-11 11:55:15 [INFO] number id: 22
+2024-10-11 11:55:15 [INFO] instruction content:
+2024-10-11 11:55:15 [INFO] run opposite right after look left thrice
+2024-10-11 11:55:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:26 [INFO] final answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:55:26 [INFO] gold answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:55:26 [INFO] correct
+2024-10-11 11:55:26 [INFO] accuracy: 0.391304347826087
+2024-10-11 11:55:26 [INFO] 
+
+
+
+2024-10-11 11:55:26 [INFO] number id: 23
+2024-10-11 11:55:26 [INFO] instruction content:
+2024-10-11 11:55:26 [INFO] walk thrice after look around right
+2024-10-11 11:55:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:27 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:27 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:27 [INFO] accuracy: 0.375
+2024-10-11 11:55:27 [INFO] 
+
+
+
+2024-10-11 11:55:27 [INFO] number id: 24
+2024-10-11 11:55:27 [INFO] instruction content:
+2024-10-11 11:55:27 [INFO] turn around left twice after run opposite left
+2024-10-11 11:55:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:41 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 11:55:41 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 11:55:41 [INFO] correct
+2024-10-11 11:55:41 [INFO] accuracy: 0.4
+2024-10-11 11:55:41 [INFO] 
+
+
+
+2024-10-11 11:55:41 [INFO] number id: 25
+2024-10-11 11:55:41 [INFO] instruction content:
+2024-10-11 11:55:41 [INFO] jump opposite right thrice after walk opposite left thrice
+2024-10-11 11:55:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:42 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:42 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:42 [INFO] accuracy: 0.38461538461538464
+2024-10-11 11:55:42 [INFO] 
+
+
+
+2024-10-11 11:55:42 [INFO] number id: 26
+2024-10-11 11:55:42 [INFO] instruction content:
+2024-10-11 11:55:42 [INFO] run left twice and run right thrice
+2024-10-11 11:55:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:42 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:42 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:42 [INFO] accuracy: 0.37037037037037035
+2024-10-11 11:55:42 [INFO] 
+
+
+
+2024-10-11 11:55:42 [INFO] number id: 27
+2024-10-11 11:55:42 [INFO] instruction content:
+2024-10-11 11:55:42 [INFO] walk around left and jump opposite left thrice
+2024-10-11 11:55:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:58 [INFO] final answer: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+2024-10-11 11:55:58 [INFO] gold answer: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+2024-10-11 11:55:58 [INFO] correct
+2024-10-11 11:55:58 [INFO] accuracy: 0.39285714285714285
+2024-10-11 11:55:58 [INFO] 
+
+
+
+2024-10-11 11:55:58 [INFO] number id: 28
+2024-10-11 11:55:58 [INFO] instruction content:
+2024-10-11 11:55:58 [INFO] walk opposite right thrice after jump thrice
+2024-10-11 11:55:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:55:59 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:55:59 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:55:59 [INFO] accuracy: 0.3793103448275862
+2024-10-11 11:55:59 [INFO] 
+
+
+
+2024-10-11 11:55:59 [INFO] number id: 29
+2024-10-11 11:55:59 [INFO] instruction content:
+2024-10-11 11:55:59 [INFO] look right after look opposite right thrice
+2024-10-11 11:56:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:12 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+2024-10-11 11:56:12 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+2024-10-11 11:56:12 [INFO] correct
+2024-10-11 11:56:12 [INFO] accuracy: 0.4
+2024-10-11 11:56:12 [INFO] 
+
+
+
+2024-10-11 11:56:12 [INFO] number id: 30
+2024-10-11 11:56:12 [INFO] instruction content:
+2024-10-11 11:56:12 [INFO] turn right thrice after jump around left twice
+2024-10-11 11:56:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:13 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:13 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:13 [INFO] accuracy: 0.3870967741935484
+2024-10-11 11:56:13 [INFO] 
+
+
+
+2024-10-11 11:56:13 [INFO] number id: 31
+2024-10-11 11:56:13 [INFO] instruction content:
+2024-10-11 11:56:13 [INFO] jump opposite left twice and walk around right twice
+2024-10-11 11:56:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:13 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:13 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:13 [INFO] accuracy: 0.375
+2024-10-11 11:56:13 [INFO] 
+
+
+
+2024-10-11 11:56:13 [INFO] number id: 32
+2024-10-11 11:56:13 [INFO] instruction content:
+2024-10-11 11:56:13 [INFO] look opposite left twice and run right
+2024-10-11 11:56:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:14 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:14 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:14 [INFO] accuracy: 0.36363636363636365
+2024-10-11 11:56:14 [INFO] 
+
+
+
+2024-10-11 11:56:14 [INFO] number id: 33
+2024-10-11 11:56:14 [INFO] instruction content:
+2024-10-11 11:56:14 [INFO] look around right thrice after turn opposite right twice
+2024-10-11 11:56:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:31 [INFO] final answer: ['Rewrite:', '"TURN_RIGHT"', '*', '*', '+', '"TURN_RIGHT"', '+', '"LOOK"', '*', 'A:', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+2024-10-11 11:56:31 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+2024-10-11 11:56:31 [INFO] incorrect
+2024-10-11 11:56:31 [INFO] accuracy: 0.35294117647058826
+2024-10-11 11:56:31 [INFO] 
+
+
+
+2024-10-11 11:56:31 [INFO] number id: 34
+2024-10-11 11:56:31 [INFO] instruction content:
+2024-10-11 11:56:31 [INFO] jump opposite right twice after walk opposite left
+2024-10-11 11:56:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:32 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:32 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:32 [INFO] accuracy: 0.34285714285714286
+2024-10-11 11:56:32 [INFO] 
+
+
+
+2024-10-11 11:56:32 [INFO] number id: 35
+2024-10-11 11:56:32 [INFO] instruction content:
+2024-10-11 11:56:32 [INFO] jump opposite right twice and run opposite left thrice
+2024-10-11 11:56:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:33 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:33 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:33 [INFO] accuracy: 0.3333333333333333
+2024-10-11 11:56:33 [INFO] 
+
+
+
+2024-10-11 11:56:33 [INFO] number id: 36
+2024-10-11 11:56:33 [INFO] instruction content:
+2024-10-11 11:56:33 [INFO] run right after run left thrice
+2024-10-11 11:56:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:34 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:34 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:34 [INFO] accuracy: 0.32432432432432434
+2024-10-11 11:56:34 [INFO] 
+
+
+
+2024-10-11 11:56:34 [INFO] number id: 37
+2024-10-11 11:56:34 [INFO] instruction content:
+2024-10-11 11:56:34 [INFO] jump right after turn left thrice
+2024-10-11 11:56:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:35 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:35 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:35 [INFO] accuracy: 0.3157894736842105
+2024-10-11 11:56:35 [INFO] 
+
+
+
+2024-10-11 11:56:35 [INFO] number id: 38
+2024-10-11 11:56:35 [INFO] instruction content:
+2024-10-11 11:56:35 [INFO] look around left thrice after turn left
+2024-10-11 11:56:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:35 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:35 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:35 [INFO] accuracy: 0.3076923076923077
+2024-10-11 11:56:35 [INFO] 
+
+
+
+2024-10-11 11:56:35 [INFO] number id: 39
+2024-10-11 11:56:35 [INFO] instruction content:
+2024-10-11 11:56:35 [INFO] look opposite left twice and walk around left
+2024-10-11 11:56:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:36 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:36 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:36 [INFO] accuracy: 0.3
+2024-10-11 11:56:36 [INFO] 
+
+
+
+2024-10-11 11:56:36 [INFO] number id: 40
+2024-10-11 11:56:36 [INFO] instruction content:
+2024-10-11 11:56:36 [INFO] look opposite left thrice after walk opposite right thrice
+2024-10-11 11:56:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:38 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:38 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:38 [INFO] accuracy: 0.2926829268292683
+2024-10-11 11:56:38 [INFO] 
+
+
+
+2024-10-11 11:56:38 [INFO] number id: 41
+2024-10-11 11:56:38 [INFO] instruction content:
+2024-10-11 11:56:38 [INFO] walk right twice and walk left thrice
+2024-10-11 11:56:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:38 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:38 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:38 [INFO] accuracy: 0.2857142857142857
+2024-10-11 11:56:38 [INFO] 
+
+
+
+2024-10-11 11:56:38 [INFO] number id: 42
+2024-10-11 11:56:38 [INFO] instruction content:
+2024-10-11 11:56:38 [INFO] look opposite right and run around right
+2024-10-11 11:56:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:57 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:56:57 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:56:57 [INFO] correct
+2024-10-11 11:56:57 [INFO] accuracy: 0.3023255813953488
+2024-10-11 11:56:57 [INFO] 
+
+
+
+2024-10-11 11:56:57 [INFO] number id: 43
+2024-10-11 11:56:57 [INFO] instruction content:
+2024-10-11 11:56:57 [INFO] run opposite left thrice and jump thrice
+2024-10-11 11:56:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:58 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:58 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:58 [INFO] accuracy: 0.29545454545454547
+2024-10-11 11:56:58 [INFO] 
+
+
+
+2024-10-11 11:56:58 [INFO] number id: 44
+2024-10-11 11:56:58 [INFO] instruction content:
+2024-10-11 11:56:58 [INFO] run right thrice and turn around left twice
+2024-10-11 11:56:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:56:58 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:56:58 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:56:58 [INFO] accuracy: 0.28888888888888886
+2024-10-11 11:56:58 [INFO] 
+
+
+
+2024-10-11 11:56:58 [INFO] number id: 45
+2024-10-11 11:56:58 [INFO] instruction content:
+2024-10-11 11:56:58 [INFO] run right thrice after jump around right
+2024-10-11 11:57:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:00 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:00 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:00 [INFO] accuracy: 0.2826086956521739
+2024-10-11 11:57:00 [INFO] 
+
+
+
+2024-10-11 11:57:00 [INFO] number id: 46
+2024-10-11 11:57:00 [INFO] instruction content:
+2024-10-11 11:57:00 [INFO] jump opposite right thrice after walk opposite right twice
+2024-10-11 11:57:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:01 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:01 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:01 [INFO] accuracy: 0.2765957446808511
+2024-10-11 11:57:01 [INFO] 
+
+
+
+2024-10-11 11:57:01 [INFO] number id: 47
+2024-10-11 11:57:01 [INFO] instruction content:
+2024-10-11 11:57:01 [INFO] jump around left thrice after look opposite left thrice
+2024-10-11 11:57:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:01 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:01 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:01 [INFO] accuracy: 0.2708333333333333
+2024-10-11 11:57:01 [INFO] 
+
+
+
+2024-10-11 11:57:01 [INFO] number id: 48
+2024-10-11 11:57:01 [INFO] instruction content:
+2024-10-11 11:57:01 [INFO] jump opposite left thrice after run opposite right thrice
+2024-10-11 11:57:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:02 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:02 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:02 [INFO] accuracy: 0.2653061224489796
+2024-10-11 11:57:02 [INFO] 
+
+
+
+2024-10-11 11:57:02 [INFO] number id: 49
+2024-10-11 11:57:02 [INFO] instruction content:
+2024-10-11 11:57:02 [INFO] run opposite right thrice after walk
+2024-10-11 11:57:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:05 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:13 [INFO] final answer: ['WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:57:13 [INFO] gold answer: ['WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:57:13 [INFO] correct
+2024-10-11 11:57:13 [INFO] accuracy: 0.28
+2024-10-11 11:57:13 [INFO] 
+
+
+
+2024-10-11 11:57:13 [INFO] number id: 50
+2024-10-11 11:57:13 [INFO] instruction content:
+2024-10-11 11:57:13 [INFO] turn around left twice after turn right twice
+2024-10-11 11:57:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:14 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:14 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:14 [INFO] accuracy: 0.27450980392156865
+2024-10-11 11:57:14 [INFO] 
+
+
+
+2024-10-11 11:57:14 [INFO] number id: 51
+2024-10-11 11:57:14 [INFO] instruction content:
+2024-10-11 11:57:14 [INFO] run around right thrice and look around left thrice
+2024-10-11 11:57:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:14 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:14 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:14 [INFO] accuracy: 0.2692307692307692
+2024-10-11 11:57:14 [INFO] 
+
+
+
+2024-10-11 11:57:14 [INFO] number id: 52
+2024-10-11 11:57:14 [INFO] instruction content:
+2024-10-11 11:57:14 [INFO] run around right after look right twice
+2024-10-11 11:57:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:16 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:16 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:16 [INFO] accuracy: 0.2641509433962264
+2024-10-11 11:57:16 [INFO] 
+
+
+
+2024-10-11 11:57:16 [INFO] number id: 53
+2024-10-11 11:57:16 [INFO] instruction content:
+2024-10-11 11:57:16 [INFO] turn right thrice and run around left thrice
+2024-10-11 11:57:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:16 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:16 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:16 [INFO] accuracy: 0.25925925925925924
+2024-10-11 11:57:16 [INFO] 
+
+
+
+2024-10-11 11:57:16 [INFO] number id: 54
+2024-10-11 11:57:16 [INFO] instruction content:
+2024-10-11 11:57:16 [INFO] walk right thrice after look opposite right twice
+2024-10-11 11:57:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:17 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:17 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:17 [INFO] accuracy: 0.2545454545454545
+2024-10-11 11:57:17 [INFO] 
+
+
+
+2024-10-11 11:57:17 [INFO] number id: 55
+2024-10-11 11:57:17 [INFO] instruction content:
+2024-10-11 11:57:17 [INFO] walk left twice after look around right thrice
+2024-10-11 11:57:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:18 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:18 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:18 [INFO] accuracy: 0.25
+2024-10-11 11:57:18 [INFO] 
+
+
+
+2024-10-11 11:57:18 [INFO] number id: 56
+2024-10-11 11:57:18 [INFO] instruction content:
+2024-10-11 11:57:18 [INFO] jump opposite left thrice after jump left twice
+2024-10-11 11:57:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:19 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:19 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:19 [INFO] accuracy: 0.24561403508771928
+2024-10-11 11:57:19 [INFO] 
+
+
+
+2024-10-11 11:57:19 [INFO] number id: 57
+2024-10-11 11:57:19 [INFO] instruction content:
+2024-10-11 11:57:19 [INFO] jump opposite right twice after walk opposite right
+2024-10-11 11:57:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:30 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+2024-10-11 11:57:30 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+2024-10-11 11:57:30 [INFO] correct
+2024-10-11 11:57:30 [INFO] accuracy: 0.25862068965517243
+2024-10-11 11:57:30 [INFO] 
+
+
+
+2024-10-11 11:57:30 [INFO] number id: 58
+2024-10-11 11:57:30 [INFO] instruction content:
+2024-10-11 11:57:30 [INFO] look opposite left after run
+2024-10-11 11:57:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:31 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:31 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:31 [INFO] accuracy: 0.2542372881355932
+2024-10-11 11:57:31 [INFO] 
+
+
+
+2024-10-11 11:57:31 [INFO] number id: 59
+2024-10-11 11:57:31 [INFO] instruction content:
+2024-10-11 11:57:31 [INFO] run left twice after look opposite right
+2024-10-11 11:57:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:32 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:57:32 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:57:32 [INFO] accuracy: 0.25
+2024-10-11 11:57:32 [INFO] 
+
+
+
+2024-10-11 11:57:32 [INFO] number id: 60
+2024-10-11 11:57:32 [INFO] instruction content:
+2024-10-11 11:57:32 [INFO] jump opposite left twice and jump twice
+2024-10-11 11:57:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:44 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'JUMP', 'JUMP']
+2024-10-11 11:57:44 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'JUMP', 'JUMP']
+2024-10-11 11:57:44 [INFO] correct
+2024-10-11 11:57:44 [INFO] accuracy: 0.26229508196721313
+2024-10-11 11:57:44 [INFO] 
+
+
+
+2024-10-11 11:57:44 [INFO] number id: 61
+2024-10-11 11:57:44 [INFO] instruction content:
+2024-10-11 11:57:44 [INFO] turn around left twice after look opposite right twice
+2024-10-11 11:57:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:57:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:00 [INFO] final answer: ['Rewrite:', '"TURN_RIGHT"', '*', '+', '"LOOK"', '*', '+', '"TURN_LEFT"', '*', '*', 'A:', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 11:58:00 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 11:58:00 [INFO] incorrect
+2024-10-11 11:58:00 [INFO] accuracy: 0.25806451612903225
+2024-10-11 11:58:00 [INFO] 
+
+
+
+2024-10-11 11:58:00 [INFO] number id: 62
+2024-10-11 11:58:00 [INFO] instruction content:
+2024-10-11 11:58:00 [INFO] look twice and run right
+2024-10-11 11:58:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:01 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:01 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:01 [INFO] accuracy: 0.25396825396825395
+2024-10-11 11:58:01 [INFO] 
+
+
+
+2024-10-11 11:58:01 [INFO] number id: 63
+2024-10-11 11:58:01 [INFO] instruction content:
+2024-10-11 11:58:01 [INFO] jump around left twice after jump around right twice
+2024-10-11 11:58:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:02 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:02 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:02 [INFO] accuracy: 0.25
+2024-10-11 11:58:02 [INFO] 
+
+
+
+2024-10-11 11:58:02 [INFO] number id: 64
+2024-10-11 11:58:02 [INFO] instruction content:
+2024-10-11 11:58:02 [INFO] turn left thrice after turn around left twice
+2024-10-11 11:58:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:04 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:04 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:04 [INFO] accuracy: 0.24615384615384617
+2024-10-11 11:58:04 [INFO] 
+
+
+
+2024-10-11 11:58:04 [INFO] number id: 65
+2024-10-11 11:58:04 [INFO] instruction content:
+2024-10-11 11:58:04 [INFO] jump opposite right twice after look around left twice
+2024-10-11 11:58:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:21 [INFO] final answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+2024-10-11 11:58:21 [INFO] gold answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+2024-10-11 11:58:21 [INFO] correct
+2024-10-11 11:58:21 [INFO] accuracy: 0.25757575757575757
+2024-10-11 11:58:21 [INFO] 
+
+
+
+2024-10-11 11:58:21 [INFO] number id: 66
+2024-10-11 11:58:21 [INFO] instruction content:
+2024-10-11 11:58:21 [INFO] look around left after walk right twice
+2024-10-11 11:58:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:22 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:22 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:22 [INFO] accuracy: 0.2537313432835821
+2024-10-11 11:58:22 [INFO] 
+
+
+
+2024-10-11 11:58:22 [INFO] number id: 67
+2024-10-11 11:58:22 [INFO] instruction content:
+2024-10-11 11:58:22 [INFO] run opposite right after look opposite left twice
+2024-10-11 11:58:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:32 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:58:32 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:58:32 [INFO] correct
+2024-10-11 11:58:32 [INFO] accuracy: 0.2647058823529412
+2024-10-11 11:58:32 [INFO] 
+
+
+
+2024-10-11 11:58:32 [INFO] number id: 68
+2024-10-11 11:58:32 [INFO] instruction content:
+2024-10-11 11:58:32 [INFO] turn right twice and run right
+2024-10-11 11:58:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:33 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:33 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:33 [INFO] accuracy: 0.2608695652173913
+2024-10-11 11:58:33 [INFO] 
+
+
+
+2024-10-11 11:58:33 [INFO] number id: 69
+2024-10-11 11:58:33 [INFO] instruction content:
+2024-10-11 11:58:33 [INFO] look opposite left thrice and run around left twice
+2024-10-11 11:58:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:34 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:34 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:34 [INFO] accuracy: 0.2571428571428571
+2024-10-11 11:58:34 [INFO] 
+
+
+
+2024-10-11 11:58:34 [INFO] number id: 70
+2024-10-11 11:58:34 [INFO] instruction content:
+2024-10-11 11:58:34 [INFO] run left twice and look right thrice
+2024-10-11 11:58:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:34 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:34 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:34 [INFO] accuracy: 0.2535211267605634
+2024-10-11 11:58:34 [INFO] 
+
+
+
+2024-10-11 11:58:34 [INFO] number id: 71
+2024-10-11 11:58:34 [INFO] instruction content:
+2024-10-11 11:58:34 [INFO] jump and turn left
+2024-10-11 11:58:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:35 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:35 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:35 [INFO] accuracy: 0.25
+2024-10-11 11:58:35 [INFO] 
+
+
+
+2024-10-11 11:58:35 [INFO] number id: 72
+2024-10-11 11:58:35 [INFO] instruction content:
+2024-10-11 11:58:35 [INFO] run left twice and jump opposite left thrice
+2024-10-11 11:58:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:36 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:36 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:36 [INFO] accuracy: 0.2465753424657534
+2024-10-11 11:58:36 [INFO] 
+
+
+
+2024-10-11 11:58:36 [INFO] number id: 73
+2024-10-11 11:58:36 [INFO] instruction content:
+2024-10-11 11:58:36 [INFO] run right twice after look right twice
+2024-10-11 11:58:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:37 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:37 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:37 [INFO] accuracy: 0.24324324324324326
+2024-10-11 11:58:37 [INFO] 
+
+
+
+2024-10-11 11:58:37 [INFO] number id: 74
+2024-10-11 11:58:37 [INFO] instruction content:
+2024-10-11 11:58:37 [INFO] walk around right twice and look twice
+2024-10-11 11:58:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:38 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:38 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:38 [INFO] accuracy: 0.24
+2024-10-11 11:58:38 [INFO] 
+
+
+
+2024-10-11 11:58:38 [INFO] number id: 75
+2024-10-11 11:58:38 [INFO] instruction content:
+2024-10-11 11:58:38 [INFO] walk right and look twice
+2024-10-11 11:58:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:39 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:39 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:39 [INFO] accuracy: 0.23684210526315788
+2024-10-11 11:58:39 [INFO] 
+
+
+
+2024-10-11 11:58:39 [INFO] number id: 76
+2024-10-11 11:58:39 [INFO] instruction content:
+2024-10-11 11:58:39 [INFO] turn left twice after turn around left thrice
+2024-10-11 11:58:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:40 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:40 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:40 [INFO] accuracy: 0.23376623376623376
+2024-10-11 11:58:40 [INFO] 
+
+
+
+2024-10-11 11:58:40 [INFO] number id: 77
+2024-10-11 11:58:40 [INFO] instruction content:
+2024-10-11 11:58:40 [INFO] jump around right after jump around left thrice
+2024-10-11 11:58:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:41 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:41 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:41 [INFO] accuracy: 0.23076923076923078
+2024-10-11 11:58:41 [INFO] 
+
+
+
+2024-10-11 11:58:41 [INFO] number id: 78
+2024-10-11 11:58:41 [INFO] instruction content:
+2024-10-11 11:58:41 [INFO] walk around left after run around left thrice
+2024-10-11 11:58:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:42 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:42 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:42 [INFO] accuracy: 0.22784810126582278
+2024-10-11 11:58:42 [INFO] 
+
+
+
+2024-10-11 11:58:42 [INFO] number id: 79
+2024-10-11 11:58:42 [INFO] instruction content:
+2024-10-11 11:58:42 [INFO] run right and walk left
+2024-10-11 11:58:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:43 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:43 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:43 [INFO] accuracy: 0.225
+2024-10-11 11:58:43 [INFO] 
+
+
+
+2024-10-11 11:58:43 [INFO] number id: 80
+2024-10-11 11:58:43 [INFO] instruction content:
+2024-10-11 11:58:43 [INFO] walk right thrice
+2024-10-11 11:58:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:43 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:43 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:43 [INFO] accuracy: 0.2222222222222222
+2024-10-11 11:58:43 [INFO] 
+
+
+
+2024-10-11 11:58:43 [INFO] number id: 81
+2024-10-11 11:58:43 [INFO] instruction content:
+2024-10-11 11:58:43 [INFO] walk left thrice and look left twice
+2024-10-11 11:58:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:45 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:45 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:45 [INFO] accuracy: 0.21951219512195122
+2024-10-11 11:58:45 [INFO] 
+
+
+
+2024-10-11 11:58:45 [INFO] number id: 82
+2024-10-11 11:58:45 [INFO] instruction content:
+2024-10-11 11:58:45 [INFO] look left after turn opposite right
+2024-10-11 11:58:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:55 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'LOOK']
+2024-10-11 11:58:55 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'LOOK']
+2024-10-11 11:58:55 [INFO] correct
+2024-10-11 11:58:55 [INFO] accuracy: 0.2289156626506024
+2024-10-11 11:58:55 [INFO] 
+
+
+
+2024-10-11 11:58:55 [INFO] number id: 83
+2024-10-11 11:58:55 [INFO] instruction content:
+2024-10-11 11:58:55 [INFO] look around right thrice and look around right twice
+2024-10-11 11:58:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:56 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:56 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:56 [INFO] accuracy: 0.2261904761904762
+2024-10-11 11:58:56 [INFO] 
+
+
+
+2024-10-11 11:58:56 [INFO] number id: 84
+2024-10-11 11:58:56 [INFO] instruction content:
+2024-10-11 11:58:56 [INFO] look left thrice and look around right thrice
+2024-10-11 11:58:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:58:57 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:58:57 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:58:57 [INFO] accuracy: 0.2235294117647059
+2024-10-11 11:58:57 [INFO] 
+
+
+
+2024-10-11 11:58:57 [INFO] number id: 85
+2024-10-11 11:58:57 [INFO] instruction content:
+2024-10-11 11:58:57 [INFO] turn around right thrice after jump opposite left thrice
+2024-10-11 11:58:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:06 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:08 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:10 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 11:59:10 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 11:59:10 [INFO] correct
+2024-10-11 11:59:10 [INFO] accuracy: 0.23255813953488372
+2024-10-11 11:59:10 [INFO] 
+
+
+
+2024-10-11 11:59:10 [INFO] number id: 86
+2024-10-11 11:59:10 [INFO] instruction content:
+2024-10-11 11:59:10 [INFO] run around right twice and turn opposite right
+2024-10-11 11:59:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:11 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:11 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:11 [INFO] accuracy: 0.22988505747126436
+2024-10-11 11:59:11 [INFO] 
+
+
+
+2024-10-11 11:59:11 [INFO] number id: 87
+2024-10-11 11:59:11 [INFO] instruction content:
+2024-10-11 11:59:11 [INFO] run and jump twice
+2024-10-11 11:59:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:12 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:12 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:12 [INFO] accuracy: 0.22727272727272727
+2024-10-11 11:59:12 [INFO] 
+
+
+
+2024-10-11 11:59:12 [INFO] number id: 88
+2024-10-11 11:59:12 [INFO] instruction content:
+2024-10-11 11:59:12 [INFO] jump opposite right and run around right twice
+2024-10-11 11:59:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:22 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:59:22 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+2024-10-11 11:59:22 [INFO] correct
+2024-10-11 11:59:22 [INFO] accuracy: 0.23595505617977527
+2024-10-11 11:59:22 [INFO] 
+
+
+
+2024-10-11 11:59:22 [INFO] number id: 89
+2024-10-11 11:59:22 [INFO] instruction content:
+2024-10-11 11:59:22 [INFO] run left twice and turn opposite left
+2024-10-11 11:59:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:23 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:23 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:23 [INFO] accuracy: 0.23333333333333334
+2024-10-11 11:59:23 [INFO] 
+
+
+
+2024-10-11 11:59:23 [INFO] number id: 90
+2024-10-11 11:59:23 [INFO] instruction content:
+2024-10-11 11:59:23 [INFO] jump right thrice and look right thrice
+2024-10-11 11:59:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:24 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:24 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:24 [INFO] accuracy: 0.23076923076923078
+2024-10-11 11:59:24 [INFO] 
+
+
+
+2024-10-11 11:59:24 [INFO] number id: 91
+2024-10-11 11:59:24 [INFO] instruction content:
+2024-10-11 11:59:24 [INFO] look opposite right twice and turn opposite left
+2024-10-11 11:59:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:25 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:25 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:25 [INFO] accuracy: 0.22826086956521738
+2024-10-11 11:59:25 [INFO] 
+
+
+
+2024-10-11 11:59:25 [INFO] number id: 92
+2024-10-11 11:59:25 [INFO] instruction content:
+2024-10-11 11:59:25 [INFO] turn right and look opposite left thrice
+2024-10-11 11:59:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:33 [INFO] final answer: ['TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+2024-10-11 11:59:33 [INFO] gold answer: ['TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+2024-10-11 11:59:33 [INFO] correct
+2024-10-11 11:59:33 [INFO] accuracy: 0.23655913978494625
+2024-10-11 11:59:33 [INFO] 
+
+
+
+2024-10-11 11:59:33 [INFO] number id: 93
+2024-10-11 11:59:33 [INFO] instruction content:
+2024-10-11 11:59:33 [INFO] run around left twice and walk opposite right thrice
+2024-10-11 11:59:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:49 [INFO] final answer: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+2024-10-11 11:59:49 [INFO] gold answer: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+2024-10-11 11:59:49 [INFO] correct
+2024-10-11 11:59:49 [INFO] accuracy: 0.24468085106382978
+2024-10-11 11:59:49 [INFO] 
+
+
+
+2024-10-11 11:59:49 [INFO] number id: 94
+2024-10-11 11:59:49 [INFO] instruction content:
+2024-10-11 11:59:49 [INFO] turn opposite left thrice after turn left thrice
+2024-10-11 11:59:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:50 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:50 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:50 [INFO] accuracy: 0.24210526315789474
+2024-10-11 11:59:50 [INFO] 
+
+
+
+2024-10-11 11:59:50 [INFO] number id: 95
+2024-10-11 11:59:50 [INFO] instruction content:
+2024-10-11 11:59:50 [INFO] look opposite right thrice and turn right
+2024-10-11 11:59:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:51 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:51 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:51 [INFO] accuracy: 0.23958333333333334
+2024-10-11 11:59:51 [INFO] 
+
+
+
+2024-10-11 11:59:51 [INFO] number id: 96
+2024-10-11 11:59:51 [INFO] instruction content:
+2024-10-11 11:59:51 [INFO] walk opposite right twice and run opposite left twice
+2024-10-11 11:59:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:53 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:53 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:53 [INFO] accuracy: 0.23711340206185566
+2024-10-11 11:59:53 [INFO] 
+
+
+
+2024-10-11 11:59:53 [INFO] number id: 97
+2024-10-11 11:59:53 [INFO] instruction content:
+2024-10-11 11:59:53 [INFO] look thrice after run around left thrice
+2024-10-11 11:59:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:54 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:54 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:54 [INFO] accuracy: 0.23469387755102042
+2024-10-11 11:59:54 [INFO] 
+
+
+
+2024-10-11 11:59:54 [INFO] number id: 98
+2024-10-11 11:59:54 [INFO] instruction content:
+2024-10-11 11:59:54 [INFO] turn right thrice after turn right twice
+2024-10-11 11:59:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:55 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:55 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:55 [INFO] accuracy: 0.23232323232323232
+2024-10-11 11:59:55 [INFO] 
+
+
+
+2024-10-11 11:59:55 [INFO] number id: 99
+2024-10-11 11:59:55 [INFO] instruction content:
+2024-10-11 11:59:55 [INFO] turn opposite left and jump twice
+2024-10-11 11:59:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:55 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:55 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:55 [INFO] accuracy: 0.23
+2024-10-11 11:59:55 [INFO] 
+
+
+
+2024-10-11 11:59:55 [INFO] number id: 100
+2024-10-11 11:59:55 [INFO] instruction content:
+2024-10-11 11:59:55 [INFO] run thrice and jump left
+2024-10-11 11:59:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:56 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:56 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:56 [INFO] accuracy: 0.22772277227722773
+2024-10-11 11:59:56 [INFO] 
+
+
+
+2024-10-11 11:59:56 [INFO] number id: 101
+2024-10-11 11:59:56 [INFO] instruction content:
+2024-10-11 11:59:56 [INFO] look left and run right twice
+2024-10-11 11:59:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:58 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:58 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:58 [INFO] accuracy: 0.22549019607843138
+2024-10-11 11:59:58 [INFO] 
+
+
+
+2024-10-11 11:59:58 [INFO] number id: 102
+2024-10-11 11:59:58 [INFO] instruction content:
+2024-10-11 11:59:58 [INFO] run left and jump left thrice
+2024-10-11 11:59:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 11:59:59 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 11:59:59 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 11:59:59 [INFO] accuracy: 0.22330097087378642
+2024-10-11 11:59:59 [INFO] 
+
+
+
+2024-10-11 11:59:59 [INFO] number id: 103
+2024-10-11 11:59:59 [INFO] instruction content:
+2024-10-11 11:59:59 [INFO] walk thrice and look right thrice
+2024-10-11 12:00:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:01 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:00:01 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:00:01 [INFO] accuracy: 0.22115384615384615
+2024-10-11 12:00:01 [INFO] 
+
+
+
+2024-10-11 12:00:01 [INFO] number id: 104
+2024-10-11 12:00:01 [INFO] instruction content:
+2024-10-11 12:00:01 [INFO] look opposite right twice and run around right thrice
+2024-10-11 12:00:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:05 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:08 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:14 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:00:14 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:00:14 [INFO] correct
+2024-10-11 12:00:14 [INFO] accuracy: 0.22857142857142856
+2024-10-11 12:00:14 [INFO] 
+
+
+
+2024-10-11 12:00:14 [INFO] number id: 105
+2024-10-11 12:00:14 [INFO] instruction content:
+2024-10-11 12:00:14 [INFO] look opposite left and look around right twice
+2024-10-11 12:00:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:15 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:00:15 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:00:15 [INFO] accuracy: 0.22641509433962265
+2024-10-11 12:00:15 [INFO] 
+
+
+
+2024-10-11 12:00:15 [INFO] number id: 106
+2024-10-11 12:00:15 [INFO] instruction content:
+2024-10-11 12:00:15 [INFO] jump thrice after walk around right thrice
+2024-10-11 12:00:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:16 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:00:16 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:00:16 [INFO] accuracy: 0.22429906542056074
+2024-10-11 12:00:16 [INFO] 
+
+
+
+2024-10-11 12:00:16 [INFO] number id: 107
+2024-10-11 12:00:16 [INFO] instruction content:
+2024-10-11 12:00:16 [INFO] run around right thrice and run twice
+2024-10-11 12:00:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:17 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:00:17 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:00:17 [INFO] accuracy: 0.2222222222222222
+2024-10-11 12:00:17 [INFO] 
+
+
+
+2024-10-11 12:00:17 [INFO] number id: 108
+2024-10-11 12:00:17 [INFO] instruction content:
+2024-10-11 12:00:17 [INFO] walk around right and jump opposite left thrice
+2024-10-11 12:00:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:33 [INFO] final answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+2024-10-11 12:00:33 [INFO] gold answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+2024-10-11 12:00:33 [INFO] correct
+2024-10-11 12:00:33 [INFO] accuracy: 0.22935779816513763
+2024-10-11 12:00:33 [INFO] 
+
+
+
+2024-10-11 12:00:33 [INFO] number id: 109
+2024-10-11 12:00:33 [INFO] instruction content:
+2024-10-11 12:00:33 [INFO] walk around left thrice and walk left thrice
+2024-10-11 12:00:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:34 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:00:34 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:00:34 [INFO] accuracy: 0.22727272727272727
+2024-10-11 12:00:34 [INFO] 
+
+
+
+2024-10-11 12:00:34 [INFO] number id: 110
+2024-10-11 12:00:34 [INFO] instruction content:
+2024-10-11 12:00:34 [INFO] walk around right and run opposite left thrice
+2024-10-11 12:00:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:47 [INFO] final answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+2024-10-11 12:00:47 [INFO] gold answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+2024-10-11 12:00:47 [INFO] correct
+2024-10-11 12:00:47 [INFO] accuracy: 0.23423423423423423
+2024-10-11 12:00:47 [INFO] 
+
+
+
+2024-10-11 12:00:47 [INFO] number id: 111
+2024-10-11 12:00:47 [INFO] instruction content:
+2024-10-11 12:00:47 [INFO] run around right thrice and look around left twice
+2024-10-11 12:00:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:48 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:00:48 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:00:48 [INFO] accuracy: 0.23214285714285715
+2024-10-11 12:00:48 [INFO] 
+
+
+
+2024-10-11 12:00:48 [INFO] number id: 112
+2024-10-11 12:00:48 [INFO] instruction content:
+2024-10-11 12:00:48 [INFO] turn opposite left thrice and walk around left twice
+2024-10-11 12:00:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:00:59 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+2024-10-11 12:00:59 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+2024-10-11 12:00:59 [INFO] correct
+2024-10-11 12:00:59 [INFO] accuracy: 0.23893805309734514
+2024-10-11 12:00:59 [INFO] 
+
+
+
+2024-10-11 12:00:59 [INFO] number id: 113
+2024-10-11 12:00:59 [INFO] instruction content:
+2024-10-11 12:00:59 [INFO] walk around left after look around right
+2024-10-11 12:01:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:06 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:08 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:12 [INFO] final answer: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+2024-10-11 12:01:12 [INFO] gold answer: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+2024-10-11 12:01:12 [INFO] correct
+2024-10-11 12:01:12 [INFO] accuracy: 0.24561403508771928
+2024-10-11 12:01:12 [INFO] 
+
+
+
+2024-10-11 12:01:12 [INFO] number id: 114
+2024-10-11 12:01:12 [INFO] instruction content:
+2024-10-11 12:01:12 [INFO] look around left twice and look around left
+2024-10-11 12:01:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:13 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:13 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:13 [INFO] accuracy: 0.24347826086956523
+2024-10-11 12:01:13 [INFO] 
+
+
+
+2024-10-11 12:01:13 [INFO] number id: 115
+2024-10-11 12:01:13 [INFO] instruction content:
+2024-10-11 12:01:13 [INFO] turn opposite left twice and run opposite left thrice
+2024-10-11 12:01:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:14 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:14 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:14 [INFO] accuracy: 0.2413793103448276
+2024-10-11 12:01:14 [INFO] 
+
+
+
+2024-10-11 12:01:14 [INFO] number id: 116
+2024-10-11 12:01:14 [INFO] instruction content:
+2024-10-11 12:01:14 [INFO] look left twice after look left twice
+2024-10-11 12:01:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:15 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:15 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:15 [INFO] accuracy: 0.23931623931623933
+2024-10-11 12:01:15 [INFO] 
+
+
+
+2024-10-11 12:01:15 [INFO] number id: 117
+2024-10-11 12:01:15 [INFO] instruction content:
+2024-10-11 12:01:15 [INFO] look thrice and look opposite right twice
+2024-10-11 12:01:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:16 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:16 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:16 [INFO] accuracy: 0.23728813559322035
+2024-10-11 12:01:16 [INFO] 
+
+
+
+2024-10-11 12:01:16 [INFO] number id: 118
+2024-10-11 12:01:16 [INFO] instruction content:
+2024-10-11 12:01:16 [INFO] look around left thrice and jump around left
+2024-10-11 12:01:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:17 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:17 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:17 [INFO] accuracy: 0.23529411764705882
+2024-10-11 12:01:17 [INFO] 
+
+
+
+2024-10-11 12:01:17 [INFO] number id: 119
+2024-10-11 12:01:17 [INFO] instruction content:
+2024-10-11 12:01:17 [INFO] run opposite left twice and turn around left twice
+2024-10-11 12:01:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:18 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:18 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:18 [INFO] accuracy: 0.23333333333333334
+2024-10-11 12:01:18 [INFO] 
+
+
+
+2024-10-11 12:01:18 [INFO] number id: 120
+2024-10-11 12:01:18 [INFO] instruction content:
+2024-10-11 12:01:18 [INFO] walk opposite left thrice and walk around right
+2024-10-11 12:01:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:19 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:19 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:19 [INFO] accuracy: 0.23140495867768596
+2024-10-11 12:01:19 [INFO] 
+
+
+
+2024-10-11 12:01:19 [INFO] number id: 121
+2024-10-11 12:01:19 [INFO] instruction content:
+2024-10-11 12:01:19 [INFO] walk twice after turn left thrice
+2024-10-11 12:01:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:20 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:20 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:20 [INFO] accuracy: 0.22950819672131148
+2024-10-11 12:01:20 [INFO] 
+
+
+
+2024-10-11 12:01:20 [INFO] number id: 122
+2024-10-11 12:01:20 [INFO] instruction content:
+2024-10-11 12:01:20 [INFO] look around left twice and turn right
+2024-10-11 12:01:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:21 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:21 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:21 [INFO] accuracy: 0.22764227642276422
+2024-10-11 12:01:21 [INFO] 
+
+
+
+2024-10-11 12:01:21 [INFO] number id: 123
+2024-10-11 12:01:21 [INFO] instruction content:
+2024-10-11 12:01:21 [INFO] look and run left thrice
+2024-10-11 12:01:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:22 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:22 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:22 [INFO] accuracy: 0.22580645161290322
+2024-10-11 12:01:22 [INFO] 
+
+
+
+2024-10-11 12:01:22 [INFO] number id: 124
+2024-10-11 12:01:22 [INFO] instruction content:
+2024-10-11 12:01:22 [INFO] look after look opposite right twice
+2024-10-11 12:01:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:32 [INFO] final answer: ['LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK']
+2024-10-11 12:01:32 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'LOOK']
+2024-10-11 12:01:32 [INFO] incorrect
+2024-10-11 12:01:32 [INFO] accuracy: 0.224
+2024-10-11 12:01:32 [INFO] 
+
+
+
+2024-10-11 12:01:32 [INFO] number id: 125
+2024-10-11 12:01:32 [INFO] instruction content:
+2024-10-11 12:01:32 [INFO] look around right after run opposite right thrice
+2024-10-11 12:01:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:47 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+2024-10-11 12:01:47 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+2024-10-11 12:01:47 [INFO] correct
+2024-10-11 12:01:47 [INFO] accuracy: 0.23015873015873015
+2024-10-11 12:01:47 [INFO] 
+
+
+
+2024-10-11 12:01:47 [INFO] number id: 126
+2024-10-11 12:01:47 [INFO] instruction content:
+2024-10-11 12:01:47 [INFO] walk right after turn around left thrice
+2024-10-11 12:01:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:48 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:48 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:48 [INFO] accuracy: 0.2283464566929134
+2024-10-11 12:01:48 [INFO] 
+
+
+
+2024-10-11 12:01:48 [INFO] number id: 127
+2024-10-11 12:01:48 [INFO] instruction content:
+2024-10-11 12:01:48 [INFO] turn opposite right twice and walk twice
+2024-10-11 12:01:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:49 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:49 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:49 [INFO] accuracy: 0.2265625
+2024-10-11 12:01:49 [INFO] 
+
+
+
+2024-10-11 12:01:49 [INFO] number id: 128
+2024-10-11 12:01:49 [INFO] instruction content:
+2024-10-11 12:01:49 [INFO] jump left and walk
+2024-10-11 12:01:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:50 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:50 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:50 [INFO] accuracy: 0.2248062015503876
+2024-10-11 12:01:50 [INFO] 
+
+
+
+2024-10-11 12:01:50 [INFO] number id: 129
+2024-10-11 12:01:50 [INFO] instruction content:
+2024-10-11 12:01:50 [INFO] walk around left and walk right twice
+2024-10-11 12:01:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:50 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:50 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:50 [INFO] accuracy: 0.2230769230769231
+2024-10-11 12:01:50 [INFO] 
+
+
+
+2024-10-11 12:01:50 [INFO] number id: 130
+2024-10-11 12:01:50 [INFO] instruction content:
+2024-10-11 12:01:50 [INFO] walk around left twice after walk around left twice
+2024-10-11 12:01:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:51 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:51 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:51 [INFO] accuracy: 0.22137404580152673
+2024-10-11 12:01:51 [INFO] 
+
+
+
+2024-10-11 12:01:51 [INFO] number id: 131
+2024-10-11 12:01:51 [INFO] instruction content:
+2024-10-11 12:01:51 [INFO] look around right twice and look left thrice
+2024-10-11 12:01:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:52 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:52 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:52 [INFO] accuracy: 0.2196969696969697
+2024-10-11 12:01:52 [INFO] 
+
+
+
+2024-10-11 12:01:52 [INFO] number id: 132
+2024-10-11 12:01:52 [INFO] instruction content:
+2024-10-11 12:01:52 [INFO] jump twice and jump around right thrice
+2024-10-11 12:01:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:53 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:01:53 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:01:53 [INFO] accuracy: 0.21804511278195488
+2024-10-11 12:01:53 [INFO] 
+
+
+
+2024-10-11 12:01:53 [INFO] number id: 133
+2024-10-11 12:01:53 [INFO] instruction content:
+2024-10-11 12:01:53 [INFO] walk opposite left thrice after turn left thrice
+2024-10-11 12:01:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:01:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:05 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:06 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:06 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK']
+2024-10-11 12:02:06 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK']
+2024-10-11 12:02:06 [INFO] correct
+2024-10-11 12:02:06 [INFO] accuracy: 0.22388059701492538
+2024-10-11 12:02:06 [INFO] 
+
+
+
+2024-10-11 12:02:06 [INFO] number id: 134
+2024-10-11 12:02:06 [INFO] instruction content:
+2024-10-11 12:02:06 [INFO] look around right thrice and look left thrice
+2024-10-11 12:02:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:07 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:02:07 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:02:07 [INFO] accuracy: 0.2222222222222222
+2024-10-11 12:02:07 [INFO] 
+
+
+
+2024-10-11 12:02:07 [INFO] number id: 135
+2024-10-11 12:02:07 [INFO] instruction content:
+2024-10-11 12:02:07 [INFO] walk around left twice after look around right
+2024-10-11 12:02:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:07 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:02:07 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:02:07 [INFO] accuracy: 0.22058823529411764
+2024-10-11 12:02:07 [INFO] 
+
+
+
+2024-10-11 12:02:07 [INFO] number id: 136
+2024-10-11 12:02:07 [INFO] instruction content:
+2024-10-11 12:02:07 [INFO] run around right after look around left twice
+2024-10-11 12:02:08 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:19 [INFO] final answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:02:19 [INFO] gold answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:02:19 [INFO] correct
+2024-10-11 12:02:19 [INFO] accuracy: 0.22627737226277372
+2024-10-11 12:02:19 [INFO] 
+
+
+
+2024-10-11 12:02:19 [INFO] number id: 137
+2024-10-11 12:02:19 [INFO] instruction content:
+2024-10-11 12:02:19 [INFO] walk around right thrice and run opposite right twice
+2024-10-11 12:02:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:43 [INFO] final answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:02:43 [INFO] gold answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:02:43 [INFO] correct
+2024-10-11 12:02:43 [INFO] accuracy: 0.2318840579710145
+2024-10-11 12:02:43 [INFO] 
+
+
+
+2024-10-11 12:02:43 [INFO] number id: 138
+2024-10-11 12:02:43 [INFO] instruction content:
+2024-10-11 12:02:43 [INFO] jump around right and turn opposite left twice
+2024-10-11 12:02:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:02:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:00 [INFO] final answer: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 12:03:00 [INFO] gold answer: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 12:03:00 [INFO] correct
+2024-10-11 12:03:00 [INFO] accuracy: 0.23741007194244604
+2024-10-11 12:03:00 [INFO] 
+
+
+
+2024-10-11 12:03:00 [INFO] number id: 139
+2024-10-11 12:03:00 [INFO] instruction content:
+2024-10-11 12:03:00 [INFO] jump opposite left after look around right thrice
+2024-10-11 12:03:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:23 [INFO] final answer: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+2024-10-11 12:03:23 [INFO] gold answer: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+2024-10-11 12:03:23 [INFO] correct
+2024-10-11 12:03:23 [INFO] accuracy: 0.24285714285714285
+2024-10-11 12:03:23 [INFO] 
+
+
+
+2024-10-11 12:03:23 [INFO] number id: 140
+2024-10-11 12:03:23 [INFO] instruction content:
+2024-10-11 12:03:23 [INFO] run around left and turn left
+2024-10-11 12:03:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:24 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:24 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:24 [INFO] accuracy: 0.24113475177304963
+2024-10-11 12:03:24 [INFO] 
+
+
+
+2024-10-11 12:03:24 [INFO] number id: 141
+2024-10-11 12:03:24 [INFO] instruction content:
+2024-10-11 12:03:24 [INFO] look right and turn right thrice
+2024-10-11 12:03:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:25 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:25 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:25 [INFO] accuracy: 0.23943661971830985
+2024-10-11 12:03:25 [INFO] 
+
+
+
+2024-10-11 12:03:25 [INFO] number id: 142
+2024-10-11 12:03:25 [INFO] instruction content:
+2024-10-11 12:03:25 [INFO] run around left thrice and jump left
+2024-10-11 12:03:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:26 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:26 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:26 [INFO] accuracy: 0.23776223776223776
+2024-10-11 12:03:26 [INFO] 
+
+
+
+2024-10-11 12:03:26 [INFO] number id: 143
+2024-10-11 12:03:26 [INFO] instruction content:
+2024-10-11 12:03:26 [INFO] jump twice and run twice
+2024-10-11 12:03:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:27 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:27 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:27 [INFO] accuracy: 0.2361111111111111
+2024-10-11 12:03:27 [INFO] 
+
+
+
+2024-10-11 12:03:27 [INFO] number id: 144
+2024-10-11 12:03:27 [INFO] instruction content:
+2024-10-11 12:03:27 [INFO] walk around left and look right thrice
+2024-10-11 12:03:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:28 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:28 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:28 [INFO] accuracy: 0.23448275862068965
+2024-10-11 12:03:28 [INFO] 
+
+
+
+2024-10-11 12:03:28 [INFO] number id: 145
+2024-10-11 12:03:28 [INFO] instruction content:
+2024-10-11 12:03:28 [INFO] look left twice after walk around left twice
+2024-10-11 12:03:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:29 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:29 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:29 [INFO] accuracy: 0.2328767123287671
+2024-10-11 12:03:29 [INFO] 
+
+
+
+2024-10-11 12:03:29 [INFO] number id: 146
+2024-10-11 12:03:29 [INFO] instruction content:
+2024-10-11 12:03:29 [INFO] jump around left and turn around left
+2024-10-11 12:03:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:30 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:30 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:30 [INFO] accuracy: 0.23129251700680273
+2024-10-11 12:03:30 [INFO] 
+
+
+
+2024-10-11 12:03:30 [INFO] number id: 147
+2024-10-11 12:03:30 [INFO] instruction content:
+2024-10-11 12:03:30 [INFO] look around right and turn left thrice
+2024-10-11 12:03:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:31 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:31 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:31 [INFO] accuracy: 0.22972972972972974
+2024-10-11 12:03:31 [INFO] 
+
+
+
+2024-10-11 12:03:31 [INFO] number id: 148
+2024-10-11 12:03:31 [INFO] instruction content:
+2024-10-11 12:03:31 [INFO] look twice after look left thrice
+2024-10-11 12:03:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:31 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:31 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:31 [INFO] accuracy: 0.22818791946308725
+2024-10-11 12:03:31 [INFO] 
+
+
+
+2024-10-11 12:03:31 [INFO] number id: 149
+2024-10-11 12:03:31 [INFO] instruction content:
+2024-10-11 12:03:31 [INFO] jump opposite right twice and look around right thrice
+2024-10-11 12:03:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:32 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:32 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:32 [INFO] accuracy: 0.22666666666666666
+2024-10-11 12:03:32 [INFO] 
+
+
+
+2024-10-11 12:03:32 [INFO] number id: 150
+2024-10-11 12:03:32 [INFO] instruction content:
+2024-10-11 12:03:32 [INFO] walk thrice after walk opposite right twice
+2024-10-11 12:03:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:33 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:33 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:33 [INFO] accuracy: 0.2251655629139073
+2024-10-11 12:03:33 [INFO] 
+
+
+
+2024-10-11 12:03:33 [INFO] number id: 151
+2024-10-11 12:03:33 [INFO] instruction content:
+2024-10-11 12:03:33 [INFO] jump opposite right twice after look left
+2024-10-11 12:03:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:34 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:03:34 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:03:34 [INFO] accuracy: 0.2236842105263158
+2024-10-11 12:03:34 [INFO] 
+
+
+
+2024-10-11 12:03:34 [INFO] number id: 152
+2024-10-11 12:03:34 [INFO] instruction content:
+2024-10-11 12:03:34 [INFO] jump around left thrice and run opposite right twice
+2024-10-11 12:03:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:03:59 [INFO] final answer: ['TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:03:59 [INFO] gold answer: ['TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:03:59 [INFO] correct
+2024-10-11 12:03:59 [INFO] accuracy: 0.22875816993464052
+2024-10-11 12:03:59 [INFO] 
+
+
+
+2024-10-11 12:03:59 [INFO] number id: 153
+2024-10-11 12:03:59 [INFO] instruction content:
+2024-10-11 12:03:59 [INFO] look opposite right and jump around right
+2024-10-11 12:04:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:06 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:09 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP']
+2024-10-11 12:04:09 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP']
+2024-10-11 12:04:09 [INFO] correct
+2024-10-11 12:04:09 [INFO] accuracy: 0.23376623376623376
+2024-10-11 12:04:09 [INFO] 
+
+
+
+2024-10-11 12:04:09 [INFO] number id: 154
+2024-10-11 12:04:09 [INFO] instruction content:
+2024-10-11 12:04:09 [INFO] jump opposite left thrice and jump left twice
+2024-10-11 12:04:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:10 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:10 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:10 [INFO] accuracy: 0.23225806451612904
+2024-10-11 12:04:10 [INFO] 
+
+
+
+2024-10-11 12:04:10 [INFO] number id: 155
+2024-10-11 12:04:10 [INFO] instruction content:
+2024-10-11 12:04:10 [INFO] run left twice and jump thrice
+2024-10-11 12:04:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:11 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:11 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:11 [INFO] accuracy: 0.23076923076923078
+2024-10-11 12:04:11 [INFO] 
+
+
+
+2024-10-11 12:04:11 [INFO] number id: 156
+2024-10-11 12:04:11 [INFO] instruction content:
+2024-10-11 12:04:11 [INFO] jump around right thrice and look around right
+2024-10-11 12:04:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:11 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:11 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:11 [INFO] accuracy: 0.22929936305732485
+2024-10-11 12:04:11 [INFO] 
+
+
+
+2024-10-11 12:04:11 [INFO] number id: 157
+2024-10-11 12:04:11 [INFO] instruction content:
+2024-10-11 12:04:11 [INFO] jump right thrice and jump around right thrice
+2024-10-11 12:04:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:12 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:12 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:12 [INFO] accuracy: 0.22784810126582278
+2024-10-11 12:04:12 [INFO] 
+
+
+
+2024-10-11 12:04:12 [INFO] number id: 158
+2024-10-11 12:04:12 [INFO] instruction content:
+2024-10-11 12:04:12 [INFO] walk opposite right thrice after turn right thrice
+2024-10-11 12:04:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:12 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:12 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:12 [INFO] accuracy: 0.22641509433962265
+2024-10-11 12:04:12 [INFO] 
+
+
+
+2024-10-11 12:04:12 [INFO] number id: 159
+2024-10-11 12:04:12 [INFO] instruction content:
+2024-10-11 12:04:12 [INFO] look right twice and walk left
+2024-10-11 12:04:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:13 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:13 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:13 [INFO] accuracy: 0.225
+2024-10-11 12:04:13 [INFO] 
+
+
+
+2024-10-11 12:04:13 [INFO] number id: 160
+2024-10-11 12:04:13 [INFO] instruction content:
+2024-10-11 12:04:13 [INFO] run left and walk around right twice
+2024-10-11 12:04:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:29 [INFO] final answer: ['TURN_LEFT', 'RUN', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK']
+2024-10-11 12:04:29 [INFO] gold answer: ['TURN_LEFT', 'RUN', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK']
+2024-10-11 12:04:29 [INFO] correct
+2024-10-11 12:04:29 [INFO] accuracy: 0.22981366459627328
+2024-10-11 12:04:29 [INFO] 
+
+
+
+2024-10-11 12:04:29 [INFO] number id: 161
+2024-10-11 12:04:29 [INFO] instruction content:
+2024-10-11 12:04:29 [INFO] turn around right twice after run right thrice
+2024-10-11 12:04:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:30 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:30 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:30 [INFO] accuracy: 0.22839506172839505
+2024-10-11 12:04:30 [INFO] 
+
+
+
+2024-10-11 12:04:30 [INFO] number id: 162
+2024-10-11 12:04:30 [INFO] instruction content:
+2024-10-11 12:04:30 [INFO] jump opposite left thrice and walk around left twice
+2024-10-11 12:04:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:30 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:30 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:30 [INFO] accuracy: 0.22699386503067484
+2024-10-11 12:04:30 [INFO] 
+
+
+
+2024-10-11 12:04:30 [INFO] number id: 163
+2024-10-11 12:04:30 [INFO] instruction content:
+2024-10-11 12:04:30 [INFO] look opposite left twice after run opposite left
+2024-10-11 12:04:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:44 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+2024-10-11 12:04:44 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+2024-10-11 12:04:44 [INFO] correct
+2024-10-11 12:04:44 [INFO] accuracy: 0.23170731707317074
+2024-10-11 12:04:44 [INFO] 
+
+
+
+2024-10-11 12:04:44 [INFO] number id: 164
+2024-10-11 12:04:44 [INFO] instruction content:
+2024-10-11 12:04:44 [INFO] run around right and look around right thrice
+2024-10-11 12:04:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:45 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:45 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:45 [INFO] accuracy: 0.23030303030303031
+2024-10-11 12:04:45 [INFO] 
+
+
+
+2024-10-11 12:04:45 [INFO] number id: 165
+2024-10-11 12:04:45 [INFO] instruction content:
+2024-10-11 12:04:45 [INFO] run left thrice after turn right twice
+2024-10-11 12:04:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:46 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:46 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:46 [INFO] accuracy: 0.2289156626506024
+2024-10-11 12:04:46 [INFO] 
+
+
+
+2024-10-11 12:04:46 [INFO] number id: 166
+2024-10-11 12:04:46 [INFO] instruction content:
+2024-10-11 12:04:46 [INFO] look around left twice and jump opposite left thrice
+2024-10-11 12:04:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:46 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:46 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:46 [INFO] accuracy: 0.2275449101796407
+2024-10-11 12:04:46 [INFO] 
+
+
+
+2024-10-11 12:04:46 [INFO] number id: 167
+2024-10-11 12:04:46 [INFO] instruction content:
+2024-10-11 12:04:46 [INFO] turn opposite left after turn around right twice
+2024-10-11 12:04:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:57 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 12:04:57 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 12:04:57 [INFO] correct
+2024-10-11 12:04:57 [INFO] accuracy: 0.23214285714285715
+2024-10-11 12:04:57 [INFO] 
+
+
+
+2024-10-11 12:04:57 [INFO] number id: 168
+2024-10-11 12:04:57 [INFO] instruction content:
+2024-10-11 12:04:57 [INFO] run left thrice after turn left thrice
+2024-10-11 12:04:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:57 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:57 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:57 [INFO] accuracy: 0.23076923076923078
+2024-10-11 12:04:57 [INFO] 
+
+
+
+2024-10-11 12:04:57 [INFO] number id: 169
+2024-10-11 12:04:57 [INFO] instruction content:
+2024-10-11 12:04:57 [INFO] turn opposite right twice and walk opposite left thrice
+2024-10-11 12:04:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:04:58 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:04:58 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:04:58 [INFO] accuracy: 0.22941176470588234
+2024-10-11 12:04:58 [INFO] 
+
+
+
+2024-10-11 12:04:58 [INFO] number id: 170
+2024-10-11 12:04:58 [INFO] instruction content:
+2024-10-11 12:04:58 [INFO] walk opposite left and turn around left
+2024-10-11 12:04:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:05 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:05 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:08 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:09 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 12:05:09 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+2024-10-11 12:05:09 [INFO] correct
+2024-10-11 12:05:09 [INFO] accuracy: 0.23391812865497075
+2024-10-11 12:05:09 [INFO] 
+
+
+
+2024-10-11 12:05:09 [INFO] number id: 171
+2024-10-11 12:05:09 [INFO] instruction content:
+2024-10-11 12:05:09 [INFO] run and look right
+2024-10-11 12:05:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:10 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:10 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:10 [INFO] accuracy: 0.23255813953488372
+2024-10-11 12:05:10 [INFO] 
+
+
+
+2024-10-11 12:05:10 [INFO] number id: 172
+2024-10-11 12:05:10 [INFO] instruction content:
+2024-10-11 12:05:10 [INFO] run right and jump opposite right
+2024-10-11 12:05:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:17 [INFO] final answer: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+2024-10-11 12:05:17 [INFO] gold answer: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+2024-10-11 12:05:17 [INFO] incorrect
+2024-10-11 12:05:17 [INFO] accuracy: 0.23121387283236994
+2024-10-11 12:05:17 [INFO] 
+
+
+
+2024-10-11 12:05:17 [INFO] number id: 173
+2024-10-11 12:05:17 [INFO] instruction content:
+2024-10-11 12:05:17 [INFO] jump after jump thrice
+2024-10-11 12:05:18 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:18 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:18 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:18 [INFO] accuracy: 0.22988505747126436
+2024-10-11 12:05:18 [INFO] 
+
+
+
+2024-10-11 12:05:18 [INFO] number id: 174
+2024-10-11 12:05:18 [INFO] instruction content:
+2024-10-11 12:05:18 [INFO] jump thrice after jump around left twice
+2024-10-11 12:05:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:19 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:19 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:19 [INFO] accuracy: 0.22857142857142856
+2024-10-11 12:05:19 [INFO] 
+
+
+
+2024-10-11 12:05:19 [INFO] number id: 175
+2024-10-11 12:05:19 [INFO] instruction content:
+2024-10-11 12:05:19 [INFO] turn left thrice and jump around right thrice
+2024-10-11 12:05:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:20 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:20 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:20 [INFO] accuracy: 0.22727272727272727
+2024-10-11 12:05:20 [INFO] 
+
+
+
+2024-10-11 12:05:20 [INFO] number id: 176
+2024-10-11 12:05:20 [INFO] instruction content:
+2024-10-11 12:05:20 [INFO] run twice after walk right
+2024-10-11 12:05:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:21 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:21 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:21 [INFO] accuracy: 0.22598870056497175
+2024-10-11 12:05:21 [INFO] 
+
+
+
+2024-10-11 12:05:21 [INFO] number id: 177
+2024-10-11 12:05:21 [INFO] instruction content:
+2024-10-11 12:05:21 [INFO] jump left twice and turn left
+2024-10-11 12:05:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:22 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:22 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:22 [INFO] accuracy: 0.2247191011235955
+2024-10-11 12:05:22 [INFO] 
+
+
+
+2024-10-11 12:05:22 [INFO] number id: 178
+2024-10-11 12:05:22 [INFO] instruction content:
+2024-10-11 12:05:22 [INFO] run opposite right after turn right
+2024-10-11 12:05:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:30 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:05:30 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+2024-10-11 12:05:30 [INFO] correct
+2024-10-11 12:05:30 [INFO] accuracy: 0.22905027932960895
+2024-10-11 12:05:30 [INFO] 
+
+
+
+2024-10-11 12:05:30 [INFO] number id: 179
+2024-10-11 12:05:30 [INFO] instruction content:
+2024-10-11 12:05:30 [INFO] run around right twice after look left
+2024-10-11 12:05:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:31 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:31 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:31 [INFO] accuracy: 0.22777777777777777
+2024-10-11 12:05:31 [INFO] 
+
+
+
+2024-10-11 12:05:31 [INFO] number id: 180
+2024-10-11 12:05:31 [INFO] instruction content:
+2024-10-11 12:05:31 [INFO] jump opposite left thrice after look around left
+2024-10-11 12:05:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:44 [INFO] final answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+2024-10-11 12:05:44 [INFO] gold answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+2024-10-11 12:05:44 [INFO] correct
+2024-10-11 12:05:44 [INFO] accuracy: 0.23204419889502761
+2024-10-11 12:05:44 [INFO] 
+
+
+
+2024-10-11 12:05:44 [INFO] number id: 181
+2024-10-11 12:05:44 [INFO] instruction content:
+2024-10-11 12:05:44 [INFO] look opposite right and jump twice
+2024-10-11 12:05:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:45 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:45 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:45 [INFO] accuracy: 0.23076923076923078
+2024-10-11 12:05:45 [INFO] 
+
+
+
+2024-10-11 12:05:45 [INFO] number id: 182
+2024-10-11 12:05:45 [INFO] instruction content:
+2024-10-11 12:05:45 [INFO] walk around right after jump around left
+2024-10-11 12:05:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:46 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:46 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:46 [INFO] accuracy: 0.22950819672131148
+2024-10-11 12:05:46 [INFO] 
+
+
+
+2024-10-11 12:05:46 [INFO] number id: 183
+2024-10-11 12:05:46 [INFO] instruction content:
+2024-10-11 12:05:46 [INFO] turn left thrice and turn around right thrice
+2024-10-11 12:05:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:46 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:46 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:46 [INFO] accuracy: 0.22826086956521738
+2024-10-11 12:05:46 [INFO] 
+
+
+
+2024-10-11 12:05:46 [INFO] number id: 184
+2024-10-11 12:05:46 [INFO] instruction content:
+2024-10-11 12:05:46 [INFO] look right thrice after look right thrice
+2024-10-11 12:05:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:47 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:47 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:47 [INFO] accuracy: 0.22702702702702704
+2024-10-11 12:05:47 [INFO] 
+
+
+
+2024-10-11 12:05:47 [INFO] number id: 185
+2024-10-11 12:05:47 [INFO] instruction content:
+2024-10-11 12:05:47 [INFO] run opposite right twice and jump right
+2024-10-11 12:05:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:48 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:48 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:48 [INFO] accuracy: 0.22580645161290322
+2024-10-11 12:05:48 [INFO] 
+
+
+
+2024-10-11 12:05:48 [INFO] number id: 186
+2024-10-11 12:05:48 [INFO] instruction content:
+2024-10-11 12:05:48 [INFO] jump opposite right thrice and look around left
+2024-10-11 12:05:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:49 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:49 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:49 [INFO] accuracy: 0.22459893048128343
+2024-10-11 12:05:49 [INFO] 
+
+
+
+2024-10-11 12:05:49 [INFO] number id: 187
+2024-10-11 12:05:49 [INFO] instruction content:
+2024-10-11 12:05:49 [INFO] run opposite left thrice and look thrice
+2024-10-11 12:05:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:49 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:49 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:49 [INFO] accuracy: 0.22340425531914893
+2024-10-11 12:05:49 [INFO] 
+
+
+
+2024-10-11 12:05:49 [INFO] number id: 188
+2024-10-11 12:05:49 [INFO] instruction content:
+2024-10-11 12:05:49 [INFO] run right twice and jump right
+2024-10-11 12:05:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:50 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:05:50 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:05:50 [INFO] accuracy: 0.2222222222222222
+2024-10-11 12:05:50 [INFO] 
+
+
+
+2024-10-11 12:05:50 [INFO] number id: 189
+2024-10-11 12:05:50 [INFO] instruction content:
+2024-10-11 12:05:50 [INFO] turn around right after jump opposite left twice
+2024-10-11 12:05:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:05:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:01 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 12:06:01 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 12:06:01 [INFO] correct
+2024-10-11 12:06:01 [INFO] accuracy: 0.22631578947368422
+2024-10-11 12:06:01 [INFO] 
+
+
+
+2024-10-11 12:06:01 [INFO] number id: 190
+2024-10-11 12:06:01 [INFO] instruction content:
+2024-10-11 12:06:01 [INFO] look opposite right after look around left thrice
+2024-10-11 12:06:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:05 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:15 [INFO] final answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK']
+2024-10-11 12:06:15 [INFO] gold answer: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK']
+2024-10-11 12:06:15 [INFO] correct
+2024-10-11 12:06:15 [INFO] accuracy: 0.23036649214659685
+2024-10-11 12:06:15 [INFO] 
+
+
+
+2024-10-11 12:06:15 [INFO] number id: 191
+2024-10-11 12:06:15 [INFO] instruction content:
+2024-10-11 12:06:15 [INFO] jump opposite right and run around left twice
+2024-10-11 12:06:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:31 [INFO] final answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN']
+2024-10-11 12:06:31 [INFO] gold answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN']
+2024-10-11 12:06:31 [INFO] correct
+2024-10-11 12:06:31 [INFO] accuracy: 0.234375
+2024-10-11 12:06:31 [INFO] 
+
+
+
+2024-10-11 12:06:31 [INFO] number id: 192
+2024-10-11 12:06:31 [INFO] instruction content:
+2024-10-11 12:06:31 [INFO] look around left after run twice
+2024-10-11 12:06:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:31 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:06:31 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:06:31 [INFO] accuracy: 0.23316062176165803
+2024-10-11 12:06:31 [INFO] 
+
+
+
+2024-10-11 12:06:31 [INFO] number id: 193
+2024-10-11 12:06:31 [INFO] instruction content:
+2024-10-11 12:06:31 [INFO] run opposite right and run opposite left twice
+2024-10-11 12:06:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:32 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:06:32 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:06:32 [INFO] accuracy: 0.23195876288659795
+2024-10-11 12:06:32 [INFO] 
+
+
+
+2024-10-11 12:06:32 [INFO] number id: 194
+2024-10-11 12:06:32 [INFO] instruction content:
+2024-10-11 12:06:32 [INFO] jump around left thrice and look opposite left twice
+2024-10-11 12:06:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:33 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:06:33 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:06:33 [INFO] accuracy: 0.23076923076923078
+2024-10-11 12:06:33 [INFO] 
+
+
+
+2024-10-11 12:06:33 [INFO] number id: 195
+2024-10-11 12:06:33 [INFO] instruction content:
+2024-10-11 12:06:33 [INFO] jump around left after jump left
+2024-10-11 12:06:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:34 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:06:34 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:06:34 [INFO] accuracy: 0.22959183673469388
+2024-10-11 12:06:34 [INFO] 
+
+
+
+2024-10-11 12:06:34 [INFO] number id: 196
+2024-10-11 12:06:34 [INFO] instruction content:
+2024-10-11 12:06:34 [INFO] jump thrice and run thrice
+2024-10-11 12:06:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:35 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:06:35 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:06:35 [INFO] accuracy: 0.22842639593908629
+2024-10-11 12:06:35 [INFO] 
+
+
+
+2024-10-11 12:06:35 [INFO] number id: 197
+2024-10-11 12:06:35 [INFO] instruction content:
+2024-10-11 12:06:35 [INFO] turn opposite right twice after jump left twice
+2024-10-11 12:06:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:35 [INFO] HTTP Request: POST http://101.6.69.60:8000/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-11 12:06:35 [ERROR] run error: Error code: 404 - {'object': 'error', 'message': 'The model `gpt-4o` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
+2024-10-11 12:06:35 [INFO] accuracy: 0.22727272727272727
+2024-10-11 12:06:35 [INFO] 
+
+
+
+2024-10-11 12:06:35 [INFO] number id: 198
+2024-10-11 12:06:35 [INFO] instruction content:
+2024-10-11 12:06:35 [INFO] walk around left twice after run opposite left twice
+2024-10-11 12:06:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:52 [INFO] final answer: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+2024-10-11 12:06:52 [INFO] gold answer: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+2024-10-11 12:06:52 [INFO] correct
+2024-10-11 12:06:52 [INFO] accuracy: 0.23115577889447236
+2024-10-11 12:06:52 [INFO] 
+
+
+
+2024-10-11 12:06:52 [INFO] number id: 199
+2024-10-11 12:06:52 [INFO] instruction content:
+2024-10-11 12:06:52 [INFO] turn opposite right after walk around left
+2024-10-11 12:06:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:06:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:07:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:07:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:07:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 12:07:03 [INFO] final answer: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 12:07:03 [INFO] gold answer: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT']
+2024-10-11 12:07:03 [INFO] correct
+2024-10-11 12:07:03 [INFO] accuracy: 0.235
+2024-10-11 12:07:03 [INFO] correct_Q: 47
+2024-10-11 12:07:03 [INFO] error_Q: 149
+2024-10-11 12:07:03 [INFO] incorrect_Q: 4
+2024-10-11 12:07:03 [INFO] sum_Q: 200

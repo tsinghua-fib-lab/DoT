@@ -1,0 +1,1724 @@
+[
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand and differentiate two conditions required: list length must be exactly 10, and the fourth element in the list occurs exactly twice. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize a list of length 10. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select a value for the fourth element in the list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Place this value in one other position in the list other than the fourth position. "
+      },
+      {
+        "stepId": 5,
+        "step": " Fill remaining positions in the list with unique values ensuring each appears only once. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that the list length is indeed 10. "
+      },
+      {
+        "stepId": 7,
+        "step": " Confirm that only the chosen element repeats exactly once and specifically at the positions designated in the list. "
+      }
+    ],
+    {
+      "1": " Understand and differentiate two conditions required: list length must be exactly 10, and the fourth element in the list occurs exactly twice. ",
+      "2": " Initialize a list of length 10. ",
+      "3": " Select a value for the fourth element in the list. ",
+      "4": " Place this value in one other position in the list other than the fourth position. ",
+      "5": " Fill remaining positions in the list with unique values ensuring each appears only once. ",
+      "6": " Verify that the list length is indeed 10. ",
+      "7": " Confirm that only the chosen element repeats exactly once and specifically at the positions designated in the list. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6",
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Determine the required length of the list, which is 10. "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify the element at index 3 that must be present exactly twice in the list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Choose a unique value for the element at index 3. "
+      },
+      {
+        "stepId": 4,
+        "step": " Insert the chosen value for index 3 into the list. "
+      },
+      {
+        "stepId": 5,
+        "step": " Add the element again at another index, ensuring it only appears twice. "
+      },
+      {
+        "stepId": 6,
+        "step": " Populate the remaining positions in the list with unique values that are different from the value at index 3. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify that the condition of the element at index 3 appearing exactly twice in the list is met. "
+      },
+      {
+        "stepId": 8,
+        "step": " Return the resulting list. "
+      }
+    ],
+    {
+      "1": " Determine the required length of the list, which is 10. ",
+      "2": " Identify the element at index 3 that must be present exactly twice in the list. ",
+      "3": " Choose a unique value for the element at index 3. ",
+      "4": " Insert the chosen value for index 3 into the list. ",
+      "5": " Add the element again at another index, ensuring it only appears twice. ",
+      "6": " Populate the remaining positions in the list with unique values that are different from the value at index 3. ",
+      "7": " Verify that the condition of the element at index 3 appearing exactly twice in the list is met. ",
+      "8": " Return the resulting list. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function requirements: the list should be of length 10, and the fourth element should appear exactly twice in the list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Build a list of length 10 with arbitrary integers. "
+      },
+      {
+        "stepId": 3,
+        "step": " Determine the index positions available in the list, excluding the third index position (i.e., positions apart from index 3). "
+      },
+      {
+        "stepId": 4,
+        "step": " Randomly select one index position from the ones determined in the previous step. "
+      },
+      {
+        "stepId": 5,
+        "step": " Assign the element at index 3 to the selected position, making it appear twice in the list. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure no other element in the list appears twice, except the fourth element. "
+      },
+      {
+        "stepId": 7,
+        "step": " Test if the program returns True with the constructed list. "
+      },
+      {
+        "stepId": 8,
+        "step": " Adjust the elements as necessary while ensuring they meet all requirements. "
+      }
+    ],
+    {
+      "1": " Understand the function requirements: the list should be of length 10, and the fourth element should appear exactly twice in the list. ",
+      "2": " Build a list of length 10 with arbitrary integers. ",
+      "3": " Determine the index positions available in the list, excluding the third index position (i.e., positions apart from index 3). ",
+      "4": " Randomly select one index position from the ones determined in the previous step. ",
+      "5": " Assign the element at index 3 to the selected position, making it appear twice in the list. ",
+      "6": " Ensure no other element in the list appears twice, except the fourth element. ",
+      "7": " Test if the program returns True with the constructed list. ",
+      "8": " Adjust the elements as necessary while ensuring they meet all requirements. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify the length requirement of the list to be exactly 10. "
+      },
+      {
+        "stepId": 2,
+        "step": " Choose a distinct value for the fourth element in the list, li[3]. "
+      },
+      {
+        "stepId": 3,
+        "step": " Place identical value of li[3] at one other random position not equal to 3. "
+      },
+      {
+        "stepId": 4,
+        "step": " Fill other positions with unique values ensuring that the li[3] value appears nowhere else. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify the list is 10 elements long. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that the value at li[3] appears exactly twice in the list. "
+      },
+      {
+        "stepId": 7,
+        "step": " If conditions are met, confirm the solution. If not, adjust the values and retest steps. "
+      }
+    ],
+    {
+      "1": " Identify the length requirement of the list to be exactly 10. ",
+      "2": " Choose a distinct value for the fourth element in the list, li[3]. ",
+      "3": " Place identical value of li[3] at one other random position not equal to 3. ",
+      "4": " Fill other positions with unique values ensuring that the li[3] value appears nowhere else. ",
+      "5": " Verify the list is 10 elements long. ",
+      "6": " Verify that the value at li[3] appears exactly twice in the list. ",
+      "7": " If conditions are met, confirm the solution. If not, adjust the values and retest steps. "
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4"
+      ],
+      "2": [
+        "Step 6",
+        "Step 5"
+      ],
+      "3": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function requirements: the list must have exactly 10 elements and the fourth element must appear exactly twice in the list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize a list of 10 elements. "
+      },
+      {
+        "stepId": 3,
+        "step": " Assign a unique value to most of the elements except for two, ensuring no duplicates elsewhere. "
+      },
+      {
+        "stepId": 4,
+        "step": " Assign the same value to the fourth element and one other element. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify the list meets the length condition. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify the condition that the fourth element appears exactly twice. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the correct list that satisfies the function's conditions. "
+      }
+    ],
+    {
+      "1": " Understand the function requirements: the list must have exactly 10 elements and the fourth element must appear exactly twice in the list. ",
+      "2": " Initialize a list of 10 elements. ",
+      "3": " Assign a unique value to most of the elements except for two, ensuring no duplicates elsewhere. ",
+      "4": " Assign the same value to the fourth element and one other element. ",
+      "5": " Verify the list meets the length condition. ",
+      "6": " Verify the condition that the fourth element appears exactly twice. ",
+      "7": " Return the correct list that satisfies the function's conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the list must have exactly 10 elements. "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify that the fourth element in the list should appear exactly twice in the list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Choose or generate a list of 10 distinct integers initially. "
+      },
+      {
+        "stepId": 4,
+        "step": " Replace one of these distinct integers to duplicate the fourth element. "
+      },
+      {
+        "stepId": 5,
+        "step": " Confirm the uniqueness of all other elements except the fourth one. "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate that the list meets both conditions of having 10 elements and the fourth element appearing exactly twice. "
+      }
+    ],
+    {
+      "1": " Understand that the list must have exactly 10 elements. ",
+      "2": " Identify that the fourth element in the list should appear exactly twice in the list. ",
+      "3": " Choose or generate a list of 10 distinct integers initially. ",
+      "4": " Replace one of these distinct integers to duplicate the fourth element. ",
+      "5": " Confirm the uniqueness of all other elements except the fourth one. ",
+      "6": " Validate that the list meets both conditions of having 10 elements and the fourth element appearing exactly twice. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Determine that the list lenghth, li, must contain exactly 10 elements. "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify that the fourth element of li, li[3], must appear exactly twice in the list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize li with ten default values, ensuring at least one duplicate of li[3]. "
+      },
+      {
+        "stepId": 4,
+        "step": " Populate the first 10 elements with distinct integers, except li[3]. "
+      },
+      {
+        "stepId": 5,
+        "step": " Assign a value to li[3] and one other position to match li[3]. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check to confirm that li[3] appears only twice in li. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify the list meets all specified conditions and return it. "
+      }
+    ],
+    {
+      "1": " Determine that the list lenghth, li, must contain exactly 10 elements. ",
+      "2": " Identify that the fourth element of li, li[3], must appear exactly twice in the list. ",
+      "3": " Initialize li with ten default values, ensuring at least one duplicate of li[3]. ",
+      "4": " Populate the first 10 elements with distinct integers, except li[3]. ",
+      "5": " Assign a value to li[3] and one other position to match li[3]. ",
+      "6": " Check to confirm that li[3] appears only twice in li. ",
+      "7": " Verify the list meets all specified conditions and return it. "
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements from the function, which are to create a list of length 10 and the fourth element should appear exactly twice in the list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize a list of 10 elements. "
+      },
+      {
+        "stepId": 3,
+        "step": " Choose a value for the fourth element in the list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Insert this value at another position in the list. "
+      },
+      {
+        "stepId": 5,
+        "step": " Fill the remaining elements of the list with values different from the value of the fourth element. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure that the total length of the list remains 10. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify that the list meets the condition of having the fourth element exactly twice. "
+      },
+      {
+        "stepId": 8,
+        "step": " Return the final list as the solution if all conditions are satisfied. "
+      }
+    ],
+    {
+      "1": " Understand the requirements from the function, which are to create a list of length 10 and the fourth element should appear exactly twice in the list. ",
+      "2": " Initialize a list of 10 elements. ",
+      "3": " Choose a value for the fourth element in the list. ",
+      "4": " Insert this value at another position in the list. ",
+      "5": " Fill the remaining elements of the list with values different from the value of the fourth element. ",
+      "6": " Ensure that the total length of the list remains 10. ",
+      "7": " Verify that the list meets the condition of having the fourth element exactly twice. ",
+      "8": " Return the final list as the solution if all conditions are satisfied. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements of the function. "
+      },
+      {
+        "stepId": 2,
+        "step": " Set the length of the list li to be exactly 10. "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure the element at index 3 appears exactly one other time in the list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Choose a number for the element at index 3. "
+      },
+      {
+        "stepId": 5,
+        "step": " Insert the chosen number at one other position in the list. "
+      },
+      {
+        "stepId": 6,
+        "step": " Fill the remaining elements of the list with unique numbers, ensuring they do not match the number at index 3. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify the list meets the main condition: exactly two occurrences of the number at index 3. "
+      },
+      {
+        "stepId": 8,
+        "step": " Output the list if it satisfies all requirements. "
+      }
+    ],
+    {
+      "1": " Understand the requirements of the function. ",
+      "2": " Set the length of the list li to be exactly 10. ",
+      "3": " Ensure the element at index 3 appears exactly one other time in the list. ",
+      "4": " Choose a number for the element at index 3. ",
+      "5": " Insert the chosen number at one other position in the list. ",
+      "6": " Fill the remaining elements of the list with unique numbers, ensuring they do not match the number at index 3. ",
+      "7": " Verify the list meets the main condition: exactly two occurrences of the number at index 3. ",
+      "8": " Output the list if it satisfies all requirements. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements: The list must be of length 10 and the element at index 3 must occur exactly twice in the list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize a list of 10 elements, possibly with default or random values. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select a unique value to assign to the index 3 of the list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Insert this same unique value at one other different index in the list, ensuring no other occurrence exists. "
+      },
+      {
+        "stepId": 5,
+        "step": " Fill the remaining positions in the list with distinct values not equal to the value at index 3. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify the list has a length of 10 and the element at index 3 appears exactly twice in the list. "
+      }
+    ],
+    {
+      "1": " Understand the requirements: The list must be of length 10 and the element at index 3 must occur exactly twice in the list. ",
+      "2": " Initialize a list of 10 elements, possibly with default or random values. ",
+      "3": " Select a unique value to assign to the index 3 of the list. ",
+      "4": " Insert this same unique value at one other different index in the list, ensuring no other occurrence exists. ",
+      "5": " Fill the remaining positions in the list with distinct values not equal to the value at index 3. ",
+      "6": " Verify the list has a length of 10 and the element at index 3 appears exactly twice in the list. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function requirement that the length of the list li must be 10. "
+      },
+      {
+        "stepId": 2,
+        "step": " Understand the second requirement that the fourth element in the list, li[3], must appear exactly twice in the list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize a list li of length 10 with any integer values. "
+      },
+      {
+        "stepId": 4,
+        "step": " Assign a specific value to the fourth element li[3]. "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure the value assigned to li[3] appears exactly one more time elsewhere in the list. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that all elements in the list meet the condition of unique occurrences except for li[3]. "
+      },
+      {
+        "stepId": 7,
+        "step": " If the conditions are met, the function returns True; otherwise, adjust the values in li and repeat the verification. "
+      }
+    ],
+    {
+      "1": " Understand the function requirement that the length of the list li must be 10. ",
+      "2": " Understand the second requirement that the fourth element in the list, li[3], must appear exactly twice in the list. ",
+      "3": " Initialize a list li of length 10 with any integer values. ",
+      "4": " Assign a specific value to the fourth element li[3]. ",
+      "5": " Ensure the value assigned to li[3] appears exactly one more time elsewhere in the list. ",
+      "6": " Verify that all elements in the list meet the condition of unique occurrences except for li[3]. ",
+      "7": " If the conditions are met, the function returns True; otherwise, adjust the values in li and repeat the verification. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions and requirements from the function "
+      },
+      {
+        "stepId": 2,
+        "step": " Create a list of length 10 "
+      },
+      {
+        "stepId": 3,
+        "step": " Choose a value for the fourth element of the list "
+      },
+      {
+        "stepId": 4,
+        "step": " Insert this same value into another position of the list besides the fourth position "
+      },
+      {
+        "stepId": 5,
+        "step": " Fill the remaining positions in the list with unique values "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify the conditions are met: the list length is 10 and exactly two elements are the same as the fourth element "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the list that meets these conditions "
+      }
+    ],
+    {
+      "1": " Understand the conditions and requirements from the function ",
+      "2": " Create a list of length 10 ",
+      "3": " Choose a value for the fourth element of the list ",
+      "4": " Insert this same value into another position of the list besides the fourth position ",
+      "5": " Fill the remaining positions in the list with unique values ",
+      "6": " Verify the conditions are met: the list length is 10 and exactly two elements are the same as the fourth element ",
+      "7": " Return the list that meets these conditions "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function's two conditions: the list must have exactly 10 elements, and the fourth element must appear exactly twice in the list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize a list `li` with 10 elements. "
+      },
+      {
+        "stepId": 3,
+        "step": " Assign a value to the fourth element, `li[3]`. "
+      },
+      {
+        "stepId": 4,
+        "step": " Ensure that this value appears once more in the list, but only one more time. "
+      },
+      {
+        "stepId": 5,
+        "step": " Fill all other positions in the list with unique values distinct from `li[3]`. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that the list has the correct length and that `li[3]` appears exactly twice. "
+      },
+      {
+        "stepId": 7,
+        "step": " If verified, the list is correct and will be the final output. "
+      }
+    ],
+    {
+      "1": " Understand the function's two conditions: the list must have exactly 10 elements, and the fourth element must appear exactly twice in the list. ",
+      "2": " Initialize a list `li` with 10 elements. ",
+      "3": " Assign a value to the fourth element, `li[3]`. ",
+      "4": " Ensure that this value appears once more in the list, but only one more time. ",
+      "5": " Fill all other positions in the list with unique values distinct from `li[3]`. ",
+      "6": " Verify that the list has the correct length and that `li[3]` appears exactly twice. ",
+      "7": " If verified, the list is correct and will be the final output. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5",
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify that the list should have exactly 10 elements. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine that the element at index 3 of the list should appear exactly twice in the list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate a list of 10 elements ensuring the element at index 3 appears only once more elsewhere in the list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify if the list meets the two conditions: length is 10 and the element at index 3 appears exactly twice. "
+      },
+      {
+        "stepId": 5,
+        "step": " If conditions met, return the list; otherwise, adjust and repeat the check. "
+      }
+    ],
+    {
+      "1": " Identify that the list should have exactly 10 elements. ",
+      "2": " Determine that the element at index 3 of the list should appear exactly twice in the list. ",
+      "3": " Generate a list of 10 elements ensuring the element at index 3 appears only once more elsewhere in the list. ",
+      "4": " Verify if the list meets the two conditions: length is 10 and the element at index 3 appears exactly twice. ",
+      "5": " If conditions met, return the list; otherwise, adjust and repeat the check. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the list li must have exactly 10 elements. "
+      },
+      {
+        "stepId": 2,
+        "step": " Recognize that the fourth element of the list (li[3]) must appear exactly twice within the list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize a list li of length 10 with any random integers. "
+      },
+      {
+        "stepId": 4,
+        "step": " Set the fourth element of the list li[3] to a specific value. "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure that this specific value appears exactly one more time elsewhere in the list. "
+      },
+      {
+        "stepId": 6,
+        "step": " If the certain value appears more than twice or less than twice, adjust the list accordingly. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify if the constructed list satisfies len(li) == 10 and li.count(li[3]) == 2 conditions. "
+      }
+    ],
+    {
+      "1": " Understand that the list li must have exactly 10 elements. ",
+      "2": " Recognize that the fourth element of the list (li[3]) must appear exactly twice within the list. ",
+      "3": " Initialize a list li of length 10 with any random integers. ",
+      "4": " Set the fourth element of the list li[3] to a specific value. ",
+      "5": " Ensure that this specific value appears exactly one more time elsewhere in the list. ",
+      "6": " If the certain value appears more than twice or less than twice, adjust the list accordingly. ",
+      "7": " Verify if the constructed list satisfies len(li) == 10 and li.count(li[3]) == 2 conditions. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Create a list of integers with exactly 10 elements. "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure the fourth item in the list, li[3], appears exactly twice in the list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Check other elements to ensure no repeats that violate step 2. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify that the list meets the conditions of the function sat. "
+      }
+    ],
+    {
+      "1": " Create a list of integers with exactly 10 elements. ",
+      "2": " Ensure the fourth item in the list, li[3], appears exactly twice in the list. ",
+      "3": " Check other elements to ensure no repeats that violate step 2. ",
+      "4": " Verify that the list meets the conditions of the function sat. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand requirements: the list must have exactly 10 elements, and the fourth element should appear exactly twice in the list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Create a list of 10 unique integers to ensure distinct elements. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select any one of the integers to be duplicated in the list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Choose two different positions in the list where this selected integer will be placed, ensuring one of the positions is the fourth position (index 3). "
+      },
+      {
+        "stepId": 5,
+        "step": " Fill the remaining positions of the list with other unique integers ensuring no repetitions with the duplicated integer. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify if the fourth element appears exactly twice in the list. "
+      },
+      {
+        "stepId": 7,
+        "step": " Output the created list if it meets the condition. "
+      }
+    ],
+    {
+      "1": " Understand requirements: the list must have exactly 10 elements, and the fourth element should appear exactly twice in the list. ",
+      "2": " Create a list of 10 unique integers to ensure distinct elements. ",
+      "3": " Select any one of the integers to be duplicated in the list. ",
+      "4": " Choose two different positions in the list where this selected integer will be placed, ensuring one of the positions is the fourth position (index 3). ",
+      "5": " Fill the remaining positions of the list with other unique integers ensuring no repetitions with the duplicated integer. ",
+      "6": " Verify if the fourth element appears exactly twice in the list. ",
+      "7": " Output the created list if it meets the condition. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the list li must have exactly 10 elements. "
+      },
+      {
+        "stepId": 2,
+        "step": " Understand the element at index 3 (fourth element) must appear exactly twice in the list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Choose or generate an element for the index 3 position of the list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Add the chosen element again at another position in the list without violating the condition that it exactly appears twice. "
+      },
+      {
+        "stepId": 5,
+        "step": " Fill the remaining 8 positions in the list with unique elements that are different from the element at index 3. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify the final list has exactly 10 elements and the element at index 3 appears only twice. "
+      }
+    ],
+    {
+      "1": " Understand that the list li must have exactly 10 elements. ",
+      "2": " Understand the element at index 3 (fourth element) must appear exactly twice in the list. ",
+      "3": " Choose or generate an element for the index 3 position of the list. ",
+      "4": " Add the chosen element again at another position in the list without violating the condition that it exactly appears twice. ",
+      "5": " Fill the remaining 8 positions in the list with unique elements that are different from the element at index 3. ",
+      "6": " Verify the final list has exactly 10 elements and the element at index 3 appears only twice. "
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3",
+        "Step 2"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions: The list must have a length of 10 and the element at the 4th position (index 3) should appear exactly twice. "
+      },
+      {
+        "stepId": 2,
+        "step": " Create an initial list of 10 unique integers. "
+      },
+      {
+        "stepId": 3,
+        "step": " Change the value of a randomly selected position (not the 4th position) to match the value at the 4th position. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify the length condition is satisfied. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify the count condition where the item at the 4th position appears exactly twice in the list. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the validated list. "
+      }
+    ],
+    {
+      "1": " Understand the conditions: The list must have a length of 10 and the element at the 4th position (index 3) should appear exactly twice. ",
+      "2": " Create an initial list of 10 unique integers. ",
+      "3": " Change the value of a randomly selected position (not the 4th position) to match the value at the 4th position. ",
+      "4": " Verify the length condition is satisfied. ",
+      "5": " Verify the count condition where the item at the 4th position appears exactly twice in the list. ",
+      "6": " Return the validated list. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4",
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function requirements which are: the list must have a length of 10 and exactly two elements are identical to the fourth element in the list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Start by creating a list of 10 integers. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select a value for the fourth element of the list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Ensure that this selected value appears exactly once more in another position within the list. "
+      },
+      {
+        "stepId": 5,
+        "step": " Fill the remaining 8 positions in the list with unique values that do not match the previously selected value. "
+      },
+      {
+        "stepId": 6,
+        "step": " Confirm that the list meets both conditions: the correct length and the exact count for the fourth element's repetition. "
+      }
+    ],
+    {
+      "1": " Understand the function requirements which are: the list must have a length of 10 and exactly two elements are identical to the fourth element in the list. ",
+      "2": " Start by creating a list of 10 integers. ",
+      "3": " Select a value for the fourth element of the list. ",
+      "4": " Ensure that this selected value appears exactly once more in another position within the list. ",
+      "5": " Fill the remaining 8 positions in the list with unique values that do not match the previously selected value. ",
+      "6": " Confirm that the list meets both conditions: the correct length and the exact count for the fourth element's repetition. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ]
+]

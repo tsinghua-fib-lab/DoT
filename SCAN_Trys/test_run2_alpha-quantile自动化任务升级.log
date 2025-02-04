@@ -1,0 +1,1081 @@
+
+
+
+
+number id: 0
+instruction content:
+walk opposite right thrice after run opposite right
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'WALK', 'WALK']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+error
+
+
+
+
+number id: 1
+instruction content:
+turn around right thrice after run opposite right twice
+answer: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+error
+
+
+
+
+number id: 2
+instruction content:
+look opposite left twice after walk around right twice
+answer: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+gold: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 3
+instruction content:
+run opposite left and look around left twice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 4
+instruction content:
+look right thrice and look opposite left twice
+answer: ['LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 5
+instruction content:
+walk opposite left twice and run
+answer: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'RUN']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'RUN']
+correct
+
+
+
+
+number id: 6
+instruction content:
+look thrice after jump opposite right thrice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'LOOK', 'LOOK', 'LOOK']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'LOOK', 'LOOK', 'LOOK']
+error
+
+
+
+
+number id: 7
+instruction content:
+turn opposite left twice after look opposite right twice
+answer: ['LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+error
+
+
+
+
+number id: 8
+instruction content:
+jump left twice after turn around right twice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP']
+error
+
+
+
+
+number id: 9
+instruction content:
+look around right and run opposite left thrice
+answer: ['LOOK', 'RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+error
+
+
+
+
+number id: 10
+instruction content:
+look right twice and turn around left twice
+answer: ['LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+error
+
+
+
+
+number id: 11
+instruction content:
+look opposite left after jump opposite right thrice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+correct
+
+
+
+
+number id: 12
+instruction content:
+run thrice after look right thrice
+answer: ['LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'RUN', 'RUN', 'RUN']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'RUN', 'RUN', 'RUN']
+error
+
+
+
+
+number id: 13
+instruction content:
+walk twice after look around right twice
+answer: ['LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'WALK', 'WALK']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'WALK', 'WALK']
+error
+
+
+
+
+number id: 14
+instruction content:
+jump opposite left thrice after walk left twice
+answer: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+correct
+
+
+
+
+number id: 15
+instruction content:
+turn opposite right twice after look around left thrice
+answer: ['LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+gold: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+error
+
+
+
+
+number id: 16
+instruction content:
+jump around right thrice after look around right
+answer: ['LOOK', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP']
+error
+
+
+
+
+number id: 17
+instruction content:
+turn around right thrice and jump opposite right thrice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+error
+
+
+
+
+number id: 18
+instruction content:
+walk right twice after jump around right thrice
+answer: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'WALK', 'RIGHT', 'WALK', 'RIGHT']
+gold: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK']
+error
+
+
+
+
+number id: 19
+instruction content:
+look right thrice after look around left thrice
+answer: ['LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT']
+gold: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+error
+
+
+
+
+number id: 20
+instruction content:
+turn left thrice and look opposite right
+answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_RIGHT', 'TURN_RIGHT']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK']
+error
+
+
+
+
+number id: 21
+instruction content:
+walk left twice after turn opposite left thrice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+correct
+
+
+
+
+number id: 22
+instruction content:
+run opposite right after look left thrice
+answer: ['LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+gold: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+error
+
+
+
+
+number id: 23
+instruction content:
+walk thrice after look around right
+answer: ['LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'WALK', 'WALK', 'WALK']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'WALK', 'WALK', 'WALK']
+error
+
+
+
+
+number id: 24
+instruction content:
+turn around left twice after run opposite left
+answer: ['RUN', 'LEFT', 'RUN', 'LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+error
+
+
+
+
+number id: 25
+instruction content:
+jump opposite right thrice after walk opposite left thrice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+correct
+
+
+
+
+number id: 26
+instruction content:
+run left twice and run right thrice
+answer: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+gold: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+correct
+
+
+
+
+number id: 27
+instruction content:
+walk around left and jump opposite left thrice
+answer: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+error
+
+
+
+
+number id: 28
+instruction content:
+walk opposite right thrice after jump thrice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'JUMP', 'JUMP', 'JUMP']
+gold: ['JUMP', 'JUMP', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+error
+
+
+
+
+number id: 29
+instruction content:
+look right after look opposite right thrice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+error
+
+
+
+
+number id: 30
+instruction content:
+turn right thrice after jump around left twice
+answer: ['TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP']
+gold: ['TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+error
+
+
+
+
+number id: 31
+instruction content:
+jump opposite left twice and walk around right twice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK']
+error
+
+
+
+
+number id: 32
+instruction content:
+look opposite left twice and run right
+error: 1;  taskid: 32
+answer: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'RUN']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'RUN']
+correct
+
+
+
+
+number id: 33
+instruction content:
+look around right thrice after turn opposite right twice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+error
+
+
+
+
+number id: 34
+instruction content:
+jump opposite right twice after walk opposite left
+answer: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'JUMP']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+error
+
+
+
+
+number id: 35
+instruction content:
+jump opposite right twice and run opposite left thrice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+correct
+
+
+
+
+number id: 36
+instruction content:
+run right after run left thrice
+answer: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'RUN']
+gold: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'RUN']
+correct
+
+
+
+
+number id: 37
+instruction content:
+jump right after turn left thrice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_RIGHT', 'JUMP']
+error
+
+
+
+
+number id: 38
+instruction content:
+look around left thrice after turn left
+answer: ['TURN_LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 39
+instruction content:
+look opposite left twice and walk around left
+answer: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+correct
+
+
+
+
+number id: 40
+instruction content:
+look opposite left thrice after walk opposite right thrice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+correct
+
+
+
+
+number id: 41
+instruction content:
+walk right twice and walk left thrice
+answer: ['WALK', 'RIGHT', 'WALK', 'RIGHT', 'WALK', 'LEFT', 'WALK', 'LEFT', 'WALK', 'LEFT']
+gold: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+error
+
+
+
+
+number id: 42
+instruction content:
+look opposite right and run around right
+answer: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+error
+
+
+
+
+number id: 43
+instruction content:
+run opposite left thrice and jump thrice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'JUMP', 'JUMP', 'JUMP']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'JUMP', 'JUMP', 'JUMP']
+correct
+
+
+
+
+number id: 44
+instruction content:
+run right thrice and turn around left twice
+answer: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+correct
+
+
+
+
+number id: 45
+instruction content:
+run right thrice after jump around right
+answer: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+gold: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+correct
+
+
+
+
+number id: 46
+instruction content:
+jump opposite right thrice after walk opposite right twice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+correct
+
+
+
+
+number id: 47
+instruction content:
+jump around left thrice after look opposite left thrice
+answer: ['LOOK', 'LEFT', 'LOOK', 'LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP']
+error
+
+
+
+
+number id: 48
+instruction content:
+jump opposite left thrice after run opposite right thrice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+correct
+
+
+
+
+number id: 49
+instruction content:
+run opposite right thrice after walk
+answer: ['WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+gold: ['WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+correct
+
+
+
+
+number id: 50
+instruction content:
+turn around left twice after turn right twice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+correct
+
+
+
+
+number id: 51
+instruction content:
+run around right thrice and look around left thrice
+answer: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK']
+gold: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 52
+instruction content:
+run around right after look right twice
+answer: ['LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+error
+
+
+
+
+number id: 53
+instruction content:
+turn right thrice and run around left thrice
+error: 1;  taskid: 53
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN']
+error
+
+
+
+
+number id: 54
+instruction content:
+walk right thrice after look opposite right twice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK']
+correct
+
+
+
+
+number id: 55
+instruction content:
+walk left twice after look around right thrice
+answer: ['LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'WALK', 'LEFT', 'WALK', 'LEFT']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK']
+error
+
+
+
+
+number id: 56
+instruction content:
+jump opposite left thrice after jump left twice
+answer: ['TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+correct
+
+
+
+
+number id: 57
+instruction content:
+jump opposite right twice after walk opposite right
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+correct
+
+
+
+
+number id: 58
+instruction content:
+look opposite left after run
+answer: ['RUN', 'LOOK', 'LEFT']
+gold: ['RUN', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 59
+instruction content:
+run left twice after look opposite right
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN']
+error
+
+
+
+
+number id: 60
+instruction content:
+jump opposite left twice and jump twice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'JUMP', 'JUMP']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'JUMP', 'JUMP']
+correct
+
+
+
+
+number id: 61
+instruction content:
+turn around left twice after look opposite right twice
+answer: ['LOOK', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+error
+
+
+
+
+number id: 62
+instruction content:
+look twice and run right
+answer: ['LOOK', 'LOOK', 'TURN_RIGHT', 'RUN']
+gold: ['LOOK', 'LOOK', 'TURN_RIGHT', 'RUN']
+correct
+
+
+
+
+number id: 63
+instruction content:
+jump around left twice after jump around right twice
+answer: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'JUMP']
+error
+
+
+
+
+number id: 64
+instruction content:
+turn left thrice after turn around left twice
+error: 1;  taskid: 64
+error: 2;  taskid: 64
+answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+error
+
+
+
+
+number id: 65
+instruction content:
+jump opposite right twice after look around left twice
+answer: ['LOOK', 'LOOK', 'JUMP', 'LOOK', 'LOOK', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+gold: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'JUMP']
+error
+
+
+
+
+number id: 66
+instruction content:
+look around left after walk right twice
+answer: ['WALK', 'RIGHT', 'WALK', 'RIGHT', 'LOOK', 'LEFT']
+gold: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 67
+instruction content:
+run opposite right after look opposite left twice
+answer: ['LOOK', 'OPPOSITE', 'LEFT', 'LOOK', 'OPPOSITE', 'LEFT', 'TURN_OPPOSITE', 'RIGHT', 'TURN_OPPOSITE', 'RIGHT', 'RUN']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+error
+
+
+
+
+number id: 68
+instruction content:
+turn right twice and run right
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+correct
+
+
+
+
+number id: 69
+instruction content:
+look opposite left thrice and run around left twice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN']
+error
+
+
+
+
+number id: 70
+instruction content:
+run left twice and look right thrice
+answer: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+gold: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+correct
+
+
+
+
+number id: 71
+instruction content:
+jump and turn left
+answer: ['TURN_LEFT', 'JUMP']
+gold: ['JUMP', 'TURN_LEFT']
+error
+
+
+
+
+number id: 72
+instruction content:
+run left twice and jump opposite left thrice
+answer: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+gold: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP']
+error
+
+
+
+
+number id: 73
+instruction content:
+run right twice after look right twice
+error: 1;  taskid: 73
+error: 2;  taskid: 73
+error: 3;  taskid: 73
+error: 4;  taskid: 73
+error: 5;  taskid: 73
+run error 5+
+
+
+
+
+number id: 74
+instruction content:
+walk around right twice and look twice
+error: 1;  taskid: 74
+error: 2;  taskid: 74
+error: 3;  taskid: 74
+error: 4;  taskid: 74
+error: 5;  taskid: 74
+run error 5+
+
+
+
+
+number id: 75
+instruction content:
+walk right and look twice
+error: 1;  taskid: 75
+error: 2;  taskid: 75
+error: 3;  taskid: 75
+error: 4;  taskid: 75
+error: 5;  taskid: 75
+run error 5+
+
+
+
+
+number id: 76
+instruction content:
+turn left twice after turn around left thrice
+error: 1;  taskid: 76
+error: 2;  taskid: 76
+error: 3;  taskid: 76
+error: 4;  taskid: 76
+error: 5;  taskid: 76
+run error 5+
+
+
+
+
+number id: 77
+instruction content:
+jump around right after jump around left thrice
+error: 1;  taskid: 77
+error: 2;  taskid: 77
+error: 3;  taskid: 77
+error: 4;  taskid: 77
+error: 5;  taskid: 77
+run error 5+
+
+
+
+
+number id: 78
+instruction content:
+walk around left after run around left thrice
+error: 1;  taskid: 78
+error: 2;  taskid: 78
+error: 3;  taskid: 78
+error: 4;  taskid: 78
+error: 5;  taskid: 78
+run error 5+
+
+
+
+
+number id: 79
+instruction content:
+run right and walk left
+error: 1;  taskid: 79
+error: 2;  taskid: 79
+error: 3;  taskid: 79
+answer: ['TURN_RIGHT', 'RUN', 'TURN_LEFT', 'WALK']
+gold: ['TURN_RIGHT', 'RUN', 'TURN_LEFT', 'WALK']
+correct
+
+
+
+
+number id: 80
+instruction content:
+walk right thrice
+answer: ['WALK', 'RIGHT', 'WALK', 'RIGHT', 'WALK', 'RIGHT']
+gold: ['TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'WALK']
+error
+
+
+
+
+number id: 81
+instruction content:
+walk left thrice and look left twice
+answer: ['WALK', 'LEFT', 'WALK', 'LEFT', 'WALK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT']
+gold: ['TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'WALK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 82
+instruction content:
+look left after turn opposite right
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'LEFT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_LEFT', 'LOOK']
+error
+
+
+
+
+number id: 83
+instruction content:
+look around right thrice and look around right twice
+answer: ['"LOOK', 'RIGHT"', '*', '*', '+', '"LOOK', 'RIGHT"', '*', '*', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT']
+gold: ['TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+error
+
+
+
+
+number id: 84
+instruction content:
+look left thrice and look around right thrice
+answer: ['LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'LEFT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT', 'LOOK', 'RIGHT']
+gold: ['TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+error
+
+
+
+
+number id: 85
+instruction content:
+turn around right thrice after jump opposite left thrice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_LEFT', 'TURN_LEFT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+correct
+
+
+
+
+number id: 86
+instruction content:
+run around right twice and turn opposite right
+answer: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT']
+gold: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT']
+error
+
+
+
+
+number id: 87
+instruction content:
+run and jump twice
+answer: ['RUN', 'JUMP', 'JUMP']
+gold: ['RUN', 'JUMP', 'JUMP']
+correct
+
+
+
+
+number id: 88
+instruction content:
+jump opposite right and run around right twice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN']
+error
+
+
+
+
+number id: 89
+instruction content:
+run left twice and turn opposite left
+answer: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT']
+correct
+
+
+
+
+number id: 90
+instruction content:
+jump right thrice and look right thrice
+answer: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+gold: ['TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'JUMP', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'LOOK']
+correct
+
+
+
+
+number id: 91
+instruction content:
+look opposite right twice and turn opposite left
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT']
+correct
+
+
+
+
+number id: 92
+instruction content:
+turn right and look opposite left thrice
+answer: ['TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+gold: ['TURN_RIGHT', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK', 'TURN_LEFT', 'TURN_LEFT', 'LOOK']
+correct
+
+
+
+
+number id: 93
+instruction content:
+run around left twice and walk opposite right thrice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+gold: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+error
+
+
+
+
+number id: 94
+instruction content:
+turn opposite left thrice after turn left thrice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT', 'TURN_LEFT']
+correct
+
+
+
+
+number id: 95
+instruction content:
+look opposite right thrice and turn right
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT', 'TURN_RIGHT', 'LOOK', 'TURN_RIGHT']
+correct
+
+
+
+
+number id: 96
+instruction content:
+walk opposite right twice and run opposite left twice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_LEFT', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'TURN_LEFT', 'RUN']
+correct
+
+
+
+
+number id: 97
+instruction content:
+look thrice after run around left thrice
+answer: ['RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'LOOK', 'LOOK', 'LOOK']
+gold: ['TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'TURN_LEFT', 'RUN', 'LOOK', 'LOOK', 'LOOK']
+error
+
+
+
+
+number id: 98
+instruction content:
+turn right thrice after turn right twice
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+correct
+
+
+
+
+number id: 99
+instruction content:
+turn opposite left and jump twice
+answer: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'JUMP', 'JUMP', 'JUMP']
+gold: ['TURN_LEFT', 'TURN_LEFT', 'JUMP', 'JUMP']
+error
+100 solving 运行耗时: 0.0h, 51.0min, 5.371607780456543s
+
+Tokens/token_usage_2024-07-30-11-29-57.json
+correct_Q: 36
+False_Q: 58
+error_Q: 6
+所有问题分解出来的子任务总数: 385
+用到模型升级的子任务数量: 8
+LLM一共升级了多少次: 8
+
+Total Tokens: 700428
+Total Cost: $4.72
+
+
+
+
+number id: 0
+instruction content:
+walk opposite right thrice after run opposite right
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'WALK', 'WALK']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+error
+
+
+
+
+number id: 1
+instruction content:
+turn around right thrice after run opposite right twice
+
+
+
+
+number id: 0
+instruction content:
+walk opposite right thrice after run opposite right
+answer: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'WALK', 'WALK']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK', 'TURN_RIGHT', 'TURN_RIGHT', 'WALK']
+error
+
+
+
+
+number id: 1
+instruction content:
+turn around right thrice after run opposite right twice
+answer: ['TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+gold: ['TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'RUN', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT', 'TURN_RIGHT']
+error
+
+
+
+
+number id: 2
+instruction content:
+look opposite left twice after walk around right twice

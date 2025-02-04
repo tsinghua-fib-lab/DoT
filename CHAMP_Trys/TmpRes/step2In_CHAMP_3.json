@@ -1,0 +1,78 @@
+{
+  "0": {
+    "steps": ["What is the definition of n rooks placed peacefully on an n x n chess board?","Analyze the condition of board symmetry with respect to a 180-degree rotation.","Determine how the position of any rook affects the possible positions of other rooks given the symmetry constraint.","Identify symmetric pairs of positions on the board (i.e., positions that coincide upon a 180-degree rotation).","Calculate the number of ways to place a rook on a square and its corresponding symmetric square.","Consider special cases where the board size n is odd, affecting the positioning of the central row and column.","Develop a recursive formula or direct counting method to compute the number of ways to distribute the rooks while respecting both the peaceful placement and the symmetry conditions.","Sum the counts obtained from different configurations to get the total number of distinct ways to place the rooks."],
+    "steps_dict": {
+      "1": "What is the definition of n rooks placed peacefully on an n x n chess board?",
+      "2": "Analyze the condition of board symmetry with respect to a 180-degree rotation.",
+      "3": "Determine how the position of any rook affects the possible positions of other rooks given the symmetry constraint.",
+      "4": "Identify symmetric pairs of positions on the board (i.e., positions that coincide upon a 180-degree rotation).",
+      "5": "Calculate the number of ways to place a rook on a square and its corresponding symmetric square.",
+      "6": "Consider special cases where the board size n is odd, affecting the positioning of the central row and column.",
+      "7": "Develop a recursive formula or direct counting method to compute the number of ways to distribute the rooks while respecting both the peaceful placement and the symmetry conditions.",
+      "8": "Sum the counts obtained from different configurations to get the total number of distinct ways to place the rooks."
+    },
+    "depths": {
+      "0": ["Step 1","Step 2"],
+      "1": ["Step 3","Step 4"],
+      "2": ["Step 6","Step 5"],
+      "3": ["Step 7"],
+      "4": ["Step 8"]
+    },
+    "int_edges": [[1,3],[1,7],[7,8],[2,4],[4,6],[4,5],[5,7],[6,7]],
+    "problemText": "On a chess board, two rooks are placed peacefully if they are not on the same row or column. For an n x n chess board, find the number of ways that n rooks can be placed peacefully (i.e., any two are placed peacefully) and the placing is also invariant to a 180-degree rotation.",
+    "allSubtask": "step1: What is the definition of n rooks placed peacefully on an n x n chess board?; step2: Analyze the condition of board symmetry with respect to a 180-degree rotation.; step3: Determine how the position of any rook affects the possible positions of other rooks given the symmetry constraint.; step4: Identify symmetric pairs of positions on the board (i.e., positions that coincide upon a 180-degree rotation).; step5: Calculate the number of ways to place a rook on a square and its corresponding symmetric square.; step6: Consider special cases where the board size n is odd, affecting the positioning of the central row and column.; step7: Develop a recursive formula or direct counting method to compute the number of ways to distribute the rooks while respecting both the peaceful placement and the symmetry conditions.; step8: Sum the counts obtained from different configurations to get the total number of distinct ways to place the rooks.",
+    "nowSubtask": ["What is the definition of n rooks placed peacefully on an n x n chess board?","Analyze the condition of board symmetry with respect to a 180-degree rotation.","Determine how the position of any rook affects the possible positions of other rooks given the symmetry constraint.","Identify symmetric pairs of positions on the board (i.e., positions that coincide upon a 180-degree rotation).","Calculate the number of ways to place a rook on a square and its corresponding symmetric square.","Consider special cases where the board size n is odd, affecting the positioning of the central row and column.","Develop a recursive formula or direct counting method to compute the number of ways to distribute the rooks while respecting both the peaceful placement and the symmetry conditions.","Sum the counts obtained from different configurations to get the total number of distinct ways to place the rooks."],
+    "allo_model": ["gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo","gpt-4","gpt-4-turbo","gpt-4-turbo","gpt-4-turbo"]
+  },
+  "1": {
+    "steps": ["Define the movements each child can make (i.e., move to the left seat, stay in the same seat, or move to the right seat).","Consider boundary conditions: what are the movement options for the children in the first and last seats?","Determine how many children can actually move to a given seat (i.e., can two children move to the same seat?).","Count the number of valid moves per child, ensuring there is no overlap or empty seat that violates the moving rule.","Calculate how these individual movements can combine to form complete and valid configurations across all 11 seats.","Sum the total number of valid configurations, adding the scenario where no child moves (i.e., the original arrangement)."],
+    "steps_dict": {
+      "1": "Define the movements each child can make (i.e., move to the left seat, stay in the same seat, or move to the right seat).",
+      "2": "Consider boundary conditions: what are the movement options for the children in the first and last seats?",
+      "3": "Determine how many children can actually move to a given seat (i.e., can two children move to the same seat?).",
+      "4": "Count the number of valid moves per child, ensuring there is no overlap or empty seat that violates the moving rule.",
+      "5": "Calculate how these individual movements can combine to form complete and valid configurations across all 11 seats.",
+      "6": "Sum the total number of valid configurations, adding the scenario where no child moves (i.e., the original arrangement)."
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2","Step 3"],
+      "2": ["Step 4"],
+      "3": ["Step 5"],
+      "4": ["Step 6"]
+    },
+    "int_edges": [[1,2],[1,3],[2,4],[3,4],[4,5],[5,6]],
+    "problemText": "Consider a row of 11 seats. A child sits on each. Each child may move by at most one seat. How many possible rearrangements are there (including the original one)?",
+    "allSubtask": "step1: Define the movements each child can make (i.e., move to the left seat, stay in the same seat, or move to the right seat).; step2: Consider boundary conditions: what are the movement options for the children in the first and last seats?; step3: Determine how many children can actually move to a given seat (i.e., can two children move to the same seat?).; step4: Count the number of valid moves per child, ensuring there is no overlap or empty seat that violates the moving rule.; step5: Calculate how these individual movements can combine to form complete and valid configurations across all 11 seats.; step6: Sum the total number of valid configurations, adding the scenario where no child moves (i.e., the original arrangement).",
+    "nowSubtask": ["Define the movements each child can make (i.e., move to the left seat, stay in the same seat, or move to the right seat).","Consider boundary conditions: what are the movement options for the children in the first and last seats?","Determine how many children can actually move to a given seat (i.e., can two children move to the same seat?).","Count the number of valid moves per child, ensuring there is no overlap or empty seat that violates the moving rule.","Calculate how these individual movements can combine to form complete and valid configurations across all 11 seats.","Sum the total number of valid configurations, adding the scenario where no child moves (i.e., the original arrangement)."],
+    "allo_model": ["gpt-3.5-turbo","gpt-4","gpt-4o-mini","gpt-4o-mini","gpt-4o-mini","gpt-4o-mini"]
+  },
+  "2": {
+    "steps": ["How many total strings of length 5 can be formed using just the digits 1, 2, 3, and 4?","What are the specific substrings (patterns) that are forbidden in these strings?","How can we approach counting sequences that avoid these forbidden substrings?","Can we consider simpler cases, for example starting with strings of shorter length, and then generalize to length 5?","How does the arrangement of numbers around the forbidden substrings affect the formation of valid strings?","Can we use the principle of inclusion-exclusion to manage overlapping restrictions, such as avoiding both \"12\" and \"21\" simultaneously?","How can recursive patterns or sequence analysis help in calculating the total number of valid strings of length 5?","What tools or methods from combinatorics or algebra can be applied to simplify and solve the counting task more efficiently?","Summarize the counts from different cases to determine the total number of valid strings."],
+    "steps_dict": {
+      "1": "How many total strings of length 5 can be formed using just the digits 1, 2, 3, and 4?",
+      "2": "What are the specific substrings (patterns) that are forbidden in these strings?",
+      "3": "How can we approach counting sequences that avoid these forbidden substrings?",
+      "4": "Can we consider simpler cases, for example starting with strings of shorter length, and then generalize to length 5?",
+      "5": "How does the arrangement of numbers around the forbidden substrings affect the formation of valid strings?",
+      "6": "Can we use the principle of inclusion-exclusion to manage overlapping restrictions, such as avoiding both \"12\" and \"21\" simultaneously?",
+      "7": "How can recursive patterns or sequence analysis help in calculating the total number of valid strings of length 5?",
+      "8": "What tools or methods from combinatorics or algebra can be applied to simplify and solve the counting task more efficiently?",
+      "9": "Summarize the counts from different cases to determine the total number of valid strings."
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 2"],
+      "2": ["Step 3","Step 5"],
+      "3": ["Step 6","Step 4"],
+      "4": ["Step 7"],
+      "5": ["Step 8"],
+      "6": ["Step 9"]
+    },
+    "int_edges": [[1,2],[2,3],[2,5],[3,6],[3,4],[5,7],[4,7],[6,7],[7,8],[8,9]],
+    "problemText": "How many strings of length 5 and consisting solely of the digits 1, 2, 3 and 4 have the property that any 1 and 2 are never neighbors (i.e., the string does not contain \"12\" or \"21\" as substrings).",
+    "allSubtask": "step1: How many total strings of length 5 can be formed using just the digits 1, 2, 3, and 4?; step2: What are the specific substrings (patterns) that are forbidden in these strings?; step3: How can we approach counting sequences that avoid these forbidden substrings?; step4: Can we consider simpler cases, for example starting with strings of shorter length, and then generalize to length 5?; step5: How does the arrangement of numbers around the forbidden substrings affect the formation of valid strings?; step6: Can we use the principle of inclusion-exclusion to manage overlapping restrictions, such as avoiding both \"12\" and \"21\" simultaneously?; step7: How can recursive patterns or sequence analysis help in calculating the total number of valid strings of length 5?; step8: What tools or methods from combinatorics or algebra can be applied to simplify and solve the counting task more efficiently?; step9: Summarize the counts from different cases to determine the total number of valid strings.",
+    "nowSubtask": ["How many total strings of length 5 can be formed using just the digits 1, 2, 3, and 4?","What are the specific substrings (patterns) that are forbidden in these strings?","How can we approach counting sequences that avoid these forbidden substrings?","Can we consider simpler cases, for example starting with strings of shorter length, and then generalize to length 5?","How does the arrangement of numbers around the forbidden substrings affect the formation of valid strings?","Can we use the principle of inclusion-exclusion to manage overlapping restrictions, such as avoiding both \"12\" and \"21\" simultaneously?","How can recursive patterns or sequence analysis help in calculating the total number of valid strings of length 5?","What tools or methods from combinatorics or algebra can be applied to simplify and solve the counting task more efficiently?","Summarize the counts from different cases to determine the total number of valid strings."],
+    "allo_model": ["gpt-4-turbo","gpt-4","gpt-4-turbo","gpt-4","gpt-4-turbo","gpt-3.5-turbo","gpt-4o-mini","gpt-4","gpt-4-turbo"]
+  }
+}

@@ -1,0 +1,256 @@
+[
+  [
+    [
+      "estion of finding the rightmost non-zero digit and the number of zeros that follow it for the given expression \\begin{align*}",
+      "&(1001001)(1010101)+(989899)(1001001)\\\\",
+      "&\\qquad -(1001)(989899)-(1010101)(1001),",
+      "\\end{align*} you need to:",
+      "Compute the products and sums separately:",
+      "- Compute \\( (1001001)(1010101) \\).",
+      "- Compute \\( (989899)(1001001) \\).",
+      "- Compute \\( (1001)(989899) \\).",
+      "- Compute \\( (1010101)(1001) \\).",
+      "Subtract the results of the two products:",
+      "- Subtract \\( (1001)(989899) \\) from \\( (989899)(1001001) \\).",
+      "- Subtract \\( (1010101)(1001) \\) from \\( (1001001)(1010101) \\).",
+      "Add the resulting subtracted values:",
+      "- Add the results of the above subtractions.",
+      "Simplify the final result:",
+      "- Reduce the final sum to remove extra zeros and identify the rightmost non-zero digit by considering modular arithmetic (mod 10 in particular).",
+      "Calculate the number of trailing zeros:",
+      "- Count zeros in the final number to determine how many follow the rightmost non-zero digit.",
+      "Report the rightmost non-zero digit as \\(a\\) and count of trailing zeros as \\(b\\):",
+      "- Provide the ordered pair \\((a, b)\\)."
+    ],
+    {
+      "1": "estion of finding the rightmost non-zero digit and the number of zeros that follow it for the given expression \\begin{align*}",
+      "2": "&(1001001)(1010101)+(989899)(1001001)\\\\",
+      "3": "&\\qquad -(1001)(989899)-(1010101)(1001),",
+      "4": "\\end{align*} you need to:",
+      "5": "Compute the products and sums separately:",
+      "6": "- Compute \\( (1001001)(1010101) \\).",
+      "7": "- Compute \\( (989899)(1001001) \\).",
+      "8": "- Compute \\( (1001)(989899) \\).",
+      "9": "- Compute \\( (1010101)(1001) \\).",
+      "10": "Subtract the results of the two products:",
+      "11": "- Subtract \\( (1001)(989899) \\) from \\( (989899)(1001001) \\).",
+      "12": "- Subtract \\( (1010101)(1001) \\) from \\( (1001001)(1010101) \\).",
+      "13": "Add the resulting subtracted values:",
+      "14": "- Add the results of the above subtractions.",
+      "15": "Simplify the final result:",
+      "16": "- Reduce the final sum to remove extra zeros and identify the rightmost non-zero digit by considering modular arithmetic (mod 10 in particular).",
+      "17": "Calculate the number of trailing zeros:",
+      "18": "- Count zeros in the final number to determine how many follow the rightmost non-zero digit.",
+      "19": "Report the rightmost non-zero digit as \\(a\\) and count of trailing zeros as \\(b\\):",
+      "20": "- Provide the ordered pair \\((a, b)\\)."
+    }
+  ],
+  [
+    [
+      "estion \"What is the rightmost non-zero digit in the expression \\((1001001)(1010101)+(989899)(1001001) - (1001)(989899)-(1010101)(1001)\\), and how many zeros follow it?\", we must:",
+      "Calculate the products involved in the expression:",
+      "- Calculate \\( (1001001)(1010101) \\)",
+      "- Calculate \\( (989899)(1001001) \\)",
+      "- Calculate \\( (1001)(989899) \\)",
+      "- Calculate \\( (1010101)(1001) \\)",
+      "Perform the indicated operations by substituting the results from step 1:",
+      "- Sum the results of \\( (1001001)(1010101) \\) and \\( (989899)(1001001) \\)",
+      "- Subtract the results of \\( (1001)(989899) \\) and \\( (1010101)(1001) \\) from the sum obtained in the previous step",
+      "Simplify the result from step 2 and express it in standard decimal form if not already.",
+      "Identify the last (rightmost) non-zero digit in the final expression from step 3.",
+      "Count the number of successive zeros to the right of the last non-zero digit calculated in step 4.",
+      "Present the solution as an ordered pair \\((a, b)\\), where \\(a\\) is the last non-zero digit and \\(b\\) is the number of zeros following \\(a\\)."
+    ],
+    {
+      "1": "estion \"What is the rightmost non-zero digit in the expression \\((1001001)(1010101)+(989899)(1001001) - (1001)(989899)-(1010101)(1001)\\), and how many zeros follow it?\", we must:",
+      "2": "Calculate the products involved in the expression:",
+      "3": "- Calculate \\( (1001001)(1010101) \\)",
+      "4": "- Calculate \\( (989899)(1001001) \\)",
+      "5": "- Calculate \\( (1001)(989899) \\)",
+      "6": "- Calculate \\( (1010101)(1001) \\)",
+      "7": "Perform the indicated operations by substituting the results from step 1:",
+      "8": "- Sum the results of \\( (1001001)(1010101) \\) and \\( (989899)(1001001) \\)",
+      "9": "- Subtract the results of \\( (1001)(989899) \\) and \\( (1010101)(1001) \\) from the sum obtained in the previous step",
+      "10": "Simplify the result from step 2 and express it in standard decimal form if not already.",
+      "11": "Identify the last (rightmost) non-zero digit in the final expression from step 3.",
+      "12": "Count the number of successive zeros to the right of the last non-zero digit calculated in step 4.",
+      "13": "Present the solution as an ordered pair \\((a, b)\\), where \\(a\\) is the last non-zero digit and \\(b\\) is the number of zeros following \\(a\\)."
+    }
+  ],
+  [
+    [
+      "What is the value of each multiplication:",
+      "- Calculate \\(a = (1001001)(1010101)\\),",
+      "- Calculate \\(b = (989899)(1001001)\\),",
+      "- Calculate \\(c = (1001)(989899)\\),",
+      "- Calculate \\(d = (1010101)(1001)\\).",
+      "",
+      "What is the result of the expression \\(a + b - c - d\\)?",
+      "",
+      "Identify the rightmost non-zero digit in the result from step 2.",
+      "",
+      "Count the number of zeros following the rightmost non-zero digit from step 3 to determine \\(b\\).",
+      "Use the results from steps 3 and 4 to find the ordered pair \\((a,b)\\)."
+    ],
+    {
+      "1": "What is the value of each multiplication:",
+      "2": "- Calculate \\(a = (1001001)(1010101)\\),",
+      "3": "- Calculate \\(b = (989899)(1001001)\\),",
+      "4": "- Calculate \\(c = (1001)(989899)\\),",
+      "5": "- Calculate \\(d = (1010101)(1001)\\).",
+      "6": "",
+      "7": "What is the result of the expression \\(a + b - c - d\\)?",
+      "8": "",
+      "9": "Identify the rightmost non-zero digit in the result from step 2.",
+      "10": "",
+      "11": "Count the number of zeros following the rightmost non-zero digit from step 3 to determine \\(b\\).",
+      "12": "Use the results from steps 3 and 4 to find the ordered pair \\((a,b)\\)."
+    }
+  ],
+  [
+    [
+      "What is the value of \\( (1001001)(1010101) \\)?",
+      "What is the value of \\( (989899)(1001001) \\)?",
+      "What is the value of \\( (1001)(989899) \\)?",
+      "What is the value of \\( (1010101)(1001) \\)?",
+      "How do these values sum up when calculating \\((1001001)(1010101)+(989899)(1001001)-(1001)(989899)-(1010101)(1001)\\)?",
+      "What is the simplest form of the resulting expression?",
+      "Identify the rightmost non-zero digit (let this be \\(a\\)) in the calculated result.",
+      "Count how many consecutive zeroes follow digit \\(a\\) (let this count be \\(b\\)).",
+      "Form the ordered pair \\((a, b)\\) as the final answer."
+    ],
+    {
+      "1": "What is the value of \\( (1001001)(1010101) \\)?",
+      "2": "What is the value of \\( (989899)(1001001) \\)?",
+      "3": "What is the value of \\( (1001)(989899) \\)?",
+      "4": "What is the value of \\( (1010101)(1001) \\)?",
+      "5": "How do these values sum up when calculating \\((1001001)(1010101)+(989899)(1001001)-(1001)(989899)-(1010101)(1001)\\)?",
+      "6": "What is the simplest form of the resulting expression?",
+      "7": "Identify the rightmost non-zero digit (let this be \\(a\\)) in the calculated result.",
+      "8": "Count how many consecutive zeroes follow digit \\(a\\) (let this count be \\(b\\)).",
+      "9": "Form the ordered pair \\((a, b)\\) as the final answer."
+    }
+  ],
+  [
+    [
+      "estion \"What is the rightmost non-zero digit and how many zeros follow it in the expression \\((1001001)(1010101) + (989899)(1001001) - (1001)(989899) - (1010101)(1001)?\\\"\", we need to break this complex problem into simpler steps:",
+      "Calculate the product of the numbers within each pair of parentheses:",
+      "What is \\(1001001 \\times 1010101\\)?\"",
+      "What is \\(989899 \\times 1001001\\)?\"",
+      "What is \\(1001 \\times 989899\\)?\"",
+      "What is \\(1010101 \\times 1001\\)?\"",
+      "Perform the additions and subtractions given in the sequence:",
+      "Add the results of steps 1 and 2.\"",
+      "Subtract the results of steps 3 and 4 from the result of step 5.\"",
+      "Find the rightmost non-zero digit of the final result:",
+      "Identify the rightmost non-zero digit in the number from step 6.\"",
+      "Determine the number of zeros that follow this digit:",
+      "Count how many zeros are immediately to the right of the non-zero digit identified in step 7.\"",
+      "By following these steps, we can determine the values of \\(a\\) and \\(b\\) to find the ordered pair \\((a, b)\\)."
+    ],
+    {
+      "1": "estion \"What is the rightmost non-zero digit and how many zeros follow it in the expression \\((1001001)(1010101) + (989899)(1001001) - (1001)(989899) - (1010101)(1001)?\\\"\", we need to break this complex problem into simpler steps:",
+      "2": "Calculate the product of the numbers within each pair of parentheses:",
+      "3": "What is \\(1001001 \\times 1010101\\)?\"",
+      "4": "What is \\(989899 \\times 1001001\\)?\"",
+      "5": "What is \\(1001 \\times 989899\\)?\"",
+      "6": "What is \\(1010101 \\times 1001\\)?\"",
+      "7": "Perform the additions and subtractions given in the sequence:",
+      "8": "Add the results of steps 1 and 2.\"",
+      "9": "Subtract the results of steps 3 and 4 from the result of step 5.\"",
+      "10": "Find the rightmost non-zero digit of the final result:",
+      "11": "Identify the rightmost non-zero digit in the number from step 6.\"",
+      "12": "Determine the number of zeros that follow this digit:",
+      "13": "Count how many zeros are immediately to the right of the non-zero digit identified in step 7.\"",
+      "14": "By following these steps, we can determine the values of \\(a\\) and \\(b\\) to find the ordered pair \\((a, b)\\)."
+    }
+  ],
+  [
+    [
+      "estion \"What is the rightmost non-zero digit in the given mathematical expression and how many zeroes follow it?\", we need to follow these steps:",
+      "Simplify the expression \\((1001001)(1010101) + (989899)(1001001) - (1001)(989899) - (1010101)(1001)\\) by multiplying out each term.",
+      "Combine similar terms if any to further simplify the expression.",
+      "Calculate the final value of the simplified expression.",
+      "Identify the rightmost non-zero digit of the resultant number.",
+      "Count the number of trailing zeros following this non-zero digit.",
+      "Write the ordered pair \\((a, b)\\) where \\(a\\) is the rightmost non-zero digit and \\(b\\) is the number of trailing zeros following digit \\(a\\)."
+    ],
+    {
+      "1": "estion \"What is the rightmost non-zero digit in the given mathematical expression and how many zeroes follow it?\", we need to follow these steps:",
+      "2": "Simplify the expression \\((1001001)(1010101) + (989899)(1001001) - (1001)(989899) - (1010101)(1001)\\) by multiplying out each term.",
+      "3": "Combine similar terms if any to further simplify the expression.",
+      "4": "Calculate the final value of the simplified expression.",
+      "5": "Identify the rightmost non-zero digit of the resultant number.",
+      "6": "Count the number of trailing zeros following this non-zero digit.",
+      "7": "Write the ordered pair \\((a, b)\\) where \\(a\\) is the rightmost non-zero digit and \\(b\\) is the number of trailing zeros following digit \\(a\\)."
+    }
+  ],
+  [
+    [
+      "Simplify and evaluate the given expression:",
+      "\\[",
+      "(1001001)(1010101) + (989899)(1001001) - (1001)(989899) - (1010101)(1001)",
+      "\\]",
+      "Recognize equivalent expressions and consolidate terms to simplify calculations.",
+      "Calculate the products:",
+      "\\[",
+      "(1001001)(1010101), \\quad (989899)(1001001), \\quad (1001)(989899), \\quad (1010101)(1001)",
+      "\\]",
+      "Perform the additions and subtractions as outlined in the original expression.",
+      "Determine the absolute value of the result (in case the arithmetic operation results in a negative number).",
+      "Identify the rightmost non-zero digit in the resulting number.",
+      "Count how many trailing zeros are present after the identified non-zero digit.",
+      "Combine the findings into an ordered pair $(a,b)$, where $a$ is the rightmost non-zero digit and $b$ is the number of zeroes following it."
+    ],
+    {
+      "1": "Simplify and evaluate the given expression:",
+      "2": "\\[",
+      "3": "(1001001)(1010101) + (989899)(1001001) - (1001)(989899) - (1010101)(1001)",
+      "4": "\\]",
+      "5": "Recognize equivalent expressions and consolidate terms to simplify calculations.",
+      "6": "Calculate the products:",
+      "7": "\\[",
+      "8": "(1001001)(1010101), \\quad (989899)(1001001), \\quad (1001)(989899), \\quad (1010101)(1001)",
+      "9": "\\]",
+      "10": "Perform the additions and subtractions as outlined in the original expression.",
+      "11": "Determine the absolute value of the result (in case the arithmetic operation results in a negative number).",
+      "12": "Identify the rightmost non-zero digit in the resulting number.",
+      "13": "Count how many trailing zeros are present after the identified non-zero digit.",
+      "14": "Combine the findings into an ordered pair $(a,b)$, where $a$ is the rightmost non-zero digit and $b$ is the number of zeroes following it."
+    }
+  ],
+  [
+    [
+      "estion \"What is the rightmost non-zero digit and how many zeroes follow it in the algebraic expression given?\", we need to follow these steps:",
+      "Simplify the expression inside the brackets:",
+      "Calculate \\( A \\times B \\) where \\( A = 1001001 \\) and \\( B = 1010101 \\).",
+      "Calculate \\( C \\times A \\) where \\( C = 989899 \\) and \\( A = 1001001 \\).",
+      "Calculate \\( D \\times C \\) where \\( D = 1001 \\) and \\( C = 989899 \\).",
+      "Calculate \\( E \\times D \\) where \\( E = 1010101 \\) and \\( D = 1001 \\).",
+      "Substitute the results from steps 1 through 4 into the given expression:",
+      "\\[",
+      "(1001001)(1010101) + (989899)(1001001) - (1001)(989899) - (1010101)(1001)",
+      "\\]",
+      "and simplify further if possible.",
+      "Identify the last non-zero digit of the final result obtained in step 5.",
+      "Count the number of zeroes that directly follow this last non-zero digit in the result to find the value of \\( b \\).",
+      "Combine the results of steps 6 and 7 to form the ordered pair \\((a, b)\\)."
+    ],
+    {
+      "1": "estion \"What is the rightmost non-zero digit and how many zeroes follow it in the algebraic expression given?\", we need to follow these steps:",
+      "2": "Simplify the expression inside the brackets:",
+      "3": "Calculate \\( A \\times B \\) where \\( A = 1001001 \\) and \\( B = 1010101 \\).",
+      "4": "Calculate \\( C \\times A \\) where \\( C = 989899 \\) and \\( A = 1001001 \\).",
+      "5": "Calculate \\( D \\times C \\) where \\( D = 1001 \\) and \\( C = 989899 \\).",
+      "6": "Calculate \\( E \\times D \\) where \\( E = 1010101 \\) and \\( D = 1001 \\).",
+      "7": "Substitute the results from steps 1 through 4 into the given expression:",
+      "8": "\\[",
+      "9": "(1001001)(1010101) + (989899)(1001001) - (1001)(989899) - (1010101)(1001)",
+      "10": "\\]",
+      "11": "and simplify further if possible.",
+      "12": "Identify the last non-zero digit of the final result obtained in step 5.",
+      "13": "Count the number of zeroes that directly follow this last non-zero digit in the result to find the value of \\( b \\).",
+      "14": "Combine the results of steps 6 and 7 to form the ordered pair \\((a, b)\\)."
+    }
+  ]
+]

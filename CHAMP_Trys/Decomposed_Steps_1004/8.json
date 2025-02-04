@@ -1,0 +1,1390 @@
+[
+  [
+    [
+      "Understand the problem structure: What does calculating the product of the reciprocals for each subset mean mathematically?",
+      "Determine the pattern or rule for the product of reciprocals within a given subset.",
+      "Consider how subsets of size k (where k ranges from 1 to n) contribute to the total sum.",
+      "Calculate the total number of subsets of size k from a set of size n.",
+      "Calculate the product of reciprocals of elements for subsets of size k.",
+      "Analyze how the sum of all products of reciprocals can be represented as a well-defined mathematical function or series.",
+      "Sum the contributions from all possible subsets (from size 1 to n) to find a final formula that represents the sum as a function of n.",
+      "Simplify the obtained sum expression (if possible) to make it more comprehensible or to find a closed form."
+    ],
+    {
+      "1": "Understand the problem structure: What does calculating the product of the reciprocals for each subset mean mathematically?",
+      "2": "Determine the pattern or rule for the product of reciprocals within a given subset.",
+      "3": "Consider how subsets of size k (where k ranges from 1 to n) contribute to the total sum.",
+      "4": "Calculate the total number of subsets of size k from a set of size n.",
+      "5": "Calculate the product of reciprocals of elements for subsets of size k.",
+      "6": "Analyze how the sum of all products of reciprocals can be represented as a well-defined mathematical function or series.",
+      "7": "Sum the contributions from all possible subsets (from size 1 to n) to find a final formula that represents the sum as a function of n.",
+      "8": "Simplify the obtained sum expression (if possible) to make it more comprehensible or to find a closed form."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the subsets of the set {1, 2,..., n} that need to be considered.",
+      "Understand the concept of taking the product of reciprocals for a given subset.",
+      "Determine how to express the product of reciprocals for a single subset with elements k1, k2, ..., km.",
+      "Recognize the summation requires considering all nonempty subsets and how to represent them combinatorially.",
+      "Formulate a generic method to consider all subsets in the powerset of {1, 2, ..., n}, excluding the empty set.",
+      "Calculate the sum of the products of reciprocals for each subset.",
+      "Summarize the results to find a general expression in terms of n, covering the contribution of all such subsets."
+    ],
+    {
+      "1": "Define the subsets of the set {1, 2,..., n} that need to be considered.",
+      "2": "Understand the concept of taking the product of reciprocals for a given subset.",
+      "3": "Determine how to express the product of reciprocals for a single subset with elements k1, k2, ..., km.",
+      "4": "Recognize the summation requires considering all nonempty subsets and how to represent them combinatorially.",
+      "5": "Formulate a generic method to consider all subsets in the powerset of {1, 2, ..., n}, excluding the empty set.",
+      "6": "Calculate the sum of the products of reciprocals for each subset.",
+      "7": "Summarize the results to find a general expression in terms of n, covering the contribution of all such subsets."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 5",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the representation of each subset in terms of binary numbers.",
+      "Recognize that each bit of a binary number from 1 to \\(2^n - 1\\) corresponds to including an element of the set \\(\\{1, 2, ..., n\\}\\).",
+      "Consider creating a subset based on the binary representation, and identify which elements are included.",
+      "Compute the product of the reciprocals of the elements for a given subset.",
+      "Calculate the sum of these products across all nonempty subsets.",
+      "Explore the pattern formed by these sums and relate the computation to a known mathematical identity or formula.",
+      "Establish a general formula for the sum of the products of the reciprocals as a function of n.",
+      "Verify the general formula with specific values of n to ensure its correctness and consistency."
+    ],
+    {
+      "1": "Understand the representation of each subset in terms of binary numbers.",
+      "2": "Recognize that each bit of a binary number from 1 to \\(2^n - 1\\) corresponds to including an element of the set \\(\\{1, 2, ..., n\\}\\).",
+      "3": "Consider creating a subset based on the binary representation, and identify which elements are included.",
+      "4": "Compute the product of the reciprocals of the elements for a given subset.",
+      "5": "Calculate the sum of these products across all nonempty subsets.",
+      "6": "Explore the pattern formed by these sums and relate the computation to a known mathematical identity or formula.",
+      "7": "Establish a general formula for the sum of the products of the reciprocals as a function of n.",
+      "8": "Verify the general formula with specific values of n to ensure its correctness and consistency."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the formula for calculating the product of the reciprocals of elements in a single subset.",
+      "Understand the process of calculating the sum of these products for all nonempty subsets of the set {1, 2, ..., n}.",
+      "Calculate how the sum changes as more elements (i.e., larger values of n) are added to the set.",
+      "Find a pattern or formula that scales with n for the sum of all products of reciprocals from all subsets.",
+      "Generalize the pattern or derived formula to express it in terms of n."
+    ],
+    {
+      "1": "Identify the formula for calculating the product of the reciprocals of elements in a single subset.",
+      "2": "Understand the process of calculating the sum of these products for all nonempty subsets of the set {1, 2, ..., n}.",
+      "3": "Calculate how the sum changes as more elements (i.e., larger values of n) are added to the set.",
+      "4": "Find a pattern or formula that scales with n for the sum of all products of reciprocals from all subsets.",
+      "5": "Generalize the pattern or derived formula to express it in terms of n."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the meaning of the subset product of reciprocals for a given subset of set {1, 2, ..., n}.",
+      "Determine how to express the sum of products of reciprocals for all nonempty subsets of {1, 2, ..., n}.",
+      "Realize how many times each number in the set {1, 2,..., n} participates in these subsets and contributes to the sum.",
+      "Derive the formula for calculating the number of subsets in which a particular number k appears, considering the binary representation of subsets.",
+      "Calculate the contribution of each individual k (from 1 to n) to the overall sum and understand the pattern or repetition in these contributions.",
+      "Sum all contributions to find the final sum of all the products of the reciprocals for all nonempty subsets of {1, 2, ..., n} as an expression in terms of n."
+    ],
+    {
+      "1": "Understand the meaning of the subset product of reciprocals for a given subset of set {1, 2, ..., n}.",
+      "2": "Determine how to express the sum of products of reciprocals for all nonempty subsets of {1, 2, ..., n}.",
+      "3": "Realize how many times each number in the set {1, 2,..., n} participates in these subsets and contributes to the sum.",
+      "4": "Derive the formula for calculating the number of subsets in which a particular number k appears, considering the binary representation of subsets.",
+      "5": "Calculate the contribution of each individual k (from 1 to n) to the overall sum and understand the pattern or repetition in these contributions.",
+      "6": "Sum all contributions to find the final sum of all the products of the reciprocals for all nonempty subsets of {1, 2, ..., n} as an expression in terms of n."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the set from which subsets are formed and clarify the meaning of \"non-empty subsets\".",
+      "Define the variable x as the subset of {1, 2, ..., n}.",
+      "Identify the general form of a non-empty subset x.",
+      "Determine the structure of the reciprocal product for any non-empty subset x.",
+      "Recognize the requirement to find the sum of these reciprocal products over all non-empty subsets of {1, 2, ..., n}.",
+      "Explore the properties of this summation operation with respect to the elements of the subsets.",
+      "Evaluate how changes in n affect the total number of subsets and their respective reciprocal products.",
+      "Simplify the expression or pattern observed in the summation of these products through algebraic manipulation or other mathematical techniques (like series expansion or combinatorial arguments, etc.)."
+    ],
+    {
+      "1": "Understand the set from which subsets are formed and clarify the meaning of \"non-empty subsets\".",
+      "2": "Define the variable x as the subset of {1, 2, ..., n}.",
+      "3": "Identify the general form of a non-empty subset x.",
+      "4": "Determine the structure of the reciprocal product for any non-empty subset x.",
+      "5": "Recognize the requirement to find the sum of these reciprocal products over all non-empty subsets of {1, 2, ..., n}.",
+      "6": "Explore the properties of this summation operation with respect to the elements of the subsets.",
+      "7": "Evaluate how changes in n affect the total number of subsets and their respective reciprocal products.",
+      "8": "Simplify the expression or pattern observed in the summation of these products through algebraic manipulation or other mathematical techniques (like series expansion or combinatorial arguments, etc.)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Clarify what is meant by the sum of products of the reciprocals of elements for each subset.",
+      "Identify how many subsets you can form from the set {1, 2, ..., n}.",
+      "Evaluate the expression for the reciprocal product for a single subset.",
+      "Determine a method to calculate the sum of all products of reciprocals for each subset.",
+      "Investigate the properties of sums involving harmonic numbers and related series, given their connection to reciprocals.",
+      "Explore potential simplifications or recognizable patterns in the sum of reciprocals for subsets, especially considering the symmetry or repeating elements in subsets of powers of 2.",
+      "Consider any mathematical identities or theorems (e.g., binomial theorem, geometric series) that might simplify the computation of the sum over all subsets."
+    ],
+    {
+      "1": "Clarify what is meant by the sum of products of the reciprocals of elements for each subset.",
+      "2": "Identify how many subsets you can form from the set {1, 2, ..., n}.",
+      "3": "Evaluate the expression for the reciprocal product for a single subset.",
+      "4": "Determine a method to calculate the sum of all products of reciprocals for each subset.",
+      "5": "Investigate the properties of sums involving harmonic numbers and related series, given their connection to reciprocals.",
+      "6": "Explore potential simplifications or recognizable patterns in the sum of reciprocals for subsets, especially considering the symmetry or repeating elements in subsets of powers of 2.",
+      "7": "Consider any mathematical identities or theorems (e.g., binomial theorem, geometric series) that might simplify the computation of the sum over all subsets."
+    },
+    {
+      "0": [
+        "Step 5",
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the composition of the subsets for the set {1, 2, ..., n} and how they are formed.",
+      "For a given subset, determine how to compute the product of reciprocals of its elements.",
+      "Identify and generalize the expression to find the product of reciprocals for any subset.",
+      "Compute the sum of these products for all possible nonempty subsets of the set {1, 2, ..., n}.",
+      "Simplify the summation formula to express it in terms of n.",
+      "Verify the derived formula by plugging in small values of n and manually calculating the sum of products."
+    ],
+    {
+      "1": "Understand the composition of the subsets for the set {1, 2, ..., n} and how they are formed.",
+      "2": "For a given subset, determine how to compute the product of reciprocals of its elements.",
+      "3": "Identify and generalize the expression to find the product of reciprocals for any subset.",
+      "4": "Compute the sum of these products for all possible nonempty subsets of the set {1, 2, ..., n}.",
+      "5": "Simplify the summation formula to express it in terms of n.",
+      "6": "Verify the derived formula by plugging in small values of n and manually calculating the sum of products."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the form and calculation of the reciprocal of an element in a subset.",
+      "Define how the product of reciprocals is computed for a single subset.",
+      "Determine the method to iterate through all nonempty subsets of {1, 2, ..., n}.",
+      "Calculate the product of reciprocals for each subset.",
+      "Add all the computed products from every subset to get the total sum.",
+      "Consider any simplifications or patterns that emerge in the sum of these products.",
+      "Express the final result as a function of n."
+    ],
+    {
+      "1": "Understand the form and calculation of the reciprocal of an element in a subset.",
+      "2": "Define how the product of reciprocals is computed for a single subset.",
+      "3": "Determine the method to iterate through all nonempty subsets of {1, 2, ..., n}.",
+      "4": "Calculate the product of reciprocals for each subset.",
+      "5": "Add all the computed products from every subset to get the total sum.",
+      "6": "Consider any simplifications or patterns that emerge in the sum of these products.",
+      "7": "Express the final result as a function of n."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand what it means to take a subset of {1, 2, ..., n} and its nonempty nature.",
+      "Recognize how to calculate the product of the reciprocals of the elements of a subset.",
+      "Determine the total count of nonempty subsets possible from the set {1, 2, ..., n}.",
+      "Express the sum of products of reciprocals for each subset using a combined formula or summation notation.",
+      "Consider the symmetry and properties of the reciprocals to simplify calculations.",
+      "Analyze the connection between the sum of these products and any known mathematical identities or formulas.",
+      "Derive a general expression in terms of n for the sum of all these products for any given n.",
+      "Verify the derived formula with small values of n to ensure its accuracy."
+    ],
+    {
+      "1": "Understand what it means to take a subset of {1, 2, ..., n} and its nonempty nature.",
+      "2": "Recognize how to calculate the product of the reciprocals of the elements of a subset.",
+      "3": "Determine the total count of nonempty subsets possible from the set {1, 2, ..., n}.",
+      "4": "Express the sum of products of reciprocals for each subset using a combined formula or summation notation.",
+      "5": "Consider the symmetry and properties of the reciprocals to simplify calculations.",
+      "6": "Analyze the connection between the sum of these products and any known mathematical identities or formulas.",
+      "7": "Derive a general expression in terms of n for the sum of all these products for any given n.",
+      "8": "Verify the derived formula with small values of n to ensure its accuracy."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 6",
+        "Step 5"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what a subset and a non-empty subset of a set {1, 2,..., n} implies.",
+      "Understand and represent the product of the reciprocals of the elements of a subset.",
+      "Determine how many subsets of {1, 2,..., n} are there.",
+      "Analyze how to compute the sum of products of reciprocals for all non-empty subsets.",
+      "Look for any patterns or simplifications in the summation process given the involvement of reciprocals.",
+      "Consider whether there's a recursive approach or direct calculation formula that simplifies computing the sum of the aforementioned products for all subsets.",
+      "Evaluate how to express the final sum in terms of n only, possibly recognizing a general formula or a combinatorial identity."
+    ],
+    {
+      "1": "Define what a subset and a non-empty subset of a set {1, 2,..., n} implies.",
+      "2": "Understand and represent the product of the reciprocals of the elements of a subset.",
+      "3": "Determine how many subsets of {1, 2,..., n} are there.",
+      "4": "Analyze how to compute the sum of products of reciprocals for all non-empty subsets.",
+      "5": "Look for any patterns or simplifications in the summation process given the involvement of reciprocals.",
+      "6": "Consider whether there's a recursive approach or direct calculation formula that simplifies computing the sum of the aforementioned products for all subsets.",
+      "7": "Evaluate how to express the final sum in terms of n only, possibly recognizing a general formula or a combinatorial identity."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what is meant by the product of the reciprocals of each element in a subset.",
+      "Identify the total number of nonempty subsets for the set {1, 2, ..., n}.",
+      "Understand the rules for summing the products over all possible nonempty subsets.",
+      "Establish the relationship between subsets including a specific element and those not including it.",
+      "Calculate the contribution of subsets including the element 1 to the overall sum.",
+      "Calculate the contribution of subsets including the element 2, excluding those that contain 1, to the overall sum.",
+      "Find the general formula for the contribution of subsets that include a specific element k, and extend this approach to include all elements from 1 to n.",
+      "Sum all the contributions from the previous step to get the final sum as a function of n.",
+      "Verify the formula for specific small values of n to ensure the correctness of the approach."
+    ],
+    {
+      "1": "Define what is meant by the product of the reciprocals of each element in a subset.",
+      "2": "Identify the total number of nonempty subsets for the set {1, 2, ..., n}.",
+      "3": "Understand the rules for summing the products over all possible nonempty subsets.",
+      "4": "Establish the relationship between subsets including a specific element and those not including it.",
+      "5": "Calculate the contribution of subsets including the element 1 to the overall sum.",
+      "6": "Calculate the contribution of subsets including the element 2, excluding those that contain 1, to the overall sum.",
+      "7": "Find the general formula for the contribution of subsets that include a specific element k, and extend this approach to include all elements from 1 to n.",
+      "8": "Sum all the contributions from the previous step to get the final sum as a function of n.",
+      "9": "Verify the formula for specific small values of n to ensure the correctness of the approach."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ],
+      "7": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the structure of a subset of the set {1, 2, ..., n} and what it means for a subset to be nonempty.",
+      "Define the product of the reciprocals for a single subset.",
+      "Characterize how the subsets of {1, 2, ..., n} are formed and how they contribute to the overall problem.",
+      "Calculate the number of nonempty subsets of {1, 2, ..., n}, which is 2^n - 1.",
+      "Determine the generalized expression for the product of the reciprocals of the elements of one subset.",
+      "Sum the products of the reciprocals over all 2^n - 1 nonempty subsets.",
+      "Explore if any simplification or pattern emerges in computation of the sum for varying n.",
+      "Derive or validate a final expression/formula for the sum as a function of n."
+    ],
+    {
+      "1": "Understand the structure of a subset of the set {1, 2, ..., n} and what it means for a subset to be nonempty.",
+      "2": "Define the product of the reciprocals for a single subset.",
+      "3": "Characterize how the subsets of {1, 2, ..., n} are formed and how they contribute to the overall problem.",
+      "4": "Calculate the number of nonempty subsets of {1, 2, ..., n}, which is 2^n - 1.",
+      "5": "Determine the generalized expression for the product of the reciprocals of the elements of one subset.",
+      "6": "Sum the products of the reciprocals over all 2^n - 1 nonempty subsets.",
+      "7": "Explore if any simplification or pattern emerges in computation of the sum for varying n.",
+      "8": "Derive or validate a final expression/formula for the sum as a function of n."
+    },
+    {
+      "0": [
+        "Step 4",
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the set of all nonempty subsets of {1, 2,..., n}.",
+      "Describe how to calculate the product of the reciprocals of the elements of a given subset.",
+      "Determine the expression to calculate the sum of these products for one subset.",
+      "Sum these expressions for all nonempty subsets of {1, 2,..., n}.",
+      "Simplify the cumulative sum to an expression in terms of n."
+    ],
+    {
+      "1": "Define the set of all nonempty subsets of {1, 2,..., n}.",
+      "2": "Describe how to calculate the product of the reciprocals of the elements of a given subset.",
+      "3": "Determine the expression to calculate the sum of these products for one subset.",
+      "4": "Sum these expressions for all nonempty subsets of {1, 2,..., n}.",
+      "5": "Simplify the cumulative sum to an expression in terms of n."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the concept of nonempty subsets for a set of size n.",
+      "Investigate the formula for calculating the product of the reciprocals of elements within a subset.",
+      "Determine how many nonempty subsets can be formed from the set {1, 2, ..., n}.",
+      "Calculate the product of reciprocals for a given subset.",
+      "Sum up the products of reciprocals for all nonempty subsets.",
+      "Express the sum as a function of n using combinatorial and algebraic techniques."
+    ],
+    {
+      "1": "Understand the concept of nonempty subsets for a set of size n.",
+      "2": "Investigate the formula for calculating the product of the reciprocals of elements within a subset.",
+      "3": "Determine how many nonempty subsets can be formed from the set {1, 2, ..., n}.",
+      "4": "Calculate the product of reciprocals for a given subset.",
+      "5": "Sum up the products of reciprocals for all nonempty subsets.",
+      "6": "Express the sum as a function of n using combinatorial and algebraic techniques."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the structure of the set {1, 2, ..., n} and identify the nonempty subsets of this set.",
+      "Examine what it means to take the product of the reciprocals of the elements of a subset.",
+      "Calculate the product of the reciprocals for a single subset, identifying how the subset's elements impact this product.",
+      "Develop a formula or method to sum these products over all possible nonempty subsets of {1, 2, ..., n}.",
+      "Investigate any mathematical properties or identities that might simplify the computation of the sum.",
+      "Explore any possible patterns or relationships in smaller cases where n is a small number to conjecture a general formula.",
+      "Prove the conjectured formula (if any) for general n using mathematical induction or other appropriate techniques.",
+      "Reflect on the significance of the sum found and any potential implications or uses in further mathematical contexts or related problems."
+    ],
+    {
+      "1": "Understand the structure of the set {1, 2, ..., n} and identify the nonempty subsets of this set.",
+      "2": "Examine what it means to take the product of the reciprocals of the elements of a subset.",
+      "3": "Calculate the product of the reciprocals for a single subset, identifying how the subset's elements impact this product.",
+      "4": "Develop a formula or method to sum these products over all possible nonempty subsets of {1, 2, ..., n}.",
+      "5": "Investigate any mathematical properties or identities that might simplify the computation of the sum.",
+      "6": "Explore any possible patterns or relationships in smaller cases where n is a small number to conjecture a general formula.",
+      "7": "Prove the conjectured formula (if any) for general n using mathematical induction or other appropriate techniques.",
+      "8": "Reflect on the significance of the sum found and any potential implications or uses in further mathematical contexts or related problems."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5",
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the structure of the subsets of {1, 2, ..., n} and how many non-empty subsets there are.",
+      "Define the product of the reciprocals for a given subset.",
+      "Calculate the product of the reciprocals for one subset.",
+      "Recognize a pattern or a method to sum the products of reciprocals over all non-empty subsets.",
+      "Explore any mathematical identities or properties that reduce the complexity of the sum.",
+      "Aggregate the sum for all non-empty subsets to express it in terms of n.",
+      "Simplify the aggregated sum to a function or formula of n, if possible.",
+      "Verify the formula with specific small values of n to ensure accuracy.",
+      "Consider properties of summation and series that might simplify or explain the sum's behavior as n changes."
+    ],
+    {
+      "1": "Understand the structure of the subsets of {1, 2, ..., n} and how many non-empty subsets there are.",
+      "2": "Define the product of the reciprocals for a given subset.",
+      "3": "Calculate the product of the reciprocals for one subset.",
+      "4": "Recognize a pattern or a method to sum the products of reciprocals over all non-empty subsets.",
+      "5": "Explore any mathematical identities or properties that reduce the complexity of the sum.",
+      "6": "Aggregate the sum for all non-empty subsets to express it in terms of n.",
+      "7": "Simplify the aggregated sum to a function or formula of n, if possible.",
+      "8": "Verify the formula with specific small values of n to ensure accuracy.",
+      "9": "Consider properties of summation and series that might simplify or explain the sum's behavior as n changes."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ],
+      "8": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the formula to calculate the product of the reciprocals of the elements of a subset?",
+      "How many nonempty subsets of {1, 2, ..., n} are there?",
+      "How to represent each nonempty subset using binary representation?",
+      "Identify the rule for summing the products of reciprocals over all nonempty subsets.",
+      "How does the structure of the nonempty subsets relate to the formula for their reciprocal products?",
+      "What is the expression for the sum of the product of reciprocals over all subsets when n is given?",
+      "Simplify the summed expression to find a general formula as a function of n."
+    ],
+    {
+      "1": "What is the formula to calculate the product of the reciprocals of the elements of a subset?",
+      "2": "How many nonempty subsets of {1, 2, ..., n} are there?",
+      "3": "How to represent each nonempty subset using binary representation?",
+      "4": "Identify the rule for summing the products of reciprocals over all nonempty subsets.",
+      "5": "How does the structure of the nonempty subsets relate to the formula for their reciprocal products?",
+      "6": "What is the expression for the sum of the product of reciprocals over all subsets when n is given?",
+      "7": "Simplify the summed expression to find a general formula as a function of n."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means to calculate the product of the reciprocals of each element in a subset.",
+      "Understand how the formula for the product of reciprocals translates for a given subset of certain elements.",
+      "Determine how to represent all nonempty subsets of the set {1, 2, ..., n}.",
+      "Explore the method to calculate the sum across all such subsets for their respective product of reciprocals.",
+      "Recognize any patterns or simplifications that apply to the sum of these products for subsets of successive sizes.",
+      "Formulate the sum solution for a particular subset and generalize it across all subsets.",
+      "Derive the overall expression in terms of n to represent the sum of all products from nonempty subsets."
+    ],
+    {
+      "1": "Define what it means to calculate the product of the reciprocals of each element in a subset.",
+      "2": "Understand how the formula for the product of reciprocals translates for a given subset of certain elements.",
+      "3": "Determine how to represent all nonempty subsets of the set {1, 2, ..., n}.",
+      "4": "Explore the method to calculate the sum across all such subsets for their respective product of reciprocals.",
+      "5": "Recognize any patterns or simplifications that apply to the sum of these products for subsets of successive sizes.",
+      "6": "Formulate the sum solution for a particular subset and generalize it across all subsets.",
+      "7": "Derive the overall expression in terms of n to represent the sum of all products from nonempty subsets."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the contribution of each subset in terms of its elements' reciprocals.",
+      "Determine the structure of subsets and their representation in terms of binary numbers.",
+      "Calculate the product of reciprocals for a representative subset having elements {i1, i2, ..., ik}.",
+      "Analyze how the subset's structure affects the sum when considering 2^n - 1 nonempty subsets.",
+      "Use combinatorial relationships or identities to simplify the sum over all subsets.",
+      "Express the final sum solely as a function of n, identifying any patterns or simplifications."
+    ],
+    {
+      "1": "Define the contribution of each subset in terms of its elements' reciprocals.",
+      "2": "Determine the structure of subsets and their representation in terms of binary numbers.",
+      "3": "Calculate the product of reciprocals for a representative subset having elements {i1, i2, ..., ik}.",
+      "4": "Analyze how the subset's structure affects the sum when considering 2^n - 1 nonempty subsets.",
+      "5": "Use combinatorial relationships or identities to simplify the sum over all subsets.",
+      "6": "Express the final sum solely as a function of n, identifying any patterns or simplifications."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ]
+]

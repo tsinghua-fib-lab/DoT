@@ -1,0 +1,41 @@
+2024-09-04 22:14:08 [INFO] 
+
+
+
+2024-09-04 22:14:08 [INFO] number id: 0
+2024-09-04 22:14:08 [INFO] instruction content:
+2024-09-04 22:14:08 [INFO] On a chess board, two rooks are placed peacefully if they are not on the same row or column. For an n x n chess board, find the number of ways that n rooks can be placed peacefully (i.e., any two are placed peacefully) and the placing is also invariant to a 180-degree rotation.
+2024-09-04 22:14:23 [INFO] total number of steps: 7
+2024-09-04 22:20:13 [INFO] final answer: The final answer to the problem is:
+
+- If \( n \) is even:
+  \[
+  \text{Number of configurations} = \frac{n!}{(n/2)!}
+  \]
+- If \( n \) is odd:
+  \[
+  \text{Number of configurations} = \frac{(n-1)!}{((n-1)/2)!}
+  \]
+2024-09-04 22:20:13 [INFO] gold answer: 2^floor(n/2)*floor(n/2)!
+2024-09-04 22:20:13 [INFO] incorrect
+2024-09-04 22:20:13 [INFO] accu: 0.0
+2024-09-04 22:20:13 [INFO] 
+
+
+
+2024-09-04 22:20:13 [INFO] number id: 1
+2024-09-04 22:20:13 [INFO] instruction content:
+2024-09-04 22:20:13 [INFO] Consider a row of 11 seats. A child sits on each. Each child may move by at most one seat. How many possible rearrangements are there (including the original one)?
+2024-09-04 22:20:39 [INFO] total number of steps: 5
+2024-09-04 22:23:22 [INFO] final answer: The final answer to the main problem, considering all possible valid configurations, including the original one, for the 11 children with the movement restriction of at most one seat is 233.
+2024-09-04 22:23:22 [INFO] gold answer: 144
+2024-09-04 22:23:22 [INFO] incorrect
+2024-09-04 22:23:22 [INFO] accu: 0.0
+2024-09-04 22:23:22 [INFO] 
+
+
+
+2024-09-04 22:23:22 [INFO] number id: 2
+2024-09-04 22:23:22 [INFO] instruction content:
+2024-09-04 22:23:22 [INFO] How many strings of length 5 and consisting solely of the digits 1, 2, 3 and 4 have the property that any 1 and 2 are never neighbors (i.e., the string does not contain "12" or "21" as substrings).
+2024-09-04 22:24:14 [INFO] total number of steps: 4

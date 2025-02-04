@@ -1,0 +1,1512 @@
+[
+  [
+    [
+      "Define the notation x(n) and y(n) more explicitly as tetration to indicate repeated exponentiation.",
+      "Investigate the growth rate or behavior of the function x(n) = 3^3^3^...^3 with n iterations of 3's as n increases.",
+      "Investigate the growth rate or behavior of the function y(n) = 4^4^4^...^4 with n iterations of 4's as n increases.",
+      "Compare the magnitudes of x(n) and y(n-1) by understanding how exponentiation affects growth rates in sequences.",
+      "Determine if there is a general rule that relates x(n) to y(n-1) for all integers n ≥ 2 or if the relationship varies depending on the specific value of n.",
+      "Analyze the role of the base and the height of the exponential towers in affecting the growth rates of x(n) and y(n-1).",
+      "Use mathematical tools or logics such as logarithms to compare the two functions, which can help simplify the handling of large exponents.",
+      "Check if there any existing theorems or properties in number theory that can aid in comparing the two functions, particularly focusing on the implications of having different bases (3 and 4) in the towers.",
+      "Consider the initial values of n (where n=2, 3, etc.) and calculate x(n) and y(n-1) explicitly to observe direct relationships for small integers.",
+      "Explore whether the relationship holds for larger values of n by either mathematical induction or further numerical computation if necessary."
+    ],
+    {
+      "1": "Define the notation x(n) and y(n) more explicitly as tetration to indicate repeated exponentiation.",
+      "2": "Investigate the growth rate or behavior of the function x(n) = 3^3^3^...^3 with n iterations of 3's as n increases.",
+      "3": "Investigate the growth rate or behavior of the function y(n) = 4^4^4^...^4 with n iterations of 4's as n increases.",
+      "4": "Compare the magnitudes of x(n) and y(n-1) by understanding how exponentiation affects growth rates in sequences.",
+      "5": "Determine if there is a general rule that relates x(n) to y(n-1) for all integers n ≥ 2 or if the relationship varies depending on the specific value of n.",
+      "6": "Analyze the role of the base and the height of the exponential towers in affecting the growth rates of x(n) and y(n-1).",
+      "7": "Use mathematical tools or logics such as logarithms to compare the two functions, which can help simplify the handling of large exponents.",
+      "8": "Check if there any existing theorems or properties in number theory that can aid in comparing the two functions, particularly focusing on the implications of having different bases (3 and 4) in the towers.",
+      "9": "Consider the initial values of n (where n=2, 3, etc.) and calculate x(n) and y(n-1) explicitly to observe direct relationships for small integers.",
+      "10": "Explore whether the relationship holds for larger values of n by either mathematical induction or further numerical computation if necessary."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3",
+        "Step 9"
+      ],
+      "2": [
+        "Step 4",
+        "Step 10"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the mathematical notation and expression for x(n) as a tower of exponentials with n instances of the number 3.",
+      "Define the mathematical notation and expression for y(n) as a tower of exponentials with n instances of the number 4.",
+      "Analyze the growth behavior and the properties of exponential towers, especially focusing on how the growth rate changes with increasing n.",
+      "Establish an initial comparison of x(2) and y(1) to gain insight into the behavior of these functions for the smallest values of n.",
+      "Calculate or estimate x(n) and y(n-1) for increasing values of n to discern any patterns or general trends.",
+      "Evaluate the properties of x(n) and y(n-1) to check if one consistently grows faster than the other as n increases.",
+      "Consider mathematical tools or logarithmic properties that could simplify the comparison of x(n) and y(n-1) as n grows very large.",
+      "Determine a mathematical or logical reasoning for concluding whether x(n) is always greater than, always less than, or variably compared to y(n-1) across the range of n≥2."
+    ],
+    {
+      "1": "Define the mathematical notation and expression for x(n) as a tower of exponentials with n instances of the number 3.",
+      "2": "Define the mathematical notation and expression for y(n) as a tower of exponentials with n instances of the number 4.",
+      "3": "Analyze the growth behavior and the properties of exponential towers, especially focusing on how the growth rate changes with increasing n.",
+      "4": "Establish an initial comparison of x(2) and y(1) to gain insight into the behavior of these functions for the smallest values of n.",
+      "5": "Calculate or estimate x(n) and y(n-1) for increasing values of n to discern any patterns or general trends.",
+      "6": "Evaluate the properties of x(n) and y(n-1) to check if one consistently grows faster than the other as n increases.",
+      "7": "Consider mathematical tools or logarithmic properties that could simplify the comparison of x(n) and y(n-1) as n grows very large.",
+      "8": "Determine a mathematical or logical reasoning for concluding whether x(n) is always greater than, always less than, or variably compared to y(n-1) across the range of n≥2."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3",
+        "Step 7",
+        "Step 2",
+        "Step 4"
+      ],
+      "1": [
+        "Step 5"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the function x(n) for a given integer n.",
+      "Define the function y(n) for a given integer n.",
+      "Determine the general form of x(n) and y(n-1) by computing power tower expressions for small values of n.",
+      "Explore the growth rates of functions x(n) and y(n-1) as n increases.",
+      "Compare x(n) and y(n-1) for specific values of n starting from n=2.",
+      "Analyze patterns or trends in the comparisons made in step 5 for various values of n.",
+      "Decide if x(n) generally tends to be larger, smaller, or varies in comparison to y(n-1).",
+      "Derive or propose a general rule or statement for the relationship between x(n) and y(n-1) based on the findings in the previous steps.",
+      "Validate the proposed relationship or rule by testing additional values if necessary.",
+      "Sum up the overall relationship between x(n) and y(n-1) based on the analysis and validation."
+    ],
+    {
+      "1": "Define the function x(n) for a given integer n.",
+      "2": "Define the function y(n) for a given integer n.",
+      "3": "Determine the general form of x(n) and y(n-1) by computing power tower expressions for small values of n.",
+      "4": "Explore the growth rates of functions x(n) and y(n-1) as n increases.",
+      "5": "Compare x(n) and y(n-1) for specific values of n starting from n=2.",
+      "6": "Analyze patterns or trends in the comparisons made in step 5 for various values of n.",
+      "7": "Decide if x(n) generally tends to be larger, smaller, or varies in comparison to y(n-1).",
+      "8": "Derive or propose a general rule or statement for the relationship between x(n) and y(n-1) based on the findings in the previous steps.",
+      "9": "Validate the proposed relationship or rule by testing additional values if necessary.",
+      "10": "Sum up the overall relationship between x(n) and y(n-1) based on the analysis and validation."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ],
+      "7": [
+        "Step 9"
+      ],
+      "8": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the notation and recursive nature of x(n) and y(n).",
+      "Determine how the recursive nature affects the growth of x(n) and y(n) as n increases.",
+      "Analyze the relationship for a specific small value of n (e.g., n=2) to get a base understanding of how x(n) compares with y(n-1).",
+      "Generalize the specific case analysis to higher values of n.",
+      "Consider the base of the exponentiation (3 vs 4) and the impact of the nesting depth on the growth rate.",
+      "Assess whether exponential towers of 3 surpass those of 4 at a reduced nesting level consistently, occasionally, or never.",
+      "Summarize findings in relation to how generally x(n) relates to y(n-1) for all integer values of n≥2."
+    ],
+    {
+      "1": "Understand the notation and recursive nature of x(n) and y(n).",
+      "2": "Determine how the recursive nature affects the growth of x(n) and y(n) as n increases.",
+      "3": "Analyze the relationship for a specific small value of n (e.g., n=2) to get a base understanding of how x(n) compares with y(n-1).",
+      "4": "Generalize the specific case analysis to higher values of n.",
+      "5": "Consider the base of the exponentiation (3 vs 4) and the impact of the nesting depth on the growth rate.",
+      "6": "Assess whether exponential towers of 3 surpass those of 4 at a reduced nesting level consistently, occasionally, or never.",
+      "7": "Summarize findings in relation to how generally x(n) relates to y(n-1) for all integer values of n≥2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the expressions for x(n) and y(n) in terms of exponentiation.",
+      "Analyze the growth rate of exponentiations for both sequences to understand how they evolve as n increases.",
+      "Calculate specific values of x(n) and y(n-1) for small integer values of n to observe any initial trends or patterns.",
+      "Compare the relative magnitudes of x(n) and y(n-1) systematically for increasing values of n.",
+      "Derive a general rule or relationship between the growth rates of x(n) and y(n-1) based on their base and height of exponentiation.",
+      "Consider the impact of the sequence's starting value (x(2) vs. y(1), x(3) vs. y(2), etc.) on the overall comparison for various n.",
+      "Question whether x(n) consistently exceeds y(n-1), consistently falls short, or exhibits some variability as n increases.",
+      "Determine if there exists any mathematical properties or theorems applicable to comparing such sequences of exponentiations, possibly involving considerations of logarithms or other analytical tools.",
+      "Conclude whether the growth of the sequences confirms x(n)>y(n-1) for all n≥2, x(n)<y(n-1) for all n≥2, or x(n)>y(n-1) for some n and x(n)<y(n-1) for some other n."
+    ],
+    {
+      "1": "Define the expressions for x(n) and y(n) in terms of exponentiation.",
+      "2": "Analyze the growth rate of exponentiations for both sequences to understand how they evolve as n increases.",
+      "3": "Calculate specific values of x(n) and y(n-1) for small integer values of n to observe any initial trends or patterns.",
+      "4": "Compare the relative magnitudes of x(n) and y(n-1) systematically for increasing values of n.",
+      "5": "Derive a general rule or relationship between the growth rates of x(n) and y(n-1) based on their base and height of exponentiation.",
+      "6": "Consider the impact of the sequence's starting value (x(2) vs. y(1), x(3) vs. y(2), etc.) on the overall comparison for various n.",
+      "7": "Question whether x(n) consistently exceeds y(n-1), consistently falls short, or exhibits some variability as n increases.",
+      "8": "Determine if there exists any mathematical properties or theorems applicable to comparing such sequences of exponentiations, possibly involving considerations of logarithms or other analytical tools.",
+      "9": "Conclude whether the growth of the sequences confirms x(n)>y(n-1) for all n≥2, x(n)<y(n-1) for all n≥2, or x(n)>y(n-1) for some n and x(n)<y(n-1) for some other n."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6",
+        "Step 8"
+      ],
+      "5": [
+        "Step 7",
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Define x(n) and y(n) in terms of their exponential towers to understand the structure of each function.",
+      "Consider how exponentiation behaves in tower power structures; specifically, analyze how much larger 3^3 is compared to 4, and similarly higher powers.",
+      "Specify what x(n) and y(n-1) mean by computing the value for small integers, say n=2 and n=3, to get a comparative understanding.",
+      "Understand and outline the rules for comparing the magnitudes of large exponential towers, looking at base size, exponential growth rate, and the impact of recursive exponentiation.",
+      "Theorize about how the recursive application of exponentiation at different rates (or base sizes) affects the final size comparison between x(n) and y(n-1).",
+      "Conclude whether x(n) consistently remains larger, consistently smaller, or varies in magnitude compared to y(n-1) as n increases."
+    ],
+    {
+      "1": "Define x(n) and y(n) in terms of their exponential towers to understand the structure of each function.",
+      "2": "Consider how exponentiation behaves in tower power structures; specifically, analyze how much larger 3^3 is compared to 4, and similarly higher powers.",
+      "3": "Specify what x(n) and y(n-1) mean by computing the value for small integers, say n=2 and n=3, to get a comparative understanding.",
+      "4": "Understand and outline the rules for comparing the magnitudes of large exponential towers, looking at base size, exponential growth rate, and the impact of recursive exponentiation.",
+      "5": "Theorize about how the recursive application of exponentiation at different rates (or base sizes) affects the final size comparison between x(n) and y(n-1).",
+      "6": "Conclude whether x(n) consistently remains larger, consistently smaller, or varies in magnitude compared to y(n-1) as n increases."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the mathematical notation and meaning of x(n) and y(n) more precisely.",
+      "Determine how to compute the value of x(n) for a given n using the definition of tetration.",
+      "Determine how to compute the value of y(n-1) for a given n using the definition of tetration.",
+      "Compare the growth rates of the sequences defined by x(n) = 3^3^3^...^3 (with n occurrences of 3) and y(n-1) = 4^4^4^...^4 (with n-1 occurrences of 4).",
+      "Evaluate which sequence grows faster as n increases by considering their bases and heights in tetration.",
+      "Investigate particular cases or compute initial terms if necessary to establish a pattern or relationship.",
+      "Formulate a hypothesis about the general relationship between x(n) and y(n-1) based on the growth rates and initial computations.",
+      "Verify the formulated hypothesis for larger values of n to ensure consistency across a broader range of values."
+    ],
+    {
+      "1": "Define the mathematical notation and meaning of x(n) and y(n) more precisely.",
+      "2": "Determine how to compute the value of x(n) for a given n using the definition of tetration.",
+      "3": "Determine how to compute the value of y(n-1) for a given n using the definition of tetration.",
+      "4": "Compare the growth rates of the sequences defined by x(n) = 3^3^3^...^3 (with n occurrences of 3) and y(n-1) = 4^4^4^...^4 (with n-1 occurrences of 4).",
+      "5": "Evaluate which sequence grows faster as n increases by considering their bases and heights in tetration.",
+      "6": "Investigate particular cases or compute initial terms if necessary to establish a pattern or relationship.",
+      "7": "Formulate a hypothesis about the general relationship between x(n) and y(n-1) based on the growth rates and initial computations.",
+      "8": "Verify the formulated hypothesis for larger values of n to ensure consistency across a broader range of values."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 6",
+        "Step 5"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the expressions x(n) and y(n) more formally to understand their structure and how they grow as n increases.",
+      "Examine the base cases for small values of n (e.g., n=2) to get a sense of how x(n) and y(n-1) compare.",
+      "Establish the growth rate of x(n) compared to y(n-1) by analyzing how exponentiation towers affect their sizes.",
+      "Consider the properties of exponential growth, particularly how bases and the number of layers (heights of the exponential towers) influence magnitude.",
+      "Analyze if there is a point where the growth rates of x(n) and y(n-1) might switch, or if one consistently dominates the other for all n >= 2.",
+      "Look for mathematical properties or theorems related to sequences of iterated exponentials to apply them to x(n) and y(n-1).",
+      "Deduce a general rule or inequality between x(n) and y(n-1) based on the discovered growth behaviors and any established mathematical properties."
+    ],
+    {
+      "1": "Define the expressions x(n) and y(n) more formally to understand their structure and how they grow as n increases.",
+      "2": "Examine the base cases for small values of n (e.g., n=2) to get a sense of how x(n) and y(n-1) compare.",
+      "3": "Establish the growth rate of x(n) compared to y(n-1) by analyzing how exponentiation towers affect their sizes.",
+      "4": "Consider the properties of exponential growth, particularly how bases and the number of layers (heights of the exponential towers) influence magnitude.",
+      "5": "Analyze if there is a point where the growth rates of x(n) and y(n-1) might switch, or if one consistently dominates the other for all n >= 2.",
+      "6": "Look for mathematical properties or theorems related to sequences of iterated exponentials to apply them to x(n) and y(n-1).",
+      "7": "Deduce a general rule or inequality between x(n) and y(n-1) based on the discovered growth behaviors and any established mathematical properties."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4",
+        "Step 6"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the function x(n) as a power tower of 3's with n instances of 3, and y(n) similarly for 4's.",
+      "Identify the effective growth rate of power towers: how does the value of a power tower change as more layers are added?",
+      "Clarify the relationship between the heights of the power towers x(n) and y(n-1).",
+      "Compare the exponential growth of 3^3^3...^3 (n times) with the exponential growth of 4^4^4...^4 (n-1 times).",
+      "Determine how substituting n with n-1 in the function y affects the overall comparison between x(n) and y(n-1).",
+      "Analyze if increasing values of n consistently affect the inequality x(n) > y(n-1) or x(n) < y(n-1), or if the inequality changes as n increases."
+    ],
+    {
+      "1": "Define the function x(n) as a power tower of 3's with n instances of 3, and y(n) similarly for 4's.",
+      "2": "Identify the effective growth rate of power towers: how does the value of a power tower change as more layers are added?",
+      "3": "Clarify the relationship between the heights of the power towers x(n) and y(n-1).",
+      "4": "Compare the exponential growth of 3^3^3...^3 (n times) with the exponential growth of 4^4^4...^4 (n-1 times).",
+      "5": "Determine how substituting n with n-1 in the function y affects the overall comparison between x(n) and y(n-1).",
+      "6": "Analyze if increasing values of n consistently affect the inequality x(n) > y(n-1) or x(n) < y(n-1), or if the inequality changes as n increases."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define x(n) and y(n) explicitly in terms of exponentiation.",
+      "Understand the growth rates of the exponential tower functions for both x(n) and y(n).",
+      "Calculate or estimate the values of x(n) and y(n-1) for small values of n (e.g., n=2, 3) to get an initial sense of their behavior.",
+      "Formalize a method for comparing x(n) with y(n-1) that can be generalized beyond small values.",
+      "Examine any needed properties of exponential growth or the behavior of iteration in the exponential towers for larger n.",
+      "Determine if there exists a turning point or threshold value of n where the relationship between x(n) and y(n-1) flips or if one consistently dominates the other as n increases.",
+      "Conclude whether x(n) > y(n-1), x(n) < y(n-1), or if the relationship varies depending on the value of n."
+    ],
+    {
+      "1": "Define x(n) and y(n) explicitly in terms of exponentiation.",
+      "2": "Understand the growth rates of the exponential tower functions for both x(n) and y(n).",
+      "3": "Calculate or estimate the values of x(n) and y(n-1) for small values of n (e.g., n=2, 3) to get an initial sense of their behavior.",
+      "4": "Formalize a method for comparing x(n) with y(n-1) that can be generalized beyond small values.",
+      "5": "Examine any needed properties of exponential growth or the behavior of iteration in the exponential towers for larger n.",
+      "6": "Determine if there exists a turning point or threshold value of n where the relationship between x(n) and y(n-1) flips or if one consistently dominates the other as n increases.",
+      "7": "Conclude whether x(n) > y(n-1), x(n) < y(n-1), or if the relationship varies depending on the value of n."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the notation for x(n) and y(n) in terms of iterated exponentials.",
+      "Consider the base values for each of the functions: x(n) uses a base of 3, while y(n) uses a base of 4.",
+      "Identify the structure of x(n) when n=2 and n=3, comparing with y(1) and y(2) respectively.",
+      "Generalize the pattern for x(n) with increasing values of n.",
+      "Simultaneously, generalize the pattern for y(n) with increasing values of n.",
+      "Establish a point of comparison between x(n) and y(n-1) for a fixed n based on their growth rates.",
+      "Investigate the mathematical properties of exponential towers (tetration) that might influence their magnitude as n increases.",
+      "Analyze if the difference in base values (3 for x(n) and 4 for y(n)) affects the long-term growth rates of x(n) and y(n-1).",
+      "Determine whether there's a critical point where x(n) surpasses y(n-1) consistently or if the relationship changes across different values of n.",
+      "Summarize findings about how x(n) compares to y(n-1) for integers n ≥ 2."
+    ],
+    {
+      "1": "Understand the notation for x(n) and y(n) in terms of iterated exponentials.",
+      "2": "Consider the base values for each of the functions: x(n) uses a base of 3, while y(n) uses a base of 4.",
+      "3": "Identify the structure of x(n) when n=2 and n=3, comparing with y(1) and y(2) respectively.",
+      "4": "Generalize the pattern for x(n) with increasing values of n.",
+      "5": "Simultaneously, generalize the pattern for y(n) with increasing values of n.",
+      "6": "Establish a point of comparison between x(n) and y(n-1) for a fixed n based on their growth rates.",
+      "7": "Investigate the mathematical properties of exponential towers (tetration) that might influence their magnitude as n increases.",
+      "8": "Analyze if the difference in base values (3 for x(n) and 4 for y(n)) affects the long-term growth rates of x(n) and y(n-1).",
+      "9": "Determine whether there's a critical point where x(n) surpasses y(n-1) consistently or if the relationship changes across different values of n.",
+      "10": "Summarize findings about how x(n) compares to y(n-1) for integers n ≥ 2."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 7"
+      ],
+      "1": [
+        "Step 5",
+        "Step 2",
+        "Step 4",
+        "Step 3"
+      ],
+      "2": [
+        "Step 8",
+        "Step 6"
+      ],
+      "3": [
+        "Step 9"
+      ],
+      "4": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        7,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the expression x(n) and understand its structure in terms of exponentiation.",
+      "Similarly, define the expression y(n) and understand its structure.",
+      "Identify how the exponential growth behaves in x(n) compared to y(n-1), especially taking into account that the base and height of the exponentiation tower differ.",
+      "Compute or approximate the values of x(n) and y(n-1) for small integers to observe any notable patterns.",
+      "Explore properties of exponential functions that might affect the comparison, focusing on the base values (3 and 4) and the height of the tower of exponentiation.",
+      "Analyze how the growth rates of x(n) and y(n-1) compare as n increases.",
+      "Determine if there is a critical point where the relationship between x(n) and y(n-1) changes or if one consistently dominates the other for all values of n ≥ 2.",
+      "Confirm the result by extrapolating from both specific examples and general properties of exponential functions.",
+      "Consider edge cases or exceptions if any exist for particular values of n."
+    ],
+    {
+      "1": "Define the expression x(n) and understand its structure in terms of exponentiation.",
+      "2": "Similarly, define the expression y(n) and understand its structure.",
+      "3": "Identify how the exponential growth behaves in x(n) compared to y(n-1), especially taking into account that the base and height of the exponentiation tower differ.",
+      "4": "Compute or approximate the values of x(n) and y(n-1) for small integers to observe any notable patterns.",
+      "5": "Explore properties of exponential functions that might affect the comparison, focusing on the base values (3 and 4) and the height of the tower of exponentiation.",
+      "6": "Analyze how the growth rates of x(n) and y(n-1) compare as n increases.",
+      "7": "Determine if there is a critical point where the relationship between x(n) and y(n-1) changes or if one consistently dominates the other for all values of n ≥ 2.",
+      "8": "Confirm the result by extrapolating from both specific examples and general properties of exponential functions.",
+      "9": "Consider edge cases or exceptions if any exist for particular values of n."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2",
+        "Step 5"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ],
+      "6": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the functions x(n) and y(n) to understand their mathematical structure.",
+      "Analyze and compare the growth rates of exponential functions x(n) and y(n-1).",
+      "Calculate specific values for small integers n to understand the behavior of these functions for base cases.",
+      "Establish the general behavior for large values of n using properties of exponential growth.",
+      "Consider any special properties or limits that might influence the comparison as n becomes large.",
+      "Summarize the comparison of the two functions based on the observations from the previous steps."
+    ],
+    {
+      "1": "Define the functions x(n) and y(n) to understand their mathematical structure.",
+      "2": "Analyze and compare the growth rates of exponential functions x(n) and y(n-1).",
+      "3": "Calculate specific values for small integers n to understand the behavior of these functions for base cases.",
+      "4": "Establish the general behavior for large values of n using properties of exponential growth.",
+      "5": "Consider any special properties or limits that might influence the comparison as n becomes large.",
+      "6": "Summarize the comparison of the two functions based on the observations from the previous steps."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the functions x(n) and y(n) more clearly to ensure understanding of the power tower or tetration operation involved.",
+      "Determine the value of x(2) and y(1) in order to have a clearer understanding of what happens for the smallest required values of n.",
+      "Explore how the values of x(n) change as n increases from 2 upwards, focusing specifically on the growth rate of the power tower structure.",
+      "Investigate how the values of y(n-1) change as n increases from 2 upwards, similarly focusing on the growth rate of the sequence.",
+      "Compare the growth rates of x(n) and y(n-1) to determine which sequence grows faster as n increases.",
+      "Determine if this rate comparison reliably suggests that one of the functions is always greater than the other, or if the relationship changes depending on n.",
+      "Analyze specific values of n (beyond the smallest cases) for both x(n) and y(n-1) to identify any patterns or anomalies in their relationship.",
+      "Develop a general rule or conclusion about whether x(n) is greater than, less than, or sometimes equal to y(n-1) for all integer values of n ≥ 2."
+    ],
+    {
+      "1": "Define the functions x(n) and y(n) more clearly to ensure understanding of the power tower or tetration operation involved.",
+      "2": "Determine the value of x(2) and y(1) in order to have a clearer understanding of what happens for the smallest required values of n.",
+      "3": "Explore how the values of x(n) change as n increases from 2 upwards, focusing specifically on the growth rate of the power tower structure.",
+      "4": "Investigate how the values of y(n-1) change as n increases from 2 upwards, similarly focusing on the growth rate of the sequence.",
+      "5": "Compare the growth rates of x(n) and y(n-1) to determine which sequence grows faster as n increases.",
+      "6": "Determine if this rate comparison reliably suggests that one of the functions is always greater than the other, or if the relationship changes depending on n.",
+      "7": "Analyze specific values of n (beyond the smallest cases) for both x(n) and y(n-1) to identify any patterns or anomalies in their relationship.",
+      "8": "Develop a general rule or conclusion about whether x(n) is greater than, less than, or sometimes equal to y(n-1) for all integer values of n ≥ 2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 4",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 7"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the definition of x(n) = 3^3^3^...^3 (n instances of 3) and y(n) = 4^4^4^...^4 (n instances of 4).",
+      "Determine how to compute x(n) and y(n) effectively, possibly using properties of exponentiation towers (tetration).",
+      "Calculate x(2) and y(1) and compare them to establish a base case for the relationship between x(n) and y(n-1).",
+      "Calculate x(3) and y(2) to further investigate the relationship for n = 3.",
+      "Establish a rule or formula that can generalize the calculation of x(n) and y(n-1) for any integer n ≥ 2.",
+      "Compare x(n) and y(n-1) for several values of n to look for a consistent relationship or pattern.",
+      "Use a mathematical approach such as induction or bounding techniques to prove or disprove the consistency of the relationship between x(n) and y(n-1).",
+      "Finally, draw a conclusion about the relationship: whether x(n) is always greater than y(n-1), always less than, or sometimes greater and sometimes less for n ≥2."
+    ],
+    {
+      "1": "Understand the definition of x(n) = 3^3^3^...^3 (n instances of 3) and y(n) = 4^4^4^...^4 (n instances of 4).",
+      "2": "Determine how to compute x(n) and y(n) effectively, possibly using properties of exponentiation towers (tetration).",
+      "3": "Calculate x(2) and y(1) and compare them to establish a base case for the relationship between x(n) and y(n-1).",
+      "4": "Calculate x(3) and y(2) to further investigate the relationship for n = 3.",
+      "5": "Establish a rule or formula that can generalize the calculation of x(n) and y(n-1) for any integer n ≥ 2.",
+      "6": "Compare x(n) and y(n-1) for several values of n to look for a consistent relationship or pattern.",
+      "7": "Use a mathematical approach such as induction or bounding techniques to prove or disprove the consistency of the relationship between x(n) and y(n-1).",
+      "8": "Finally, draw a conclusion about the relationship: whether x(n) is always greater than y(n-1), always less than, or sometimes greater and sometimes less for n ≥2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the expressions x(n) and y(n) more explicitly in terms of exponentiation.",
+      "Analyze the growth rate of the function f(x) = 3^x and g(x) = 4^x.",
+      "Compare x(n) = 3^(3^(3^...^3)) (with n instances of 3) with y(n-1) = 4^(4^(4^...^4)) (with n-1 instances of 4).",
+      "Determine how these sequences grow as n increases, particularly looking at the relationship between x(n) and y(n-1).",
+      "Consider the initial few values for small n (like n=2, 3, 4) to get a practical understanding of the computations involved.",
+      "Look for a general form or recursive relationship between x(n) and y(n-1).",
+      "Evaluate whether the comparison x(n) > y(n-1), x(n) < y(n-1), or both scenarios occur, based on the insights or patterns identified in earlier steps."
+    ],
+    {
+      "1": "Define the expressions x(n) and y(n) more explicitly in terms of exponentiation.",
+      "2": "Analyze the growth rate of the function f(x) = 3^x and g(x) = 4^x.",
+      "3": "Compare x(n) = 3^(3^(3^...^3)) (with n instances of 3) with y(n-1) = 4^(4^(4^...^4)) (with n-1 instances of 4).",
+      "4": "Determine how these sequences grow as n increases, particularly looking at the relationship between x(n) and y(n-1).",
+      "5": "Consider the initial few values for small n (like n=2, 3, 4) to get a practical understanding of the computations involved.",
+      "6": "Look for a general form or recursive relationship between x(n) and y(n-1).",
+      "7": "Evaluate whether the comparison x(n) > y(n-1), x(n) < y(n-1), or both scenarios occur, based on the insights or patterns identified in earlier steps."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 5"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the expressions for x(n) and y(n) more clearly using the notation of exponentiation.",
+      "Understand the concept of iterated exponentiation (tetration) and its growth rate as applied to x(n) and y(n).",
+      "Calculate or approximate x(2) and y(1) to establish a base comparison.",
+      "Extend the calculations or approximations to x(n) and y(n-1) for higher values of n.",
+      "Explore the relationship between n, 3, and 4 in terms of their contributions to the size of x(n) and y(n-1).",
+      "Determine whether x(n) is consistently greater than, less than, or sometimes greater and sometimes less than y(n-1) as n increases.",
+      "Consider any mathematical properties or theorems that might explain or simplify understanding of the exponentiation growth rates.",
+      "Summarize findings to conclude the relationship for all n ≥ 2."
+    ],
+    {
+      "1": "Define the expressions for x(n) and y(n) more clearly using the notation of exponentiation.",
+      "2": "Understand the concept of iterated exponentiation (tetration) and its growth rate as applied to x(n) and y(n).",
+      "3": "Calculate or approximate x(2) and y(1) to establish a base comparison.",
+      "4": "Extend the calculations or approximations to x(n) and y(n-1) for higher values of n.",
+      "5": "Explore the relationship between n, 3, and 4 in terms of their contributions to the size of x(n) and y(n-1).",
+      "6": "Determine whether x(n) is consistently greater than, less than, or sometimes greater and sometimes less than y(n-1) as n increases.",
+      "7": "Consider any mathematical properties or theorems that might explain or simplify understanding of the exponentiation growth rates.",
+      "8": "Summarize findings to conclude the relationship for all n ≥ 2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 7",
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the expressions for \\(x(n)\\) and \\(y(n)\\) in more manageable terms using properties of exponentiation.",
+      "Identify and express how gigantic these values grow as \\(n\\) increases, focusing on the base and the height of the exponentiation towers for both \\(x(n)\\) and \\(y(n-1)\\).",
+      "Compare the growth rates of the sequences \\(x(n)\\) and \\(y(n-1)\\), taking into account that they are both towers of exponentials.",
+      "Establish a way to compare \\(x(n)\\) and \\(y(n-1)\\) directly for small values of \\(n\\) to see the initial trend or pattern.",
+      "Analyze how these trends might change as \\(n\\) increases.",
+      "Determine whether the relationship \\( x(n) > y(n-1) \\), \\( x(n) < y(n-1) \\), or both inequalities hold depending on the range of \\(n\\).",
+      "Use mathematical logarithms or another suitable mathematical tool to aid in the comparison if direct computation becomes impractical due to the size of numbers.",
+      "Draw a conclusion about the overall relationship between \\(x(n)\\) and \\(y(n-1)\\) for \\(n \\geq 2\\)."
+    ],
+    {
+      "1": "Define the expressions for \\(x(n)\\) and \\(y(n)\\) in more manageable terms using properties of exponentiation.",
+      "2": "Identify and express how gigantic these values grow as \\(n\\) increases, focusing on the base and the height of the exponentiation towers for both \\(x(n)\\) and \\(y(n-1)\\).",
+      "3": "Compare the growth rates of the sequences \\(x(n)\\) and \\(y(n-1)\\), taking into account that they are both towers of exponentials.",
+      "4": "Establish a way to compare \\(x(n)\\) and \\(y(n-1)\\) directly for small values of \\(n\\) to see the initial trend or pattern.",
+      "5": "Analyze how these trends might change as \\(n\\) increases.",
+      "6": "Determine whether the relationship \\( x(n) > y(n-1) \\), \\( x(n) < y(n-1) \\), or both inequalities hold depending on the range of \\(n\\).",
+      "7": "Use mathematical logarithms or another suitable mathematical tool to aid in the comparison if direct computation becomes impractical due to the size of numbers.",
+      "8": "Draw a conclusion about the overall relationship between \\(x(n)\\) and \\(y(n-1)\\) for \\(n \\geq 2\\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define \\( x(n) \\) and \\( y(n) \\) more clearly in terms of their recursive exponential structure.",
+      "Assess the growth behavior of exponential towers by comparing \\( 3^{3^3} \\) and \\( 4^{4^4} \\).",
+      "Determine the specific values of \\( x(n) \\) and \\( y(n-1) \\) for a small fixed \\( n \\), say \\( n=2 \\) or \\( n=3 \\).",
+      "Develop a general formula or method for comparing \\( x(n) \\) and \\( y(n-1) \\) for any \\( n \\) based on the initial calculations.",
+      "Investigate or apply properties of exponentials or logs to simplify and generalize the comparison for larger \\( n \\).",
+      "Conclude the relationship (greater than, less than, or sometimes greater/sometimes less) based on analytical or calculation pattern observed as \\( n \\) increases."
+    ],
+    {
+      "1": "Define \\( x(n) \\) and \\( y(n) \\) more clearly in terms of their recursive exponential structure.",
+      "2": "Assess the growth behavior of exponential towers by comparing \\( 3^{3^3} \\) and \\( 4^{4^4} \\).",
+      "3": "Determine the specific values of \\( x(n) \\) and \\( y(n-1) \\) for a small fixed \\( n \\), say \\( n=2 \\) or \\( n=3 \\).",
+      "4": "Develop a general formula or method for comparing \\( x(n) \\) and \\( y(n-1) \\) for any \\( n \\) based on the initial calculations.",
+      "5": "Investigate or apply properties of exponentials or logs to simplify and generalize the comparison for larger \\( n \\).",
+      "6": "Conclude the relationship (greater than, less than, or sometimes greater/sometimes less) based on analytical or calculation pattern observed as \\( n \\) increases."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Describe and define the expressions for x(n) = 3^3^3^...^3 with n 3's and y(n) = 4^4^4^...^4 with n 4's in terms of tetration or iterated exponentiation.",
+      "Determine how to compute the values of x(n) and y(n-1) for a given n.",
+      "Compare the magnitudes of the top-most exponents in x(n) and y(n-1) considering n ≥ 2.",
+      "Estimate or calculate specific values for small integers n (like 2, 3, and 4) to understand the trend or relationship between x(n) and y(n-1).",
+      "Using properties of exponential growth rates, analyze whether the base of 3 raised to successive powers grows faster or slower compared to the base of 4 raised to successive powers, taking into account the decrement by 1 in the exponentiation sequence for y.",
+      "Generalize the finding from individual computations and estimates to determine if x(n) is always greater than, always less than, or sometimes greater and sometimes less than y(n-1) for all n ≥ 2."
+    ],
+    {
+      "1": "Describe and define the expressions for x(n) = 3^3^3^...^3 with n 3's and y(n) = 4^4^4^...^4 with n 4's in terms of tetration or iterated exponentiation.",
+      "2": "Determine how to compute the values of x(n) and y(n-1) for a given n.",
+      "3": "Compare the magnitudes of the top-most exponents in x(n) and y(n-1) considering n ≥ 2.",
+      "4": "Estimate or calculate specific values for small integers n (like 2, 3, and 4) to understand the trend or relationship between x(n) and y(n-1).",
+      "5": "Using properties of exponential growth rates, analyze whether the base of 3 raised to successive powers grows faster or slower compared to the base of 4 raised to successive powers, taking into account the decrement by 1 in the exponentiation sequence for y.",
+      "6": "Generalize the finding from individual computations and estimates to determine if x(n) is always greater than, always less than, or sometimes greater and sometimes less than y(n-1) for all n ≥ 2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ]
+]

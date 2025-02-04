@@ -1,0 +1,1245 @@
+[
+  [
+    [
+      "How many total ways can faces be painted regardless of rotational symmetry?",
+      "What symmetries does a cube have that might affect how colorings are counted?",
+      "How can cube rotations that yield the same coloring scheme be categorized?",
+      "How does each unique rotation or group of rotations affect the counting of color configurations?",
+      "Calculate or deduce the total number of distinct cube colorings remaining after accounting for all possible rotations."
+    ],
+    {
+      "1": "How many total ways can faces be painted regardless of rotational symmetry?",
+      "2": "What symmetries does a cube have that might affect how colorings are counted?",
+      "3": "How can cube rotations that yield the same coloring scheme be categorized?",
+      "4": "How does each unique rotation or group of rotations affect the counting of color configurations?",
+      "5": "Calculate or deduce the total number of distinct cube colorings remaining after accounting for all possible rotations."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the effect of cube rotations on the visibility of the colored faces.",
+      "Determine the total number of ways to assign six different colors to six faces without considering cube rotations.",
+      "Identify and consider the different types of rotations that can apply to a cube (e.g., rotations around vertices, edges, and faces).",
+      "Calculate how many unique configurations result from considering these rotations, recognizing that multiple initial arrangements may look identical after certain rotations.",
+      "Summarize the results by dividing the total arrangements by the symmetry operations to account for equivalent orientations."
+    ],
+    {
+      "1": "Understand the effect of cube rotations on the visibility of the colored faces.",
+      "2": "Determine the total number of ways to assign six different colors to six faces without considering cube rotations.",
+      "3": "Identify and consider the different types of rotations that can apply to a cube (e.g., rotations around vertices, edges, and faces).",
+      "4": "Calculate how many unique configurations result from considering these rotations, recognizing that multiple initial arrangements may look identical after certain rotations.",
+      "5": "Summarize the results by dividing the total arrangements by the symmetry operations to account for equivalent orientations."
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways are there to assign different colors to six faces of a cube without considering rotations?",
+      "What symmetries does a cube have that impact distinct colorings under rotation? Consider the number of unique rotational transformations for a cube.",
+      "How do these symmetries create equivalent (or identical) colorings under rotation?",
+      "How should the Burnside's Lemma be applied to calculate the distinct colorings by considering cube rotations?",
+      "Compute the number of distinct colorings considering each type of symmetry operation separately (such as a 90-degree rotation, 180-degree rotation, etc.).",
+      "Sum up the effective distinct color combinations, taking symmetry into account, to find the final answer."
+    ],
+    {
+      "1": "How many total ways are there to assign different colors to six faces of a cube without considering rotations?",
+      "2": "What symmetries does a cube have that impact distinct colorings under rotation? Consider the number of unique rotational transformations for a cube.",
+      "3": "How do these symmetries create equivalent (or identical) colorings under rotation?",
+      "4": "How should the Burnside's Lemma be applied to calculate the distinct colorings by considering cube rotations?",
+      "5": "Compute the number of distinct colorings considering each type of symmetry operation separately (such as a 90-degree rotation, 180-degree rotation, etc.).",
+      "6": "Sum up the effective distinct color combinations, taking symmetry into account, to find the final answer."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways can 6 faces of a cube be colored using 6 different colors, ignoring rotations?",
+      "What symmetry operations are possible for a cube (e.g., rotations around different axes)?",
+      "How does each type of cube rotation (like a 90-degree rotation around an axis passing through the centers of opposite faces) affect the color arrangement?",
+      "How many distinct colorings remain once rotations of the cube are considered?",
+      "How can the Burnside's lemma be applied to count the number of distinct colorings by considering the cube’s symmetrical properties?",
+      "How many rotations leave a cube looking unchanged (i.e., identity, rotations of 90, 180, 270 degrees around various axes)?",
+      "Calculate the number of colorings that look the same under these symmetrical rotations."
+    ],
+    {
+      "1": "How many total ways can 6 faces of a cube be colored using 6 different colors, ignoring rotations?",
+      "2": "What symmetry operations are possible for a cube (e.g., rotations around different axes)?",
+      "3": "How does each type of cube rotation (like a 90-degree rotation around an axis passing through the centers of opposite faces) affect the color arrangement?",
+      "4": "How many distinct colorings remain once rotations of the cube are considered?",
+      "5": "How can the Burnside's lemma be applied to count the number of distinct colorings by considering the cube’s symmetrical properties?",
+      "6": "How many rotations leave a cube looking unchanged (i.e., identity, rotations of 90, 180, 270 degrees around various axes)?",
+      "7": "Calculate the number of colorings that look the same under these symmetrical rotations."
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 6",
+        "Step 3"
+      ],
+      "2": [
+        "Step 7"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways are there to paint the six faces of a cube using six different colors without considering rotations?",
+      "Identify the number of rotational symmetries of a cube; how does the cube's geometry affect how many distinct orientations it can have?",
+      "Determine how many of these rotational symmetries lead to equivalent colorings; that is, how many ways can the cube be rotated to yield the same coloring arrangement?",
+      "Divide the total number of unrestricted colorings by the number of equivalent rotations per coloring to determine the number of distinct colorings up to rotations."
+    ],
+    {
+      "1": "How many total ways are there to paint the six faces of a cube using six different colors without considering rotations?",
+      "2": "Identify the number of rotational symmetries of a cube; how does the cube's geometry affect how many distinct orientations it can have?",
+      "3": "Determine how many of these rotational symmetries lead to equivalent colorings; that is, how many ways can the cube be rotated to yield the same coloring arrangement?",
+      "4": "Divide the total number of unrestricted colorings by the number of equivalent rotations per coloring to determine the number of distinct colorings up to rotations."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways are there to assign different colors to the six faces of the cube without considering rotations?",
+      "How many different cube rotations need to be considered when determining distinct colorings?",
+      "What rotations leave the color configuration unchanged (what are the symmetries of the cube)?",
+      "How can we apply Burnside's Lemma or the Orbit-Stabilizer theorem to count the distinct colorings, taking into account these rotations?",
+      "What is the impact of fixing one face color on calculating distinct colorings, considering how rotating the other faces affects their color placement?",
+      "How do different rotation axes and angles affect this calculation?",
+      "How can we summarize the total number of distinct colorings that result from different positions and orientations of the cube?"
+    ],
+    {
+      "1": "How many total ways are there to assign different colors to the six faces of the cube without considering rotations?",
+      "2": "How many different cube rotations need to be considered when determining distinct colorings?",
+      "3": "What rotations leave the color configuration unchanged (what are the symmetries of the cube)?",
+      "4": "How can we apply Burnside's Lemma or the Orbit-Stabilizer theorem to count the distinct colorings, taking into account these rotations?",
+      "5": "What is the impact of fixing one face color on calculating distinct colorings, considering how rotating the other faces affects their color placement?",
+      "6": "How do different rotation axes and angles affect this calculation?",
+      "7": "How can we summarize the total number of distinct colorings that result from different positions and orientations of the cube?"
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1",
+        "Step 5"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 6",
+        "Step 4"
+      ],
+      "3": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "How many unique ways can one face of the cube be chosen and painted?",
+      "After the first face is painted and fixed, in how many distinct ways can the opposite face be painted?",
+      "How many ways are there to arrange and paint the remaining four faces along the sides of the cube?",
+      "Considering all possible rotations of the cube (rotations around vertical and horizontal axes), how can these rotations affect the apparent arrangement of the faces?",
+      "How can we categorize different cases of painting based on the positioning of the second painted face (either opposite to the first or adjacent to it)?",
+      "Combining all counted possibilities considering the rotations, how can one calculate the total number of distinct cube paintings up to rotations?"
+    ],
+    {
+      "1": "How many unique ways can one face of the cube be chosen and painted?",
+      "2": "After the first face is painted and fixed, in how many distinct ways can the opposite face be painted?",
+      "3": "How many ways are there to arrange and paint the remaining four faces along the sides of the cube?",
+      "4": "Considering all possible rotations of the cube (rotations around vertical and horizontal axes), how can these rotations affect the apparent arrangement of the faces?",
+      "5": "How can we categorize different cases of painting based on the positioning of the second painted face (either opposite to the first or adjacent to it)?",
+      "6": "Combining all counted possibilities considering the rotations, how can one calculate the total number of distinct cube paintings up to rotations?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "How many ways can one face of a cube be painted, choosing from six different colors?",
+      "After painting one face, how many ways can the face opposite to the first painted face be colored with the remaining colors?",
+      "Once the opposite faces are painted, how can the adjacent faces be painted considering the remaining colors and how they relate to each other in terms of being adjacent to already painted faces?",
+      "What are the possible rotations of a cube after the faces have been painted?",
+      "How do the rotations affect the apparent uniqueness of the colorings for an external observer?",
+      "How many unique colorings remain once rotational symmetry is taken into account?"
+    ],
+    {
+      "1": "How many ways can one face of a cube be painted, choosing from six different colors?",
+      "2": "After painting one face, how many ways can the face opposite to the first painted face be colored with the remaining colors?",
+      "3": "Once the opposite faces are painted, how can the adjacent faces be painted considering the remaining colors and how they relate to each other in terms of being adjacent to already painted faces?",
+      "4": "What are the possible rotations of a cube after the faces have been painted?",
+      "5": "How do the rotations affect the apparent uniqueness of the colorings for an external observer?",
+      "6": "How many unique colorings remain once rotational symmetry is taken into account?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "How many faces does a cube have?",
+      "What does it mean for colorings to be distinct up to rotations?",
+      "How many different colors are used in painting the cube?",
+      "How should the cube be placed for simplifying the counting of distinct colorings?",
+      "How can the first face be chosen and colored?",
+      "How many choices are there for coloring the second face after the first has been colored?",
+      "What impact do different placements for the second face (opposite or adjacent to the first) have on the count of distinct colorings?",
+      "How many ways are there to paint the remaining faces after the first two are colored?",
+      "Are any of these configurations identical due to rotational symmetry?",
+      "How many distinct ways can the cube be oriented after certain faces are painted?",
+      "How do you factor in rotations of the cube when counting distinct configurations?"
+    ],
+    {
+      "1": "How many faces does a cube have?",
+      "2": "What does it mean for colorings to be distinct up to rotations?",
+      "3": "How many different colors are used in painting the cube?",
+      "4": "How should the cube be placed for simplifying the counting of distinct colorings?",
+      "5": "How can the first face be chosen and colored?",
+      "6": "How many choices are there for coloring the second face after the first has been colored?",
+      "7": "What impact do different placements for the second face (opposite or adjacent to the first) have on the count of distinct colorings?",
+      "8": "How many ways are there to paint the remaining faces after the first two are colored?",
+      "9": "Are any of these configurations identical due to rotational symmetry?",
+      "10": "How many distinct ways can the cube be oriented after certain faces are painted?",
+      "11": "How do you factor in rotations of the cube when counting distinct configurations?"
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 3",
+        "Step 1"
+      ],
+      "1": [
+        "Step 10",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ],
+      "6": [
+        "Step 9"
+      ],
+      "7": [
+        "Step 11"
+      ]
+    },
+    [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        3,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways can you paint each face of a cube using six different colors, ignoring rotations?",
+      "What types of symmetries and rotations does a cube have that need to be considered to identify distinct colorings?",
+      "How do different rotations and symmetries affect the perception of coloring, specifically how many unique ways does each type of rotation or symmetry group the initial total colorings?",
+      "How can you calculate the total number of distinct colorings by accounting for these symmetries and rotations?",
+      "Can the use of Burnside's Lemma or the Orbit-Stabilizer theorem simplify the calculation of distinct colorings?"
+    ],
+    {
+      "1": "How many total ways can you paint each face of a cube using six different colors, ignoring rotations?",
+      "2": "What types of symmetries and rotations does a cube have that need to be considered to identify distinct colorings?",
+      "3": "How do different rotations and symmetries affect the perception of coloring, specifically how many unique ways does each type of rotation or symmetry group the initial total colorings?",
+      "4": "How can you calculate the total number of distinct colorings by accounting for these symmetries and rotations?",
+      "5": "Can the use of Burnside's Lemma or the Orbit-Stabilizer theorem simplify the calculation of distinct colorings?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways are there to paint six faces of the cube, ignoring any restrictions about rotations?",
+      "What group of rotations can be applied to the cube, and how does each rotation affect the arrangement of the colors?",
+      "How do you determine which colorings are considered distinct when taking into account the possible rotations?",
+      "How can the Burnside's Lemma be applied to find the total number of distinct colorings, considering all possible rotations of the cube?",
+      "How do we calculate the number of colorings that remain unchanged for each type of rotation (identity, 90-degree, 180-degree rotations around various axes)?",
+      "How do we sum up the distinct arrangements accounting for all the rotations and use symmetry considerations to simplify the calculation?",
+      "What is the final count of distinct colorings up to rotations of the cube, ensuring that each solution accounts for all symmetrical possibilities?"
+    ],
+    {
+      "1": "How many total ways are there to paint six faces of the cube, ignoring any restrictions about rotations?",
+      "2": "What group of rotations can be applied to the cube, and how does each rotation affect the arrangement of the colors?",
+      "3": "How do you determine which colorings are considered distinct when taking into account the possible rotations?",
+      "4": "How can the Burnside's Lemma be applied to find the total number of distinct colorings, considering all possible rotations of the cube?",
+      "5": "How do we calculate the number of colorings that remain unchanged for each type of rotation (identity, 90-degree, 180-degree rotations around various axes)?",
+      "6": "How do we sum up the distinct arrangements accounting for all the rotations and use symmetry considerations to simplify the calculation?",
+      "7": "What is the final count of distinct colorings up to rotations of the cube, ensuring that each solution accounts for all symmetrical possibilities?"
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 5",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "How many faces does a cube have, and therefore, how many different colors are used?",
+      "What does \"distinct up to rotations\" mean in the context of coloring a cube?",
+      "How many different ways can the first face be painted and positioned?",
+      "How does the coloring and positioning of the first face influence the options for painting the opposite face?",
+      "How is the cube uniquely oriented for painting after the first two opposite faces are colored?",
+      "What choices remain for coloring the remaining four faces?",
+      "How does the rotational symmetry of the cube reduce the count of distinct colorings when considering subsequent face colorings?",
+      "How do we account for the orderings of colors on the four side faces after the top and bottom faces are fixed?",
+      "How should we mathematically compute the distinct colorings after considering all possible rotations and orientations of the cube?"
+    ],
+    {
+      "1": "How many faces does a cube have, and therefore, how many different colors are used?",
+      "2": "What does \"distinct up to rotations\" mean in the context of coloring a cube?",
+      "3": "How many different ways can the first face be painted and positioned?",
+      "4": "How does the coloring and positioning of the first face influence the options for painting the opposite face?",
+      "5": "How is the cube uniquely oriented for painting after the first two opposite faces are colored?",
+      "6": "What choices remain for coloring the remaining four faces?",
+      "7": "How does the rotational symmetry of the cube reduce the count of distinct colorings when considering subsequent face colorings?",
+      "8": "How do we account for the orderings of colors on the four side faces after the top and bottom faces are fixed?",
+      "9": "How should we mathematically compute the distinct colorings after considering all possible rotations and orientations of the cube?"
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 7",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 8"
+      ],
+      "6": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total individual colorings are possible if each face of the cube can be uniquely painted with no considerations for rotations?",
+      "How do rotations of the cube affect the count of distinct colorings?",
+      "What are all the possible rotational symmetries of a cube that need to be considered in counting unique colorings?",
+      "Apply group theory: What does the group of rotations for a cube look like and how does it act on the set of colorings?",
+      "How many distinct orbits (sets of colorings that look the same under rotation) exist under all possible rotations of a cube?",
+      "Using the orbits, calculate the number of distinct colorings up to cube rotations by summing the sizes of these orbits."
+    ],
+    {
+      "1": "How many total individual colorings are possible if each face of the cube can be uniquely painted with no considerations for rotations?",
+      "2": "How do rotations of the cube affect the count of distinct colorings?",
+      "3": "What are all the possible rotational symmetries of a cube that need to be considered in counting unique colorings?",
+      "4": "Apply group theory: What does the group of rotations for a cube look like and how does it act on the set of colorings?",
+      "5": "How many distinct orbits (sets of colorings that look the same under rotation) exist under all possible rotations of a cube?",
+      "6": "Using the orbits, calculate the number of distinct colorings up to cube rotations by summing the sizes of these orbits."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "How many faces does a cube have and how many colors are available?",
+      "What counts as a distinct coloring up to rotations?",
+      "How does the placement of the first color potentially affect subsequent color placements in terms of cube rotation and symmetry?",
+      "How many different ways can you arrange the remaining colors after fixing one face?",
+      "What impact does selecting a side face as the starting point for painting have on distinct color possibilities?",
+      "Considering rotational symmetries, how do rearrangements of the colors on the other faces influence the number of unique colorings?",
+      "How can repeated colorings due to cube rotations be eliminated from the total count to find only distinct arrangements?"
+    ],
+    {
+      "1": "How many faces does a cube have and how many colors are available?",
+      "2": "What counts as a distinct coloring up to rotations?",
+      "3": "How does the placement of the first color potentially affect subsequent color placements in terms of cube rotation and symmetry?",
+      "4": "How many different ways can you arrange the remaining colors after fixing one face?",
+      "5": "What impact does selecting a side face as the starting point for painting have on distinct color possibilities?",
+      "6": "Considering rotational symmetries, how do rearrangements of the colors on the other faces influence the number of unique colorings?",
+      "7": "How can repeated colorings due to cube rotations be eliminated from the total count to find only distinct arrangements?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways can the six faces of a cube be painted using six different colors, ignoring rotations?",
+      "How many different orientations (rotations) does a cube have?",
+      "How does each orientation affect the perception of the color arrangement on the cube?",
+      "How can the concept of group theory, specifically the use of the rotation group of the cube, be applied to count distinct colorings?",
+      "What is the role of symmetry in reducing the total number of unique colorings?",
+      "Calculate the number of distinct colorings of a cube when considering up to rotational symmetry."
+    ],
+    {
+      "1": "How many total ways can the six faces of a cube be painted using six different colors, ignoring rotations?",
+      "2": "How many different orientations (rotations) does a cube have?",
+      "3": "How does each orientation affect the perception of the color arrangement on the cube?",
+      "4": "How can the concept of group theory, specifically the use of the rotation group of the cube, be applied to count distinct colorings?",
+      "5": "What is the role of symmetry in reducing the total number of unique colorings?",
+      "6": "Calculate the number of distinct colorings of a cube when considering up to rotational symmetry."
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways can six faces of a cube be painted using six different colors without considering rotations?",
+      "How do cube rotations affect the counting of distinct colorings?",
+      "What rotations are possible for a cube that could produce equivalent colorings (e.g., rotations around an axis)?",
+      "How does fixing one face of the cube (e.g., placing a particular color on a specific face) reduce the complexity of counting distinct configurations?",
+      "After fixing one face, how many permutations of the remaining colors on the other faces are possible?",
+      "How can we consider different orientations (e.g., flipping or rotating the cube) to avoid counting the same colored cube more than once?",
+      "What’s the total number of distinct cube colorings up to rotations by combining all the possible configurations and correcting for repeated counts due to symmetrical rotations?"
+    ],
+    {
+      "1": "How many total ways can six faces of a cube be painted using six different colors without considering rotations?",
+      "2": "How do cube rotations affect the counting of distinct colorings?",
+      "3": "What rotations are possible for a cube that could produce equivalent colorings (e.g., rotations around an axis)?",
+      "4": "How does fixing one face of the cube (e.g., placing a particular color on a specific face) reduce the complexity of counting distinct configurations?",
+      "5": "After fixing one face, how many permutations of the remaining colors on the other faces are possible?",
+      "6": "How can we consider different orientations (e.g., flipping or rotating the cube) to avoid counting the same colored cube more than once?",
+      "7": "What’s the total number of distinct cube colorings up to rotations by combining all the possible configurations and correcting for repeated counts due to symmetrical rotations?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 6",
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "How many possible ways are there to assign six distinct colors to the six faces of the cube without considering rotations?",
+      "What are the different rotational symmetries a cube has that could affect the distinctness of the colorings?",
+      "For each type of rotation (like 90-degree rotations around various axes), how does this affect the color arrangement?",
+      "How many unique color arrangements remain after accounting for each type of rotational symmetry?",
+      "Combine the information from previous steps to determine the total number of distinct colorings, considering all possible rotations."
+    ],
+    {
+      "1": "How many possible ways are there to assign six distinct colors to the six faces of the cube without considering rotations?",
+      "2": "What are the different rotational symmetries a cube has that could affect the distinctness of the colorings?",
+      "3": "For each type of rotation (like 90-degree rotations around various axes), how does this affect the color arrangement?",
+      "4": "How many unique color arrangements remain after accounting for each type of rotational symmetry?",
+      "5": "Combine the information from previous steps to determine the total number of distinct colorings, considering all possible rotations."
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways are there to paint each face of a cube with a different color without considering rotations?",
+      "What are the possible rotations of a cube that could produce indistinguishable colorings?",
+      "How does each type of rotation (e.g., rotations around different axes) affect the distinctness of a cube's coloring?",
+      "Calculate the number of distinct colorings considering one fixed face and how the arrangement of remaining colors vary with rotations.",
+      "Summarize the distinct number of colorings by considering all rotations and eliminating duplicate color patterns caused by these rotations."
+    ],
+    {
+      "1": "How many total ways are there to paint each face of a cube with a different color without considering rotations?",
+      "2": "What are the possible rotations of a cube that could produce indistinguishable colorings?",
+      "3": "How does each type of rotation (e.g., rotations around different axes) affect the distinctness of a cube's coloring?",
+      "4": "Calculate the number of distinct colorings considering one fixed face and how the arrangement of remaining colors vary with rotations.",
+      "5": "Summarize the distinct number of colorings by considering all rotations and eliminating duplicate color patterns caused by these rotations."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total colorings are possible if we ignore the rotations of the cube?",
+      "What are the different types of rotations possible for a cube?",
+      "How do these rotations affect the coloring of the faces of the cube?",
+      "Which groups of colorings result in identical appearances when the cube is rotated?",
+      "How do we count colorings that are identical due to cube rotations to avoid duplications?",
+      "What is the formula or method to calculate the distinct colorings of the cube accounting for all possible rotations?"
+    ],
+    {
+      "1": "How many total colorings are possible if we ignore the rotations of the cube?",
+      "2": "What are the different types of rotations possible for a cube?",
+      "3": "How do these rotations affect the coloring of the faces of the cube?",
+      "4": "Which groups of colorings result in identical appearances when the cube is rotated?",
+      "5": "How do we count colorings that are identical due to cube rotations to avoid duplications?",
+      "6": "What is the formula or method to calculate the distinct colorings of the cube accounting for all possible rotations?"
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "How many total ways are there to color each face of the cube using six different colors without considering rotations?",
+      "What are the rotational symmetries of a cube that must be accounted for to determine distinct colorings?",
+      "How does each type of rotation (e.g., rotation around an axis passing through opposite faces, edges, or vertices) affect the perception of the color arrangement?",
+      "How many unique arrangements remain after accounting for each type of rotation?",
+      "Confirm whether there is any overlap between the different types of rotations that might have been doubly counted.",
+      "Combine the counts from each rotation type correctly to determine the final number of unique color arrangements.",
+      "Verify the answer by considering a simpler case (fewer colors or fewer faces) and checking consistency with known results or intuitive understanding."
+    ],
+    {
+      "1": "How many total ways are there to color each face of the cube using six different colors without considering rotations?",
+      "2": "What are the rotational symmetries of a cube that must be accounted for to determine distinct colorings?",
+      "3": "How does each type of rotation (e.g., rotation around an axis passing through opposite faces, edges, or vertices) affect the perception of the color arrangement?",
+      "4": "How many unique arrangements remain after accounting for each type of rotation?",
+      "5": "Confirm whether there is any overlap between the different types of rotations that might have been doubly counted.",
+      "6": "Combine the counts from each rotation type correctly to determine the final number of unique color arrangements.",
+      "7": "Verify the answer by considering a simpler case (fewer colors or fewer faces) and checking consistency with known results or intuitive understanding."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ]
+]

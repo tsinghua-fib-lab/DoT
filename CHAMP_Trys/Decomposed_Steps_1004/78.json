@@ -1,0 +1,1256 @@
+[
+  [
+    [
+      "Identify the mathematical expression to represent the sum of the reciprocals from 1/(n+1) to 1/(2n).",
+      "Determine the behavior of the sum as n increases.",
+      "Calculate the explicit value of the sum for n=101 and observe for larger n, given the sequence {101, ..., 1000}.",
+      "Compare the calculated sum value for each n with 1/2 to check the condition 1/(n+1)+1/(n+2)+...+1/(2n) > 1/2.",
+      "Count the total number of n values satisfying the inequality."
+    ],
+    {
+      "1": "Identify the mathematical expression to represent the sum of the reciprocals from 1/(n+1) to 1/(2n).",
+      "2": "Determine the behavior of the sum as n increases.",
+      "3": "Calculate the explicit value of the sum for n=101 and observe for larger n, given the sequence {101, ..., 1000}.",
+      "4": "Compare the calculated sum value for each n with 1/2 to check the condition 1/(n+1)+1/(n+2)+...+1/(2n) > 1/2.",
+      "5": "Count the total number of n values satisfying the inequality."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the nature of the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and its relation to the Harmonic series.",
+      "Establish the behavior of the sum as n increases; consider how increases in n affect individual terms of the sum.",
+      "Calculate or estimate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) for the smallest and largest values in the range {101, ..., 1000} to see if there is a pattern or a threshold where the sum is greater than 1/2.",
+      "Use inequalities or approximations (like integral approximation to sums) to simplify the sum and determine if there is a simple way to assert when it is greater than 1/2.",
+      "Determine for which values of n in the range {101,...,1000} the calculated or estimated sum is clearly greater than 1/2.",
+      "Summarize the count of all n-values in the range that satisfy the condition 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2."
+    ],
+    {
+      "1": "Recognize the nature of the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and its relation to the Harmonic series.",
+      "2": "Establish the behavior of the sum as n increases; consider how increases in n affect individual terms of the sum.",
+      "3": "Calculate or estimate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) for the smallest and largest values in the range {101, ..., 1000} to see if there is a pattern or a threshold where the sum is greater than 1/2.",
+      "4": "Use inequalities or approximations (like integral approximation to sums) to simplify the sum and determine if there is a simple way to assert when it is greater than 1/2.",
+      "5": "Determine for which values of n in the range {101,...,1000} the calculated or estimated sum is clearly greater than 1/2.",
+      "6": "Summarize the count of all n-values in the range that satisfy the condition 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the given series expression in terms of n: 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Determine the number of terms in the series.",
+      "Use partial fraction decomposition or a similar method to simply express the series sum.",
+      "Analyze the behavior of the series sum as n varies.",
+      "Establish inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2.",
+      "Determine for which values of n (within the range 101 to 1000) this inequality holds.",
+      "Count the number of valid n values satisfying the inequality."
+    ],
+    {
+      "1": "Define the given series expression in terms of n: 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "2": "Determine the number of terms in the series.",
+      "3": "Use partial fraction decomposition or a similar method to simply express the series sum.",
+      "4": "Analyze the behavior of the series sum as n varies.",
+      "5": "Establish inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2.",
+      "6": "Determine for which values of n (within the range 101 to 1000) this inequality holds.",
+      "7": "Count the number of valid n values satisfying the inequality."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the given series for a specific n: \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + ... + \\frac{1}{2n} \\).",
+      "Determine how to simplify or approximate \\( S_n \\) to analyze its behavior as \\( n \\) changes.",
+      "Check the condition \\( S_n > \\frac{1}{2} \\) for the smallest value in the range, n = 101.",
+      "Check the condition \\( S_n > \\frac{1}{2} \\) for the largest value in the range, n = 1000.",
+      "Determine if there is a critical n within the range {101, ..., 1000} where \\( S_n \\) transitions from greater than \\(\\frac{1}{2}\\) to less than \\(\\frac{1}{2}\\), or vice versa.",
+      "Count the number of integers n in the specified range {101, ..., 1000} for which \\( S_n > \\frac{1}{2} \\) holds true.",
+      "Verify any computations or conclusions by checking the sum directly for several different n values within and near the computed critical point."
+    ],
+    {
+      "1": "Define the given series for a specific n: \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + ... + \\frac{1}{2n} \\).",
+      "2": "Determine how to simplify or approximate \\( S_n \\) to analyze its behavior as \\( n \\) changes.",
+      "3": "Check the condition \\( S_n > \\frac{1}{2} \\) for the smallest value in the range, n = 101.",
+      "4": "Check the condition \\( S_n > \\frac{1}{2} \\) for the largest value in the range, n = 1000.",
+      "5": "Determine if there is a critical n within the range {101, ..., 1000} where \\( S_n \\) transitions from greater than \\(\\frac{1}{2}\\) to less than \\(\\frac{1}{2}\\), or vice versa.",
+      "6": "Count the number of integers n in the specified range {101, ..., 1000} for which \\( S_n > \\frac{1}{2} \\) holds true.",
+      "7": "Verify any computations or conclusions by checking the sum directly for several different n values within and near the computed critical point."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the range of n, specifically from 101 to 1000.",
+      "Write down the sum expression that represents the sum of reciprocals from (n+1) to (2n), which is 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Determine the number of terms in the sum of reciprocals.",
+      "Calculate the lower and upper bounds of the sum to get a rough estimate of its value or to simplify the computation.",
+      "Analyze how the value of the sum changes as n increases within the specified range.",
+      "Identify which values of n meet the condition that the sum is greater than 1/2.",
+      "Count how many valid values of n exist between 101 and 1000 where the condition holds."
+    ],
+    {
+      "1": "Define the range of n, specifically from 101 to 1000.",
+      "2": "Write down the sum expression that represents the sum of reciprocals from (n+1) to (2n), which is 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "3": "Determine the number of terms in the sum of reciprocals.",
+      "4": "Calculate the lower and upper bounds of the sum to get a rough estimate of its value or to simplify the computation.",
+      "5": "Analyze how the value of the sum changes as n increases within the specified range.",
+      "6": "Identify which values of n meet the condition that the sum is greater than 1/2.",
+      "7": "Count how many valid values of n exist between 101 and 1000 where the condition holds."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 5",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the sum S_n = 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Examine the behavior of the sum S_n as n increases.",
+      "Determine a formula or an estimation approach for calculating S_n.",
+      "Calculate the minimal value of n in the range {101, ..., 1000} for which S_n > 1/2.",
+      "Count all the values of n in {101, ..., 1000} that satisfy S_n > 1/2."
+    ],
+    {
+      "1": "Define the sum S_n = 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "2": "Examine the behavior of the sum S_n as n increases.",
+      "3": "Determine a formula or an estimation approach for calculating S_n.",
+      "4": "Calculate the minimal value of n in the range {101, ..., 1000} for which S_n > 1/2.",
+      "5": "Count all the values of n in {101, ..., 1000} that satisfy S_n > 1/2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the sum S(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Determine a method to approximate or calculate S(n) for a given specific n value.",
+      "Establish the conditions under which S(n) > 1/2.",
+      "Apply this condition to each n in the set {101, ..., 1000}.",
+      "Count how many n in the set satisfy the condition S(n) > 1/2."
+    ],
+    {
+      "1": "Define the sum S(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "2": "Determine a method to approximate or calculate S(n) for a given specific n value.",
+      "3": "Establish the conditions under which S(n) > 1/2.",
+      "4": "Apply this condition to each n in the set {101, ..., 1000}.",
+      "5": "Count how many n in the set satisfy the condition S(n) > 1/2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range of values for n from 101 to 1000.",
+      "Establish the formula for the sum 1/(n+1)+1/(n+2)+...+1/(2n).",
+      "Determine the number of terms in the sum.",
+      "Analyze how the values of the terms in the sum change as n increases from 101 to 1000.",
+      "Calculate an approximation or bounds for the sum 1/(n+1)+1/(n+2)+...+1/(2n) for each n based on established inequalities or approximations.",
+      "Compare the sum calculated for each n to the constant 1/2.",
+      "Count the number of values of n for which 1/(n+1)+1/(n+2)+...+1/(2n) is greater than 1/2."
+    ],
+    {
+      "1": "Identify the range of values for n from 101 to 1000.",
+      "2": "Establish the formula for the sum 1/(n+1)+1/(n+2)+...+1/(2n).",
+      "3": "Determine the number of terms in the sum.",
+      "4": "Analyze how the values of the terms in the sum change as n increases from 101 to 1000.",
+      "5": "Calculate an approximation or bounds for the sum 1/(n+1)+1/(n+2)+...+1/(2n) for each n based on established inequalities or approximations.",
+      "6": "Compare the sum calculated for each n to the constant 1/2.",
+      "7": "Count the number of values of n for which 1/(n+1)+1/(n+2)+...+1/(2n) is greater than 1/2."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the sum \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "Determine an expression or an approximation for \\( S_n \\) to make it more analyzable.",
+      "Analyze the behavior of \\( S_n \\) as \\( n \\) varies to estimate if \\( S_n > \\frac{1}{2} \\).",
+      "Set up an inequality based on the expression or approximation of \\( S_n \\) that compares it to \\(\\frac{1}{2}\\).",
+      "Solve the inequality to determine the values of \\( n \\) where \\( S_n > \\frac{1}{2} \\).",
+      "Count the number of valid \\( n \\) values within the given set {101, ..., 1000} that satisfy the inequality."
+    ],
+    {
+      "1": "Define the sum \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "2": "Determine an expression or an approximation for \\( S_n \\) to make it more analyzable.",
+      "3": "Analyze the behavior of \\( S_n \\) as \\( n \\) varies to estimate if \\( S_n > \\frac{1}{2} \\).",
+      "4": "Set up an inequality based on the expression or approximation of \\( S_n \\) that compares it to \\(\\frac{1}{2}\\).",
+      "5": "Solve the inequality to determine the values of \\( n \\) where \\( S_n > \\frac{1}{2} \\).",
+      "6": "Count the number of valid \\( n \\) values within the given set {101, ..., 1000} that satisfy the inequality."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the given sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and understand it terms of its series length and terms.",
+      "Determine the impact of increasing values of n on the overall value of the sum.",
+      "Assess the lower bounds of n to check how it affects the convergence or divergence of the sum between n + 1 and 2n.",
+      "Implement a method to computationally evaluate or estimate the sum for each n in the given range.",
+      "Set up a computational or theoretical approach to compare the harmonic sum for each value of n against the threshold 1/2.",
+      "Count how many values of n within the specific range {101, ..., 1000} meet the condition that the sum is greater than 1/2."
+    ],
+    {
+      "1": "Recognize the given sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and understand it terms of its series length and terms.",
+      "2": "Determine the impact of increasing values of n on the overall value of the sum.",
+      "3": "Assess the lower bounds of n to check how it affects the convergence or divergence of the sum between n + 1 and 2n.",
+      "4": "Implement a method to computationally evaluate or estimate the sum for each n in the given range.",
+      "5": "Set up a computational or theoretical approach to compare the harmonic sum for each value of n against the threshold 1/2.",
+      "6": "Count how many values of n within the specific range {101, ..., 1000} meet the condition that the sum is greater than 1/2."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 4"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Recognize the range and the nature of the terms involved in the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Understand the relationship between the sum of reciprocals and the harmonic number, possibly considering an approximation using integrals or known inequalities.",
+      "Calculate or estimate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and compare it quantitatively with 1/2.",
+      "Determine whether the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2 holds for each n in the set {101, ..., 1000}.",
+      "Count the number of valid n that satisfy the condition."
+    ],
+    {
+      "1": "Recognize the range and the nature of the terms involved in the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "2": "Understand the relationship between the sum of reciprocals and the harmonic number, possibly considering an approximation using integrals or known inequalities.",
+      "3": "Calculate or estimate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and compare it quantitatively with 1/2.",
+      "4": "Determine whether the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2 holds for each n in the set {101, ..., 1000}.",
+      "5": "Count the number of valid n that satisfy the condition."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the sum S as \\( S = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\) for a given integer n.",
+      "Analyze how the sum S changes as n increases from 101 to 1000.",
+      "Estimate or calculate the lower bound of S to verify if \\( S(n) > \\frac{1}{2} \\) holds.",
+      "Confirm the smallest value of n for which \\( S(n) > \\frac{1}{2} \\).",
+      "Determine all integer values of n from that minimum until 1000 for which the inequality \\( S(n) > \\frac{1}{2} \\) is satisfied.",
+      "Count the number of valid n values that satisfy the condition."
+    ],
+    {
+      "1": "Define the sum S as \\( S = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\) for a given integer n.",
+      "2": "Analyze how the sum S changes as n increases from 101 to 1000.",
+      "3": "Estimate or calculate the lower bound of S to verify if \\( S(n) > \\frac{1}{2} \\) holds.",
+      "4": "Confirm the smallest value of n for which \\( S(n) > \\frac{1}{2} \\).",
+      "5": "Determine all integer values of n from that minimum until 1000 for which the inequality \\( S(n) > \\frac{1}{2} \\) is satisfied.",
+      "6": "Count the number of valid n values that satisfy the condition."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the expression 1/(n+1)+1/(n+2)+...+1/(2n) and determine how many terms are involved.",
+      "Consider the fact that all terms are decreasing as n increases within the range.",
+      "Analyze how the harmonic mean of these terms behaves as n increases from 101 to 1000.",
+      "Compare the lower estimate of the sum 1/(n+1)+1/(n+2)+...+1/(2n) to 1/2.",
+      "Formulate an inequality that can be solved to pinpoint when the sum of the series exceeds 1/2.",
+      "Determine the values of n for which the inequality holds within the given range {101, ..., 1000}."
+    ],
+    {
+      "1": "Understand the expression 1/(n+1)+1/(n+2)+...+1/(2n) and determine how many terms are involved.",
+      "2": "Consider the fact that all terms are decreasing as n increases within the range.",
+      "3": "Analyze how the harmonic mean of these terms behaves as n increases from 101 to 1000.",
+      "4": "Compare the lower estimate of the sum 1/(n+1)+1/(n+2)+...+1/(2n) to 1/2.",
+      "5": "Formulate an inequality that can be solved to pinpoint when the sum of the series exceeds 1/2.",
+      "6": "Determine the values of n for which the inequality holds within the given range {101, ..., 1000}."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the inequality to be analyzed: \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} > \\frac{1}{2} \\).",
+      "Understand the harmonic series and how the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\) operates within this context.",
+      "Subtract comparable quantities to simplify the expression, potentially making it a sum involving \\( \\frac{1}{n+k} \\).",
+      "Derive or approximate the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "Compare this sum to \\( \\frac{1}{2} \\) and analyze how \\( n \\) affects the inequality.",
+      "Determine the range(s) of \\( n \\) for which the inequality holds.",
+      "Count the number of valid \\( n \\) values within the specified range \\( \\{101, ..., 1000\\} \\)."
+    ],
+    {
+      "1": "Define the inequality to be analyzed: \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} > \\frac{1}{2} \\).",
+      "2": "Understand the harmonic series and how the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\) operates within this context.",
+      "3": "Subtract comparable quantities to simplify the expression, potentially making it a sum involving \\( \\frac{1}{n+k} \\).",
+      "4": "Derive or approximate the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "5": "Compare this sum to \\( \\frac{1}{2} \\) and analyze how \\( n \\) affects the inequality.",
+      "6": "Determine the range(s) of \\( n \\) for which the inequality holds.",
+      "7": "Count the number of valid \\( n \\) values within the specified range \\( \\{101, ..., 1000\\} \\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range of n for which the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2 needs to be checked.",
+      "Understand the general form of the sum of reciprocals from (n+1) to (2n).",
+      "Estimate or calculate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) for a specific value of n.",
+      "Determine if there's a pattern, approximation, or formula that can simplify the calculation of the sum for all n.",
+      "Compare the calculated sum for each n in the range {101, ..., 1000} against the value 1/2.",
+      "Count how many values of n satisfy the inequality condition."
+    ],
+    {
+      "1": "Identify the range of n for which the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2 needs to be checked.",
+      "2": "Understand the general form of the sum of reciprocals from (n+1) to (2n).",
+      "3": "Estimate or calculate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) for a specific value of n.",
+      "4": "Determine if there's a pattern, approximation, or formula that can simplify the calculation of the sum for all n.",
+      "5": "Compare the calculated sum for each n in the range {101, ..., 1000} against the value 1/2.",
+      "6": "Count how many values of n satisfy the inequality condition."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the summation given: 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Express the sum as a sum of reciprocals of an arithmetic sequence starting from n+1 to 2n.",
+      "Determine the number of terms in the summation.",
+      "Consider approximating the sum using integral calculus, comparing the sum to the integral of 1/x from x = n+1 to x = 2n.",
+      "Calculate the integral of 1/x from x = n+1 to x = 2n and compare this result to 1/2.",
+      "Determine which values of n from 101 to 1000 yield a sum greater than 1/2.",
+      "Analyze and finalize the set of all n in {101, ..., 1000} that satisfy the condition."
+    ],
+    {
+      "1": "Understand the summation given: 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "2": "Express the sum as a sum of reciprocals of an arithmetic sequence starting from n+1 to 2n.",
+      "3": "Determine the number of terms in the summation.",
+      "4": "Consider approximating the sum using integral calculus, comparing the sum to the integral of 1/x from x = n+1 to x = 2n.",
+      "5": "Calculate the integral of 1/x from x = n+1 to x = 2n and compare this result to 1/2.",
+      "6": "Determine which values of n from 101 to 1000 yield a sum greater than 1/2.",
+      "7": "Analyze and finalize the set of all n in {101, ..., 1000} that satisfy the condition."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range of values n can take within the set {101, ..., 1000}.",
+      "Express the condition 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2 as a mathematical inequality to solve for n.",
+      "Determine the smallest integer value of n for which the inequality holds true.",
+      "Calculate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) in terms of n and analyze its behavior as n increases within the specified range.",
+      "Use a mathematical approach or inequality (such as comparison to an integral) to estimate the value of the sum for large values of n and determine if and when the sum exceeds 1/2.",
+      "Count the number of valid n values within the set {101, ..., 1000} that satisfy the original condition."
+    ],
+    {
+      "1": "Identify the range of values n can take within the set {101, ..., 1000}.",
+      "2": "Express the condition 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2 as a mathematical inequality to solve for n.",
+      "3": "Determine the smallest integer value of n for which the inequality holds true.",
+      "4": "Calculate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) in terms of n and analyze its behavior as n increases within the specified range.",
+      "5": "Use a mathematical approach or inequality (such as comparison to an integral) to estimate the value of the sum for large values of n and determine if and when the sum exceeds 1/2.",
+      "6": "Count the number of valid n values within the set {101, ..., 1000} that satisfy the original condition."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 2"
+      ],
+      "2": [
+        "Step 5",
+        "Step 3"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Analyze the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2 for a given n.",
+      "Rewrite the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) in a manner that simplifies the understanding or calculation (consider harmonic series or partial sum techniques).",
+      "Estimate or compute the lower bound of the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) for a general n.",
+      "Deduce an inequality or condition for n where the sum exceeds 1/2 based on your calculations or estimates from the previous step.",
+      "Apply the inequality or condition to each n in the set {101, ..., 1000} and count how many values satisfy the condition.",
+      "Verify calculations or results for specific cases (small values of n) to ensure the approach is valid.",
+      "Summarize the number of values of n where the inequality holds true, based on the results from testing and verification across the specified range."
+    ],
+    {
+      "1": "Analyze the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) > 1/2 for a given n.",
+      "2": "Rewrite the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) in a manner that simplifies the understanding or calculation (consider harmonic series or partial sum techniques).",
+      "3": "Estimate or compute the lower bound of the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) for a general n.",
+      "4": "Deduce an inequality or condition for n where the sum exceeds 1/2 based on your calculations or estimates from the previous step.",
+      "5": "Apply the inequality or condition to each n in the set {101, ..., 1000} and count how many values satisfy the condition.",
+      "6": "Verify calculations or results for specific cases (small values of n) to ensure the approach is valid.",
+      "7": "Summarize the number of values of n where the inequality holds true, based on the results from testing and verification across the specified range."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the mathematical expression for the sum \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "Rewrite the sum expression to identify any patterns or simplify into a form that can be easily analyzed.",
+      "Consider approximating \\( S_n \\) using integral calculus by comparing \\( S_n \\) to the integral of \\( 1/x \\) from \\( n+1 \\) to \\( 2n \\).",
+      "Analyze how \\( S_n \\) behaves as \\( n \\) increases from 101 to 1000. Does it increase or decrease? How does it approach 1/2?",
+      "Determine if there exists an \\( n \\) in the given range for which \\( S_n > 1/2 \\).",
+      "Find the smallest \\( n \\) where \\( S_n > 1/2 \\), if it exists.",
+      "Determine the number of consecutive values of \\( n \\) starting from the smallest n found where \\( S_n > 1/2 \\) continues to hold.",
+      "Calculate the total number of values of \\( n \\) satisfying \\( S_n > 1/2 \\) from 101 to 1000."
+    ],
+    {
+      "1": "Define the mathematical expression for the sum \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "2": "Rewrite the sum expression to identify any patterns or simplify into a form that can be easily analyzed.",
+      "3": "Consider approximating \\( S_n \\) using integral calculus by comparing \\( S_n \\) to the integral of \\( 1/x \\) from \\( n+1 \\) to \\( 2n \\).",
+      "4": "Analyze how \\( S_n \\) behaves as \\( n \\) increases from 101 to 1000. Does it increase or decrease? How does it approach 1/2?",
+      "5": "Determine if there exists an \\( n \\) in the given range for which \\( S_n > 1/2 \\).",
+      "6": "Find the smallest \\( n \\) where \\( S_n > 1/2 \\), if it exists.",
+      "7": "Determine the number of consecutive values of \\( n \\) starting from the smallest n found where \\( S_n > 1/2 \\) continues to hold.",
+      "8": "Calculate the total number of values of \\( n \\) satisfying \\( S_n > 1/2 \\) from 101 to 1000."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the given sum as S(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n) and understand its behavior as n increases.",
+      "Identify the lower and upper bounds of the series to assess convergence and sum estimation.",
+      "Calculate any approximations or bounds of S(n) by comparing it to integrals or simpler sums.",
+      "Evaluate whether S(n) follows any known inequality or theorem that simplifies analysis.",
+      "Identify the critical point where S(n) transitions from being less than 1/2 to greater than 1/2.",
+      "Systematically evaluate S(n) for specific values of n from 101 up to 1000.",
+      "Count the number of instances for which S(n) > 1/2 within the given range."
+    ],
+    {
+      "1": "Define the given sum as S(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n) and understand its behavior as n increases.",
+      "2": "Identify the lower and upper bounds of the series to assess convergence and sum estimation.",
+      "3": "Calculate any approximations or bounds of S(n) by comparing it to integrals or simpler sums.",
+      "4": "Evaluate whether S(n) follows any known inequality or theorem that simplifies analysis.",
+      "5": "Identify the critical point where S(n) transitions from being less than 1/2 to greater than 1/2.",
+      "6": "Systematically evaluate S(n) for specific values of n from 101 up to 1000.",
+      "7": "Count the number of instances for which S(n) > 1/2 within the given range."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ]
+]

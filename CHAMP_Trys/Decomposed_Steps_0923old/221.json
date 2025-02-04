@@ -1,0 +1,190 @@
+[
+  [
+    [
+      "Determine the relationship between x_n, y_n, and z_n from their recursive definitions.",
+      "Analyze how changes in initial values x_1, y_1, z_1 affect the sequences {x_n}, {y_n}, {z_n}.",
+      "Calculate or approximate several initial values of the sequences to gather data on how the sequences might behave.",
+      "Develop a method or use a numerical approach to compute the values of x_200, y_200, z_200 for different starting values x_1, y_1, z_1.",
+      "Analyze the growth patterns of the sequences to see if they tend towards a limit, grow indefinitely, or stabilize around certain values.",
+      "Deduce whether the maximum value w_n of x_n, y_n, z_n always exceeds 20, always remains below 20, or can both exceed and fall below 20 by the 200th term based on different initial conditions.",
+      "Assess the effect of recursive relationships and possible dependency between sequences on the eventual values reaching or not reaching the threshold of 20.",
+      "Explore if there is a mathematical proof or a counterexample where w_200 does not follow a consistent pattern with respect to being higher or lower than 20.",
+      "Review theoretical implications of the dynamics involved in the recursive sequence relations and apply advanced mathematical concepts if necessary (like fixed point analysis, rate of change, stability analysis)."
+    ],
+    {
+      "1": "Determine the relationship between x_n, y_n, and z_n from their recursive definitions.",
+      "2": "Analyze how changes in initial values x_1, y_1, z_1 affect the sequences {x_n}, {y_n}, {z_n}.",
+      "3": "Calculate or approximate several initial values of the sequences to gather data on how the sequences might behave.",
+      "4": "Develop a method or use a numerical approach to compute the values of x_200, y_200, z_200 for different starting values x_1, y_1, z_1.",
+      "5": "Analyze the growth patterns of the sequences to see if they tend towards a limit, grow indefinitely, or stabilize around certain values.",
+      "6": "Deduce whether the maximum value w_n of x_n, y_n, z_n always exceeds 20, always remains below 20, or can both exceed and fall below 20 by the 200th term based on different initial conditions.",
+      "7": "Assess the effect of recursive relationships and possible dependency between sequences on the eventual values reaching or not reaching the threshold of 20.",
+      "8": "Explore if there is a mathematical proof or a counterexample where w_200 does not follow a consistent pattern with respect to being higher or lower than 20.",
+      "9": "Review theoretical implications of the dynamics involved in the recursive sequence relations and apply advanced mathematical concepts if necessary (like fixed point analysis, rate of change, stability analysis)."
+    }
+  ],
+  [
+    [
+      "Understand the recursive definition for each sequence: {x_n}, {y_n}, {z_n}.",
+      "Explore how each term of x_n, y_n, z_n affects the other in the next iteration.",
+      "Determine the immediate behavior of the sequences, such as whether they increase, decrease, or stabilize.",
+      "Analyze whether the differences between successive terms of x_n, y_n, z_n change as n increases.",
+      "Consider the impact of initial values x_1, y_1, z_1 on the long-term growth or behavior of the sequences.",
+      "Find a way to explicitly calculate or approximate x_n, y_n, and z_n at least for lower values of n.",
+      "Use a computational approach, like writing a script or using a spreadsheet, to compute the sequences x_n, y_n, z_n up to n = 200 to observe patterns.",
+      "Track the maximum values w_n from n=1 to 200.",
+      "Analyze the tracked data from the computational results to determine if w_200 always exceeds, always is less than, or sometimes is greater than or less than 20.",
+      "Based on gathered data, conjecture the influence of different initial values on the behavior of w_200 relative to 20."
+    ],
+    {
+      "1": "Understand the recursive definition for each sequence: {x_n}, {y_n}, {z_n}.",
+      "2": "Explore how each term of x_n, y_n, z_n affects the other in the next iteration.",
+      "3": "Determine the immediate behavior of the sequences, such as whether they increase, decrease, or stabilize.",
+      "4": "Analyze whether the differences between successive terms of x_n, y_n, z_n change as n increases.",
+      "5": "Consider the impact of initial values x_1, y_1, z_1 on the long-term growth or behavior of the sequences.",
+      "6": "Find a way to explicitly calculate or approximate x_n, y_n, and z_n at least for lower values of n.",
+      "7": "Use a computational approach, like writing a script or using a spreadsheet, to compute the sequences x_n, y_n, z_n up to n = 200 to observe patterns.",
+      "8": "Track the maximum values w_n from n=1 to 200.",
+      "9": "Analyze the tracked data from the computational results to determine if w_200 always exceeds, always is less than, or sometimes is greater than or less than 20.",
+      "10": "Based on gathered data, conjecture the influence of different initial values on the behavior of w_200 relative to 20."
+    }
+  ],
+  [
+    [
+      "Understand the recursive definitions of the sequences \\( x_{n+1} = y_n + \\frac{1}{z_n} \\), \\( y_{n+1} = z_n + \\frac{1}{x_n} \\), and \\( z_{n+1} = x_n + \\frac{1}{y_n} \\).",
+      "Calculate a few initial terms of the sequences to see how \\( x_n \\), \\( y_n \\), and \\( z_n \\) evolve based on different initial values \\( x_1 \\), \\( y_1 \\), and \\( z_1 \\).",
+      "Identify a method to compute \\( w_n \\) efficiently, possibly using a programming approach or a mathematical software tool, given the high value of n (n = 200).",
+      "Analyze whether there's a trend or pattern as \\( n \\) increases, which might give insights into the behavior of \\( w_n \\) at large \\( n \\).",
+      "Explore the dependency of \\( w_n \\) on the initial values \\( x_1 \\), \\( y_1 \\), and \\( z_1 \\). Consider trying extreme cases or varying these initial values systematically.",
+      "Consider the theoretical upper and lower bounds of \\( w_n \\) using knowledge of sequence behavior or mathematical inequalities.",
+      "Determine if \\( w_n \\) generally increases, decreases, or stabilizes as \\( n \\) increases, particularly for \\( n = 200 \\).",
+      "Based on observations and calculations, assess whether \\( w_{200} \\) is always greater than 20, always smaller than 20, or sometimes greater and sometimes smaller than 20. Consider proving this rigorously if a consistent behavior is noted.",
+      "Potentially generalize findings for any \\( n \\) beyond the specific case of \\( n = 200 \\)."
+    ],
+    {
+      "1": "Understand the recursive definitions of the sequences \\( x_{n+1} = y_n + \\frac{1}{z_n} \\), \\( y_{n+1} = z_n + \\frac{1}{x_n} \\), and \\( z_{n+1} = x_n + \\frac{1}{y_n} \\).",
+      "2": "Calculate a few initial terms of the sequences to see how \\( x_n \\), \\( y_n \\), and \\( z_n \\) evolve based on different initial values \\( x_1 \\), \\( y_1 \\), and \\( z_1 \\).",
+      "3": "Identify a method to compute \\( w_n \\) efficiently, possibly using a programming approach or a mathematical software tool, given the high value of n (n = 200).",
+      "4": "Analyze whether there's a trend or pattern as \\( n \\) increases, which might give insights into the behavior of \\( w_n \\) at large \\( n \\).",
+      "5": "Explore the dependency of \\( w_n \\) on the initial values \\( x_1 \\), \\( y_1 \\), and \\( z_1 \\). Consider trying extreme cases or varying these initial values systematically.",
+      "6": "Consider the theoretical upper and lower bounds of \\( w_n \\) using knowledge of sequence behavior or mathematical inequalities.",
+      "7": "Determine if \\( w_n \\) generally increases, decreases, or stabilizes as \\( n \\) increases, particularly for \\( n = 200 \\).",
+      "8": "Based on observations and calculations, assess whether \\( w_{200} \\) is always greater than 20, always smaller than 20, or sometimes greater and sometimes smaller than 20. Consider proving this rigorously if a consistent behavior is noted.",
+      "9": "Potentially generalize findings for any \\( n \\) beyond the specific case of \\( n = 200 \\)."
+    }
+  ],
+  [
+    [
+      "Define the given sequences mathematically, clearly showing the relation between consecutive terms for x_n, y_n, and z_n.",
+      "Analyze the behavior of sequences when the initial values x_1, y_1, z_1 are close in magnitude.",
+      "Analyze the behavior of sequences when the initial values x_1, y_1, z_1 are significantly different.",
+      "Explore if there is a dependence of the sequence behavior on the parity (odd or even) of n, specifically the behavior at w_200.",
+      "Determine if it's necessary to establish lower or upper bounds for x_n, y_n, and z_n based on their recursive definitions.",
+      "Examine any cycles or periodic behavior that the sequences may have, which could affect the calculation of w_200.",
+      "Use numerical simulation or specific values to estimate sequence values for particular cases and check if w_200 exceeds 20.",
+      "Consider the possibility of simplifying or transforming the recursive equations to gain further insight into their nature and behavior.",
+      "Analyze if the growth of the sequences is monotonic, fluctuating, or stable after a significant number of iterations, focusing on their behavior approaching n=200.",
+      "Discuss potential mathematical techniques or theorems that could be useful, such as monotone convergence theorem or techniques in nonlinear recursive sequences, to analyze the sequences' behavior as n approaches large values."
+    ],
+    {
+      "1": "Define the given sequences mathematically, clearly showing the relation between consecutive terms for x_n, y_n, and z_n.",
+      "2": "Analyze the behavior of sequences when the initial values x_1, y_1, z_1 are close in magnitude.",
+      "3": "Analyze the behavior of sequences when the initial values x_1, y_1, z_1 are significantly different.",
+      "4": "Explore if there is a dependence of the sequence behavior on the parity (odd or even) of n, specifically the behavior at w_200.",
+      "5": "Determine if it's necessary to establish lower or upper bounds for x_n, y_n, and z_n based on their recursive definitions.",
+      "6": "Examine any cycles or periodic behavior that the sequences may have, which could affect the calculation of w_200.",
+      "7": "Use numerical simulation or specific values to estimate sequence values for particular cases and check if w_200 exceeds 20.",
+      "8": "Consider the possibility of simplifying or transforming the recursive equations to gain further insight into their nature and behavior.",
+      "9": "Analyze if the growth of the sequences is monotonic, fluctuating, or stable after a significant number of iterations, focusing on their behavior approaching n=200.",
+      "10": "Discuss potential mathematical techniques or theorems that could be useful, such as monotone convergence theorem or techniques in nonlinear recursive sequences, to analyze the sequences' behavior as n approaches large values."
+    }
+  ],
+  [
+    [
+      "Understand the relations specified for the sequences: x_(n+1) = y_n + 1/z_n, y_(n+1) = z_n + 1/x_n, z_(n+1) = x_n + 1/y_n.",
+      "Analyze the base case: Calculate the values of x_2, y_2, and z_2 using the initial values x_1, y_1, z_1.",
+      "Establish a method to iteratively compute x_n, y_n, and z_n for subsequent values of n up to n = 200.",
+      "Examine how changes in the initial values x_1, y_1, z_1 affect the values of x_n, y_n, and z_n over iterations, particularly focusing on the maximum values attained (w_n).",
+      "Determine if there are clear trends or patterns in the behavior of w_n as n approaches 200, for varied sets of initial conditions.",
+      "Explore whether there exist particular initial conditions where w_200 exceeds 20, is less than 20, or approaches 20.",
+      "Conceptualize any potential mathematical or numerical methods that could simplify tracking or predicting the behavior of w_n based on initial conditions.",
+      "Consider the theoretical or practical implications if a general rule or pattern can be established regarding w_n relative to the initial conditions.",
+      "Devise a few test cases with specific initial conditions to manually calculate or simulate the sequence up to n = 200 to observe empirical outcomes.",
+      "Summarize findings and conclude whether w_200 is always greater than 20, always smaller than 20, or sometimes greater and sometimes smaller than 20 based on the patterns or rules identified."
+    ],
+    {
+      "1": "Understand the relations specified for the sequences: x_(n+1) = y_n + 1/z_n, y_(n+1) = z_n + 1/x_n, z_(n+1) = x_n + 1/y_n.",
+      "2": "Analyze the base case: Calculate the values of x_2, y_2, and z_2 using the initial values x_1, y_1, z_1.",
+      "3": "Establish a method to iteratively compute x_n, y_n, and z_n for subsequent values of n up to n = 200.",
+      "4": "Examine how changes in the initial values x_1, y_1, z_1 affect the values of x_n, y_n, and z_n over iterations, particularly focusing on the maximum values attained (w_n).",
+      "5": "Determine if there are clear trends or patterns in the behavior of w_n as n approaches 200, for varied sets of initial conditions.",
+      "6": "Explore whether there exist particular initial conditions where w_200 exceeds 20, is less than 20, or approaches 20.",
+      "7": "Conceptualize any potential mathematical or numerical methods that could simplify tracking or predicting the behavior of w_n based on initial conditions.",
+      "8": "Consider the theoretical or practical implications if a general rule or pattern can be established regarding w_n relative to the initial conditions.",
+      "9": "Devise a few test cases with specific initial conditions to manually calculate or simulate the sequence up to n = 200 to observe empirical outcomes.",
+      "10": "Summarize findings and conclude whether w_200 is always greater than 20, always smaller than 20, or sometimes greater and sometimes smaller than 20 based on the patterns or rules identified."
+    }
+  ],
+  [
+    [
+      "Determine if there exists a closed-form solution or a straightforward recursive relationship for the sequences {x_n}, {y_n}, {z_n}.",
+      "Analyze the behavior of the sequences over iterations to determine if they diverge, converge, or oscillate.",
+      "Investigate if the Wn sequence (maximum of x_n, y_n, z_n) has an upper or lower limit or bound, based solely on recursive relations and initial conditions.",
+      "Study how sensitive Wn values are to changes in initial conditions x_1, y_1, z_1, by analyzing a few sample sets of initial values.",
+      "Use numerical methods or simulation to compute {x_n}, {y_n}, {z_n} for n=200 for various initial conditions to observe the behavior of w_200.",
+      "Collect data from simulations to determine if w_200 is always greater than 20, always less than 20, or sometimes greater and sometimes smaller than 20 based on different initial values.",
+      "Summarize findings by linking behaviors observed in steps 3 and 4 to mathematical properties of the sequences or identified patterns in the simulations."
+    ],
+    {
+      "1": "Determine if there exists a closed-form solution or a straightforward recursive relationship for the sequences {x_n}, {y_n}, {z_n}.",
+      "2": "Analyze the behavior of the sequences over iterations to determine if they diverge, converge, or oscillate.",
+      "3": "Investigate if the Wn sequence (maximum of x_n, y_n, z_n) has an upper or lower limit or bound, based solely on recursive relations and initial conditions.",
+      "4": "Study how sensitive Wn values are to changes in initial conditions x_1, y_1, z_1, by analyzing a few sample sets of initial values.",
+      "5": "Use numerical methods or simulation to compute {x_n}, {y_n}, {z_n} for n=200 for various initial conditions to observe the behavior of w_200.",
+      "6": "Collect data from simulations to determine if w_200 is always greater than 20, always less than 20, or sometimes greater and sometimes smaller than 20 based on different initial values.",
+      "7": "Summarize findings by linking behaviors observed in steps 3 and 4 to mathematical properties of the sequences or identified patterns in the simulations."
+    }
+  ],
+  [
+    [
+      "Understand the recursion formula for each sequence: x_(n+1)=y_n+1/z_n, y_(n+1)=z_n+1/x_n, z_(n+1)=x_n+1/y_n.",
+      "Analyze the behavior and growth patterns of each sequence based on their recursion relations.",
+      "Determine the behavior of w_n, where w_n is defined as the maximum of x_n, y_n, z_n for each n.",
+      "Explore the relationship between the initial values x_1, y_1, z_1 and the sequence values x_n, y_n, z_n as n increases.",
+      "Examine specific cases or scenarios to understand how different initial conditions affect the sequences and the value of w_200.",
+      "Compute or estimate w_200 for varying initial conditions to see if it is consistent (always >20, always <20, or varies).",
+      "Check whether any mathematical properties or invariants (such as boundedness, monotonicity, etc.) can be identified within the sequences that help answer the question regarding w_200."
+    ],
+    {
+      "1": "Understand the recursion formula for each sequence: x_(n+1)=y_n+1/z_n, y_(n+1)=z_n+1/x_n, z_(n+1)=x_n+1/y_n.",
+      "2": "Analyze the behavior and growth patterns of each sequence based on their recursion relations.",
+      "3": "Determine the behavior of w_n, where w_n is defined as the maximum of x_n, y_n, z_n for each n.",
+      "4": "Explore the relationship between the initial values x_1, y_1, z_1 and the sequence values x_n, y_n, z_n as n increases.",
+      "5": "Examine specific cases or scenarios to understand how different initial conditions affect the sequences and the value of w_200.",
+      "6": "Compute or estimate w_200 for varying initial conditions to see if it is consistent (always >20, always <20, or varies).",
+      "7": "Check whether any mathematical properties or invariants (such as boundedness, monotonicity, etc.) can be identified within the sequences that help answer the question regarding w_200."
+    }
+  ],
+  [
+    [
+      "Analyze how each sequence {x_n}, {y_n}, {z_n} is defined and understand the dependencies between sequences.",
+      "Calculate the first few terms of the sequences for given initial values x_1, y_1, z_1, to observe any patterns that might arise.",
+      "Investigate if there are upper or lower bounds for x_n, y_n, z_n for large n assuming the recursive relations.",
+      "Explore whether the sequences converge or their terms increase without bound as n increases, based on the governing recursive relations.",
+      "Determine the behavior of w_n=max(x_n, y_n, z_n) over a range of initial conditions and for large n values, like n=200.",
+      "Specifically compute or estimate w_200 for various initial conditions to see if it consistently falls above or below 20.",
+      "Consider any theoretical values or special conditions relevant to whether w_n could be always greater than, always less than, or sometimes greater and sometimes less than 20.",
+      "Conclude by summarizing insights on how different initial conditions influence the maximum value w_n at n=200."
+    ],
+    {
+      "1": "Analyze how each sequence {x_n}, {y_n}, {z_n} is defined and understand the dependencies between sequences.",
+      "2": "Calculate the first few terms of the sequences for given initial values x_1, y_1, z_1, to observe any patterns that might arise.",
+      "3": "Investigate if there are upper or lower bounds for x_n, y_n, z_n for large n assuming the recursive relations.",
+      "4": "Explore whether the sequences converge or their terms increase without bound as n increases, based on the governing recursive relations.",
+      "5": "Determine the behavior of w_n=max(x_n, y_n, z_n) over a range of initial conditions and for large n values, like n=200.",
+      "6": "Specifically compute or estimate w_200 for various initial conditions to see if it consistently falls above or below 20.",
+      "7": "Consider any theoretical values or special conditions relevant to whether w_n could be always greater than, always less than, or sometimes greater and sometimes less than 20.",
+      "8": "Conclude by summarizing insights on how different initial conditions influence the maximum value w_n at n=200."
+    }
+  ]
+]

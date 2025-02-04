@@ -1,0 +1,1826 @@
+[
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Copy the initial state of the jugs to the current state. "
+      },
+      {
+        "stepId": 2,
+        "step": " Iterate through the list of moves. "
+      },
+      {
+        "stepId": 3,
+        "step": " For each move, validate that indices i and j are non-negative and not the same. "
+      },
+      {
+        "stepId": 4,
+        "step": " Determine the maximum amount of water that can be poured from jug i to jug j. "
+      },
+      {
+        "stepId": 5,
+        "step": " Update the water levels for jugs i and j based on the computed maximum transferable amount. "
+      },
+      {
+        "stepId": 6,
+        "step": " After all moves, check if the final state of the jugs matches the goal state. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return True if the final state matches the goal, else False. "
+      }
+    ],
+    {
+      "1": " Copy the initial state of the jugs to the current state. ",
+      "2": " Iterate through the list of moves. ",
+      "3": " For each move, validate that indices i and j are non-negative and not the same. ",
+      "4": " Determine the maximum amount of water that can be poured from jug i to jug j. ",
+      "5": " Update the water levels for jugs i and j based on the computed maximum transferable amount. ",
+      "6": " After all moves, check if the final state of the jugs matches the goal state. ",
+      "7": " Return True if the final state matches the goal, else False. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the input 'moves' needs to transform the 'init' state to the 'goal' state using the defined 'capacities' through a series of pours between jugs. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize the water distribution as per 'init'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Validate each move by ensuring different jug indices and non-negative indices. "
+      },
+      {
+        "stepId": 4,
+        "step": " Simulate the water pour from jug i to jug j using the minimum of jug j's capacity or the sum of water in jugs i and j. "
+      },
+      {
+        "stepId": 5,
+        "step": " Adjust the water levels in jugs i and j after each move. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if the current state matches the 'goal' state after processing all the moves. "
+      },
+      {
+        "stepId": 7,
+        "step": " If not matching, modify the sequence of moves and iterate the process. "
+      },
+      {
+        "stepId": 8,
+        "step": " Output the sequence of moves that successfully achieves the goal state. "
+      }
+    ],
+    {
+      "1": " Understand that the input 'moves' needs to transform the 'init' state to the 'goal' state using the defined 'capacities' through a series of pours between jugs. ",
+      "2": " Initialize the water distribution as per 'init'. ",
+      "3": " Validate each move by ensuring different jug indices and non-negative indices. ",
+      "4": " Simulate the water pour from jug i to jug j using the minimum of jug j's capacity or the sum of water in jugs i and j. ",
+      "5": " Adjust the water levels in jugs i and j after each move. ",
+      "6": " Check if the current state matches the 'goal' state after processing all the moves. ",
+      "7": " If not matching, modify the sequence of moves and iterate the process. ",
+      "8": " Output the sequence of moves that successfully achieves the goal state. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7",
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand each component of the function: capacities, init (initial configuration), moves (list of moves, where each move is represented by list of two indices [i, j]), and goal (desired configuration). "
+      },
+      {
+        "stepId": 2,
+        "step": " Implement a method to simulate the pouring from one jug to another based on given moves and update the state of jugs accordingly. "
+      },
+      {
+        "stepId": 3,
+        "step": " Validate each move ensuring that the indices are non-negative and not identical (i.e., not pouring back into the same jug). "
+      },
+      {
+        "stepId": 4,
+        "step": " Calculate the new volumes after each move, taking into consideration the capacity limits and the current volume of the jugs. "
+      },
+      {
+        "stepId": 5,
+        "step": " Loop through the list of moves to update state of jugs after each move based on the defined pour calculations. "
+      },
+      {
+        "stepId": 6,
+        "step": " Determine if the final state of the jugs matches the desired goal state after executing all moves. "
+      },
+      {
+        "stepId": 7,
+        "step": " Generate or formulate a series of moves that will transform the init state into the goal state while adhering to the rules laid out. "
+      },
+      {
+        "stepId": 8,
+        "step": " Validate the solution by checking if the moves, when applied to init, result in the goal configuration. If not, adjust the series of moves and retry. "
+      }
+    ],
+    {
+      "1": " Understand each component of the function: capacities, init (initial configuration), moves (list of moves, where each move is represented by list of two indices [i, j]), and goal (desired configuration). ",
+      "2": " Implement a method to simulate the pouring from one jug to another based on given moves and update the state of jugs accordingly. ",
+      "3": " Validate each move ensuring that the indices are non-negative and not identical (i.e., not pouring back into the same jug). ",
+      "4": " Calculate the new volumes after each move, taking into consideration the capacity limits and the current volume of the jugs. ",
+      "5": " Loop through the list of moves to update state of jugs after each move based on the defined pour calculations. ",
+      "6": " Determine if the final state of the jugs matches the desired goal state after executing all moves. ",
+      "7": " Generate or formulate a series of moves that will transform the init state into the goal state while adhering to the rules laid out. ",
+      "8": " Validate the solution by checking if the moves, when applied to init, result in the goal configuration. If not, adjust the series of moves and retry. "
+    },
+    {
+      "0": [
+        "Step 7",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2",
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the task: Modify the initial water distribution state to the goal state using valid moves within the provided capacities. "
+      },
+      {
+        "stepId": 2,
+        "step": " Validate that moves between different containers are made with indices that are non-negative and not the same. "
+      },
+      {
+        "stepId": 3,
+        "step": " Calculate the maximum amount that can be transferred from the source container to the destination container without exceeding the destination's capacity. "
+      },
+      {
+        "stepId": 4,
+        "step": " Update the water volumes in the origin and destination containers based on the calculated transferable amount. "
+      },
+      {
+        "stepId": 5,
+        "step": " Repeat the transfer process for every move in the list of moves. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that the final state of water in the containers matches the desired goal state. "
+      }
+    ],
+    {
+      "1": " Understand the task: Modify the initial water distribution state to the goal state using valid moves within the provided capacities. ",
+      "2": " Validate that moves between different containers are made with indices that are non-negative and not the same. ",
+      "3": " Calculate the maximum amount that can be transferred from the source container to the destination container without exceeding the destination's capacity. ",
+      "4": " Update the water volumes in the origin and destination containers based on the calculated transferable amount. ",
+      "5": " Repeat the transfer process for every move in the list of moves. ",
+      "6": " Verify that the final state of water in the containers matches the desired goal state. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function's logic, which involves pouring liquid between containers of specified capacities to achieve a goal state. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize a starting state with containers' levels. "
+      },
+      {
+        "stepId": 3,
+        "step": " Verify constraints for valid moves between containers where indices must be distinct and non-negative. "
+      },
+      {
+        "stepId": 4,
+        "step": " Execute each move to transfer liquid from one container to another within capacity limits. "
+      },
+      {
+        "stepId": 5,
+        "step": " Store and update the state of containers after each move. "
+      },
+      {
+        "stepId": 6,
+        "step": " Evaluate whether the final state of containers matches the goal state. "
+      },
+      {
+        "stepId": 7,
+        "step": " Continue to adjust or add moves to the list until the goal state is achieved. "
+      }
+    ],
+    {
+      "1": " Understand the function's logic, which involves pouring liquid between containers of specified capacities to achieve a goal state. ",
+      "2": " Initialize a starting state with containers' levels. ",
+      "3": " Verify constraints for valid moves between containers where indices must be distinct and non-negative. ",
+      "4": " Execute each move to transfer liquid from one container to another within capacity limits. ",
+      "5": " Store and update the state of containers after each move. ",
+      "6": " Evaluate whether the final state of containers matches the goal state. ",
+      "7": " Continue to adjust or add moves to the list until the goal state is achieved. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions that must be met by the function sat regarding jug capacities, initial state, and goal state. "
+      },
+      {
+        "stepId": 2,
+        "step": " Represent the list of moves, where each move indicates pouring water from one jug to another. "
+      },
+      {
+        "stepId": 3,
+        "step": " Start by setting the initial jug states and configure each move to adjust the water level between two different jugs. "
+      },
+      {
+        "stepId": 4,
+        "step": " Ensure move validity by checking non-negative indices and that a jug is not pouring into itself. "
+      },
+      {
+        "stepId": 5,
+        "step": " For each move, calculate the maximum possible water transfer considering jug capacities and current water levels. "
+      },
+      {
+        "stepId": 6,
+        "step": " Apply the move by recalculating the water levels between the source and target jugs based on the maximum transferable amount. "
+      },
+      {
+        "stepId": 7,
+        "step": " Compare the final state of jugs after all moves to the goal state to check if the sequence of moves is correct. "
+      }
+    ],
+    {
+      "1": " Understand the conditions that must be met by the function sat regarding jug capacities, initial state, and goal state. ",
+      "2": " Represent the list of moves, where each move indicates pouring water from one jug to another. ",
+      "3": " Start by setting the initial jug states and configure each move to adjust the water level between two different jugs. ",
+      "4": " Ensure move validity by checking non-negative indices and that a jug is not pouring into itself. ",
+      "5": " For each move, calculate the maximum possible water transfer considering jug capacities and current water levels. ",
+      "6": " Apply the move by recalculating the water levels between the source and target jugs based on the maximum transferable amount. ",
+      "7": " Compare the final state of jugs after all moves to the goal state to check if the sequence of moves is correct. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions and goal for the water jug problem provided in 'sat' function signature. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize the state to the starting configurations (init). "
+      },
+      {
+        "stepId": 3,
+        "step": " List all feasible pairs (i, j) for the moves that can be possible from one jug to another jug. "
+      },
+      {
+        "stepId": 4,
+        "step": " Calculate and validate possible moves to change the state towards the goal but obeying capacity constraints. "
+      },
+      {
+        "stepId": 5,
+        "step": " Update the jugs after every valid move and continue until the target state (goal) or no more valid moves left. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if the final state equals to the goal state. "
+      },
+      {
+        "stepId": 7,
+        "step": " Output the sequence of moves if the final state equals to the goal state. "
+      }
+    ],
+    {
+      "1": " Understand the conditions and goal for the water jug problem provided in 'sat' function signature. ",
+      "2": " Initialize the state to the starting configurations (init). ",
+      "3": " List all feasible pairs (i, j) for the moves that can be possible from one jug to another jug. ",
+      "4": " Calculate and validate possible moves to change the state towards the goal but obeying capacity constraints. ",
+      "5": " Update the jugs after every valid move and continue until the target state (goal) or no more valid moves left. ",
+      "6": " Check if the final state equals to the goal state. ",
+      "7": " Output the sequence of moves if the final state equals to the goal state. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function's requirements: list of moves, capacities, initial state, and goal state "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize state to the initial configuration of the containers "
+      },
+      {
+        "stepId": 3,
+        "step": " Iterate through each move in the list, performing the transfer between two specified containers "
+      },
+      {
+        "stepId": 4,
+        "step": " Check each move to ensure that one isn't trying to pour from or to the same container "
+      },
+      {
+        "stepId": 5,
+        "step": " Calculate the maximum amount that can be transferred based on destination's capacity and source's available quantity "
+      },
+      {
+        "stepId": 6,
+        "step": " Perform the transfer by updating the states of the source and destination containers accordingly "
+      },
+      {
+        "stepId": 7,
+        "step": " After all moves, compare the final state of the containers with the goal state to determine if the moves are correct "
+      },
+      {
+        "stepId": 8,
+        "step": " If the final state matches the goal state, the list of moves is a solution and the function returns True "
+      }
+    ],
+    {
+      "1": " Understand the function's requirements: list of moves, capacities, initial state, and goal state ",
+      "2": " Initialize state to the initial configuration of the containers ",
+      "3": " Iterate through each move in the list, performing the transfer between two specified containers ",
+      "4": " Check each move to ensure that one isn't trying to pour from or to the same container ",
+      "5": " Calculate the maximum amount that can be transferred based on destination's capacity and source's available quantity ",
+      "6": " Perform the transfer by updating the states of the source and destination containers accordingly ",
+      "7": " After all moves, compare the final state of the containers with the goal state to determine if the moves are correct ",
+      "8": " If the final state matches the goal state, the list of moves is a solution and the function returns True "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4",
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the goal state and the relationship between initial, goal, and capacities of the containers "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize the state of containers to the start configuration "
+      },
+      {
+        "stepId": 3,
+        "step": " Develop a mechanism to simulate pouring from one container to another ensuring it doesn't exceed the capacity "
+      },
+      {
+        "stepId": 4,
+        "step": " Implement the ability to check if a certain move (pouring from one container to another) is valid without breaking the constraints "
+      },
+      {
+        "stepId": 5,
+        "step": " Create a sequence of moves to change the state from initial to goal configuration "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify if the final state after applying all moves matches the goal state "
+      },
+      {
+        "stepId": 7,
+        "step": " If the goal state is reached, confirm the move set, otherwise adjust moves and retest "
+      }
+    ],
+    {
+      "1": " Understand the goal state and the relationship between initial, goal, and capacities of the containers ",
+      "2": " Initialize the state of containers to the start configuration ",
+      "3": " Develop a mechanism to simulate pouring from one container to another ensuring it doesn't exceed the capacity ",
+      "4": " Implement the ability to check if a certain move (pouring from one container to another) is valid without breaking the constraints ",
+      "5": " Create a sequence of moves to change the state from initial to goal configuration ",
+      "6": " Verify if the final state after applying all moves matches the goal state ",
+      "7": " If the goal state is reached, confirm the move set, otherwise adjust moves and retest "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the initial and goal states and the conditions that determine a valid move. "
+      },
+      {
+        "stepId": 2,
+        "step": " Copy the initial state to start simulating possible moves. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select two different containers to pour water between, verifying indices are non-negative and not the same. "
+      },
+      {
+        "stepId": 4,
+        "step": " Calculate the maximum water that can be transferred without overflowing the receiving container. "
+      },
+      {
+        "stepId": 5,
+        "step": " Perform the water transfer based on calculated maximum and update the states of the two containers. "
+      },
+      {
+        "stepId": 6,
+        "step": " Repeat the above steps, choosing new pairs of containers and amounts, until the goal state is achieved. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify if the final state matches the goal configuration. "
+      }
+    ],
+    {
+      "1": " Understand the initial and goal states and the conditions that determine a valid move. ",
+      "2": " Copy the initial state to start simulating possible moves. ",
+      "3": " Select two different containers to pour water between, verifying indices are non-negative and not the same. ",
+      "4": " Calculate the maximum water that can be transferred without overflowing the receiving container. ",
+      "5": " Perform the water transfer based on calculated maximum and update the states of the two containers. ",
+      "6": " Repeat the above steps, choosing new pairs of containers and amounts, until the goal state is achieved. ",
+      "7": " Verify if the final state matches the goal configuration. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the goal, initial state, and capacities of each container. "
+      },
+      {
+        "stepId": 2,
+        "step": " Develop a strategy to determine possible pouring operations between containers considering capacities. "
+      },
+      {
+        "stepId": 3,
+        "step": " Create a list of possible moves that can transform the initial state eventually into the desired goal state. "
+      },
+      {
+        "stepId": 4,
+        "step": " Implement the pouring operation function that takes a move (i to j) and updates the state of the containers. "
+      },
+      {
+        "stepId": 5,
+        "step": " Apply each move sequentially to change the initial state, ensuring moves are valid with non-negative indices and non-self transitions. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if after applying all possible moves, the state of the containers matches the goal state. "
+      },
+      {
+        "stepId": 7,
+        "step": " If the goal is reached, record the list of moves; otherwise, adjust the strategy and test new sequences of moves. "
+      }
+    ],
+    {
+      "1": " Understand the goal, initial state, and capacities of each container. ",
+      "2": " Develop a strategy to determine possible pouring operations between containers considering capacities. ",
+      "3": " Create a list of possible moves that can transform the initial state eventually into the desired goal state. ",
+      "4": " Implement the pouring operation function that takes a move (i to j) and updates the state of the containers. ",
+      "5": " Apply each move sequentially to change the initial state, ensuring moves are valid with non-negative indices and non-self transitions. ",
+      "6": " Check if after applying all possible moves, the state of the containers matches the goal state. ",
+      "7": " If the goal is reached, record the list of moves; otherwise, adjust the strategy and test new sequences of moves. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the task which involves finding a series of moves that transform the initial state of liquid in containers to a goal state under given capacities. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize the starting state of jugs as given by the init list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Define legal moves that can be made, ensuring that liquid is only poured between two different containers and respects their capacities. "
+      },
+      {
+        "stepId": 4,
+        "step": " Sequence through possible moves, checking each possible combination of jug pairs (i, j) where i != j. "
+      },
+      {
+        "stepId": 5,
+        "step": " For each move, calculate the new amounts in the source and destination jugs, making sure the destination does not overflow and the source does not go negative. "
+      },
+      {
+        "stepId": 6,
+        "step": " After each move, update the state of the jugs and check if the goal state is reached. "
+      },
+      {
+        "stepId": 7,
+        "step": " If the goal state is reached with the list of moves used, confirm the solution; otherwise, backtrack and try different sequence of moves. "
+      },
+      {
+        "stepId": 8,
+        "step": " When a valid sequence of moves that reaches the goal state is found, end the search and return the sequence. "
+      }
+    ],
+    {
+      "1": " Understand the task which involves finding a series of moves that transform the initial state of liquid in containers to a goal state under given capacities. ",
+      "2": " Initialize the starting state of jugs as given by the init list. ",
+      "3": " Define legal moves that can be made, ensuring that liquid is only poured between two different containers and respects their capacities. ",
+      "4": " Sequence through possible moves, checking each possible combination of jug pairs (i, j) where i != j. ",
+      "5": " For each move, calculate the new amounts in the source and destination jugs, making sure the destination does not overflow and the source does not go negative. ",
+      "6": " After each move, update the state of the jugs and check if the goal state is reached. ",
+      "7": " If the goal state is reached with the list of moves used, confirm the solution; otherwise, backtrack and try different sequence of moves. ",
+      "8": " When a valid sequence of moves that reaches the goal state is found, end the search and return the sequence. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function and the conditions it imposes on the moves "
+      },
+      {
+        "stepId": 2,
+        "step": " Create a list of all possible individual moves from one container to another "
+      },
+      {
+        "stepId": 3,
+        "step": " Simulate sequences of these moves starting from the initial state "
+      },
+      {
+        "stepId": 4,
+        "step": " After each move, verify conditions of indices and update state based on pour limits and current levels "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if any simulated sequence achieves the goal state "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the sequence of moves if it meets the goal state or continue if not "
+      }
+    ],
+    {
+      "1": " Understand the function and the conditions it imposes on the moves ",
+      "2": " Create a list of all possible individual moves from one container to another ",
+      "3": " Simulate sequences of these moves starting from the initial state ",
+      "4": " After each move, verify conditions of indices and update state based on pour limits and current levels ",
+      "5": " Check if any simulated sequence achieves the goal state ",
+      "6": " Return the sequence of moves if it meets the goal state or continue if not "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the task: Transfer water between three containers with different capacities to reach a specific goal state. "
+      },
+      {
+        "stepId": 2,
+        "step": " Validate that indices in each move are different and non-negative, ensuring legitimate pouring actions. "
+      },
+      {
+        "stepId": 3,
+        "step": " Calculate the maximum amount of water that can be poured from one container to another based on capacities and current amounts. "
+      },
+      {
+        "stepId": 4,
+        "step": " Execute each move by updating the state of water in containers after each pour. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if after all moves, the state of the containers matches the goal state. "
+      },
+      {
+        "stepId": 6,
+        "step": " Iterate through different sequences of moves and repeat from STEP3 if the current sequence does not reach the goal state. "
+      }
+    ],
+    {
+      "1": " Understand the task: Transfer water between three containers with different capacities to reach a specific goal state. ",
+      "2": " Validate that indices in each move are different and non-negative, ensuring legitimate pouring actions. ",
+      "3": " Calculate the maximum amount of water that can be poured from one container to another based on capacities and current amounts. ",
+      "4": " Execute each move by updating the state of water in containers after each pour. ",
+      "5": " Check if after all moves, the state of the containers matches the goal state. ",
+      "6": " Iterate through different sequences of moves and repeat from STEP3 if the current sequence does not reach the goal state. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the initial conditions and the target goal configuration of the containers. "
+      },
+      {
+        "stepId": 2,
+        "step": " Establish a mechanism to generate valid moves i.e., pouring from one container to another, ensuring i ≠ j and both indices are non-negative. "
+      },
+      {
+        "stepId": 3,
+        "step": " Perform a sequence of potential moves maintaining valid state changes under the condition that no container overflows its capacity or goes negative. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check after each move if the new configuration of water in containers matches the goal state. "
+      },
+      {
+        "stepId": 5,
+        "step": " If the configuration matches, return the sequence of moves; if not, revert the last move and try an alternative move. "
+      },
+      {
+        "stepId": 6,
+        "step": " Repeat the process until the goal state is achieved or all possible sequences have been tried. "
+      },
+      {
+        "stepId": 7,
+        "step": " Output the sequence of moves that leads to the goal configuration. "
+      }
+    ],
+    {
+      "1": " Understand the initial conditions and the target goal configuration of the containers. ",
+      "2": " Establish a mechanism to generate valid moves i.e., pouring from one container to another, ensuring i ≠ j and both indices are non-negative. ",
+      "3": " Perform a sequence of potential moves maintaining valid state changes under the condition that no container overflows its capacity or goes negative. ",
+      "4": " Check after each move if the new configuration of water in containers matches the goal state. ",
+      "5": " If the configuration matches, return the sequence of moves; if not, revert the last move and try an alternative move. ",
+      "6": " Repeat the process until the goal state is achieved or all possible sequences have been tried. ",
+      "7": " Output the sequence of moves that leads to the goal configuration. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the puzzle's constraints including checking non-negative indices and non-self pouring "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize the state of the vessels "
+      },
+      {
+        "stepId": 3,
+        "step": " Iterate through each move in the moves list, computing the new volumes in each vessel after pouring "
+      },
+      {
+        "stepId": 4,
+        "step": " Check the pour constraints: maximum pour should not exceed the capacity of the receiving jug and should not exceed what's available in the transferring jug "
+      },
+      {
+        "stepId": 5,
+        "step": " Recalculate the volumes for the vessels after each move "
+      },
+      {
+        "stepId": 6,
+        "step": " Compare the final state of the vessels to the goal state "
+      },
+      {
+        "stepId": 7,
+        "step": " Return True if the current state matches the goal state, otherwise adjust moves accordingly and retest "
+      }
+    ],
+    {
+      "1": " Understand the puzzle's constraints including checking non-negative indices and non-self pouring ",
+      "2": " Initialize the state of the vessels ",
+      "3": " Iterate through each move in the moves list, computing the new volumes in each vessel after pouring ",
+      "4": " Check the pour constraints: maximum pour should not exceed the capacity of the receiving jug and should not exceed what's available in the transferring jug ",
+      "5": " Recalculate the volumes for the vessels after each move ",
+      "6": " Compare the final state of the vessels to the goal state ",
+      "7": " Return True if the current state matches the goal state, otherwise adjust moves accordingly and retest "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints required by the function: having unique move indices i and j, ensuring i ≠ j, and keeping within the bounds of the container capacities. "
+      },
+      {
+        "stepId": 2,
+        "step": " Start with the initial state of the containers and record moves that allow for transfer of fluid between containers. "
+      },
+      {
+        "stepId": 3,
+        "step": " For each move, calculate the maximum fluid that can be transferred from container i to j based on their respective capacities and current state. "
+      },
+      {
+        "stepId": 4,
+        "step": " Update the states of containers i and j after each move, ensuring indices are not negative and no self-transfer occurs. "
+      },
+      {
+        "stepId": 5,
+        "step": " After each move, verify if the current state of containers matches the target goal state. "
+      },
+      {
+        "stepId": 6,
+        "step": " If none of the sequences of moves lead to the goal state, adjust the moves and repeat the process. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return True if any sequence of moves results in the goal state. "
+      }
+    ],
+    {
+      "1": " Understand the constraints required by the function: having unique move indices i and j, ensuring i ≠ j, and keeping within the bounds of the container capacities. ",
+      "2": " Start with the initial state of the containers and record moves that allow for transfer of fluid between containers. ",
+      "3": " For each move, calculate the maximum fluid that can be transferred from container i to j based on their respective capacities and current state. ",
+      "4": " Update the states of containers i and j after each move, ensuring indices are not negative and no self-transfer occurs. ",
+      "5": " After each move, verify if the current state of containers matches the target goal state. ",
+      "6": " If none of the sequences of moves lead to the goal state, adjust the moves and repeat the process. ",
+      "7": " Return True if any sequence of moves results in the goal state. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the puzzle requirements by identifying initial, goal states, and allowable capacities. "
+      },
+      {
+        "stepId": 2,
+        "step": " Begin with the initial state and generate possible valid pours between jugs. "
+      },
+      {
+        "stepId": 3,
+        "step": " For each move, check if the move maintains non-negative indices and is not a self-pour (i.e., i!=j). "
+      },
+      {
+        "stepId": 4,
+        "step": " Execute moves by calculating the minimum of the target jug's capacity and the sum of the current content of both jugs involved. "
+      },
+      {
+        "stepId": 5,
+        "step": " Update the states of the jugs after each move. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if the current state matches the goal state after every move. "
+      },
+      {
+        "stepId": 7,
+        "step": " If the goal state is reached, return the series of moves, otherwise backtrack and try a different series of moves. "
+      }
+    ],
+    {
+      "1": " Understand the puzzle requirements by identifying initial, goal states, and allowable capacities. ",
+      "2": " Begin with the initial state and generate possible valid pours between jugs. ",
+      "3": " For each move, check if the move maintains non-negative indices and is not a self-pour (i.e., i!=j). ",
+      "4": " Execute moves by calculating the minimum of the target jug's capacity and the sum of the current content of both jugs involved. ",
+      "5": " Update the states of the jugs after each move. ",
+      "6": " Check if the current state matches the goal state after every move. ",
+      "7": " If the goal state is reached, return the series of moves, otherwise backtrack and try a different series of moves. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function's requirements for initial and goal states and the allowed moves between jugs. "
+      },
+      {
+        "stepId": 2,
+        "step": " Define the starting state and goal state based on provided initial and goal parameters. "
+      },
+      {
+        "stepId": 3,
+        "step": " Set up a loop to simulate pouring water between jugs as defined by the moves list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Implement constraints on moves such as ensuring indices i, j are non-negative and not the same. "
+      },
+      {
+        "stepId": 5,
+        "step": " Calculate the maximum amount of water that can be transferred between the selected jugs. "
+      },
+      {
+        "stepId": 6,
+        "step": " Perform the water transfer according to the calculated amount and update the states of the jugs. "
+      },
+      {
+        "stepId": 7,
+        "step": " Check if the final state of the jugs matches the goal state. "
+      },
+      {
+        "stepId": 8,
+        "step": " Return True if the final state matches the goal state, otherwise False. "
+      }
+    ],
+    {
+      "1": " Understand the function's requirements for initial and goal states and the allowed moves between jugs. ",
+      "2": " Define the starting state and goal state based on provided initial and goal parameters. ",
+      "3": " Set up a loop to simulate pouring water between jugs as defined by the moves list. ",
+      "4": " Implement constraints on moves such as ensuring indices i, j are non-negative and not the same. ",
+      "5": " Calculate the maximum amount of water that can be transferred between the selected jugs. ",
+      "6": " Perform the water transfer according to the calculated amount and update the states of the jugs. ",
+      "7": " Check if the final state of the jugs matches the goal state. ",
+      "8": " Return True if the final state matches the goal state, otherwise False. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the goal state and initial state of three containers "
+      },
+      {
+        "stepId": 2,
+        "step": " Verify moves are between different containers and minimize water overflow "
+      },
+      {
+        "stepId": 3,
+        "step": " Simulate each move by pouring water from one container to another up to the limit of the second container "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if each pour maintains or reaches non-negative indices for the containers "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure the final state of containers matches the goal state "
+      },
+      {
+        "stepId": 6,
+        "step": " Adjust moves and repeat simulation if the goal state is not met "
+      }
+    ],
+    {
+      "1": " Understand the goal state and initial state of three containers ",
+      "2": " Verify moves are between different containers and minimize water overflow ",
+      "3": " Simulate each move by pouring water from one container to another up to the limit of the second container ",
+      "4": " Check if each pour maintains or reaches non-negative indices for the containers ",
+      "5": " Ensure the final state of containers matches the goal state ",
+      "6": " Adjust moves and repeat simulation if the goal state is not met "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,194 @@
+[
+  [
+    [
+      "Rewrite and simplify the expression ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2) in terms of a, b, and c.",
+      "Analyze how changes in the values of a, b, and c impact the numerator (a+b+c)/(abc) and the denominator 1/a^2 + 1/b^2 + 1/c^2 separately.",
+      "Investigate extreme or limiting cases to understand better the behavior of the functions involved in the expression.",
+      "Use inequalities that relate sums and products of variables (such as AM-GM inequality) to estimate or bound the expression ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2).",
+      "Determine if setting any of the variables a, b, c equal or proportional to each other simplifies the expression and assists in maximizing it.",
+      "Explore if any symmetrical property in the values of a, b, and c can help in simplifying the calculation or finding the maximum value.",
+      "Calculate derivatives if the expression is deemed differentiable, and use these to find critical points that might represent maximum values.",
+      "Check the boundary values or additional constraints (such as a, b, c must be positive integers) and evaluate the expression at these points.",
+      "Summarize findings and conclude the value that maximizes the given expression, including verification that this value satisfies all initial conditions."
+    ],
+    {
+      "1": "Rewrite and simplify the expression ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2) in terms of a, b, and c.",
+      "2": "Analyze how changes in the values of a, b, and c impact the numerator (a+b+c)/(abc) and the denominator 1/a^2 + 1/b^2 + 1/c^2 separately.",
+      "3": "Investigate extreme or limiting cases to understand better the behavior of the functions involved in the expression.",
+      "4": "Use inequalities that relate sums and products of variables (such as AM-GM inequality) to estimate or bound the expression ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2).",
+      "5": "Determine if setting any of the variables a, b, c equal or proportional to each other simplifies the expression and assists in maximizing it.",
+      "6": "Explore if any symmetrical property in the values of a, b, and c can help in simplifying the calculation or finding the maximum value.",
+      "7": "Calculate derivatives if the expression is deemed differentiable, and use these to find critical points that might represent maximum values.",
+      "8": "Check the boundary values or additional constraints (such as a, b, c must be positive integers) and evaluate the expression at these points.",
+      "9": "Summarize findings and conclude the value that maximizes the given expression, including verification that this value satisfies all initial conditions."
+    }
+  ],
+  [
+    [
+      "Simplify the expression \\(\\frac{\\frac{a+b+c}{abc}}{\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2}}\\) into a more manageable form.",
+      "Recognize the relationship between the numerator and the harmonic mean of \\(a^2, b^2,\\) and \\(c^2\\).",
+      "Find conditions under which the expression \\((a+b+c)/(abc)\\) might be maximized, considering that \\(a, b, c\\) are positive.",
+      "Determine any symmetrical properties or inequalities (like AM-GM inequality) that might simplify or help in the maximization of the expression.",
+      "Substitute simple values or special cases (like \\(a = b = c\\)) to get insights or potential answers.",
+      "Analyze how changes in \\(a, b, c\\) individually affect the expression’s value, leading to a possible strategy for finding the maximum.",
+      "Calculate the derivative of the expression with respect to each variable (if feasible) and set them to zero to find critical points.",
+      "Evaluate the behavior of the expression at the boundaries or extremes of possible values of \\(a, b, c\\).",
+      "Confirm whether the critical points found are maxima using second derivative test or other methods.",
+      "Compile all findings to conclude the highest possible value of the expression."
+    ],
+    {
+      "1": "Simplify the expression \\(\\frac{\\frac{a+b+c}{abc}}{\\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2}}\\) into a more manageable form.",
+      "2": "Recognize the relationship between the numerator and the harmonic mean of \\(a^2, b^2,\\) and \\(c^2\\).",
+      "3": "Find conditions under which the expression \\((a+b+c)/(abc)\\) might be maximized, considering that \\(a, b, c\\) are positive.",
+      "4": "Determine any symmetrical properties or inequalities (like AM-GM inequality) that might simplify or help in the maximization of the expression.",
+      "5": "Substitute simple values or special cases (like \\(a = b = c\\)) to get insights or potential answers.",
+      "6": "Analyze how changes in \\(a, b, c\\) individually affect the expression’s value, leading to a possible strategy for finding the maximum.",
+      "7": "Calculate the derivative of the expression with respect to each variable (if feasible) and set them to zero to find critical points.",
+      "8": "Evaluate the behavior of the expression at the boundaries or extremes of possible values of \\(a, b, c\\).",
+      "9": "Confirm whether the critical points found are maxima using second derivative test or other methods.",
+      "10": "Compile all findings to conclude the highest possible value of the expression."
+    }
+  ],
+  [
+    [
+      "Simplify the expression ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2) to a more manageable form.",
+      "Investigate the symmetry of the expression to check if assuming a = b = c can lead to the simplification, as it often suggests high symmetry leading to equality cases.",
+      "Calculate the expression under the assumption a = b = c to see if it leads to a maximum using basic algebra and simplification.",
+      "Consider the feasibility that inequalities like AM-GM (Arithmetic Mean - Geometric Mean Inequality) or Cauchy-Schwarz might help find the maximum value.",
+      "Apply an inequality if suitable, such as AM-GM or Cauchy-Schwarz, to possibly simplify and maximize the expression.",
+      "If using inequalities, ensure conditions for equality are satisfied, as they might suggest the maximum value occurs under those conditions.",
+      "Analyze the behavior of the expression as variables a, b, and c tend to their boundary values (either very small or very large numbers) to ensure there is not a higher value overlooked.",
+      "Conclude if a maximum exists under the constraints given and recurse solving process if necessary based on insights from steps applied."
+    ],
+    {
+      "1": "Simplify the expression ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2) to a more manageable form.",
+      "2": "Investigate the symmetry of the expression to check if assuming a = b = c can lead to the simplification, as it often suggests high symmetry leading to equality cases.",
+      "3": "Calculate the expression under the assumption a = b = c to see if it leads to a maximum using basic algebra and simplification.",
+      "4": "Consider the feasibility that inequalities like AM-GM (Arithmetic Mean - Geometric Mean Inequality) or Cauchy-Schwarz might help find the maximum value.",
+      "5": "Apply an inequality if suitable, such as AM-GM or Cauchy-Schwarz, to possibly simplify and maximize the expression.",
+      "6": "If using inequalities, ensure conditions for equality are satisfied, as they might suggest the maximum value occurs under those conditions.",
+      "7": "Analyze the behavior of the expression as variables a, b, and c tend to their boundary values (either very small or very large numbers) to ensure there is not a higher value overlooked.",
+      "8": "Conclude if a maximum exists under the constraints given and recurse solving process if necessary based on insights from steps applied."
+    }
+  ],
+  [
+    [
+      "Simplify the expression \\(\\frac{\\frac{a+b+c}{abc}}{\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}}\\) to a more manageable form.",
+      "Recognize any relations or identities that might simplify the calculation further, such as the AM-GM inequality or Cauchy-Schwarz inequality.",
+      "Substitute simple values for a, b, and c to explore the behavior of the function.",
+      "Determine whether symmetry arguments can help reduce the complexity (e.g., assuming \\(a = b = c\\) to find the stationary points).",
+      "Calculate derivatives if the direct simplification route is too complex or does not yield a simple form.",
+      "Analyze the critical points found from the derivative tests to identify any global maxima or minima.",
+      "Confirm the solution by checking boundary conditions or limiting cases (e.g., what happens as one or more variables approach infinity or zero).",
+      "Ensure that all constraints are satisfied in the final answer (i.e., a, b, c must all be greater than zero)."
+    ],
+    {
+      "1": "Simplify the expression \\(\\frac{\\frac{a+b+c}{abc}}{\\frac{1}{a^2}+\\frac{1}{b^2}+\\frac{1}{c^2}}\\) to a more manageable form.",
+      "2": "Recognize any relations or identities that might simplify the calculation further, such as the AM-GM inequality or Cauchy-Schwarz inequality.",
+      "3": "Substitute simple values for a, b, and c to explore the behavior of the function.",
+      "4": "Determine whether symmetry arguments can help reduce the complexity (e.g., assuming \\(a = b = c\\) to find the stationary points).",
+      "5": "Calculate derivatives if the direct simplification route is too complex or does not yield a simple form.",
+      "6": "Analyze the critical points found from the derivative tests to identify any global maxima or minima.",
+      "7": "Confirm the solution by checking boundary conditions or limiting cases (e.g., what happens as one or more variables approach infinity or zero).",
+      "8": "Ensure that all constraints are satisfied in the final answer (i.e., a, b, c must all be greater than zero)."
+    }
+  ],
+  [
+    [
+      "Recognize and rewrite the expression \\(\\frac{(a+b+c)/(abc)}{1/a^2+1/b^2+1/c^2}\\) in a simpler or more manageable form.",
+      "Explore the Bounds: Identify upper or lower limits (if any) of the expression by analyzing when individual components (numerators and denominators) maximize or minimize.",
+      "Apply Inequalities: Use relevant algebraic inequalities such as AM-GM (Arithmetic Mean - Geometric Mean) or Cauchy-Schwarz to estimate or bound the expression.",
+      "Simplify Expressions: Simplify complex expressions using algebraic identities and manipulations.",
+      "Consider Special Cases: Analyze the effect of setting certain variables equal, or exploring situations where one or more variables are much larger than others.",
+      "Use Symmetry: Check if setting \\(a = b = c\\) simplifies the problem and helps in identifying extreme values.",
+      "Perform Calculations: Compute the critical values of the simplified or transformed equation to find possible maximum or minimum values.",
+      "Verify Extreme Values: Confirm whether the calculated critical values are indeed local maxima, minima, or saddle points, particularly through second derivative tests or other forms of verification.",
+      "Compare Different Scenarios: Compile and compare the results obtained from different assumptions or special cases to determine the largest value of the original expression.",
+      "Conclude with the Optimal Values: Summarize the findings and state the largest possible value of \\(\\frac{(a+b+c)/(abc)}{1/a^2+1/b^2+1/c^2}\\), including conditions under which this value is achieved."
+    ],
+    {
+      "1": "Recognize and rewrite the expression \\(\\frac{(a+b+c)/(abc)}{1/a^2+1/b^2+1/c^2}\\) in a simpler or more manageable form.",
+      "2": "Explore the Bounds: Identify upper or lower limits (if any) of the expression by analyzing when individual components (numerators and denominators) maximize or minimize.",
+      "3": "Apply Inequalities: Use relevant algebraic inequalities such as AM-GM (Arithmetic Mean - Geometric Mean) or Cauchy-Schwarz to estimate or bound the expression.",
+      "4": "Simplify Expressions: Simplify complex expressions using algebraic identities and manipulations.",
+      "5": "Consider Special Cases: Analyze the effect of setting certain variables equal, or exploring situations where one or more variables are much larger than others.",
+      "6": "Use Symmetry: Check if setting \\(a = b = c\\) simplifies the problem and helps in identifying extreme values.",
+      "7": "Perform Calculations: Compute the critical values of the simplified or transformed equation to find possible maximum or minimum values.",
+      "8": "Verify Extreme Values: Confirm whether the calculated critical values are indeed local maxima, minima, or saddle points, particularly through second derivative tests or other forms of verification.",
+      "9": "Compare Different Scenarios: Compile and compare the results obtained from different assumptions or special cases to determine the largest value of the original expression.",
+      "10": "Conclude with the Optimal Values: Summarize the findings and state the largest possible value of \\(\\frac{(a+b+c)/(abc)}{1/a^2+1/b^2+1/c^2}\\), including conditions under which this value is achieved."
+    }
+  ],
+  [
+    [
+      "Simplify the expression ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2) by separating it into two separate fractions.",
+      "Express the term (a+b+c)/abc in a simplified form that highlights the relationship between the sum and the product of a, b, and c.",
+      "Express the term 1/a^2 + 1/b^2 + 1/c^2 using the variables a, b, and c to find a common form.",
+      "Find a common comparison or interaction between the numerator (a+b+c)/abc and the denominator 1/a^2 + 1/b^2 + 1/c^2 to facilitate maximizing the whole expression.",
+      "Consider potential values or relationships between a, b, and c that maximize the numerator while minimizing the denominator.",
+      "Analyze the impact of symmetry and the interchangeable roles of a, b, and c in maximizing the given expression.",
+      "Employ calculus or inequalities to find the critical points or maximum conditions for the function defined by the given expression.",
+      "Verify if found values of a, b, and c comply with the requirement that they are greater than zero and generate the maximum value.",
+      "Consolidate findings to state the largest possible value of the entire expression and the conditions under which this value is achieved."
+    ],
+    {
+      "1": "Simplify the expression ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2) by separating it into two separate fractions.",
+      "2": "Express the term (a+b+c)/abc in a simplified form that highlights the relationship between the sum and the product of a, b, and c.",
+      "3": "Express the term 1/a^2 + 1/b^2 + 1/c^2 using the variables a, b, and c to find a common form.",
+      "4": "Find a common comparison or interaction between the numerator (a+b+c)/abc and the denominator 1/a^2 + 1/b^2 + 1/c^2 to facilitate maximizing the whole expression.",
+      "5": "Consider potential values or relationships between a, b, and c that maximize the numerator while minimizing the denominator.",
+      "6": "Analyze the impact of symmetry and the interchangeable roles of a, b, and c in maximizing the given expression.",
+      "7": "Employ calculus or inequalities to find the critical points or maximum conditions for the function defined by the given expression.",
+      "8": "Verify if found values of a, b, and c comply with the requirement that they are greater than zero and generate the maximum value.",
+      "9": "Consolidate findings to state the largest possible value of the entire expression and the conditions under which this value is achieved."
+    }
+  ],
+  [
+    [
+      "What is the given expression in simpler algebraic terms?",
+      "Can the expression be rewritten or simplified using algebraic identities or properties?",
+      "What constraints are imposed by the conditions a, b, c > 0?",
+      "What happens to the value of the expression as any of a, b, or c approach very large values or values close to zero?",
+      "Is there a way to apply symmetry or make a substitution that reduces the complexity of the expression?",
+      "Determine if using inequality principles such as AM-GM (Arithmetic Mean-Geometric Mean) helps to find a bound for the expression.",
+      "How can the denominator (1/a^2 + 1/b^2 + 1/c^2) be manipulated or compared to the numerator ((a+b+c)/(abc))?",
+      "Search for points of extrema (maximum or minimum values) for the expression using calculus, if applicable.",
+      "Evaluate or verify any assumptions or results using specific values of a, b, c that align with the constraints.",
+      "Consider any well-known theorems or results in algebra or calculus that might simplify solving for the maximum or minimum value of the expression."
+    ],
+    {
+      "1": "What is the given expression in simpler algebraic terms?",
+      "2": "Can the expression be rewritten or simplified using algebraic identities or properties?",
+      "3": "What constraints are imposed by the conditions a, b, c > 0?",
+      "4": "What happens to the value of the expression as any of a, b, or c approach very large values or values close to zero?",
+      "5": "Is there a way to apply symmetry or make a substitution that reduces the complexity of the expression?",
+      "6": "Determine if using inequality principles such as AM-GM (Arithmetic Mean-Geometric Mean) helps to find a bound for the expression.",
+      "7": "How can the denominator (1/a^2 + 1/b^2 + 1/c^2) be manipulated or compared to the numerator ((a+b+c)/(abc))?",
+      "8": "Search for points of extrema (maximum or minimum values) for the expression using calculus, if applicable.",
+      "9": "Evaluate or verify any assumptions or results using specific values of a, b, c that align with the constraints.",
+      "10": "Consider any well-known theorems or results in algebra or calculus that might simplify solving for the maximum or minimum value of the expression."
+    }
+  ],
+  [
+    [
+      "Simplify the given expression to make it easier to analyze.",
+      "Identify and test when extremum values (maximum or minimum) occur in mathematical expressions involving variables in denominators.",
+      "Explore the roles of symmetry in the variables a, b, and c, considering if setting a = b = c leads to a simplification or optimal condition.",
+      "Calculate the derivative of the expression (if required) to find critical points or to use in optimization techniques.",
+      "Substitute simple values or extremes (such as all variables equal, or one much larger than the others) to feel out the behavior of the expression.",
+      "Apply inequalities such as AM-GM (Arithmetic Mean - Geometric Mean Inequality) if it can simplify or bound the expression.",
+      "Consider algebraic manipulation such as combining terms or factoring to simplify calculations and comparison.",
+      "Look for any constraining conditions or bounds that apply to the values of a, b, and c that have not yet been considered."
+    ],
+    {
+      "1": "Simplify the given expression to make it easier to analyze.",
+      "2": "Identify and test when extremum values (maximum or minimum) occur in mathematical expressions involving variables in denominators.",
+      "3": "Explore the roles of symmetry in the variables a, b, and c, considering if setting a = b = c leads to a simplification or optimal condition.",
+      "4": "Calculate the derivative of the expression (if required) to find critical points or to use in optimization techniques.",
+      "5": "Substitute simple values or extremes (such as all variables equal, or one much larger than the others) to feel out the behavior of the expression.",
+      "6": "Apply inequalities such as AM-GM (Arithmetic Mean - Geometric Mean Inequality) if it can simplify or bound the expression.",
+      "7": "Consider algebraic manipulation such as combining terms or factoring to simplify calculations and comparison.",
+      "8": "Look for any constraining conditions or bounds that apply to the values of a, b, and c that have not yet been considered."
+    }
+  ]
+]

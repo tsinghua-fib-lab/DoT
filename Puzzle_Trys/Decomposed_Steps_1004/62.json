@@ -1,0 +1,1654 @@
+[
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Ensure each coordinate pair (x,y) falls within the grid defined by 0 <= x < side and 0 <= y < side. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate distinct coordinate pairs until the total number of coordinate pairs reaches at least num_points. "
+      },
+      {
+        "stepId": 3,
+        "step": " For three distinct coordinates, validate that they do not collinear by checking the determinant condition. "
+      },
+      {
+        "stepId": 4,
+        "step": " Confirm that the number of unique coordinate pairs is greater than or equal to num_points. "
+      },
+      {
+        "stepId": 5,
+        "step": " If any step fails, adjust the coordinates accordingly and revalidate. "
+      },
+      {
+        "stepId": 6,
+        "step": " Once verification is successful for all conditions, return the list of coordinates. "
+      }
+    ],
+    {
+      "1": " Ensure each coordinate pair (x,y) falls within the grid defined by 0 <= x < side and 0 <= y < side. ",
+      "2": " Generate distinct coordinate pairs until the total number of coordinate pairs reaches at least num_points. ",
+      "3": " For three distinct coordinates, validate that they do not collinear by checking the determinant condition. ",
+      "4": " Confirm that the number of unique coordinate pairs is greater than or equal to num_points. ",
+      "5": " If any step fails, adjust the coordinates accordingly and revalidate. ",
+      "6": " Once verification is successful for all conditions, return the list of coordinates. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the function checks if a list of coordinates falls within a grid of specified side length and that no three points are collinear. Also verify that there are no duplicate points and the total number of points is at least num_points. "
+      },
+      {
+        "stepId": 2,
+        "step": " Initialize a list to store coordinates. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate pairs (x, y) such that 0 <= x, y < side. "
+      },
+      {
+        "stepId": 4,
+        "step": " Add the pair to the list ensuring no duplicates. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check for each triplet in the list, that these points are not collinear using the determinant method (x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2) != 0). "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure the total number of unique coordinates is equal to or greater than num_points. "
+      },
+      {
+        "stepId": 7,
+        "step": " If a valid set of coordinates is found meeting all conditions, return the list of coordinates. "
+      }
+    ],
+    {
+      "1": " Understand that the function checks if a list of coordinates falls within a grid of specified side length and that no three points are collinear. Also verify that there are no duplicate points and the total number of points is at least num_points. ",
+      "2": " Initialize a list to store coordinates. ",
+      "3": " Generate pairs (x, y) such that 0 <= x, y < side. ",
+      "4": " Add the pair to the list ensuring no duplicates. ",
+      "5": " Check for each triplet in the list, that these points are not collinear using the determinant method (x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2) != 0). ",
+      "6": " Ensure the total number of unique coordinates is equal to or greater than num_points. ",
+      "7": " If a valid set of coordinates is found meeting all conditions, return the list of coordinates. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand and analyze the requirements: coordinates should be within a square of given side length and no three points should be collinear. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate all possible unique coordinates within the square defined by the given side length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select combinations of these coordinates to form potential solutions with the specified number of points. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if in each combination of coordinates, no subsets of three points are collinear. "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure the total number of unique coordinates in each valid combination meets or exceeds the required minimum. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the first valid combination of coordinates that satisfies all conditions. "
+      }
+    ],
+    {
+      "1": " Understand and analyze the requirements: coordinates should be within a square of given side length and no three points should be collinear. ",
+      "2": " Generate all possible unique coordinates within the square defined by the given side length. ",
+      "3": " Select combinations of these coordinates to form potential solutions with the specified number of points. ",
+      "4": " Check if in each combination of coordinates, no subsets of three points are collinear. ",
+      "5": " Ensure the total number of unique coordinates in each valid combination meets or exceeds the required minimum. ",
+      "6": " Return the first valid combination of coordinates that satisfies all conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that 'coords' are lists of integers, each as an (x, y) pair coordinate. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the coordinate pairs should meet within the given 'side' range, ensuring 0 <= x, y < side. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate a list of all possible coordinates within the given square of 'side x side'. "
+      },
+      {
+        "stepId": 4,
+        "step": " Select 'num_points' distinct coordinates from the generated list, ensuring no three points are collinear. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check the collinearity condition for all combinations of triples of selected points. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that the number of unique points is equal to the total number of points. "
+      },
+      {
+        "stepId": 7,
+        "step": " Confirm if the total points are equal or more than 'num_points'. If not, revise the selection. "
+      }
+    ],
+    {
+      "1": " Understand that 'coords' are lists of integers, each as an (x, y) pair coordinate. ",
+      "2": " Determine the coordinate pairs should meet within the given 'side' range, ensuring 0 <= x, y < side. ",
+      "3": " Generate a list of all possible coordinates within the given square of 'side x side'. ",
+      "4": " Select 'num_points' distinct coordinates from the generated list, ensuring no three points are collinear. ",
+      "5": " Check the collinearity condition for all combinations of triples of selected points. ",
+      "6": " Verify that the number of unique points is equal to the total number of points. ",
+      "7": " Confirm if the total points are equal or more than 'num_points'. If not, revise the selection. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5",
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that every coordinate pair (x, y) needs to be within a square grid defined by 'side'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate all possible coordinate pairs (x, y) within the given side constraints. "
+      },
+      {
+        "stepId": 3,
+        "step": " Filter combinations of coordinate pairs to ensure no three pairs are collinear. "
+      },
+      {
+        "stepId": 4,
+        "step": " Ensure that generated list of coordinates has the required number of unique points, at least 'num_points'. "
+      },
+      {
+        "stepId": 5,
+        "step": " Construct multiple possible solutions with the filtered non-collinear sets and check if one meets all the criteria. "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate the selected set of coordinates to ensure it meets the length and uniqueness conditions in the function. "
+      }
+    ],
+    {
+      "1": " Understand that every coordinate pair (x, y) needs to be within a square grid defined by 'side'. ",
+      "2": " Generate all possible coordinate pairs (x, y) within the given side constraints. ",
+      "3": " Filter combinations of coordinate pairs to ensure no three pairs are collinear. ",
+      "4": " Ensure that generated list of coordinates has the required number of unique points, at least 'num_points'. ",
+      "5": " Construct multiple possible solutions with the filtered non-collinear sets and check if one meets all the criteria. ",
+      "6": " Validate the selected set of coordinates to ensure it meets the length and uniqueness conditions in the function. "
+    },
+    {
+      "0": [
+        "Step 4",
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements and constraints placed by the function on the coordinates. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate potential coordinate pairs (x, y) each ranging from 0 to side - 1 which are grid points within the square. "
+      },
+      {
+        "stepId": 3,
+        "step": " Compute permutations of potential coordinate points to create different configurations. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check for each potential configuration, whether no three points are collinear by using the provided determinant condition. "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure that the set of chosen points has at least `num_points` distinct coordinates. "
+      },
+      {
+        "stepId": 6,
+        "step": " From the valid configurations, output the list of coordinate pairs that meet all above conditions. "
+      }
+    ],
+    {
+      "1": " Understand the requirements and constraints placed by the function on the coordinates. ",
+      "2": " Generate potential coordinate pairs (x, y) each ranging from 0 to side - 1 which are grid points within the square. ",
+      "3": " Compute permutations of potential coordinate points to create different configurations. ",
+      "4": " Check for each potential configuration, whether no three points are collinear by using the provided determinant condition. ",
+      "5": " Ensure that the set of chosen points has at least `num_points` distinct coordinates. ",
+      "6": " From the valid configurations, output the list of coordinate pairs that meet all above conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand and isolate the initial condition for variable assignments: coordinates values must be within a square defined by 'side'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Create a list of all possible (x, y) coordinates pairs within the square of given 'side'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate combinations of these coordinates to form lists of unique 'num_points' points. "
+      },
+      {
+        "stepId": 4,
+        "step": " Test each generated list of points to ensure no three selected points are collinear by computing the determinant from three points. "
+      },
+      {
+        "stepId": 5,
+        "step": " Confirm the final selection of coordinate points meeting all conditions — minimum required points, unique within their list, and no collinear triples. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure there is at least one list of coordinates which satisfies all the above conditions. "
+      }
+    ],
+    {
+      "1": " Understand and isolate the initial condition for variable assignments: coordinates values must be within a square defined by 'side'. ",
+      "2": " Create a list of all possible (x, y) coordinates pairs within the square of given 'side'. ",
+      "3": " Generate combinations of these coordinates to form lists of unique 'num_points' points. ",
+      "4": " Test each generated list of points to ensure no three selected points are collinear by computing the determinant from three points. ",
+      "5": " Confirm the final selection of coordinate points meeting all conditions — minimum required points, unique within their list, and no collinear triples. ",
+      "6": " Ensure there is at least one list of coordinates which satisfies all the above conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the non-collinearity condition and the requirement for all coordinates being within a square of specified side length. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate a list of all possible coordinate pairs within the square defined by the variable `side`. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select combinations of unique coordinates that meet the minimum quantity defined by `num_points`. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify that each set of three points in a selected combination is not collinear. "
+      },
+      {
+        "stepId": 5,
+        "step": " If a set of points passes the collinearity test, include this set as a potential solution. "
+      },
+      {
+        "stepId": 6,
+        "step": " Repeat the combination and verification steps until all qualifying sets of coordinates have been evaluated. "
+      }
+    ],
+    {
+      "1": " Understand the non-collinearity condition and the requirement for all coordinates being within a square of specified side length. ",
+      "2": " Generate a list of all possible coordinate pairs within the square defined by the variable `side`. ",
+      "3": " Select combinations of unique coordinates that meet the minimum quantity defined by `num_points`. ",
+      "4": " Verify that each set of three points in a selected combination is not collinear. ",
+      "5": " If a set of points passes the collinearity test, include this set as a potential solution. ",
+      "6": " Repeat the combination and verification steps until all qualifying sets of coordinates have been evaluated. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Ensure that all provided coordinates are within the square grid of dimensions 'side x side' "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate initial combinations of unique coordinates within the defined grid "
+      },
+      {
+        "stepId": 3,
+        "step": " Check that the number of unique coordinates corresponds to or exceeds 'num_points' "
+      },
+      {
+        "stepId": 4,
+        "step": " Implement the non-collinearity check for every triplet of different points "
+      },
+      {
+        "stepId": 5,
+        "step": " Adjust points or add more to satisfy the non-collinearity condition for triplets "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate that the conditions are satisfied and the function returns True "
+      }
+    ],
+    {
+      "1": " Ensure that all provided coordinates are within the square grid of dimensions 'side x side' ",
+      "2": " Generate initial combinations of unique coordinates within the defined grid ",
+      "3": " Check that the number of unique coordinates corresponds to or exceeds 'num_points' ",
+      "4": " Implement the non-collinearity check for every triplet of different points ",
+      "5": " Adjust points or add more to satisfy the non-collinearity condition for triplets ",
+      "6": " Validate that the conditions are satisfied and the function returns True "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that each coordinate input must be a 2D point with integers that lie within a grid defined by `side`. "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure no set of three points are collinear. "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure that there are at least `num_points` distinct points in the input list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Generate a 2D grid of points that fit within the dimensions specified by `side`. "
+      },
+      {
+        "stepId": 5,
+        "step": " Validate each candidate set of points by checking if they are all within bounds [0, side). "
+      },
+      {
+        "stepId": 6,
+        "step": " For the selected points, calculate and check no three of them are collinear using the provided determinant condition. "
+      },
+      {
+        "stepId": 7,
+        "step": " Create a list of potential valid coordinates that meet all conditions and check each list's size. "
+      },
+      {
+        "stepId": 8,
+        "step": " If the valid list of coordinates meets the condition of making the program return True, output those coordinates. "
+      }
+    ],
+    {
+      "1": " Understand that each coordinate input must be a 2D point with integers that lie within a grid defined by `side`. ",
+      "2": " Ensure no set of three points are collinear. ",
+      "3": " Ensure that there are at least `num_points` distinct points in the input list. ",
+      "4": " Generate a 2D grid of points that fit within the dimensions specified by `side`. ",
+      "5": " Validate each candidate set of points by checking if they are all within bounds [0, side). ",
+      "6": " For the selected points, calculate and check no three of them are collinear using the provided determinant condition. ",
+      "7": " Create a list of potential valid coordinates that meet all conditions and check each list's size. ",
+      "8": " If the valid list of coordinates meets the condition of making the program return True, output those coordinates. "
+    },
+    {
+      "0": [
+        "Step 3",
+        "Step 4",
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 5"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ],
+      "4": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints: Coordinates must fall within a square grid of 'side x side' and ensure no three points are collinear. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate initial set of possible coordinates within the grid bounds. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select four unique points from the generated set to ensure uniqueness. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check collinearity for any three combinations of the selected points to ensure none are collinear. "
+      },
+      {
+        "stepId": 5,
+        "step": " If the selected points pass the collinearity test, confirm the solution; otherwise, adjust the points and repeat the check. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure the final selection of coordinates meets all criteria and return True. "
+      }
+    ],
+    {
+      "1": " Understand the constraints: Coordinates must fall within a square grid of 'side x side' and ensure no three points are collinear. ",
+      "2": " Generate initial set of possible coordinates within the grid bounds. ",
+      "3": " Select four unique points from the generated set to ensure uniqueness. ",
+      "4": " Check collinearity for any three combinations of the selected points to ensure none are collinear. ",
+      "5": " If the selected points pass the collinearity test, confirm the solution; otherwise, adjust the points and repeat the check. ",
+      "6": " Ensure the final selection of coordinates meets all criteria and return True. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the size of the grid determined by the variable side and the required number of unique points defined by num_points "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate all possible coordinates in the grid of size side x side "
+      },
+      {
+        "stepId": 3,
+        "step": " From all possible coordinates, choose sets of num_points coordinates "
+      },
+      {
+        "stepId": 4,
+        "step": " For each set of chosen coordinates, check if any three points among these are non-collinear by verifying the area determinant is non-zero "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure all coordinates are unique in the chosen set "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate that at least one set of coordinates meets all the criteria; if true, return the set "
+      }
+    ],
+    {
+      "1": " Understand the size of the grid determined by the variable side and the required number of unique points defined by num_points ",
+      "2": " Generate all possible coordinates in the grid of size side x side ",
+      "3": " From all possible coordinates, choose sets of num_points coordinates ",
+      "4": " For each set of chosen coordinates, check if any three points among these are non-collinear by verifying the area determinant is non-zero ",
+      "5": " Ensure all coordinates are unique in the chosen set ",
+      "6": " Validate that at least one set of coordinates meets all the criteria; if true, return the set "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5",
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints: coordinates must be within a grid defined by 'side' and be distinct. "
+      },
+      {
+        "stepId": 2,
+        "step": " Understand the condition that no three points among the input coordinates should be collinear. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate a set of possible coordinates within the grid of size 'side' x 'side'. "
+      },
+      {
+        "stepId": 4,
+        "step": " Select combinations of these coordinates maintaining the 'num_points' constraint. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check each combination to ensure all coordinates are unique and fulfill the collinearity condition. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure the number of unique coordinates in any valid combination meets or exceeds 'num_points'. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return a valid list of coordinates as the answer if found. "
+      }
+    ],
+    {
+      "1": " Understand the constraints: coordinates must be within a grid defined by 'side' and be distinct. ",
+      "2": " Understand the condition that no three points among the input coordinates should be collinear. ",
+      "3": " Generate a set of possible coordinates within the grid of size 'side' x 'side'. ",
+      "4": " Select combinations of these coordinates maintaining the 'num_points' constraint. ",
+      "5": " Check each combination to ensure all coordinates are unique and fulfill the collinearity condition. ",
+      "6": " Ensure the number of unique coordinates in any valid combination meets or exceeds 'num_points'. ",
+      "7": " Return a valid list of coordinates as the answer if found. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function to ensure that all provided coordinates lie within a square defined by 'side' and are distinct. "
+      },
+      {
+        "stepId": 2,
+        "step": " Confirm that no three of these coordinates are collinear. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate all possible coordinates within the grid defined by 'side'. "
+      },
+      {
+        "stepId": 4,
+        "step": " Select combinations of these coordinates to form a list of potential valid sets. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check each combination to see if it satisfies the distinctness and non-collinearity conditions. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that the set contains at least 'num_points' coordinates. "
+      },
+      {
+        "stepId": 7,
+        "step": " Repeat the selection and checking process until a valid set of coordinates is found. "
+      },
+      {
+        "stepId": 8,
+        "step": " Return the valid set of coordinates that satisfies all conditions. "
+      }
+    ],
+    {
+      "1": " Understand the function to ensure that all provided coordinates lie within a square defined by 'side' and are distinct. ",
+      "2": " Confirm that no three of these coordinates are collinear. ",
+      "3": " Generate all possible coordinates within the grid defined by 'side'. ",
+      "4": " Select combinations of these coordinates to form a list of potential valid sets. ",
+      "5": " Check each combination to see if it satisfies the distinctness and non-collinearity conditions. ",
+      "6": " Verify that the set contains at least 'num_points' coordinates. ",
+      "7": " Repeat the selection and checking process until a valid set of coordinates is found. ",
+      "8": " Return the valid set of coordinates that satisfies all conditions. "
+    },
+    {
+      "0": [
+        "Step 3",
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4"
+      ],
+      "2": [
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ],
+      "5": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the function requires 'num_points' unique coordinates within a grid of size 'side x side'. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate all possible combinations of coordinates within the grid limits. "
+      },
+      {
+        "stepId": 3,
+        "step": " Make combinations of 4 unique coordinates from the generated list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Test each combination for non-collinearity of every set of three points. "
+      },
+      {
+        "stepId": 5,
+        "step": " If a combination satisfies the non-collinearity condition, return the list of coordinates as the answer. "
+      }
+    ],
+    {
+      "1": " Understand that the function requires 'num_points' unique coordinates within a grid of size 'side x side'. ",
+      "2": " Generate all possible combinations of coordinates within the grid limits. ",
+      "3": " Make combinations of 4 unique coordinates from the generated list. ",
+      "4": " Test each combination for non-collinearity of every set of three points. ",
+      "5": " If a combination satisfies the non-collinearity condition, return the list of coordinates as the answer. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints, which include assuring each coordinate pair (x, y) stays within the grid bound (`0 <= x < side`, `0 <= y < side`) and ensuring that no three coordinates lie on the same line. "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify coordinates that could potentially satisfy conditions without any overlapping and no collinearity among any three points. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize a list to keep track of the verified coordinate pairs. "
+      },
+      {
+        "stepId": 4,
+        "step": " Generate possible sets of `num_points` coordinate pairs within the given dimensions (side x side). "
+      },
+      {
+        "stepId": 5,
+        "step": " Validate each set for non-collinearity using the determinant condition for each triplet in the set. "
+      },
+      {
+        "stepId": 6,
+        "step": " Check if the generated set of coordinates has unique entries and meets the minimum number of points required (`num_points`). "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the valid set of coordinates that satisfy all the conditions outlined in the function. "
+      }
+    ],
+    {
+      "1": " Understand the constraints, which include assuring each coordinate pair (x, y) stays within the grid bound (`0 <= x < side`, `0 <= y < side`) and ensuring that no three coordinates lie on the same line. ",
+      "2": " Identify coordinates that could potentially satisfy conditions without any overlapping and no collinearity among any three points. ",
+      "3": " Initialize a list to keep track of the verified coordinate pairs. ",
+      "4": " Generate possible sets of `num_points` coordinate pairs within the given dimensions (side x side). ",
+      "5": " Validate each set for non-collinearity using the determinant condition for each triplet in the set. ",
+      "6": " Check if the generated set of coordinates has unique entries and meets the minimum number of points required (`num_points`). ",
+      "7": " Return the valid set of coordinates that satisfy all the conditions outlined in the function. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 4"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function conditions including coordinate boundary conditions and non-collinearity of points. "
+      },
+      {
+        "stepId": 2,
+        "step": " Start by generating a list of all possible coordinates given the variable 'side'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select combinations of these coordinates to form potential lists ensuring no duplicates. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if the chosen coordinate sets are in the correct boundary (each coordinate pair should be within the grid defined by 'side'). "
+      },
+      {
+        "stepId": 5,
+        "step": " For each set of coordinates, verify that no three points are collinear. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure the length of the coordinate list meets the minimum 'num_points' requirement. "
+      },
+      {
+        "stepId": 7,
+        "step": " Finalize list of coordinates that satisfy all the conditions. "
+      }
+    ],
+    {
+      "1": " Understand the function conditions including coordinate boundary conditions and non-collinearity of points. ",
+      "2": " Start by generating a list of all possible coordinates given the variable 'side'. ",
+      "3": " Select combinations of these coordinates to form potential lists ensuring no duplicates. ",
+      "4": " Check if the chosen coordinate sets are in the correct boundary (each coordinate pair should be within the grid defined by 'side'). ",
+      "5": " For each set of coordinates, verify that no three points are collinear. ",
+      "6": " Ensure the length of the coordinate list meets the minimum 'num_points' requirement. ",
+      "7": " Finalize list of coordinates that satisfy all the conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4",
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that each coordinate within coords must be within an NxN grid where N equals side and coordinates must not lie on a single line "
+      },
+      {
+        "stepId": 2,
+        "step": " Formulate all possible grid points given the side length and store in a list "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate combinations of these grid points ensuring no three points are collinear "
+      },
+      {
+        "stepId": 4,
+        "step": " Continue generating usable combinations until the list length reaches or exceeds num_points "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if the generated combination meets the non-collinear requirement for every triplet "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate if the length of the unique set of coordinates meets the requirement of having at least num_points "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the successful list of coords if conditions are met or continue searching otherwise "
+      }
+    ],
+    {
+      "1": " Understand that each coordinate within coords must be within an NxN grid where N equals side and coordinates must not lie on a single line ",
+      "2": " Formulate all possible grid points given the side length and store in a list ",
+      "3": " Generate combinations of these grid points ensuring no three points are collinear ",
+      "4": " Continue generating usable combinations until the list length reaches or exceeds num_points ",
+      "5": " Check if the generated combination meets the non-collinear requirement for every triplet ",
+      "6": " Validate if the length of the unique set of coordinates meets the requirement of having at least num_points ",
+      "7": " Return the successful list of coords if conditions are met or continue searching otherwise "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the coordinates must be within a square grid of size 'side' and no three points should be collinear. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate all possible combinations of coordinates within the grid of given 'side'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select sets of 'num_points' unique coordinates from the generated list. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check each set to ensure no three points are collinear by calculating the area of the triangle they form. "
+      },
+      {
+        "stepId": 5,
+        "step": " Confirm that each selected set meets the criteria of non-collinearity and correct positioning within bounds. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return a valid set of coordinates that satisfies all constraints. "
+      }
+    ],
+    {
+      "1": " Understand that the coordinates must be within a square grid of size 'side' and no three points should be collinear. ",
+      "2": " Generate all possible combinations of coordinates within the grid of given 'side'. ",
+      "3": " Select sets of 'num_points' unique coordinates from the generated list. ",
+      "4": " Check each set to ensure no three points are collinear by calculating the area of the triangle they form. ",
+      "5": " Confirm that each selected set meets the criteria of non-collinearity and correct positioning within bounds. ",
+      "6": " Return a valid set of coordinates that satisfies all constraints. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints: All coordinates must be within a grid defined by 'side' and not form a collinear set of any three points. "
+      },
+      {
+        "stepId": 2,
+        "step": " Generate potential sets of coordinates within the defined 'side'x'side' grid. "
+      },
+      {
+        "stepId": 3,
+        "step": " Check if each set of coordinates has at least 'num_points' unique points. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each unique pair of points, ensure no third point creates a collinear line with them. "
+      },
+      {
+        "stepId": 5,
+        "step": " If all conditions are met for a set, confirm it as a valid solution. "
+      }
+    ],
+    {
+      "1": " Understand the constraints: All coordinates must be within a grid defined by 'side' and not form a collinear set of any three points. ",
+      "2": " Generate potential sets of coordinates within the defined 'side'x'side' grid. ",
+      "3": " Check if each set of coordinates has at least 'num_points' unique points. ",
+      "4": " For each unique pair of points, ensure no third point creates a collinear line with them. ",
+      "5": " If all conditions are met for a set, confirm it as a valid solution. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,166 @@
+[
+  [
+    [
+      "How can we rewrite the equation \\( x(x+5) = -n \\) in a standard quadratic form?",
+      "How can we determine conditions under which a quadratic equation has no real solutions?",
+      "What is the discriminant of the quadratic equation \\( x^2 + 5x + n = 0 \\) and how does it affect the existence of real solutions?",
+      "Calculate the discriminant for each value of \\( n \\) from \\( 1 \\) to \\( 10 \\) and determine for which values of \\( n \\) the discriminant is negative.",
+      "Count the number of values of \\( n \\) for which the discriminant is negative.",
+      "Calculate the total number of possible values of \\( n \\).",
+      "Determine the probability that a randomly chosen \\( n \\) will yield a quadratic equation with no real solutions, using the count from step 5 and the total from step 6."
+    ],
+    {
+      "1": "How can we rewrite the equation \\( x(x+5) = -n \\) in a standard quadratic form?",
+      "2": "How can we determine conditions under which a quadratic equation has no real solutions?",
+      "3": "What is the discriminant of the quadratic equation \\( x^2 + 5x + n = 0 \\) and how does it affect the existence of real solutions?",
+      "4": "Calculate the discriminant for each value of \\( n \\) from \\( 1 \\) to \\( 10 \\) and determine for which values of \\( n \\) the discriminant is negative.",
+      "5": "Count the number of values of \\( n \\) for which the discriminant is negative.",
+      "6": "Calculate the total number of possible values of \\( n \\).",
+      "7": "Determine the probability that a randomly chosen \\( n \\) will yield a quadratic equation with no real solutions, using the count from step 5 and the total from step 6."
+    }
+  ],
+  [
+    [
+      "estion \"What is the probability that for a random integer $n$ between $1$ and $10$ inclusive, there exist no real solutions to the equation $x(x+5) = -n$?\", we need to break it down into several steps:",
+      "Rewrite the equation in standard quadratic form to understand its structure: Write $x(x + 5) = -n$ as $x^2 + 5x + n = 0$.",
+      "Determine under what conditions the quadratic equation $x^2 + 5x + n = 0$ has no real solutions: This involves the discriminant of a quadratic equation, which is given by $b^2 - 4ac$ for the general form $ax^2 + bx + c = 0$. No real solutions occur when the discriminant is less than zero.",
+      "Calculate the discriminant of the equation $x^2 + 5x + n = 0$: The discriminant is $5^2 - 4 \\cdot 1 \\cdot n = 25 - 4n$.",
+      "Find the values of $n$ for which $25 - 4n < 0$: Simplify and solve this inequality for integer values of $n$ between 1 and 10 inclusive.",
+      "Count the number of valid integer values of $n$ found in the previous step: This count gives the number of instances within the range where the quadratic equation has no real solutions.",
+      "Calculate the total number of integers between 1 and 10 inclusive: This number is simply 10.",
+      "Express the probability of selecting an integer $n$ that leads to no real solutions as a fraction: The probability is the ratio of the number of $n$ values with no real solutions to the total number of integers within 1 to 10, simplified as needed.",
+      "Following these steps will enable you to find the required probability."
+    ],
+    {
+      "1": "estion \"What is the probability that for a random integer $n$ between $1$ and $10$ inclusive, there exist no real solutions to the equation $x(x+5) = -n$?\", we need to break it down into several steps:",
+      "2": "Rewrite the equation in standard quadratic form to understand its structure: Write $x(x + 5) = -n$ as $x^2 + 5x + n = 0$.",
+      "3": "Determine under what conditions the quadratic equation $x^2 + 5x + n = 0$ has no real solutions: This involves the discriminant of a quadratic equation, which is given by $b^2 - 4ac$ for the general form $ax^2 + bx + c = 0$. No real solutions occur when the discriminant is less than zero.",
+      "4": "Calculate the discriminant of the equation $x^2 + 5x + n = 0$: The discriminant is $5^2 - 4 \\cdot 1 \\cdot n = 25 - 4n$.",
+      "5": "Find the values of $n$ for which $25 - 4n < 0$: Simplify and solve this inequality for integer values of $n$ between 1 and 10 inclusive.",
+      "6": "Count the number of valid integer values of $n$ found in the previous step: This count gives the number of instances within the range where the quadratic equation has no real solutions.",
+      "7": "Calculate the total number of integers between 1 and 10 inclusive: This number is simply 10.",
+      "8": "Express the probability of selecting an integer $n$ that leads to no real solutions as a fraction: The probability is the ratio of the number of $n$ values with no real solutions to the total number of integers within 1 to 10, simplified as needed.",
+      "9": "Following these steps will enable you to find the required probability."
+    }
+  ],
+  [
+    [
+      "estion \"What is the probability that for the random integer \\( n \\) I chose between 1 and 10 inclusive, there exist no real solutions to the equation \\( x(x+5) = -n \\)?\", we will decompose it into the following steps:",
+      "Start by expanding and rearranging the original equation \\( x(x+5) = -n \\) into a standard quadratic form.",
+      "Identify the coefficients \\( a \\), \\( b \\), and \\( c \\) of the quadratic equation obtained after rearranging.",
+      "Use the discriminant \\( \\Delta = b^2 - 4ac \\) to determine the conditions under which the equation has no real solutions.",
+      "Calculate the discriminant for the equation, substituting \\( -n \\) for \\( c \\) as derived from the quadratic standard form.",
+      "Determine the values of \\( n \\) for which the discriminant is negative, as these are the cases when there are no real solutions.",
+      "Count the number of valid \\( n \\) values out of the total possible values (from 1 to 10) that satisfy the condition of having no real solutions.",
+      "Calculate the probability by dividing the number of valid \\( n \\) values by the total number of possible \\( n \\) values, expressing it as a common fraction."
+    ],
+    {
+      "1": "estion \"What is the probability that for the random integer \\( n \\) I chose between 1 and 10 inclusive, there exist no real solutions to the equation \\( x(x+5) = -n \\)?\", we will decompose it into the following steps:",
+      "2": "Start by expanding and rearranging the original equation \\( x(x+5) = -n \\) into a standard quadratic form.",
+      "3": "Identify the coefficients \\( a \\), \\( b \\), and \\( c \\) of the quadratic equation obtained after rearranging.",
+      "4": "Use the discriminant \\( \\Delta = b^2 - 4ac \\) to determine the conditions under which the equation has no real solutions.",
+      "5": "Calculate the discriminant for the equation, substituting \\( -n \\) for \\( c \\) as derived from the quadratic standard form.",
+      "6": "Determine the values of \\( n \\) for which the discriminant is negative, as these are the cases when there are no real solutions.",
+      "7": "Count the number of valid \\( n \\) values out of the total possible values (from 1 to 10) that satisfy the condition of having no real solutions.",
+      "8": "Calculate the probability by dividing the number of valid \\( n \\) values by the total number of possible \\( n \\) values, expressing it as a common fraction."
+    }
+  ],
+  [
+    [
+      "How can we restructure the given equation $x(x+5) = -n$ into a standard quadratic form?",
+      "What is the discriminant of the quadratic equation and how can it help in determining the existence of real solutions?",
+      "Calculate the discriminant of the quadratic equation for $n$ ranging from 1 to 10.",
+      "Identify for which values of $n$ the discriminant is negative, implying no real solutions.",
+      "Determine how many such values of $n$ exist where the discriminant is negative.",
+      "Compute the probability that a randomly chosen integer $n$ between 1 and 10 inclusive results in no real solutions for the equation.",
+      "Express the probability that fits the condition as a common fraction."
+    ],
+    {
+      "1": "How can we restructure the given equation $x(x+5) = -n$ into a standard quadratic form?",
+      "2": "What is the discriminant of the quadratic equation and how can it help in determining the existence of real solutions?",
+      "3": "Calculate the discriminant of the quadratic equation for $n$ ranging from 1 to 10.",
+      "4": "Identify for which values of $n$ the discriminant is negative, implying no real solutions.",
+      "5": "Determine how many such values of $n$ exist where the discriminant is negative.",
+      "6": "Compute the probability that a randomly chosen integer $n$ between 1 and 10 inclusive results in no real solutions for the equation.",
+      "7": "Express the probability that fits the condition as a common fraction."
+    }
+  ],
+  [
+    [
+      "estion \"What is the probability that there exist no real solutions to the equation $x(x+5) = -n$ for a random integer $n$ between $1$ and $10$ inclusive?\", we need to follow these steps:",
+      "Rewrite the equation in standard quadratic form. Consider the equation $x^2 + 5x + n = 0$, where $n$ has been moved to the right-hand side.",
+      "Determine conditions under which the quadratic equation $x^2 + 5x + n = 0$ has no real solutions. This involves analyzing the discriminant of the equation, given by $\\Delta = b^2 - 4ac$. In our equation, $a = 1$, $b = 5$, and $c = n$.",
+      "Calculate the discriminant: $\\Delta = 5^2 - 4(1)(n) = 25 - 4n$.",
+      "Identify the values of $n$ from 1 to 10 for which $\\Delta < 0$ since a negative discriminant indicates no real solutions.",
+      "Count the number of suitable $n$ values where $\\Delta < 0$ occurs.",
+      "Calculate the probability: Divide the number of suitable $n$ values by the total number of integers in the range of $n$ (from 1 to 10 inclusive).",
+      "Express the probability as a fraction."
+    ],
+    {
+      "1": "estion \"What is the probability that there exist no real solutions to the equation $x(x+5) = -n$ for a random integer $n$ between $1$ and $10$ inclusive?\", we need to follow these steps:",
+      "2": "Rewrite the equation in standard quadratic form. Consider the equation $x^2 + 5x + n = 0$, where $n$ has been moved to the right-hand side.",
+      "3": "Determine conditions under which the quadratic equation $x^2 + 5x + n = 0$ has no real solutions. This involves analyzing the discriminant of the equation, given by $\\Delta = b^2 - 4ac$. In our equation, $a = 1$, $b = 5$, and $c = n$.",
+      "4": "Calculate the discriminant: $\\Delta = 5^2 - 4(1)(n) = 25 - 4n$.",
+      "5": "Identify the values of $n$ from 1 to 10 for which $\\Delta < 0$ since a negative discriminant indicates no real solutions.",
+      "6": "Count the number of suitable $n$ values where $\\Delta < 0$ occurs.",
+      "7": "Calculate the probability: Divide the number of suitable $n$ values by the total number of integers in the range of $n$ (from 1 to 10 inclusive).",
+      "8": "Express the probability as a fraction."
+    }
+  ],
+  [
+    [
+      "Rearrange the equation into standard quadratic form: Rewrite the equation $x(x+5) = -n$ as a standard quadratic equation in terms of $x$.",
+      "Determine the discriminant of the quadratic equation: Find the discriminant ($\\Delta$) which determines the nature of the roots of the quadratic equation.",
+      "Analyze the discriminant for conditions where there are no real solutions: Identify the condition on the discriminant that leads to no real solutions.",
+      "Plug in the values of $n$ from 1 to 10 and determine when the discriminant condition is satisfied: For each integer value of $n$ between 1 and 10, calculate the discriminant and see when the condition for no real solutions is met.",
+      "Count the instances where there are no real solutions: Count how many times the discriminant condition for no real solutions was met within the range of chosen values of $n$.",
+      "Calculate the probability: Determine the probability by dividing the number of cases with no real solutions by the total number of cases (10, since there are 10 integers $n$ from 1 to 10)."
+    ],
+    {
+      "1": "Rearrange the equation into standard quadratic form: Rewrite the equation $x(x+5) = -n$ as a standard quadratic equation in terms of $x$.",
+      "2": "Determine the discriminant of the quadratic equation: Find the discriminant ($\\Delta$) which determines the nature of the roots of the quadratic equation.",
+      "3": "Analyze the discriminant for conditions where there are no real solutions: Identify the condition on the discriminant that leads to no real solutions.",
+      "4": "Plug in the values of $n$ from 1 to 10 and determine when the discriminant condition is satisfied: For each integer value of $n$ between 1 and 10, calculate the discriminant and see when the condition for no real solutions is met.",
+      "5": "Count the instances where there are no real solutions: Count how many times the discriminant condition for no real solutions was met within the range of chosen values of $n$.",
+      "6": "Calculate the probability: Determine the probability by dividing the number of cases with no real solutions by the total number of cases (10, since there are 10 integers $n$ from 1 to 10)."
+    }
+  ],
+  [
+    [
+      "Rewrite the equation $x(x+5) = -n$ in the standard quadratic form $ax^2 + bx + c = 0$.",
+      "Calculate the discriminant $\\Delta$ of the quadratic equation, which is given by $\\Delta = b^2 - 4ac$.",
+      "Determine under what conditions on $\\Delta$ the quadratic equation has no real solutions.",
+      "Substitute the possible values of $n$ ($1, 2, \\ldots, 10$) into the equation, calculate the discriminant each time, and check if it is negative (indicating no real solutions).",
+      "Count the number of integers $n$ between $1$ and $10$ inclusive for which the discriminant is negative.",
+      "Calculate the probability by dividing the count of $n$ with negative discriminant by the total number of possible $n$ values, which is 10."
+    ],
+    {
+      "1": "Rewrite the equation $x(x+5) = -n$ in the standard quadratic form $ax^2 + bx + c = 0$.",
+      "2": "Calculate the discriminant $\\Delta$ of the quadratic equation, which is given by $\\Delta = b^2 - 4ac$.",
+      "3": "Determine under what conditions on $\\Delta$ the quadratic equation has no real solutions.",
+      "4": "Substitute the possible values of $n$ ($1, 2, \\ldots, 10$) into the equation, calculate the discriminant each time, and check if it is negative (indicating no real solutions).",
+      "5": "Count the number of integers $n$ between $1$ and $10$ inclusive for which the discriminant is negative.",
+      "6": "Calculate the probability by dividing the count of $n$ with negative discriminant by the total number of possible $n$ values, which is 10."
+    }
+  ],
+  [
+    [
+      "What form does the equation $x(x+5) = -n$ take when rewritten as a standard quadratic equation?",
+      "How do we determine whether a quadratic equation has no real solutions?",
+      "Calculate the discriminant for the quadratic equation for various $n$ values from 1 to 10.",
+      "Determine for which $n$ values the discriminant is negative, implying no real solutions.",
+      "Count the number of $n$ values from 1 to 10 for which there are no real solutions to the equation.",
+      "Compute the probability by dividing the number of favorable outcomes (counts from step 5) by the total outcomes (10, since $n$ ranges from 1 to 10).",
+      "Express the final probability as a common fraction."
+    ],
+    {
+      "1": "What form does the equation $x(x+5) = -n$ take when rewritten as a standard quadratic equation?",
+      "2": "How do we determine whether a quadratic equation has no real solutions?",
+      "3": "Calculate the discriminant for the quadratic equation for various $n$ values from 1 to 10.",
+      "4": "Determine for which $n$ values the discriminant is negative, implying no real solutions.",
+      "5": "Count the number of $n$ values from 1 to 10 for which there are no real solutions to the equation.",
+      "6": "Compute the probability by dividing the number of favorable outcomes (counts from step 5) by the total outcomes (10, since $n$ ranges from 1 to 10).",
+      "7": "Express the final probability as a common fraction."
+    }
+  ]
+]

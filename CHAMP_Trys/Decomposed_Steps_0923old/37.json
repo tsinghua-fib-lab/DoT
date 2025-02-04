@@ -1,0 +1,146 @@
+[
+  [
+    [
+      "Determine the total number of children (boys and girls combined).",
+      "Identify all possible combinations of selecting any three children from the total.",
+      "Calculate the number of combinations where fewer than two boys are selected.",
+      "Subtract the combinations with fewer than two boys from the total combinations to find the number where at least two boys are involved.",
+      "Calculate the number of combinations for each case where exactly two boys or exactly three boys are selected.",
+      "Sum the numbers from the previous step to get the total number of valid selections.",
+      "Consider different combinations of toy distribution for each group of selected children."
+    ],
+    {
+      "1": "Determine the total number of children (boys and girls combined).",
+      "2": "Identify all possible combinations of selecting any three children from the total.",
+      "3": "Calculate the number of combinations where fewer than two boys are selected.",
+      "4": "Subtract the combinations with fewer than two boys from the total combinations to find the number where at least two boys are involved.",
+      "5": "Calculate the number of combinations for each case where exactly two boys or exactly three boys are selected.",
+      "6": "Sum the numbers from the previous step to get the total number of valid selections.",
+      "7": "Consider different combinations of toy distribution for each group of selected children."
+    }
+  ],
+  [
+    [
+      "How many ways can we choose at least two boys from the four boys available?",
+      "Once at least two boys are chosen, how many children in total are selected to be given toys?",
+      "Subtract the number of children already selected from the total number of toys to determine how many more children need to be selected.",
+      "How many ways are there to choose the remaining children from the group not initially selected to ensure that every child selected gets a different toy?",
+      "Combine the ways of choosing the boys and the ways of choosing the remaining children to get the total number of ways to distribute the toys while ensuring at least two boys are selected."
+    ],
+    {
+      "1": "How many ways can we choose at least two boys from the four boys available?",
+      "2": "Once at least two boys are chosen, how many children in total are selected to be given toys?",
+      "3": "Subtract the number of children already selected from the total number of toys to determine how many more children need to be selected.",
+      "4": "How many ways are there to choose the remaining children from the group not initially selected to ensure that every child selected gets a different toy?",
+      "5": "Combine the ways of choosing the boys and the ways of choosing the remaining children to get the total number of ways to distribute the toys while ensuring at least two boys are selected."
+    }
+  ],
+  [
+    [
+      "Determine all possible ways to choose three children (comprised of both boys and girls) out of the total ten children.",
+      "Calculate the number of ways to assign each of the three different toys to those selected three children.",
+      "Understand the requirement for selecting at least two boys among the three children.",
+      "Calculate the number of ways to choose exactly two boys from the four available.",
+      "Calculate the number of ways to choose exactly one girl from the six available.",
+      "Compute the number of ways to distribute the three toys to the group consisting of two boys and one girl.",
+      "Calculate the number of ways to choose exactly three boys from the four available.",
+      "Compute the number of ways to distribute the three toys among the trio of boys.",
+      "Combine the results from having two boys and one girl, and three boys to find the total number of ways satisfying the condition that at least two boys are chosen."
+    ],
+    {
+      "1": "Determine all possible ways to choose three children (comprised of both boys and girls) out of the total ten children.",
+      "2": "Calculate the number of ways to assign each of the three different toys to those selected three children.",
+      "3": "Understand the requirement for selecting at least two boys among the three children.",
+      "4": "Calculate the number of ways to choose exactly two boys from the four available.",
+      "5": "Calculate the number of ways to choose exactly one girl from the six available.",
+      "6": "Compute the number of ways to distribute the three toys to the group consisting of two boys and one girl.",
+      "7": "Calculate the number of ways to choose exactly three boys from the four available.",
+      "8": "Compute the number of ways to distribute the three toys among the trio of boys.",
+      "9": "Combine the results from having two boys and one girl, and three boys to find the total number of ways satisfying the condition that at least two boys are chosen."
+    }
+  ],
+  [
+    [
+      "How many ways can we form a group of three children from the ten available (four boys and six girls)?",
+      "For each group formed, how many ways can we distribute the three different toys among the selected children?",
+      "How many total possibilities are there if no constraint is applied on the selection of boys or girls?",
+      "How many ways can we select a group without at least two boys being chosen?",
+      "What arrangements exist for the toy distribution among the groups that include fewer than two boys?",
+      "How do we calculate the number of valid combinations by subtracting the invalid groups (with fewer than two boys) from the total number of combinations?",
+      "What is the final count of ways to distribute the toys to a group including at least two boys?"
+    ],
+    {
+      "1": "How many ways can we form a group of three children from the ten available (four boys and six girls)?",
+      "2": "For each group formed, how many ways can we distribute the three different toys among the selected children?",
+      "3": "How many total possibilities are there if no constraint is applied on the selection of boys or girls?",
+      "4": "How many ways can we select a group without at least two boys being chosen?",
+      "5": "What arrangements exist for the toy distribution among the groups that include fewer than two boys?",
+      "6": "How do we calculate the number of valid combinations by subtracting the invalid groups (with fewer than two boys) from the total number of combinations?",
+      "7": "What is the final count of ways to distribute the toys to a group including at least two boys?"
+    }
+  ],
+  [
+    [
+      "How many total ways are there to select any three children from the group of ten children (four boys and six girls)?",
+      "In how many ways can at least two boys be included among the three children selected?",
+      "How many different ways can the three selected children be given the three distinct toys?",
+      "Combine the information from steps 2 and 3 to determine the total number of ways to distribute the toys such that at least two boys are selected to receive them."
+    ],
+    {
+      "1": "How many total ways are there to select any three children from the group of ten children (four boys and six girls)?",
+      "2": "In how many ways can at least two boys be included among the three children selected?",
+      "3": "How many different ways can the three selected children be given the three distinct toys?",
+      "4": "Combine the information from steps 2 and 3 to determine the total number of ways to distribute the toys such that at least two boys are selected to receive them."
+    }
+  ],
+  [
+    [
+      "How many total ways are there to select 3 children from the 10 available?",
+      "What are the possible distributions of selection ensuring at least two boys are chosen?",
+      "Calculate the number of ways to choose 2 boys and 1 girl.",
+      "Calculate the number of ways to choose 3 boys.",
+      "Sum up the numbers obtained in steps 3 and 4 to find the total number of ways to distribute the toys ensuring at least two boys are chosen."
+    ],
+    {
+      "1": "How many total ways are there to select 3 children from the 10 available?",
+      "2": "What are the possible distributions of selection ensuring at least two boys are chosen?",
+      "3": "Calculate the number of ways to choose 2 boys and 1 girl.",
+      "4": "Calculate the number of ways to choose 3 boys.",
+      "5": "Sum up the numbers obtained in steps 3 and 4 to find the total number of ways to distribute the toys ensuring at least two boys are chosen."
+    }
+  ],
+  [
+    [
+      "How many ways can three children be selected from the group of ten children?",
+      "How can we ensure that at least two of the selected children are boys?",
+      "How many different combinations can be formed where exactly two boys are selected?",
+      "How many different combinations can be formed where exactly three boys are selected?",
+      "How many combinations exclude having at least two boys?",
+      "How many valid combinations are there that include at least two boys (subtract the total number of combinations from the combinations that include less than two boys)?",
+      "How many ways can each group of three children chosen receive the three different toys?"
+    ],
+    {
+      "1": "How many ways can three children be selected from the group of ten children?",
+      "2": "How can we ensure that at least two of the selected children are boys?",
+      "3": "How many different combinations can be formed where exactly two boys are selected?",
+      "4": "How many different combinations can be formed where exactly three boys are selected?",
+      "5": "How many combinations exclude having at least two boys?",
+      "6": "How many valid combinations are there that include at least two boys (subtract the total number of combinations from the combinations that include less than two boys)?",
+      "7": "How many ways can each group of three children chosen receive the three different toys?"
+    }
+  ],
+  [
+    [
+      "What are the total ways to distribute three toys to any three of the ten children (four boys and six girls)?",
+      "From the total distribution, how many ways can exactly zero boys be selected?",
+      "From the total distribution, how many ways can exactly one boy be selected?",
+      "Subtract the distributions from steps 2 and 3 from the total to find the number of ways in which at least two boys are selected."
+    ],
+    {
+      "1": "What are the total ways to distribute three toys to any three of the ten children (four boys and six girls)?",
+      "2": "From the total distribution, how many ways can exactly zero boys be selected?",
+      "3": "From the total distribution, how many ways can exactly one boy be selected?",
+      "4": "Subtract the distributions from steps 2 and 3 from the total to find the number of ways in which at least two boys are selected."
+    }
+  ]
+]

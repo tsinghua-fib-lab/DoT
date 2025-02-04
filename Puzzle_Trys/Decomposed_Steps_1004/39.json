@@ -1,0 +1,1716 @@
+[
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirement for the indices in the list x to order characters in string s in a non-decreasing manner. "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure x has indices that are within the bounds of the string s. "
+      },
+      {
+        "stepId": 3,
+        "step": " Create list x ensuring every character at index x[i] is less than or equal to the character at index x[i+1] in string s. "
+      },
+      {
+        "stepId": 4,
+        "step": " Ensure the length of the list x is equal to the given length parameter. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check that each index in list x strictly increases from 0 up to the length of the string minus one. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that each character in string s indexed by x[i] is in non-decreasing order. "
+      },
+      {
+        "stepId": 7,
+        "step": " If the conditions are met, return True; else, adjust indices or characters in list x and string s accordingly, and recheck. "
+      }
+    ],
+    {
+      "1": " Understand the requirement for the indices in the list x to order characters in string s in a non-decreasing manner. ",
+      "2": " Ensure x has indices that are within the bounds of the string s. ",
+      "3": " Create list x ensuring every character at index x[i] is less than or equal to the character at index x[i+1] in string s. ",
+      "4": " Ensure the length of the list x is equal to the given length parameter. ",
+      "5": " Check that each index in list x strictly increases from 0 up to the length of the string minus one. ",
+      "6": " Verify that each character in string s indexed by x[i] is in non-decreasing order. ",
+      "7": " If the conditions are met, return True; else, adjust indices or characters in list x and string s accordingly, and recheck. "
+    },
+    {
+      "0": [
+        "Step 4",
+        "Step 2",
+        "Step 5",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        3
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the function sat checks for a strictly increasing sequence of indices where characters in the string s at these indices are in non-decreasing order. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the target length of the list x based on the given variable length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize and start generating all possible combinations of indices of string s that satisfy the strictly increasing condition. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each combination of indices, check if the characters at these indices in string s are in non-decreasing order. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify each valid list of indices to ensure it meets the length requirement. "
+      },
+      {
+        "stepId": 6,
+        "step": " If a valid combination is found, it should be the output; otherwise, continue the search. "
+      }
+    ],
+    {
+      "1": " Understand that the function sat checks for a strictly increasing sequence of indices where characters in the string s at these indices are in non-decreasing order. ",
+      "2": " Determine the target length of the list x based on the given variable length. ",
+      "3": " Initialize and start generating all possible combinations of indices of string s that satisfy the strictly increasing condition. ",
+      "4": " For each combination of indices, check if the characters at these indices in string s are in non-decreasing order. ",
+      "5": " Verify each valid list of indices to ensure it meets the length requirement. ",
+      "6": " If a valid combination is found, it should be the output; otherwise, continue the search. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirement that the indices in list x should be strictly increasing. "
+      },
+      {
+        "stepId": 2,
+        "step": " Understand the requirement that characters at those indices in string s should be in non-decreasing order. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize list x starting with 0 and consider adding indices while checking string s for the aforementioned conditions. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify for each element in x that s[x[i]] is less than or equal to s[x[i + 1]] where i ranges from 0 to length-2. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify that x[i + 1] > x[i] for each i from 0 to length-2. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure that all indices in x are valid indices of s. "
+      },
+      {
+        "stepId": 7,
+        "step": " Check if the length of list x matches the specified length parameter. "
+      }
+    ],
+    {
+      "1": " Understand the requirement that the indices in list x should be strictly increasing. ",
+      "2": " Understand the requirement that characters at those indices in string s should be in non-decreasing order. ",
+      "3": " Initialize list x starting with 0 and consider adding indices while checking string s for the aforementioned conditions. ",
+      "4": " Verify for each element in x that s[x[i]] is less than or equal to s[x[i + 1]] where i ranges from 0 to length-2. ",
+      "5": " Verify that x[i + 1] > x[i] for each i from 0 to length-2. ",
+      "6": " Ensure that all indices in x are valid indices of s. ",
+      "7": " Check if the length of list x matches the specified length parameter. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 3",
+        "Step 5"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function requirements: a list x such that every element is an index in the string s, and for each pair of adjacent indices, the characters at these indices must be in non-decreasing order. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the length of the list x based on the provided variable 'length'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Validate or set the appropriate conditions for indices ensuring they are greater than the previous index (strictly increasing). "
+      },
+      {
+        "stepId": 4,
+        "step": " Check each pair of adjacent indices in the list x to ensure characters in string s at these positions are in non-decreasing order. "
+      },
+      {
+        "stepId": 5,
+        "step": " Generate a list x with indices that satisfy both the non-decreasing character order in s and strictly increasing numeric order. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that all conditions in the sat function are fulfilled for the list x. "
+      }
+    ],
+    {
+      "1": " Understand the function requirements: a list x such that every element is an index in the string s, and for each pair of adjacent indices, the characters at these indices must be in non-decreasing order. ",
+      "2": " Determine the length of the list x based on the provided variable 'length'. ",
+      "3": " Validate or set the appropriate conditions for indices ensuring they are greater than the previous index (strictly increasing). ",
+      "4": " Check each pair of adjacent indices in the list x to ensure characters in string s at these positions are in non-decreasing order. ",
+      "5": " Generate a list x with indices that satisfy both the non-decreasing character order in s and strictly increasing numeric order. ",
+      "6": " Verify that all conditions in the sat function are fulfilled for the list x. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 5"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function: it checks if each element in x refers to a position in string s such that characters are in non-decreasing order and indices are strictly increasing. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the number of elements in the list x based on the given variable 'length'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Iterate over potential values of indices in s to find sequences where each character is less than or equal to its successor. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check adjacent indices in the identified sequences to ensure they strictly increase. "
+      },
+      {
+        "stepId": 5,
+        "step": " Select valid sequences of indices that fulfill both the character order requirement and the index strict increment condition. "
+      },
+      {
+        "stepId": 6,
+        "step": " If no valid sequence is found within the given constraints, adjust candidate indices or consider different parts of the string s. "
+      },
+      {
+        "stepId": 7,
+        "step": " Validate the final list x to ensure it meets the criteria specified by the function, and that length of x matches the required 'length'. "
+      }
+    ],
+    {
+      "1": " Understand the function: it checks if each element in x refers to a position in string s such that characters are in non-decreasing order and indices are strictly increasing. ",
+      "2": " Determine the number of elements in the list x based on the given variable 'length'. ",
+      "3": " Iterate over potential values of indices in s to find sequences where each character is less than or equal to its successor. ",
+      "4": " Check adjacent indices in the identified sequences to ensure they strictly increase. ",
+      "5": " Select valid sequences of indices that fulfill both the character order requirement and the index strict increment condition. ",
+      "6": " If no valid sequence is found within the given constraints, adjust candidate indices or consider different parts of the string s. ",
+      "7": " Validate the final list x to ensure it meets the criteria specified by the function, and that length of x matches the required 'length'. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the function requires indices x to be such that characters at these indices in string s are in non-decreasing order. "
+      },
+      {
+        "stepId": 2,
+        "step": " Define the length of the list x as specified by parameter length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate possible indices for list x within the bounds of string s, ensuring all indices are unique and ascending. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check the character ordering condition by comparing characters at successive indices in the list x, ensuring each character is less than or equal to the next one in the string s. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return the indexes list x if all conditions are satisfied. "
+      }
+    ],
+    {
+      "1": " Understand that the function requires indices x to be such that characters at these indices in string s are in non-decreasing order. ",
+      "2": " Define the length of the list x as specified by parameter length. ",
+      "3": " Generate possible indices for list x within the bounds of string s, ensuring all indices are unique and ascending. ",
+      "4": " Check the character ordering condition by comparing characters at successive indices in the list x, ensuring each character is less than or equal to the next one in the string s. ",
+      "5": " Return the indexes list x if all conditions are satisfied. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions required by the function: the indices x must refer to characters in s that are in non-decreasing order and the indices must be strictly increasing. "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify and confirm the specified length of the list x from the parameter length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Iterate through the string s to find all possible pairs of characters where the first character is less than or equal to the second character. "
+      },
+      {
+        "stepId": 4,
+        "step": " From the pairs identified, select those pairs where the indices are strictly increasing. "
+      },
+      {
+        "stepId": 5,
+        "step": " Generate all combinations of these valid pairs to form a sequence of length specified by the length parameter. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure the complete sequence of indices meets the criterion of being in strictly increasing order. "
+      },
+      {
+        "stepId": 7,
+        "step": " Check and confirm that all characters at these indices in string s are in non-decreasing order. "
+      },
+      {
+        "stepId": 8,
+        "step": " Return the list of indices if it fulfills all the above criteria. "
+      }
+    ],
+    {
+      "1": " Understand the conditions required by the function: the indices x must refer to characters in s that are in non-decreasing order and the indices must be strictly increasing. ",
+      "2": " Identify and confirm the specified length of the list x from the parameter length. ",
+      "3": " Iterate through the string s to find all possible pairs of characters where the first character is less than or equal to the second character. ",
+      "4": " From the pairs identified, select those pairs where the indices are strictly increasing. ",
+      "5": " Generate all combinations of these valid pairs to form a sequence of length specified by the length parameter. ",
+      "6": " Ensure the complete sequence of indices meets the criterion of being in strictly increasing order. ",
+      "7": " Check and confirm that all characters at these indices in string s are in non-decreasing order. ",
+      "8": " Return the list of indices if it fulfills all the above criteria. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions required by the function: indices in list x must be increasing and corresponding characters in string s must be in non-decreasing order. "
+      },
+      {
+        "stepId": 2,
+        "step": " Set the length of the list x based on the provided length variable. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize list x with valid starting indices such that 0 <= x[i] < length of s. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if each character at index x[i] in s is less than or equal to the character at index x[i+1]. "
+      },
+      {
+        "stepId": 5,
+        "step": " Modify indices in list x to ensure character order as well as index order condition is met. "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate the entire list x meets the conditions: each index x[i] points to characters in s such that s[x[i]] <= s[x[i+1]] and indices are strictly increasing. "
+      },
+      {
+        "stepId": 7,
+        "step": " Confirm list x is the correct answer by ensuring all conditions are fulfilled. "
+      }
+    ],
+    {
+      "1": " Understand the conditions required by the function: indices in list x must be increasing and corresponding characters in string s must be in non-decreasing order. ",
+      "2": " Set the length of the list x based on the provided length variable. ",
+      "3": " Initialize list x with valid starting indices such that 0 <= x[i] < length of s. ",
+      "4": " Check if each character at index x[i] in s is less than or equal to the character at index x[i+1]. ",
+      "5": " Modify indices in list x to ensure character order as well as index order condition is met. ",
+      "6": " Validate the entire list x meets the conditions: each index x[i] points to characters in s such that s[x[i]] <= s[x[i+1]] and indices are strictly increasing. ",
+      "7": " Confirm list x is the correct answer by ensuring all conditions are fulfilled. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the criteria required for the list 'x': elements should define indices of the string 's' such that characters are in non-decreasing order. "
+      },
+      {
+        "stepId": 2,
+        "step": " Ensure indices in list 'x' are in strictly increasing order and within boundaries of string 's'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Iterate through possible combinations of indices satisfying above conditions. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if characters of 's' at these indices follow the non-decreasing order. "
+      },
+      {
+        "stepId": 5,
+        "step": " If found, confirm such indices as the solution. If not, adjust indices and repeat the check. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the list 'x' that fulfills all requirements. "
+      }
+    ],
+    {
+      "1": " Understand the criteria required for the list 'x': elements should define indices of the string 's' such that characters are in non-decreasing order. ",
+      "2": " Ensure indices in list 'x' are in strictly increasing order and within boundaries of string 's'. ",
+      "3": " Iterate through possible combinations of indices satisfying above conditions. ",
+      "4": " Check if characters of 's' at these indices follow the non-decreasing order. ",
+      "5": " If found, confirm such indices as the solution. If not, adjust indices and repeat the check. ",
+      "6": " Return the list 'x' that fulfills all requirements. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand and interpret the constraints set by the function which checks the order and indexing of a list x against a string s. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the length of the list x based on the given parameter length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize x with indices from the string s ensuring each character at index x[i] is in non-decreasing order relative to the next. "
+      },
+      {
+        "stepId": 4,
+        "step": " For every index in list x, validate that each index and its corresponding character in string s is greater than the previous. "
+      },
+      {
+        "stepId": 5,
+        "step": " Continuously adjust indices in x if the non-decreasing order or greater index condition fails. "
+      },
+      {
+        "stepId": 6,
+        "step": " Confirm that list x satisfies the function condition for all indices up to length-1. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the list x if all conditions are satisfied. "
+      }
+    ],
+    {
+      "1": " Understand and interpret the constraints set by the function which checks the order and indexing of a list x against a string s. ",
+      "2": " Determine the length of the list x based on the given parameter length. ",
+      "3": " Initialize x with indices from the string s ensuring each character at index x[i] is in non-decreasing order relative to the next. ",
+      "4": " For every index in list x, validate that each index and its corresponding character in string s is greater than the previous. ",
+      "5": " Continuously adjust indices in x if the non-decreasing order or greater index condition fails. ",
+      "6": " Confirm that list x satisfies the function condition for all indices up to length-1. ",
+      "7": " Return the list x if all conditions are satisfied. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the input list x's elements must represent indices of the string s where each element points to strictly increasing and lexicographically non-decreasing characters in s. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine that the length of list x is given by the parameter length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize indices in list x such that 0 <= x[i] < len(s) for each i from 0 to length - 1. "
+      },
+      {
+        "stepId": 4,
+        "step": " Iterate through the string s to find the first length indices which satisfy the condition s[x[i]] <= s[x[i + 1]]. "
+      },
+      {
+        "stepId": 5,
+        "step": " Validate the indices selected form a strictly increasing sequence. "
+      },
+      {
+        "stepId": 6,
+        "step": " Ensure the indices are all unique and increasing. "
+      },
+      {
+        "stepId": 7,
+        "step": " Confirm that these indices in list x pass the condition in the function sat. "
+      }
+    ],
+    {
+      "1": " Understand that the input list x's elements must represent indices of the string s where each element points to strictly increasing and lexicographically non-decreasing characters in s. ",
+      "2": " Determine that the length of list x is given by the parameter length. ",
+      "3": " Initialize indices in list x such that 0 <= x[i] < len(s) for each i from 0 to length - 1. ",
+      "4": " Iterate through the string s to find the first length indices which satisfy the condition s[x[i]] <= s[x[i + 1]]. ",
+      "5": " Validate the indices selected form a strictly increasing sequence. ",
+      "6": " Ensure the indices are all unique and increasing. ",
+      "7": " Confirm that these indices in list x pass the condition in the function sat. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions: the list x should have indices such that characters at these indices in string s are in non-decreasing order and all indices are unique and non-negative. "
+      },
+      {
+        "stepId": 2,
+        "step": " Set the length of list x based on the provided variable 'length'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initiate an empty list x. "
+      },
+      {
+        "stepId": 4,
+        "step": " Iterate through the string s, to find indices i where s[i] is followed by a greater or equal character s[i+1]. "
+      },
+      {
+        "stepId": 5,
+        "step": " Populate the list x with these indices while ensuring that each one is greater than the last added one. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify if the length of list x matches the variable 'length'. "
+      },
+      {
+        "stepId": 7,
+        "step": " Validate the final x list against the condition in sat function to ensure its correctness. "
+      }
+    ],
+    {
+      "1": " Understand the conditions: the list x should have indices such that characters at these indices in string s are in non-decreasing order and all indices are unique and non-negative. ",
+      "2": " Set the length of list x based on the provided variable 'length'. ",
+      "3": " Initiate an empty list x. ",
+      "4": " Iterate through the string s, to find indices i where s[i] is followed by a greater or equal character s[i+1]. ",
+      "5": " Populate the list x with these indices while ensuring that each one is greater than the last added one. ",
+      "6": " Verify if the length of list x matches the variable 'length'. ",
+      "7": " Validate the final x list against the condition in sat function to ensure its correctness. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function takes a list of indices x, a length parameter, and a string s. "
+      },
+      {
+        "stepId": 2,
+        "step": " The list x should be constructed such that its length matches the given length parameter. "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure all elements in the list x are valid indices into the string s to prevent indexing errors. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check that characters in the string s at positions INDEXED in x are in non-decreasing order and subsequent indices are greater than former ones. "
+      },
+      {
+        "stepId": 5,
+        "step": " Generate subsequences of indices x that consider only strictly increasing sequences. "
+      },
+      {
+        "stepId": 6,
+        "step": " For each generated subsequence, verify if the characters of string s at these indices are sorted in non-decreasing order. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the first valid sequence of indices x that satisfy the above conditions, if it exists. "
+      }
+    ],
+    {
+      "1": " Understand the function takes a list of indices x, a length parameter, and a string s. ",
+      "2": " The list x should be constructed such that its length matches the given length parameter. ",
+      "3": " Ensure all elements in the list x are valid indices into the string s to prevent indexing errors. ",
+      "4": " Check that characters in the string s at positions INDEXED in x are in non-decreasing order and subsequent indices are greater than former ones. ",
+      "5": " Generate subsequences of indices x that consider only strictly increasing sequences. ",
+      "6": " For each generated subsequence, verify if the characters of string s at these indices are sorted in non-decreasing order. ",
+      "7": " Return the first valid sequence of indices x that satisfy the above conditions, if it exists. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function: it requires a list of indices x such that characters at these indices in string s are in non-decreasing order and each index is greater than the one before. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the length of the list x should be equal to 'length'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Initialize the index list x with possibilities that satisfy x[i] < x[i + 1]. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each potential list x, check if characters in s at these indices are in non-decreasing order. "
+      },
+      {
+        "stepId": 5,
+        "step": " Adjust indices in x to maintain the requirements and repeatedly check until a valid list is found. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify that the final list x satisfies the given condition. "
+      },
+      {
+        "stepId": 7,
+        "step": " Output the valid list x if it meets the conditions; otherwise, indicate no solution found. "
+      }
+    ],
+    {
+      "1": " Understand the function: it requires a list of indices x such that characters at these indices in string s are in non-decreasing order and each index is greater than the one before. ",
+      "2": " Determine the length of the list x should be equal to 'length'. ",
+      "3": " Initialize the index list x with possibilities that satisfy x[i] < x[i + 1]. ",
+      "4": " For each potential list x, check if characters in s at these indices are in non-decreasing order. ",
+      "5": " Adjust indices in x to maintain the requirements and repeatedly check until a valid list is found. ",
+      "6": " Verify that the final list x satisfies the given condition. ",
+      "7": " Output the valid list x if it meets the conditions; otherwise, indicate no solution found. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that x must be an increasing sequence of indices length long "
+      },
+      {
+        "stepId": 2,
+        "step": " Understand that the characters in s selected by indices in x must be in non-decreasing order "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate possible index sequences for x of the specified length "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if characters in s at these indices are in non-decreasing order "
+      },
+      {
+        "stepId": 5,
+        "step": " Validate that each consecutive index in x is greater than the previous one "
+      },
+      {
+        "stepId": 6,
+        "step": " Loop through all possibilities and check if both conditions are satisfied "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the first sequence x that meets both conditions "
+      }
+    ],
+    {
+      "1": " Understand that x must be an increasing sequence of indices length long ",
+      "2": " Understand that the characters in s selected by indices in x must be in non-decreasing order ",
+      "3": " Generate possible index sequences for x of the specified length ",
+      "4": " Check if characters in s at these indices are in non-decreasing order ",
+      "5": " Validate that each consecutive index in x is greater than the previous one ",
+      "6": " Loop through all possibilities and check if both conditions are satisfied ",
+      "7": " Return the first sequence x that meets both conditions "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 5",
+        "Step 3"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints imposed by the function sat: the indices x must represent a strictly increasing sequence of characters in string s "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the length of the input list x based on the given parameter length "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate all possible combinations of indices for the initial list x based on the given string s and desired list length "
+      },
+      {
+        "stepId": 4,
+        "step": " Check for each combination whether the characters at those indices form a non-descending order in s "
+      },
+      {
+        "stepId": 5,
+        "step": " Also verify that the indices themselves form a strictly increasing sequence "
+      },
+      {
+        "stepId": 6,
+        "step": " Select the first valid list x that meets all conditions and return it "
+      }
+    ],
+    {
+      "1": " Understand the constraints imposed by the function sat: the indices x must represent a strictly increasing sequence of characters in string s ",
+      "2": " Determine the length of the input list x based on the given parameter length ",
+      "3": " Generate all possible combinations of indices for the initial list x based on the given string s and desired list length ",
+      "4": " Check for each combination whether the characters at those indices form a non-descending order in s ",
+      "5": " Also verify that the indices themselves form a strictly increasing sequence ",
+      "6": " Select the first valid list x that meets all conditions and return it "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4",
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements of the function to fulfill: list elements from s should be in non-decreasing order and indices should be strictly increasing. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the length of the list x using the given parameter length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Iterate generating indices x such that each index is strictly greater than its predecessor. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each generated index list, validate that characters in string s at those indices are in non-decreasing lexicographical order. "
+      },
+      {
+        "stepId": 5,
+        "step": " If all conditions are satisfied, the list x is a valid solution. "
+      },
+      {
+        "stepId": 6,
+        "step": " Repeat until a valid x is found or determine that no such list exists. "
+      }
+    ],
+    {
+      "1": " Understand the requirements of the function to fulfill: list elements from s should be in non-decreasing order and indices should be strictly increasing. ",
+      "2": " Determine the length of the list x using the given parameter length. ",
+      "3": " Iterate generating indices x such that each index is strictly greater than its predecessor. ",
+      "4": " For each generated index list, validate that characters in string s at those indices are in non-decreasing lexicographical order. ",
+      "5": " If all conditions are satisfied, the list x is a valid solution. ",
+      "6": " Repeat until a valid x is found or determine that no such list exists. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand that the solution must find a list x of indices such that characters at these indices in string s are in non-decreasing order. "
+      },
+      {
+        "stepId": 2,
+        "step": " Define the length of the list x as determined by the variable length. "
+      },
+      {
+        "stepId": 3,
+        "step": " Select an index in s ensuring it is non-negative and start creating list x. "
+      },
+      {
+        "stepId": 4,
+        "step": " Sequentially find subsequent indices that point to characters in s that are equal to or lexically greater than the character at the previous index in x. "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure that each selected index is strictly greater than the previous index added to x to maintain increasing order of indices. "
+      },
+      {
+        "stepId": 6,
+        "step": " Continue this process until the list x reaches the defined length. "
+      },
+      {
+        "stepId": 7,
+        "step": " Verify that all conditions are met and that the function sat returns True. "
+      }
+    ],
+    {
+      "1": " Understand that the solution must find a list x of indices such that characters at these indices in string s are in non-decreasing order. ",
+      "2": " Define the length of the list x as determined by the variable length. ",
+      "3": " Select an index in s ensuring it is non-negative and start creating list x. ",
+      "4": " Sequentially find subsequent indices that point to characters in s that are equal to or lexically greater than the character at the previous index in x. ",
+      "5": " Ensure that each selected index is strictly greater than the previous index added to x to maintain increasing order of indices. ",
+      "6": " Continue this process until the list x reaches the defined length. ",
+      "7": " Verify that all conditions are met and that the function sat returns True. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints imposed by the function: x must be a list of indices such that characters at these indices in string s are in non-decreasing order and each index is strictly greater than the previous one. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the length of the list x based on the provided length parameter. "
+      },
+      {
+        "stepId": 3,
+        "step": " Generate all possible combinations of indices from the string s that meet the length requirement. "
+      },
+      {
+        "stepId": 4,
+        "step": " For each combination, verify if each character at these indices follows a non-decreasing order when compared to the next. "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure no index in the combination repeating and each is strictly greater than the previous. "
+      },
+      {
+        "stepId": 6,
+        "step": " Confirm the final list of indices satisfies all conditions to make the sat function return True. "
+      }
+    ],
+    {
+      "1": " Understand the constraints imposed by the function: x must be a list of indices such that characters at these indices in string s are in non-decreasing order and each index is strictly greater than the previous one. ",
+      "2": " Determine the length of the list x based on the provided length parameter. ",
+      "3": " Generate all possible combinations of indices from the string s that meet the length requirement. ",
+      "4": " For each combination, verify if each character at these indices follows a non-decreasing order when compared to the next. ",
+      "5": " Ensure no index in the combination repeating and each is strictly greater than the previous. ",
+      "6": " Confirm the final list of indices satisfies all conditions to make the sat function return True. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4",
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints: The indices in list x must ensure characters in string s are in non-decreasing order and indices must be strictly increasing and within bounds. "
+      },
+      {
+        "stepId": 2,
+        "step": " Determine the required length of list x based on the given parameter 'length'. "
+      },
+      {
+        "stepId": 3,
+        "step": " Start choosing indices for list x starting from 0 and ensuring each chosen index corresponds to a character in s that is in non-decreasing order from the previous indices. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check each character at those indices strictly increases. "
+      },
+      {
+        "stepId": 5,
+        "step": " Ensure all indices are unique and sorted. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify the final list x satisfies all conditions of the function. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the solution list x as the output. "
+      }
+    ],
+    {
+      "1": " Understand the constraints: The indices in list x must ensure characters in string s are in non-decreasing order and indices must be strictly increasing and within bounds. ",
+      "2": " Determine the required length of list x based on the given parameter 'length'. ",
+      "3": " Start choosing indices for list x starting from 0 and ensuring each chosen index corresponds to a character in s that is in non-decreasing order from the previous indices. ",
+      "4": " Check each character at those indices strictly increases. ",
+      "5": " Ensure all indices are unique and sorted. ",
+      "6": " Verify the final list x satisfies all conditions of the function. ",
+      "7": " Return the solution list x as the output. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ]
+]

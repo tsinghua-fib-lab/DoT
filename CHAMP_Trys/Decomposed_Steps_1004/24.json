@@ -1,0 +1,1401 @@
+[
+  [
+    [
+      "Understand the definition of placing rooks peacefully on a chess board to ensure every two rooks are in different rows and columns.",
+      "Consider the relationship between placing n rooks and permutations of n objects.",
+      "Identify how the positioning of one rook affects the options available for placing the next rook.",
+      "Recognize that placing each rook in a different row and column corresponds to finding a unique permutation of the rows (or columns).",
+      "Calculate the number of distinct permutations of n items.",
+      "Relate the calculated number of permutations back to the placement of rooks on the board.",
+      "Conclude with the general formula for the number of ways to place n rooks peacefully."
+    ],
+    {
+      "1": "Understand the definition of placing rooks peacefully on a chess board to ensure every two rooks are in different rows and columns.",
+      "2": "Consider the relationship between placing n rooks and permutations of n objects.",
+      "3": "Identify how the positioning of one rook affects the options available for placing the next rook.",
+      "4": "Recognize that placing each rook in a different row and column corresponds to finding a unique permutation of the rows (or columns).",
+      "5": "Calculate the number of distinct permutations of n items.",
+      "6": "Relate the calculated number of permutations back to the placement of rooks on the board.",
+      "7": "Conclude with the general formula for the number of ways to place n rooks peacefully."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the nature of the arrangement of n rooks on an n x n chessboard such that no two rooks attack each other?",
+      "What constraints does placing one rook on the chess board impose upon the placement of subsequent rooks?",
+      "How do these constraints affect the number of choices available for placing each subsequent rook?",
+      "How does the placement of the first rook influence the possible placements of all other rooks?",
+      "How does the total number of ways to place all n rooks on the board depend on the placement of each previous rook?",
+      "Can the problem be related to a familiar combinatorial concept involving permutations of a set of items?"
+    ],
+    {
+      "1": "What is the nature of the arrangement of n rooks on an n x n chessboard such that no two rooks attack each other?",
+      "2": "What constraints does placing one rook on the chess board impose upon the placement of subsequent rooks?",
+      "3": "How do these constraints affect the number of choices available for placing each subsequent rook?",
+      "4": "How does the placement of the first rook influence the possible placements of all other rooks?",
+      "5": "How does the total number of ways to place all n rooks on the board depend on the placement of each previous rook?",
+      "6": "Can the problem be related to a familiar combinatorial concept involving permutations of a set of items?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What are the total number of squares available on an n x n chessboard?",
+      "How many choices are there for placing the first rook on the chessboard?",
+      "After placing the first rook, how does its placement affect the available choices for placing the second rook?",
+      "Generalize how the placement of each previous rook affects the number of choices for placing the next rook.",
+      "Determine the pattern or rule for the number of available choices for each successive rook.",
+      "Calculate the product of the number of choices for placing each rook sequentially to find the total number of peaceful arrangements.",
+      "Confirm if the placement of each rook ensures that no two rooks attack each other (i.e., ensure that no two rooks share the same row or column)."
+    ],
+    {
+      "1": "What are the total number of squares available on an n x n chessboard?",
+      "2": "How many choices are there for placing the first rook on the chessboard?",
+      "3": "After placing the first rook, how does its placement affect the available choices for placing the second rook?",
+      "4": "Generalize how the placement of each previous rook affects the number of choices for placing the next rook.",
+      "5": "Determine the pattern or rule for the number of available choices for each successive rook.",
+      "6": "Calculate the product of the number of choices for placing each rook sequentially to find the total number of peaceful arrangements.",
+      "7": "Confirm if the placement of each rook ensures that no two rooks attack each other (i.e., ensure that no two rooks share the same row or column)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the definition of placing n rooks peacefully on an n x n chess board?",
+      "How many choices are there for placing the first rook on the chess board?",
+      "Once the first rook is placed, how many options are left for placing the second rook such that it is not in the same row or column as the first?",
+      "Continuing in this manner, how many options are left for placing the third rook, given the positions of the first two?",
+      "Generalize the pattern observed in placing each subsequent rook on the board, considering the placement of all previous rooks.",
+      "Calculate how many ways to arrange n distinct items (the rooks) where the placement of each item (rook) impacts the available positions for the next.",
+      "What is the final formula that gives the number of ways to place n rooks peacefully on an n x n chess board?"
+    ],
+    {
+      "1": "What is the definition of placing n rooks peacefully on an n x n chess board?",
+      "2": "How many choices are there for placing the first rook on the chess board?",
+      "3": "Once the first rook is placed, how many options are left for placing the second rook such that it is not in the same row or column as the first?",
+      "4": "Continuing in this manner, how many options are left for placing the third rook, given the positions of the first two?",
+      "5": "Generalize the pattern observed in placing each subsequent rook on the board, considering the placement of all previous rooks.",
+      "6": "Calculate how many ways to arrange n distinct items (the rooks) where the placement of each item (rook) impacts the available positions for the next.",
+      "7": "What is the final formula that gives the number of ways to place n rooks peacefully on an n x n chess board?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the condition for \"peacefully\" placing two rooks: What does it mean for rooks not to threaten each other on a chessboard?",
+      "Determine the implication of placing one rook per row and per column.",
+      "Consider how many options are there to choose a column for the rook in the first row.",
+      "Identify how placing a rook in a column of the first row affects the placement options for the rook in the second row.",
+      "Generalize the choice of columns for placing the rooks row by row without repeating any column.",
+      "Calculate the total number of ways to organize the placement column-by-column for all rows.",
+      "Summarize the pattern of rook placement as a product of choices for each step in placing the rooks."
+    ],
+    {
+      "1": "Understand the condition for \"peacefully\" placing two rooks: What does it mean for rooks not to threaten each other on a chessboard?",
+      "2": "Determine the implication of placing one rook per row and per column.",
+      "3": "Consider how many options are there to choose a column for the rook in the first row.",
+      "4": "Identify how placing a rook in a column of the first row affects the placement options for the rook in the second row.",
+      "5": "Generalize the choice of columns for placing the rooks row by row without repeating any column.",
+      "6": "Calculate the total number of ways to organize the placement column-by-column for all rows.",
+      "7": "Summarize the pattern of rook placement as a product of choices for each step in placing the rooks."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "What does it mean for n rooks to be placed peacefully on an n x n chessboard?",
+      "How does the condition of two rooks being peaceful (not on the same row or column) affect their placement on the board?",
+      "What arrangement ensures that each row and each column contains exactly one rook?",
+      "What mathematical concept or function describes the number of ways to arrange n unique items in n positions?",
+      "How can this function or concept be applied to calculate the number of peaceful placements of n rooks on an n x n chessboard?"
+    ],
+    {
+      "1": "What does it mean for n rooks to be placed peacefully on an n x n chessboard?",
+      "2": "How does the condition of two rooks being peaceful (not on the same row or column) affect their placement on the board?",
+      "3": "What arrangement ensures that each row and each column contains exactly one rook?",
+      "4": "What mathematical concept or function describes the number of ways to arrange n unique items in n positions?",
+      "5": "How can this function or concept be applied to calculate the number of peaceful placements of n rooks on an n x n chessboard?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "What does it mean for rooks to be placed peacefully on a chess board?",
+      "What are the restrictions or conditions that must be met for each rook placement?",
+      "How can the placing of one rook affect the placement of subsequent rooks?",
+      "Is there a mathematical representation or formula that can capture the placement of rooks such that no two threaten each other?",
+      "How can factorial concepts in mathematics be applied to this problem?",
+      "Can we relate the problem to a known mathematical permutation wherein each rook is uniquely tied to one row and one column?",
+      "What is the final expression that counts all the valid ways of placing the rooks from the first row to the nth row on the board?"
+    ],
+    {
+      "1": "What does it mean for rooks to be placed peacefully on a chess board?",
+      "2": "What are the restrictions or conditions that must be met for each rook placement?",
+      "3": "How can the placing of one rook affect the placement of subsequent rooks?",
+      "4": "Is there a mathematical representation or formula that can capture the placement of rooks such that no two threaten each other?",
+      "5": "How can factorial concepts in mathematics be applied to this problem?",
+      "6": "Can we relate the problem to a known mathematical permutation wherein each rook is uniquely tied to one row and one column?",
+      "7": "What is the final expression that counts all the valid ways of placing the rooks from the first row to the nth row on the board?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for rooks to be placed peacefully on an n x n chess board.",
+      "Identify the requirement that no two rooks can share the same row or column.",
+      "Determine the number of choices available to place the first rook.",
+      "Assess how the placement of the first rook affects the options for placing the second rook.",
+      "Generalize the placement pattern for the remaining rooks after the first one is placed.",
+      "Calculate the total number of ways to place all n rooks, considering the restrictions given.",
+      "Express the solution in terms of n, possibly using factorials or other mathematical formulas relevant to permutations.",
+      "Confirm that the solution does not allow any two rooks to threaten each other."
+    ],
+    {
+      "1": "Define what it means for rooks to be placed peacefully on an n x n chess board.",
+      "2": "Identify the requirement that no two rooks can share the same row or column.",
+      "3": "Determine the number of choices available to place the first rook.",
+      "4": "Assess how the placement of the first rook affects the options for placing the second rook.",
+      "5": "Generalize the placement pattern for the remaining rooks after the first one is placed.",
+      "6": "Calculate the total number of ways to place all n rooks, considering the restrictions given.",
+      "7": "Express the solution in terms of n, possibly using factorials or other mathematical formulas relevant to permutations.",
+      "8": "Confirm that the solution does not allow any two rooks to threaten each other."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "How do we represent the problem of placing n rooks on an n x n chessboard such that no two rooks attack each other?",
+      "What does it mean for two rooks to be placed peacefully in terms of their placement in rows and columns?",
+      "Given that each rook must be in a unique row and a unique column, what structure does this resemble in combinatorics?",
+      "How does the placement of the first rook affect the number of available positions for the second rook?",
+      "How does this pattern continue as more rooks are placed on the board?",
+      "How can we calculate the number of ways to order the n rooks in the n rows, considering each has to be in a different column?",
+      "What mathematical expression or concept can be used to compute the number of peaceful arrangements of the n rooks on an n x n chessboard?"
+    ],
+    {
+      "1": "How do we represent the problem of placing n rooks on an n x n chessboard such that no two rooks attack each other?",
+      "2": "What does it mean for two rooks to be placed peacefully in terms of their placement in rows and columns?",
+      "3": "Given that each rook must be in a unique row and a unique column, what structure does this resemble in combinatorics?",
+      "4": "How does the placement of the first rook affect the number of available positions for the second rook?",
+      "5": "How does this pattern continue as more rooks are placed on the board?",
+      "6": "How can we calculate the number of ways to order the n rooks in the n rows, considering each has to be in a different column?",
+      "7": "What mathematical expression or concept can be used to compute the number of peaceful arrangements of the n rooks on an n x n chessboard?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the condition under which two rooks are considered to be placed peacefully.",
+      "Determine how placing one rook on any square of the chess board restricts the placement of subsequent rooks.",
+      "Establish whether the order of placing the rooks matters for counting distinct peaceful arrangements.",
+      "Calculate how many options exist for placing the first rook on the board.",
+      "For every subsequent rook, determine how many squares are available after taking into consideration the positions of all previously placed rooks.",
+      "Understand the concept of factorials in relation to sequentially reducing placement choices.",
+      "Conclude the expression representing the total number of ways to place n rooks peacefully by combining the placements options for all rooks."
+    ],
+    {
+      "1": "Understand the condition under which two rooks are considered to be placed peacefully.",
+      "2": "Determine how placing one rook on any square of the chess board restricts the placement of subsequent rooks.",
+      "3": "Establish whether the order of placing the rooks matters for counting distinct peaceful arrangements.",
+      "4": "Calculate how many options exist for placing the first rook on the board.",
+      "5": "For every subsequent rook, determine how many squares are available after taking into consideration the positions of all previously placed rooks.",
+      "6": "Understand the concept of factorials in relation to sequentially reducing placement choices.",
+      "7": "Conclude the expression representing the total number of ways to place n rooks peacefully by combining the placements options for all rooks."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 4"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3",
+        "Step 5"
+      ],
+      "3": [
+        "Step 6"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the condition for n rooks to be placed peacefully on an n x n chessboard.",
+      "Determine how the first rook's placement affects subsequent rook placements.",
+      "Evaluate how many choices exist for placing the second rook given the position of the first.",
+      "Generalize the placement choice rule for placing the k-th rook after k-1 rooks are already placed peacefully.",
+      "Calculate the total number of ways to place all n rooks on the board by multiplying the placement choices for each rook.",
+      "Consider any symmetry or rotational aspects that could affect counting distinct placements.",
+      "Derive a formula based on the sequence of placement choices from steps 1 through 6."
+    ],
+    {
+      "1": "Identify the condition for n rooks to be placed peacefully on an n x n chessboard.",
+      "2": "Determine how the first rook's placement affects subsequent rook placements.",
+      "3": "Evaluate how many choices exist for placing the second rook given the position of the first.",
+      "4": "Generalize the placement choice rule for placing the k-th rook after k-1 rooks are already placed peacefully.",
+      "5": "Calculate the total number of ways to place all n rooks on the board by multiplying the placement choices for each rook.",
+      "6": "Consider any symmetry or rotational aspects that could affect counting distinct placements.",
+      "7": "Derive a formula based on the sequence of placement choices from steps 1 through 6."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 6",
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the board setup: What does it mean for two rooks to be placed \"peacefully\"?",
+      "Identify the meaning of the problem statement: What does it mean to have n rooks on an n x n chessboard placed such that no two rooks threaten each other?",
+      "Determine the constraints on rook placement regarding rows and columns.",
+      "Recognize the relationship between row and column placement for n rooks.",
+      "Visualize or represent how to ensure each rook occupies a unique row and a unique column.",
+      "Calculate the total number of ways to assign n rows to n rooks ensuring each row has exactly one rook (also respecting the uniqueness regarding columns).",
+      "Formulate the problem as a permutation problem of n items.",
+      "Link the findings to mathematical operations that count the valid arrangements of the n rooks.",
+      "Summarize the method or formula derived from the above steps for the number of peaceful placements of n rooks on an n x n chessboard."
+    ],
+    {
+      "1": "Understand the board setup: What does it mean for two rooks to be placed \"peacefully\"?",
+      "2": "Identify the meaning of the problem statement: What does it mean to have n rooks on an n x n chessboard placed such that no two rooks threaten each other?",
+      "3": "Determine the constraints on rook placement regarding rows and columns.",
+      "4": "Recognize the relationship between row and column placement for n rooks.",
+      "5": "Visualize or represent how to ensure each rook occupies a unique row and a unique column.",
+      "6": "Calculate the total number of ways to assign n rows to n rooks ensuring each row has exactly one rook (also respecting the uniqueness regarding columns).",
+      "7": "Formulate the problem as a permutation problem of n items.",
+      "8": "Link the findings to mathematical operations that count the valid arrangements of the n rooks.",
+      "9": "Summarize the method or formula derived from the above steps for the number of peaceful placements of n rooks on an n x n chessboard."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ],
+      "8": [
+        "Step 9"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  ],
+  [
+    [
+      "What does it mean for n rooks to be placed peacefully on an n x n chessboard?",
+      "How can we represent each placement of a rook such that no two rooks threaten each other?",
+      "How many different ways can the first rook be placed on the chessboard?",
+      "How does the placement of the first rook affect the available choices for placing the second rook?",
+      "What is the pattern or formula for the total number of ways to place each subsequent rook, given the placements of all earlier rooks?",
+      "How can we generalize this pattern to determine the total number of ways to arrange n rooks on the chessboard peacefully?",
+      "What is the relationship between the placement of rooks and permutations of a set?"
+    ],
+    {
+      "1": "What does it mean for n rooks to be placed peacefully on an n x n chessboard?",
+      "2": "How can we represent each placement of a rook such that no two rooks threaten each other?",
+      "3": "How many different ways can the first rook be placed on the chessboard?",
+      "4": "How does the placement of the first rook affect the available choices for placing the second rook?",
+      "5": "What is the pattern or formula for the total number of ways to place each subsequent rook, given the placements of all earlier rooks?",
+      "6": "How can we generalize this pattern to determine the total number of ways to arrange n rooks on the chessboard peacefully?",
+      "7": "What is the relationship between the placement of rooks and permutations of a set?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 7",
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What is the condition for one rook to be placed peacefully in relation to another on a chess board?",
+      "How does the peace condition affect the possible placement of each subsequent rook?",
+      "For the first rook, how many different squares are available for placement without conflict?",
+      "Once the position of the first rook is fixed, how many options are available for placing the second rook?",
+      "How does fixing the positions of already placed rooks continue to affect the placement choices for the remaining rooks?",
+      "Is there a pattern or formula that represents the number of available options for each rook as their positions are successively fixed?",
+      "How do the number of choices for each rook contribute to the total number of peaceful arrangements?",
+      "What mathematical tools or concepts (e.g., factorials) can be used to help in calculating the total number of peaceful arrangements?"
+    ],
+    {
+      "1": "What is the condition for one rook to be placed peacefully in relation to another on a chess board?",
+      "2": "How does the peace condition affect the possible placement of each subsequent rook?",
+      "3": "For the first rook, how many different squares are available for placement without conflict?",
+      "4": "Once the position of the first rook is fixed, how many options are available for placing the second rook?",
+      "5": "How does fixing the positions of already placed rooks continue to affect the placement choices for the remaining rooks?",
+      "6": "Is there a pattern or formula that represents the number of available options for each rook as their positions are successively fixed?",
+      "7": "How do the number of choices for each rook contribute to the total number of peaceful arrangements?",
+      "8": "What mathematical tools or concepts (e.g., factorials) can be used to help in calculating the total number of peaceful arrangements?"
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for n rooks to be placed peacefully on an n x n chess board.",
+      "Identify the constraints that must be fulfilled for the rooks to be placed peacefully.",
+      "Determine the total number of ways a single rook can be placed on an unoccupied chess board.",
+      "Figure out how the placement of the first rook affects the available placement choices for the second rook.",
+      "Establish a pattern or formula for the reduction in placement choices as each subsequent rook is placed.",
+      "Calculate the total number of peaceful placements by considering the factorial reduction in choices from the first rook to the nth rook.",
+      "Recognize any symmetries or simplifications that might contribute to reducing the computational complexity of the solution.",
+      "Formulate the result of the placements as an expression of n."
+    ],
+    {
+      "1": "Define what it means for n rooks to be placed peacefully on an n x n chess board.",
+      "2": "Identify the constraints that must be fulfilled for the rooks to be placed peacefully.",
+      "3": "Determine the total number of ways a single rook can be placed on an unoccupied chess board.",
+      "4": "Figure out how the placement of the first rook affects the available placement choices for the second rook.",
+      "5": "Establish a pattern or formula for the reduction in placement choices as each subsequent rook is placed.",
+      "6": "Calculate the total number of peaceful placements by considering the factorial reduction in choices from the first rook to the nth rook.",
+      "7": "Recognize any symmetries or simplifications that might contribute to reducing the computational complexity of the solution.",
+      "8": "Formulate the result of the placements as an expression of n."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 3"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define what it means for two rooks to be placed peacefully on a chess board.",
+      "Determine a method to visualize or quantify each individual rook's placement on the board.",
+      "Reason why rooks can only occupy unique rows and columns to ensure peaceful placement.",
+      "Calculate the number of available options for the first rook's placement.",
+      "Identify change in the number of available options for placing each subsequent rook on the board.",
+      "Analyze the sequence of reduction in available placement choices for each rook up to the nth.",
+      "Compute the product of all these placement choices over the board which corresponds to finding a factorial of a certain number.",
+      "Generalize the derived expression to relate to properties of permutations and factorials."
+    ],
+    {
+      "1": "Define what it means for two rooks to be placed peacefully on a chess board.",
+      "2": "Determine a method to visualize or quantify each individual rook's placement on the board.",
+      "3": "Reason why rooks can only occupy unique rows and columns to ensure peaceful placement.",
+      "4": "Calculate the number of available options for the first rook's placement.",
+      "5": "Identify change in the number of available options for placing each subsequent rook on the board.",
+      "6": "Analyze the sequence of reduction in available placement choices for each rook up to the nth.",
+      "7": "Compute the product of all these placement choices over the board which corresponds to finding a factorial of a certain number.",
+      "8": "Generalize the derived expression to relate to properties of permutations and factorials."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "What does it mean for two rooks to be placed peacefully on a chess board?",
+      "What restrictions does the peaceful placement impose on the arrangement of the rooks in terms of rows and columns?",
+      "How can we model the problem of placing n rooks peacefully on an n x n chess board?",
+      "How many ways are there to assign n rooks to n rows such that no two rooks share the same column?",
+      "Once we have the rooks assigned to rows without sharing columns, how many permutations of these placements (assigning columns to the rooks) are there?",
+      "Combine the results from placing the rooks in rows and columns to find the total number of peaceful arrangements.",
+      "Is there a relation or formula in combinatorics or permutations that can simplify the calculation of these arrangements?",
+      "Generalize the problem to an expression in terms of n, representing the number of ways to place n rooks peacefully on an n x n chessboard."
+    ],
+    {
+      "1": "What does it mean for two rooks to be placed peacefully on a chess board?",
+      "2": "What restrictions does the peaceful placement impose on the arrangement of the rooks in terms of rows and columns?",
+      "3": "How can we model the problem of placing n rooks peacefully on an n x n chess board?",
+      "4": "How many ways are there to assign n rooks to n rows such that no two rooks share the same column?",
+      "5": "Once we have the rooks assigned to rows without sharing columns, how many permutations of these placements (assigning columns to the rooks) are there?",
+      "6": "Combine the results from placing the rooks in rows and columns to find the total number of peaceful arrangements.",
+      "7": "Is there a relation or formula in combinatorics or permutations that can simplify the calculation of these arrangements?",
+      "8": "Generalize the problem to an expression in terms of n, representing the number of ways to place n rooks peacefully on an n x n chessboard."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the definition of placing rooks peacefully on a chessboard.",
+      "Identify how many rows and columns are on an \\( n \\times n \\) chessboard.",
+      "Determine the number of choices available for placing the first rook.",
+      "Consider how the choice of placement for the first rook affects the placement of the second rook.",
+      "Continue this consideration for each subsequent rook up to the \\( n \\)-th rook.",
+      "Relate these considerations to a mathematical formula or concept that captures the process of placing each rook peacefully.",
+      "Calculate the total number of ways to place \\( n \\) rooks based on the restrictive conditions introduced by each placement."
+    ],
+    {
+      "1": "Understand the definition of placing rooks peacefully on a chessboard.",
+      "2": "Identify how many rows and columns are on an \\( n \\times n \\) chessboard.",
+      "3": "Determine the number of choices available for placing the first rook.",
+      "4": "Consider how the choice of placement for the first rook affects the placement of the second rook.",
+      "5": "Continue this consideration for each subsequent rook up to the \\( n \\)-th rook.",
+      "6": "Relate these considerations to a mathematical formula or concept that captures the process of placing each rook peacefully.",
+      "7": "Calculate the total number of ways to place \\( n \\) rooks based on the restrictive conditions introduced by each placement."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the condition of two rooks on a chessboard being placed \"peacefully\", meaning they should neither share the same row nor the same column.",
+      "Determine how to initiate the placement of one rook and the implications it has on placing subsequent rooks regarding the availability of rows and columns.",
+      "Calculate the total number of ways to assign n rooks to n rows, ensuring that each rook occupies a unique row.",
+      "Analyze the impact of column availability once a rook is placed in a particular row.",
+      "Extend the calculation to determine the number of ways to assign n rows uniquely to n columns, ensuring no two rooks threaten each other.",
+      "Summarize the calculation in terms of permutations and use factorial notation to express the total number of peaceful placements of n rooks on an n x n chessboard."
+    ],
+    {
+      "1": "Understand the condition of two rooks on a chessboard being placed \"peacefully\", meaning they should neither share the same row nor the same column.",
+      "2": "Determine how to initiate the placement of one rook and the implications it has on placing subsequent rooks regarding the availability of rows and columns.",
+      "3": "Calculate the total number of ways to assign n rooks to n rows, ensuring that each rook occupies a unique row.",
+      "4": "Analyze the impact of column availability once a rook is placed in a particular row.",
+      "5": "Extend the calculation to determine the number of ways to assign n rows uniquely to n columns, ensuring no two rooks threaten each other.",
+      "6": "Summarize the calculation in terms of permutations and use factorial notation to express the total number of peaceful placements of n rooks on an n x n chessboard."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "What does it mean for two rooks to be placed peacefully on a chess board?",
+      "How does placing a rook in a specific row affect where subsequent rooks can be placed?",
+      "If n rooks must each be placed in a unique row and column, what is the relationship between the number of rooks and the size of the chess board?",
+      "How many ways can you arrange n items in a line?",
+      "Combine the conditions and calculation methods to find the total number of valid configurations where n rooks can be placed peacefully on an n x n board."
+    ],
+    {
+      "1": "What does it mean for two rooks to be placed peacefully on a chess board?",
+      "2": "How does placing a rook in a specific row affect where subsequent rooks can be placed?",
+      "3": "If n rooks must each be placed in a unique row and column, what is the relationship between the number of rooks and the size of the chess board?",
+      "4": "How many ways can you arrange n items in a line?",
+      "5": "Combine the conditions and calculation methods to find the total number of valid configurations where n rooks can be placed peacefully on an n x n board."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ]
+]

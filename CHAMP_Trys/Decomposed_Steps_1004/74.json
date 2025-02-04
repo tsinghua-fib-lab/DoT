@@ -1,0 +1,1333 @@
+[
+  [
+    [
+      "Recognize the type of series involved in 1/(n+1) + 1/(n+2) + ... + 1/(2n) and understand its behavior.",
+      "Calculate how the series behaves as n changes, particularly focusing on large values of n due to the range {101, ..., 1000}.",
+      "Use properties of harmonic series or an approximation (e.g., integral approximation) to estimate the sum of the series 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Establish an inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4 and simplify or manipulate it to identify conditions under which it is true.",
+      "Determine how many values of n in the set {101, ..., 1000} satisfy the derived condition.",
+      "Summarize all values of n that meet the criteria in step 4 and count these values."
+    ],
+    {
+      "1": "Recognize the type of series involved in 1/(n+1) + 1/(n+2) + ... + 1/(2n) and understand its behavior.",
+      "2": "Calculate how the series behaves as n changes, particularly focusing on large values of n due to the range {101, ..., 1000}.",
+      "3": "Use properties of harmonic series or an approximation (e.g., integral approximation) to estimate the sum of the series 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "4": "Establish an inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4 and simplify or manipulate it to identify conditions under which it is true.",
+      "5": "Determine how many values of n in the set {101, ..., 1000} satisfy the derived condition.",
+      "6": "Summarize all values of n that meet the criteria in step 4 and count these values."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Analyze the general form of the sum \\(\\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n}\\).",
+      "Consider the bounds or approximate value of this sum.",
+      "Compare this sum to \\(\\frac{3}{4}\\) to determine the relationship.",
+      "Calculate the sum for specific values of \\(n\\) in the given range {101, ..., 1000}.",
+      "Identify the values of \\(n\\) for which the sum is less than \\(\\frac{3}{4}\\).",
+      "Count the number of such values \\(n\\) that satisfy the condition."
+    ],
+    {
+      "1": "Analyze the general form of the sum \\(\\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n}\\).",
+      "2": "Consider the bounds or approximate value of this sum.",
+      "3": "Compare this sum to \\(\\frac{3}{4}\\) to determine the relationship.",
+      "4": "Calculate the sum for specific values of \\(n\\) in the given range {101, ..., 1000}.",
+      "5": "Identify the values of \\(n\\) for which the sum is less than \\(\\frac{3}{4}\\).",
+      "6": "Count the number of such values \\(n\\) that satisfy the condition."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand how the sum of reciprocals 1/(n+1) + 1/(n+2) + ... + 1/(2n) behaves as n varies.",
+      "Calculate, or estimate the sum of these reciprocals for a specific value of n within the given range.",
+      "Compare the calculated sum to the constant 3/4 and check if it is less.",
+      "Determine a method to efficiently evaluate the summation for all n in the given range {101, ..., 1000}.",
+      "Identify the smallest and largest values of n for which the sum is less than 3/4, if such exist.",
+      "Count how many values of n in the prescribed range satisfy the inequality.",
+      "Consider any special cases or bounds that simplify calculating or estimating the summation or final count."
+    ],
+    {
+      "1": "Understand how the sum of reciprocals 1/(n+1) + 1/(n+2) + ... + 1/(2n) behaves as n varies.",
+      "2": "Calculate, or estimate the sum of these reciprocals for a specific value of n within the given range.",
+      "3": "Compare the calculated sum to the constant 3/4 and check if it is less.",
+      "4": "Determine a method to efficiently evaluate the summation for all n in the given range {101, ..., 1000}.",
+      "5": "Identify the smallest and largest values of n for which the sum is less than 3/4, if such exist.",
+      "6": "Count how many values of n in the prescribed range satisfy the inequality.",
+      "7": "Consider any special cases or bounds that simplify calculating or estimating the summation or final count."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 7"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the structure of the sum specified: 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Express the sum's lower and upper bounds using harmonic series properties or approximations.",
+      "Compare the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) with an easier-to-handle function or sequence such as the integral of 1/x from n+1 to 2n.",
+      "Assess how the sum changes as n increases from 101 to 1000 and determine if there are qualitative changes in behavior.",
+      "Set up the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4 and explore solutions analytically or numerically.",
+      "Verify if the inequality holds for each n from 101 to 1000 and count the number of valid n."
+    ],
+    {
+      "1": "Identify the structure of the sum specified: 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "2": "Express the sum's lower and upper bounds using harmonic series properties or approximations.",
+      "3": "Compare the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) with an easier-to-handle function or sequence such as the integral of 1/x from n+1 to 2n.",
+      "4": "Assess how the sum changes as n increases from 101 to 1000 and determine if there are qualitative changes in behavior.",
+      "5": "Set up the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4 and explore solutions analytically or numerically.",
+      "6": "Verify if the inequality holds for each n from 101 to 1000 and count the number of valid n."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 5",
+        "Step 4"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine the expression for the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) using the harmonic series formula.",
+      "Evaluate if there's a formula or approximation that simplifies or estimates the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Compare the inequality expression 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4 to understand the relationship between n and the sum.",
+      "Evaluate the range {101, ..., 1000} and identify for which values of n the condition 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4 holds true.",
+      "Count the numbers of n in the range {101, ..., 1000} satisfying the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4."
+    ],
+    {
+      "1": "Determine the expression for the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) using the harmonic series formula.",
+      "2": "Evaluate if there's a formula or approximation that simplifies or estimates the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "3": "Compare the inequality expression 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4 to understand the relationship between n and the sum.",
+      "4": "Evaluate the range {101, ..., 1000} and identify for which values of n the condition 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4 holds true.",
+      "5": "Count the numbers of n in the range {101, ..., 1000} satisfying the inequality 1/(n+1) + 1/(n+2) + ... + 1/(2n) < 3/4."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Determine a general form or expression for the sum \\( S(n) = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "Identify an approach to compare \\( S(n) \\) with \\( \\frac{3}{4} \\) for each value of \\( n \\) in the given range.",
+      "Consider applying a mathematical strategy such as bounding, inequality, or an approximation to evaluate \\( S(n) \\).",
+      "Determine the range where \\( S(n) < \\frac{3}{4} \\) using logical or numerical methods.",
+      "Count the number of valid integers \\( n \\) within the specified range {101, ..., 1000} that satisfy the established condition \\( S(n) < \\frac{3}{4} \\)."
+    ],
+    {
+      "1": "Determine a general form or expression for the sum \\( S(n) = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "2": "Identify an approach to compare \\( S(n) \\) with \\( \\frac{3}{4} \\) for each value of \\( n \\) in the given range.",
+      "3": "Consider applying a mathematical strategy such as bounding, inequality, or an approximation to evaluate \\( S(n) \\).",
+      "4": "Determine the range where \\( S(n) < \\frac{3}{4} \\) using logical or numerical methods.",
+      "5": "Count the number of valid integers \\( n \\) within the specified range {101, ..., 1000} that satisfy the established condition \\( S(n) < \\frac{3}{4} \\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and how it behaves as n increases.",
+      "Determine the behavior of the sum's terms, particularly focusing on how the size of each term varies with n.",
+      "Assess the upper and lower bounds of the sum S_n = 1/(n+1) + 1/(n+2) + ... + 1/(2n) and compare these bounds as n varies from 101 to 1000.",
+      "Evaluate or approximate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and compare it to 3/4.",
+      "Iteratively or analytically solve for the inequality S_n < 3/4 and identify the values of n within the specified range that satisfy this condition.",
+      "Count the total number of values of n that satisfy the inequality within the given range {101, ..., 1000}."
+    ],
+    {
+      "1": "Understand the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and how it behaves as n increases.",
+      "2": "Determine the behavior of the sum's terms, particularly focusing on how the size of each term varies with n.",
+      "3": "Assess the upper and lower bounds of the sum S_n = 1/(n+1) + 1/(n+2) + ... + 1/(2n) and compare these bounds as n varies from 101 to 1000.",
+      "4": "Evaluate or approximate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) and compare it to 3/4.",
+      "5": "Iteratively or analytically solve for the inequality S_n < 3/4 and identify the values of n within the specified range that satisfy this condition.",
+      "6": "Count the total number of values of n that satisfy the inequality within the given range {101, ..., 1000}."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range of values for \\( n \\) specified in the problem.",
+      "Develop a general expression for the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + ... + \\frac{1}{2n} \\).",
+      "Analyze or simplify the sum expression to make it easier to compare with \\(\\frac{3}{4}\\).",
+      "Establish inequality conditions for the sum to be less than \\(\\frac{3}{4}\\).",
+      "Solve the inequality to find values of \\( n \\) that satisfy the condition.",
+      "Verify if each value of \\( n \\) within the specified range meets the inequality condition.",
+      "Count the total number of valid \\( n \\) values that meet the criteria."
+    ],
+    {
+      "1": "Identify the range of values for \\( n \\) specified in the problem.",
+      "2": "Develop a general expression for the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + ... + \\frac{1}{2n} \\).",
+      "3": "Analyze or simplify the sum expression to make it easier to compare with \\(\\frac{3}{4}\\).",
+      "4": "Establish inequality conditions for the sum to be less than \\(\\frac{3}{4}\\).",
+      "5": "Solve the inequality to find values of \\( n \\) that satisfy the condition.",
+      "6": "Verify if each value of \\( n \\) within the specified range meets the inequality condition.",
+      "7": "Count the total number of valid \\( n \\) values that meet the criteria."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range of values for n in the set {101, ..., 1000}.",
+      "Establish the expression for the sum of reciprocals from 1/(n+1) to 1/(2n).",
+      "Simplify or estimate the sum of reciprocals in terms of n.",
+      "Solve the inequality 1/(n+1)+1/(n+2)+...+1/(2n) < 3/4.",
+      "Determine how the behavior of the sum changes as n increases within the specified range.",
+      "Apply appropriate methods to evaluate or approximate the sum numerically or symbolically over the range of n.",
+      "Count the number of integers n in the set {101, ..., 1000} for which the inequality holds."
+    ],
+    {
+      "1": "Identify the range of values for n in the set {101, ..., 1000}.",
+      "2": "Establish the expression for the sum of reciprocals from 1/(n+1) to 1/(2n).",
+      "3": "Simplify or estimate the sum of reciprocals in terms of n.",
+      "4": "Solve the inequality 1/(n+1)+1/(n+2)+...+1/(2n) < 3/4.",
+      "5": "Determine how the behavior of the sum changes as n increases within the specified range.",
+      "6": "Apply appropriate methods to evaluate or approximate the sum numerically or symbolically over the range of n.",
+      "7": "Count the number of integers n in the set {101, ..., 1000} for which the inequality holds."
+    },
+    {
+      "0": [
+        "Step 1",
+        "Step 2"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the inequality provided: What does 1/(n+1) + 1/(n+2) + ... + 1/(2n) represent?",
+      "Determine the general behavior or pattern of the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) as n increases.",
+      "Express the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) in a more manageable form, possibly utilizing harmonic series or integrals for approximation.",
+      "Estimate or calculate the sum for arbitrary values of n within the given range {101, ..., 1000} to see how it behaves relative to the constant 3/4.",
+      "Establish an inequality involving n that must be satisfied for the sum to be less than 3/4.",
+      "Solve this inequality to determine the values of n (within the specified range) for which the inequality holds true.",
+      "Count the number of valid n values that satisfy this condition.",
+      "Verify the results using different values of n to ensure consistency of the inequality check."
+    ],
+    {
+      "1": "Understand the inequality provided: What does 1/(n+1) + 1/(n+2) + ... + 1/(2n) represent?",
+      "2": "Determine the general behavior or pattern of the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) as n increases.",
+      "3": "Express the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) in a more manageable form, possibly utilizing harmonic series or integrals for approximation.",
+      "4": "Estimate or calculate the sum for arbitrary values of n within the given range {101, ..., 1000} to see how it behaves relative to the constant 3/4.",
+      "5": "Establish an inequality involving n that must be satisfied for the sum to be less than 3/4.",
+      "6": "Solve this inequality to determine the values of n (within the specified range) for which the inequality holds true.",
+      "7": "Count the number of valid n values that satisfy this condition.",
+      "8": "Verify the results using different values of n to ensure consistency of the inequality check."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the given series: S(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n) for n ranging from 101 to 1000.",
+      "Determine the general behavior of the series S(n) as n increases.",
+      "Analyze the series S(n) for its minimum and maximum bounds.",
+      "Compare the series S(n) to the fixed value 3/4.",
+      "Estimate or calculate the value of S(n) for specific values n within the range {101, ..., 1000}.",
+      "Determine for which values of n within the given range, the inequality S(n) < 3/4 holds true.",
+      "Count the number of such values of n where the inequality is satisfied."
+    ],
+    {
+      "1": "Define the given series: S(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n) for n ranging from 101 to 1000.",
+      "2": "Determine the general behavior of the series S(n) as n increases.",
+      "3": "Analyze the series S(n) for its minimum and maximum bounds.",
+      "4": "Compare the series S(n) to the fixed value 3/4.",
+      "5": "Estimate or calculate the value of S(n) for specific values n within the range {101, ..., 1000}.",
+      "6": "Determine for which values of n within the given range, the inequality S(n) < 3/4 holds true.",
+      "7": "Count the number of such values of n where the inequality is satisfied."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand the expression given: 1/(n+1) + 1/(n+2) + ... + 1/(2n) which sums the reciprocals of all integers from n+1 to 2n.",
+      "Determine how many terms are in the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Figure out a general method or formula to efficiently calculate this sum or approximate it for large values of n.",
+      "Analyze how the value of the sum changes as n increases from 101 to 1000.",
+      "Set up an inequality to compare the sum 1/(n+1)+1/(n+2)+...+1/(2n) with 3/4.",
+      "Solve the inequality to find the range of n values within {101, ..., 1000} for which the sum is less than 3/4.",
+      "Count the number of valid n values that satisfy this condition."
+    ],
+    {
+      "1": "Understand the expression given: 1/(n+1) + 1/(n+2) + ... + 1/(2n) which sums the reciprocals of all integers from n+1 to 2n.",
+      "2": "Determine how many terms are in the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "3": "Figure out a general method or formula to efficiently calculate this sum or approximate it for large values of n.",
+      "4": "Analyze how the value of the sum changes as n increases from 101 to 1000.",
+      "5": "Set up an inequality to compare the sum 1/(n+1)+1/(n+2)+...+1/(2n) with 3/4.",
+      "6": "Solve the inequality to find the range of n values within {101, ..., 1000} for which the sum is less than 3/4.",
+      "7": "Count the number of valid n values that satisfy this condition."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Identify the range of values over which the sum of reciprocals is taken.",
+      "Establish the expression for the sum \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + \\dots + \\frac{1}{2n} \\).",
+      "Determine a strategy to estimate or simplify the sum \\( S_n \\) to compare with \\( \\frac{3}{4} \\).",
+      "Evaluate the behavior of \\( S_n \\) as \\( n \\) increases, considering whether \\( S_n \\) increases or decreases.",
+      "Analyze the bounds of \\( S_n \\) by approximating or bounding the sum’s value.",
+      "Calculate \\( S_n \\) for the specific end values in the set \\( \\{101, \\dots, 1000\\} \\).",
+      "Determine the values of \\( n \\) where \\( S_n < \\frac{3}{4} \\).",
+      "Count how many values of \\( n \\) satisfy the inequality in the given range."
+    ],
+    {
+      "1": "Identify the range of values over which the sum of reciprocals is taken.",
+      "2": "Establish the expression for the sum \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + \\dots + \\frac{1}{2n} \\).",
+      "3": "Determine a strategy to estimate or simplify the sum \\( S_n \\) to compare with \\( \\frac{3}{4} \\).",
+      "4": "Evaluate the behavior of \\( S_n \\) as \\( n \\) increases, considering whether \\( S_n \\) increases or decreases.",
+      "5": "Analyze the bounds of \\( S_n \\) by approximating or bounding the sum’s value.",
+      "6": "Calculate \\( S_n \\) for the specific end values in the set \\( \\{101, \\dots, 1000\\} \\).",
+      "7": "Determine the values of \\( n \\) where \\( S_n < \\frac{3}{4} \\).",
+      "8": "Count how many values of \\( n \\) satisfy the inequality in the given range."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ],
+      "7": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the mathematical expression for the sum \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "Find an expression or inequality to estimate or simplify \\( S_n \\).",
+      "Determine the conditions under which \\( S_n < \\frac{3}{4} \\) holds true.",
+      "Calculate or estimate \\( S_n \\) for the boundary values of n in the set {101, ..., 1000}.",
+      "Iterate \\( S_n \\) for each value of n between 101 and 1000.",
+      "Count the number of values of n for which the inequality \\( S_n < \\frac{3}{4} \\) is satisfied."
+    ],
+    {
+      "1": "Define the mathematical expression for the sum \\( S_n = \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "2": "Find an expression or inequality to estimate or simplify \\( S_n \\).",
+      "3": "Determine the conditions under which \\( S_n < \\frac{3}{4} \\) holds true.",
+      "4": "Calculate or estimate \\( S_n \\) for the boundary values of n in the set {101, ..., 1000}.",
+      "5": "Iterate \\( S_n \\) for each value of n between 101 and 1000.",
+      "6": "Count the number of values of n for which the inequality \\( S_n < \\frac{3}{4} \\) is satisfied."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the sum S(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n) and consider its terms and properties.",
+      "Use the properties of harmonic series or other appropriate mathematical tools to estimate or simplify S(n).",
+      "Analyze the inequality S(n) < 3/4 and determine necessary conditions for n.",
+      "Specifically investigate the behavior or bounds of S(n) as n increases within the interval {101, ..., 1000}.",
+      "Convert the inequality S(n) < 3/4 into a more manageable form using mathematical transformations or approximations.",
+      "Determine a method to numerically or analytically evaluate S(n) for n in the range {101, ..., 1000}.",
+      "Count the values of n in the specified range which satisfy the resulting inequality."
+    ],
+    {
+      "1": "Define the sum S(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n) and consider its terms and properties.",
+      "2": "Use the properties of harmonic series or other appropriate mathematical tools to estimate or simplify S(n).",
+      "3": "Analyze the inequality S(n) < 3/4 and determine necessary conditions for n.",
+      "4": "Specifically investigate the behavior or bounds of S(n) as n increases within the interval {101, ..., 1000}.",
+      "5": "Convert the inequality S(n) < 3/4 into a more manageable form using mathematical transformations or approximations.",
+      "6": "Determine a method to numerically or analytically evaluate S(n) for n in the range {101, ..., 1000}.",
+      "7": "Count the values of n in the specified range which satisfy the resulting inequality."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 4"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      "Understand what the series 1/(n+1) + 1/(n+2) + ... + 1/(2n) represents in terms of the harmonic sequence.",
+      "Approximate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) using integral estimation or other analytical tools like the natural logarithm function to relate it to known functions.",
+      "Determine a condition or inequality that relates the given series's sum to 3/4.",
+      "Determine how the inequality changes as n increases from 101 to 1000.",
+      "Use calculus or algebraic manipulations to compute at which point(s) the inequality becomes true and false as n varies from 101 to 1000.",
+      "Count the number of values for n between 101 and 1000 where the inequality holds true."
+    ],
+    {
+      "1": "Understand what the series 1/(n+1) + 1/(n+2) + ... + 1/(2n) represents in terms of the harmonic sequence.",
+      "2": "Approximate the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n) using integral estimation or other analytical tools like the natural logarithm function to relate it to known functions.",
+      "3": "Determine a condition or inequality that relates the given series's sum to 3/4.",
+      "4": "Determine how the inequality changes as n increases from 101 to 1000.",
+      "5": "Use calculus or algebraic manipulations to compute at which point(s) the inequality becomes true and false as n varies from 101 to 1000.",
+      "6": "Count the number of values for n between 101 and 1000 where the inequality holds true."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the function f(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n) and understand its behavior.",
+      "Calculate or estimate the sum for small values of n to investigate how the sum behaves as n changes.",
+      "Analyze how the number of terms in f(n) (which is n) affects the sum.",
+      "Approximate the sum using an integral approximation to understand its continuous behavior.",
+      "Calculate the value of f(n) for n=101 to check if it satisfies f(n) < 3/4.",
+      "Establish a methodology or formula to compute or estimate f(n) for all n from 102 to 1000.",
+      "Assess the conditions under which f(n) decreases as n increases to determine if it remains below 3/4.",
+      "Implement a systematic way to count or verify the numbers n in the range from 101 to 1000 for which f(n) < 3/4.",
+      "Consider any outlier values of n that might cause irregular behavior in the calculations or approximations.",
+      "Summarize and count the valid values of n where the condition f(n) < 3/4 is met."
+    ],
+    {
+      "1": "Define the function f(n) = 1/(n+1) + 1/(n+2) + ... + 1/(2n) and understand its behavior.",
+      "2": "Calculate or estimate the sum for small values of n to investigate how the sum behaves as n changes.",
+      "3": "Analyze how the number of terms in f(n) (which is n) affects the sum.",
+      "4": "Approximate the sum using an integral approximation to understand its continuous behavior.",
+      "5": "Calculate the value of f(n) for n=101 to check if it satisfies f(n) < 3/4.",
+      "6": "Establish a methodology or formula to compute or estimate f(n) for all n from 102 to 1000.",
+      "7": "Assess the conditions under which f(n) decreases as n increases to determine if it remains below 3/4.",
+      "8": "Implement a systematic way to count or verify the numbers n in the range from 101 to 1000 for which f(n) < 3/4.",
+      "9": "Consider any outlier values of n that might cause irregular behavior in the calculations or approximations.",
+      "10": "Summarize and count the valid values of n where the condition f(n) < 3/4 is met."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2",
+        "Step 9"
+      ],
+      "2": [
+        "Step 4",
+        "Step 5"
+      ],
+      "3": [
+        "Step 7",
+        "Step 6"
+      ],
+      "4": [
+        "Step 8"
+      ],
+      "5": [
+        "Step 10"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the mathematical expression for the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "Recognize the series type and explore a method or formula to simplify or approximate the sum.",
+      "Calculate the numerical value or estimate of the sum for several small values of \\( n \\) to better understand its behavior as \\( n \\) increases.",
+      "Determine the condition under which the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} < \\frac{3}{4} \\).",
+      "Investigate the mathematical properties and behavior of the sum function as \\( n \\) grows and approaches larger values, such as \\( n = 1000 \\).",
+      "Establish the range of \\( n \\) values in {101, ..., 1000} for which the sum is less than \\( \\frac{3}{4} \\).",
+      "Analyze or estimate how many integers \\( n \\) between 101 and 1000 fulfill the condition.",
+      "Conclude with a count or a comprehensive method to verify and count all such \\( n \\) that meet the criteria throughout the interval."
+    ],
+    {
+      "1": "Define the mathematical expression for the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} \\).",
+      "2": "Recognize the series type and explore a method or formula to simplify or approximate the sum.",
+      "3": "Calculate the numerical value or estimate of the sum for several small values of \\( n \\) to better understand its behavior as \\( n \\) increases.",
+      "4": "Determine the condition under which the sum \\( \\frac{1}{n+1} + \\frac{1}{n+2} + \\ldots + \\frac{1}{2n} < \\frac{3}{4} \\).",
+      "5": "Investigate the mathematical properties and behavior of the sum function as \\( n \\) grows and approaches larger values, such as \\( n = 1000 \\).",
+      "6": "Establish the range of \\( n \\) values in {101, ..., 1000} for which the sum is less than \\( \\frac{3}{4} \\).",
+      "7": "Analyze or estimate how many integers \\( n \\) between 101 and 1000 fulfill the condition.",
+      "8": "Conclude with a count or a comprehensive method to verify and count all such \\( n \\) that meet the criteria throughout the interval."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 5",
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ],
+      "6": [
+        "Step 8"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the expression p(n) as the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "Determine how p(n) behaves as n increases, focusing on whether p(n) is increasing or decreasing.",
+      "Calculate approximate values or bounds for p(n) for specific values in the range {101, ..., 1000}.",
+      "Evaluate the inequality p(n) < 3/4 to identify for which values of n this inequality holds true.",
+      "Count the number of values of n for which the inequality is satisfied within the specified range {101, ..., 1000}."
+    ],
+    {
+      "1": "Define the expression p(n) as the sum 1/(n+1) + 1/(n+2) + ... + 1/(2n).",
+      "2": "Determine how p(n) behaves as n increases, focusing on whether p(n) is increasing or decreasing.",
+      "3": "Calculate approximate values or bounds for p(n) for specific values in the range {101, ..., 1000}.",
+      "4": "Evaluate the inequality p(n) < 3/4 to identify for which values of n this inequality holds true.",
+      "5": "Count the number of values of n for which the inequality is satisfied within the specified range {101, ..., 1000}."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2",
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      "Define the function \\( f(n) = \\frac{1}{n+1} + \\frac{1}{n+2} + \\cdots + \\frac{1}{2n} \\).",
+      "Identify the behavior of \\( f(n) \\) as \\( n \\) increases.",
+      "Compute or estimate \\( f(n) \\) for endpoints or specific values within the interval {101, ..., 1000}.",
+      "Analyze how \\( f(n) \\) compares to \\(\\frac{3}{4}\\) within the specified range.",
+      "Determine for which values of \\( n \\) in the given set \\( f(n) < \\frac{3}{4} \\).",
+      "Count the number of values of \\( n \\) satisfying \\( f(n) < \\frac{3}{4} \\)."
+    ],
+    {
+      "1": "Define the function \\( f(n) = \\frac{1}{n+1} + \\frac{1}{n+2} + \\cdots + \\frac{1}{2n} \\).",
+      "2": "Identify the behavior of \\( f(n) \\) as \\( n \\) increases.",
+      "3": "Compute or estimate \\( f(n) \\) for endpoints or specific values within the interval {101, ..., 1000}.",
+      "4": "Analyze how \\( f(n) \\) compares to \\(\\frac{3}{4}\\) within the specified range.",
+      "5": "Determine for which values of \\( n \\) in the given set \\( f(n) < \\frac{3}{4} \\).",
+      "6": "Count the number of values of \\( n \\) satisfying \\( f(n) < \\frac{3}{4} \\)."
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ]
+]

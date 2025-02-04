@@ -1,0 +1,1510 @@
+[
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify the elements in the options list that equal the target value "
+      },
+      {
+        "stepId": 2,
+        "step": " If such elements exist, create a list of those elements as possible solutions "
+      },
+      {
+        "stepId": 3,
+        "step": " Verify each possible solution from the created list to check if it alone meets the target criteria "
+      },
+      {
+        "stepId": 4,
+        "step": " If no single element fits the criteria, compute combinations of elements from the options list while keeping within the max_stamps limit "
+      },
+      {
+        "stepId": 5,
+        "step": " For each combination, calculate the sum of the elements "
+      },
+      {
+        "stepId": 6,
+        "step": " Compare each sum against the target to find a match "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the matching combination as a solution if found, otherwise return an indication of no solution "
+      }
+    ],
+    {
+      "1": " Identify the elements in the options list that equal the target value ",
+      "2": " If such elements exist, create a list of those elements as possible solutions ",
+      "3": " Verify each possible solution from the created list to check if it alone meets the target criteria ",
+      "4": " If no single element fits the criteria, compute combinations of elements from the options list while keeping within the max_stamps limit ",
+      "5": " For each combination, calculate the sum of the elements ",
+      "6": " Compare each sum against the target to find a match ",
+      "7": " Return the matching combination as a solution if found, otherwise return an indication of no solution "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Verify the given target and the maximum allowed number of stamps. "
+      },
+      {
+        "stepId": 2,
+        "step": " Filter the options list to include only those values which are less than or equal to the target. "
+      },
+      {
+        "stepId": 3,
+        "step": " Check if any single stamp from the filtered options equals the target. "
+      },
+      {
+        "stepId": 4,
+        "step": " If a valid stamp is found that equals the target, prepare the list 'stamps'. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return True if a valid 'stamps' list that satisfies the sum condition is found. "
+      }
+    ],
+    {
+      "1": " Verify the given target and the maximum allowed number of stamps. ",
+      "2": " Filter the options list to include only those values which are less than or equal to the target. ",
+      "3": " Check if any single stamp from the filtered options equals the target. ",
+      "4": " If a valid stamp is found that equals the target, prepare the list 'stamps'. ",
+      "5": " Return True if a valid 'stamps' list that satisfies the sum condition is found. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions the `stamps` list must satisfy: elements must be from the given `options`, the sum must equal `target`, and the list length must not exceed `max_stamps`. "
+      },
+      {
+        "stepId": 2,
+        "step": " Check if the `target` value is directly available within the `options` list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Verify if the length of the `stamps` list containing only this element meets the `max_stamps` limit. "
+      },
+      {
+        "stepId": 4,
+        "step": " Ensure the sum of the chosen `stamps` equals the `target`. "
+      },
+      {
+        "stepId": 5,
+        "step": " If all conditions are met, return this list as an answer. "
+      }
+    ],
+    {
+      "1": " Understand the conditions the `stamps` list must satisfy: elements must be from the given `options`, the sum must equal `target`, and the list length must not exceed `max_stamps`. ",
+      "2": " Check if the `target` value is directly available within the `options` list. ",
+      "3": " Verify if the length of the `stamps` list containing only this element meets the `max_stamps` limit. ",
+      "4": " Ensure the sum of the chosen `stamps` equals the `target`. ",
+      "5": " If all conditions are met, return this list as an answer. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function’s requirement to have the sum of 'stamps' equal 'target' (`56`) using up to 'max_stamps' (`1`) from the 'options' list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Test if the 'target' itself is in the 'options' list as this would be the simplest solution. "
+      },
+      {
+        "stepId": 3,
+        "step": " If 'target' is not in 'options', check if any single stamp in 'options' sums up to the 'target'. "
+      },
+      {
+        "stepId": 4,
+        "step": " Return the list of 'stamps' that satisfy the conditions if found, otherwise, return an indication of failure. "
+      }
+    ],
+    {
+      "1": " Understand the function’s requirement to have the sum of 'stamps' equal 'target' (`56`) using up to 'max_stamps' (`1`) from the 'options' list. ",
+      "2": " Test if the 'target' itself is in the 'options' list as this would be the simplest solution. ",
+      "3": " If 'target' is not in 'options', check if any single stamp in 'options' sums up to the 'target'. ",
+      "4": " Return the list of 'stamps' that satisfy the conditions if found, otherwise, return an indication of failure. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify if target value is directly available in the options list "
+      },
+      {
+        "stepId": 2,
+        "step": " Check the maximum number of stamps allowed and see if directly using an option is feasible "
+      },
+      {
+        "stepId": 3,
+        "step": " If target is in options and max_stamps allows it, consider problem solved "
+      },
+      {
+        "stepId": 4,
+        "step": " If direct match is not possible, explore combinations within max_stamps limit that sum to the target "
+      },
+      {
+        "stepId": 5,
+        "step": " Iterate through possible combinations of options to find the correct sum "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify the final chosen combination of stamps meets all constraints "
+      }
+    ],
+    {
+      "1": " Identify if target value is directly available in the options list ",
+      "2": " Check the maximum number of stamps allowed and see if directly using an option is feasible ",
+      "3": " If target is in options and max_stamps allows it, consider problem solved ",
+      "4": " If direct match is not possible, explore combinations within max_stamps limit that sum to the target ",
+      "5": " Iterate through possible combinations of options to find the correct sum ",
+      "6": " Verify the final chosen combination of stamps meets all constraints "
+    },
+    {
+      "0": [
+        "Step 4",
+        "Step 1"
+      ],
+      "1": [
+        "Step 5",
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand what the function components mean: target, max_stamps, and options list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Check if target is directly present in the options list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Verify if a combination of options totaling to the target exists, knowing the condition that the number of elements cannot exceed max_stamps. "
+      },
+      {
+        "stepId": 4,
+        "step": " If multiple combinations exist, prefer the combination with the minimum elements. "
+      },
+      {
+        "stepId": 5,
+        "step": " Validate the final selection of stamps by confirming that sum matches target and count does not exceed max_stamps. "
+      },
+      {
+        "stepId": 6,
+        "step": " Result in a list 'stamps' that meets all conditions to make the function return True. "
+      }
+    ],
+    {
+      "1": " Understand what the function components mean: target, max_stamps, and options list. ",
+      "2": " Check if target is directly present in the options list. ",
+      "3": " Verify if a combination of options totaling to the target exists, knowing the condition that the number of elements cannot exceed max_stamps. ",
+      "4": " If multiple combinations exist, prefer the combination with the minimum elements. ",
+      "5": " Validate the final selection of stamps by confirming that sum matches target and count does not exceed max_stamps. ",
+      "6": " Result in a list 'stamps' that meets all conditions to make the function return True. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirements which include the sum of stamps equals target, all stamps being from the options list, and count of stamps not exceeding max_stamps. "
+      },
+      {
+        "stepId": 2,
+        "step": " Check if target is directly an element of options which also does not exceed max_stamps. "
+      },
+      {
+        "stepId": 3,
+        "step": " If STEP2 is not satisfied, consider combinations of values within the options list that can sum up to target without exceeding max_stamps. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify each combination to ensure every selected stamp is a member of the options list. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return the combination if it satisfies the sum and count conditions. "
+      }
+    ],
+    {
+      "1": " Understand the requirements which include the sum of stamps equals target, all stamps being from the options list, and count of stamps not exceeding max_stamps. ",
+      "2": " Check if target is directly an element of options which also does not exceed max_stamps. ",
+      "3": " If STEP2 is not satisfied, consider combinations of values within the options list that can sum up to target without exceeding max_stamps. ",
+      "4": " Verify each combination to ensure every selected stamp is a member of the options list. ",
+      "5": " Return the combination if it satisfies the sum and count conditions. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the problem requirements regarding target, max_stamps, and options "
+      },
+      {
+        "stepId": 2,
+        "step": " Identify elements from the options list that exactly match the target if used alone "
+      },
+      {
+        "stepId": 3,
+        "step": " Check if the elements identified in STEP2 do not exceed the max_stamps limit "
+      },
+      {
+        "stepId": 4,
+        "step": " Return the valid element(s) that satisfy all conditions "
+      }
+    ],
+    {
+      "1": " Understand the problem requirements regarding target, max_stamps, and options ",
+      "2": " Identify elements from the options list that exactly match the target if used alone ",
+      "3": " Check if the elements identified in STEP2 do not exceed the max_stamps limit ",
+      "4": " Return the valid element(s) that satisfy all conditions "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the conditions for the solution. "
+      },
+      {
+        "stepId": 2,
+        "step": " Start by checking if target is directly in options. "
+      },
+      {
+        "stepId": 3,
+        "step": " If target is not in options, explore combinations of different values in options without exceeding max_stamps. "
+      },
+      {
+        "stepId": 4,
+        "step": " Validate if the sum of selected stamps equals target. "
+      },
+      {
+        "stepId": 5,
+        "step": " Process the list to contain no more than max_stamps elements. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the list of stamps if all conditions are met. "
+      }
+    ],
+    {
+      "1": " Understand the conditions for the solution. ",
+      "2": " Start by checking if target is directly in options. ",
+      "3": " If target is not in options, explore combinations of different values in options without exceeding max_stamps. ",
+      "4": " Validate if the sum of selected stamps equals target. ",
+      "5": " Process the list to contain no more than max_stamps elements. ",
+      "6": " Return the list of stamps if all conditions are met. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function requirements: the list stamps should contain elements only from options and their sum should be exactly target. "
+      },
+      {
+        "stepId": 2,
+        "step": " Verify that the length of the list stamps doesn't exceed max_stamps. "
+      },
+      {
+        "stepId": 3,
+        "step": " Iterate through options to find if any single stamp equals the target. "
+      },
+      {
+        "stepId": 4,
+        "step": " If such a stamp is found and it's from options, add it to the list stamps. "
+      },
+      {
+        "stepId": 5,
+        "step": " Verify if the sum of the elements in stamps equals the target. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the list stamps if all conditions are satisfied. "
+      }
+    ],
+    {
+      "1": " Understand the function requirements: the list stamps should contain elements only from options and their sum should be exactly target. ",
+      "2": " Verify that the length of the list stamps doesn't exceed max_stamps. ",
+      "3": " Iterate through options to find if any single stamp equals the target. ",
+      "4": " If such a stamp is found and it's from options, add it to the list stamps. ",
+      "5": " Verify if the sum of the elements in stamps equals the target. ",
+      "6": " Return the list stamps if all conditions are satisfied. "
+    },
+    {
+      "0": [
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 3"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand and outline the requirementsthat the sum of stamps must equal the target, each stamp must be an element from options, and the number of stamps should not exceed max_stamps "
+      },
+      {
+        "stepId": 2,
+        "step": " Check if the targeted sum can be directly met by any single stamp option that is equal to the target "
+      },
+      {
+        "stepId": 3,
+        "step": " If STEP2 succeeds, prepare a list with that single approved option as the only entry "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify that the total of the list from STEP3 exactly matches the target and does not exceed the max_stamps limit "
+      },
+      {
+        "stepId": 5,
+        "step": " If STEP3 fails, check combinations of stamps from optionsthat might sum to the target without exceeding max_stamps "
+      },
+      {
+        "stepId": 6,
+        "step": " From successful combinations found in STEP5, choose one and ensure that it doesn't have more than max_stamps elements "
+      },
+      {
+        "stepId": 7,
+        "step": " Validate that the sum of elements in the chosen stamp list from STEP6 equals the target "
+      }
+    ],
+    {
+      "1": " Understand and outline the requirementsthat the sum of stamps must equal the target, each stamp must be an element from options, and the number of stamps should not exceed max_stamps ",
+      "2": " Check if the targeted sum can be directly met by any single stamp option that is equal to the target ",
+      "3": " If STEP2 succeeds, prepare a list with that single approved option as the only entry ",
+      "4": " Verify that the total of the list from STEP3 exactly matches the target and does not exceed the max_stamps limit ",
+      "5": " If STEP3 fails, check combinations of stamps from optionsthat might sum to the target without exceeding max_stamps ",
+      "6": " From successful combinations found in STEP5, choose one and ensure that it doesn't have more than max_stamps elements ",
+      "7": " Validate that the sum of elements in the chosen stamp list from STEP6 equals the target "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 5",
+        "Step 3"
+      ],
+      "3": [
+        "Step 6",
+        "Step 4"
+      ],
+      "4": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify elements in options that are equal to the target value. "
+      },
+      {
+        "stepId": 2,
+        "step": " If any, select such an element as a valid candidate for the list stamps. "
+      },
+      {
+        "stepId": 3,
+        "step": " Check if the length of the list stamps does not exceed max_stamps. "
+      },
+      {
+        "stepId": 4,
+        "step": " Confirm that the sum of elements in stamps equals the target. "
+      },
+      {
+        "stepId": 5,
+        "step": " If steps 2–4 are satisfied, conclude that stamps is a valid solution. "
+      }
+    ],
+    {
+      "1": " Identify elements in options that are equal to the target value. ",
+      "2": " If any, select such an element as a valid candidate for the list stamps. ",
+      "3": " Check if the length of the list stamps does not exceed max_stamps. ",
+      "4": " Confirm that the sum of elements in stamps equals the target. ",
+      "5": " If steps 2–4 are satisfied, conclude that stamps is a valid solution. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Read and understand the function's requirements: the sum of the elements in the list `stamps` must equal `target` and its size must not exceed `max_stamps`. "
+      },
+      {
+        "stepId": 2,
+        "step": " Review the available values in `options` that can be used as elements in the `stamps` list. "
+      },
+      {
+        "stepId": 3,
+        "step": " Check if any single value from `options` is exactly equal to the `target`. "
+      },
+      {
+        "stepId": 4,
+        "step": " If such a value exists and its size is less than or equal to `max_stamps`, set it as the `stamps` list. "
+      },
+      {
+        "stepId": 5,
+        "step": " If no single value matches or fits under `max_stamps`, explore combinations of values that add up to `target` without exceeding `max_stamps`. "
+      },
+      {
+        "stepId": 6,
+        "step": " Verify if the final list `stamps` meets all given conditions. "
+      },
+      {
+        "stepId": 7,
+        "step": " Output the correct answer for the list `stamps` that satisfies the function. "
+      }
+    ],
+    {
+      "1": " Read and understand the function's requirements: the sum of the elements in the list `stamps` must equal `target` and its size must not exceed `max_stamps`. ",
+      "2": " Review the available values in `options` that can be used as elements in the `stamps` list. ",
+      "3": " Check if any single value from `options` is exactly equal to the `target`. ",
+      "4": " If such a value exists and its size is less than or equal to `max_stamps`, set it as the `stamps` list. ",
+      "5": " If no single value matches or fits under `max_stamps`, explore combinations of values that add up to `target` without exceeding `max_stamps`. ",
+      "6": " Verify if the final list `stamps` meets all given conditions. ",
+      "7": " Output the correct answer for the list `stamps` that satisfies the function. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4",
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the requirement that the sum of elements in stamps list needs to be equal to the target. "
+      },
+      {
+        "stepId": 2,
+        "step": " Recognize the constraint that the number of elements in stamps should not exceed max_stamps. "
+      },
+      {
+        "stepId": 3,
+        "step": " Explore the available stamp options from which elements of stamps can be chosen. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check for direct matches in the options that equal the target. "
+      },
+      {
+        "stepId": 5,
+        "step": " If no direct matches are found, calculate combinations of options that sum up to the target without exceeding max_stamps. "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate the selected stamps against the two conditions: sum equals to target and length <= max_stamps. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return a list of valid stamps if found. "
+      }
+    ],
+    {
+      "1": " Understand the requirement that the sum of elements in stamps list needs to be equal to the target. ",
+      "2": " Recognize the constraint that the number of elements in stamps should not exceed max_stamps. ",
+      "3": " Explore the available stamp options from which elements of stamps can be chosen. ",
+      "4": " Check for direct matches in the options that equal the target. ",
+      "5": " If no direct matches are found, calculate combinations of options that sum up to the target without exceeding max_stamps. ",
+      "6": " Validate the selected stamps against the two conditions: sum equals to target and length <= max_stamps. ",
+      "7": " Return a list of valid stamps if found. "
+    },
+    {
+      "0": [
+        "Step 3",
+        "Step 2",
+        "Step 1"
+      ],
+      "1": [
+        "Step 4",
+        "Step 5"
+      ],
+      "2": [
+        "Step 6"
+      ],
+      "3": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the constraints: Elements of stamps must be in options, stamps should not exceed max_stamps in length, and their sum must equal target. "
+      },
+      {
+        "stepId": 2,
+        "step": " Check if target is present in options. "
+      },
+      {
+        "stepId": 3,
+        "step": " If target is in options, set stamps to be a list containing just the target. "
+      },
+      {
+        "stepId": 4,
+        "step": " Verify the total number of stamps does not exceed max_stamps. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check the sum of stamps to confirm it equals the target. "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the list stamps if all conditions are met. "
+      }
+    ],
+    {
+      "1": " Understand the constraints: Elements of stamps must be in options, stamps should not exceed max_stamps in length, and their sum must equal target. ",
+      "2": " Check if target is present in options. ",
+      "3": " If target is in options, set stamps to be a list containing just the target. ",
+      "4": " Verify the total number of stamps does not exceed max_stamps. ",
+      "5": " Check the sum of stamps to confirm it equals the target. ",
+      "6": " Return the list stamps if all conditions are met. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify the unique stamp values in the options list that can meet the target alone. "
+      },
+      {
+        "stepId": 2,
+        "step": " Check if any of the identified stamp values match the target exactly. "
+      },
+      {
+        "stepId": 3,
+        "step": " Ensure that the identified stamp values do not exceed the max_stamps allowed. "
+      },
+      {
+        "stepId": 4,
+        "step": " If a match is found, create a list containing just the matching stamp. "
+      },
+      {
+        "stepId": 5,
+        "step": " Validate the conditions: the matching stamp from the list should be in options, and its sum should equal the target. "
+      }
+    ],
+    {
+      "1": " Identify the unique stamp values in the options list that can meet the target alone. ",
+      "2": " Check if any of the identified stamp values match the target exactly. ",
+      "3": " Ensure that the identified stamp values do not exceed the max_stamps allowed. ",
+      "4": " If a match is found, create a list containing just the matching stamp. ",
+      "5": " Validate the conditions: the matching stamp from the list should be in options, and its sum should equal the target. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function's requirements and constraints. "
+      },
+      {
+        "stepId": 2,
+        "step": " Check each value in the options list to see if it matches the target directly. "
+      },
+      {
+        "stepId": 3,
+        "step": " If a direct match is found within the bounds of max_stamps, add it to the potential solutions list. "
+      },
+      {
+        "stepId": 4,
+        "step": " If no direct match is found, explore combinations of the options that could sum to the target while adhering to max_stamps. "
+      },
+      {
+        "stepId": 5,
+        "step": " Determine if any combination sum matches the target exactly. "
+      },
+      {
+        "stepId": 6,
+        "step": " Validate if the combination count does not exceed max_stamps. "
+      },
+      {
+        "stepId": 7,
+        "step": " Choose a valid set of stamps that meets all the conditions to make the function return True. "
+      }
+    ],
+    {
+      "1": " Understand the function's requirements and constraints. ",
+      "2": " Check each value in the options list to see if it matches the target directly. ",
+      "3": " If a direct match is found within the bounds of max_stamps, add it to the potential solutions list. ",
+      "4": " If no direct match is found, explore combinations of the options that could sum to the target while adhering to max_stamps. ",
+      "5": " Determine if any combination sum matches the target exactly. ",
+      "6": " Validate if the combination count does not exceed max_stamps. ",
+      "7": " Choose a valid set of stamps that meets all the conditions to make the function return True. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 4",
+        "Step 3"
+      ],
+      "3": [
+        "Step 5"
+      ],
+      "4": [
+        "Step 6"
+      ],
+      "5": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Understand the function's requirements of having stamps sum to a target using a limited quantity from predefined options. "
+      },
+      {
+        "stepId": 2,
+        "step": " Assess direct matches from options to target without combination. "
+      },
+      {
+        "stepId": 3,
+        "step": " If no direct matches, proceed to check combinations up to the max_stamps limit. "
+      },
+      {
+        "stepId": 4,
+        "step": " Iterate over options and calculate potential sums. "
+      },
+      {
+        "stepId": 5,
+        "step": " Check if any combination equals the target value. "
+      },
+      {
+        "stepId": 6,
+        "step": " Confirm that the combination uses less than or equal to max_stamps items. "
+      },
+      {
+        "stepId": 7,
+        "step": " Return the valid combination or adjust the approach if not found. "
+      }
+    ],
+    {
+      "1": " Understand the function's requirements of having stamps sum to a target using a limited quantity from predefined options. ",
+      "2": " Assess direct matches from options to target without combination. ",
+      "3": " If no direct matches, proceed to check combinations up to the max_stamps limit. ",
+      "4": " Iterate over options and calculate potential sums. ",
+      "5": " Check if any combination equals the target value. ",
+      "6": " Confirm that the combination uses less than or equal to max_stamps items. ",
+      "7": " Return the valid combination or adjust the approach if not found. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ],
+      "6": [
+        "Step 7"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Identify all options that are within the constraints of target sum and maximum number of stamps allowed "
+      },
+      {
+        "stepId": 2,
+        "step": " From the identified options, select those whose sum is exactly equal to the target value and do not exceed the maximum number of stamps "
+      },
+      {
+        "stepId": 3,
+        "step": " If no single option fits the target while under the max stamps limit, consider combinations of these options "
+      },
+      {
+        "stepId": 4,
+        "step": " Sum the values of the selected options and compare this to the target value "
+      },
+      {
+        "stepId": 5,
+        "step": " Adjust selections if the total does not match the target, or if a valid combination is found, finalize the list "
+      },
+      {
+        "stepId": 6,
+        "step": " Return the list of selected stamps that satisfy both conditions "
+      }
+    ],
+    {
+      "1": " Identify all options that are within the constraints of target sum and maximum number of stamps allowed ",
+      "2": " From the identified options, select those whose sum is exactly equal to the target value and do not exceed the maximum number of stamps ",
+      "3": " If no single option fits the target while under the max stamps limit, consider combinations of these options ",
+      "4": " Sum the values of the selected options and compare this to the target value ",
+      "5": " Adjust selections if the total does not match the target, or if a valid combination is found, finalize the list ",
+      "6": " Return the list of selected stamps that satisfy both conditions "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 2"
+      ],
+      "2": [
+        "Step 3"
+      ],
+      "3": [
+        "Step 4"
+      ],
+      "4": [
+        "Step 5"
+      ],
+      "5": [
+        "Step 6"
+      ]
+    },
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  ],
+  [
+    [
+      {
+        "stepId": 1,
+        "step": " Verify that all selected stamps are from the given options list. "
+      },
+      {
+        "stepId": 2,
+        "step": " Check if the number of stamps selected does not exceed the maximum allowed stamps (max_stamps). "
+      },
+      {
+        "stepId": 3,
+        "step": " Calculate the sum of the selected stamps. "
+      },
+      {
+        "stepId": 4,
+        "step": " Check if the total sum of selected stamps equals the target amount. "
+      },
+      {
+        "stepId": 5,
+        "step": " Return True if all conditions are met; otherwise, adjust or select a different combination of stamps. "
+      }
+    ],
+    {
+      "1": " Verify that all selected stamps are from the given options list. ",
+      "2": " Check if the number of stamps selected does not exceed the maximum allowed stamps (max_stamps). ",
+      "3": " Calculate the sum of the selected stamps. ",
+      "4": " Check if the total sum of selected stamps equals the target amount. ",
+      "5": " Return True if all conditions are met; otherwise, adjust or select a different combination of stamps. "
+    },
+    {
+      "0": [
+        "Step 1"
+      ],
+      "1": [
+        "Step 3",
+        "Step 2"
+      ],
+      "2": [
+        "Step 4"
+      ],
+      "3": [
+        "Step 5"
+      ]
+    },
+    [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  ]
+]
