@@ -2,7 +2,7 @@
 
 
 
-![framework](/Users/pluto/Desktop/Camera-Ready/DoT/framework.png)
+![framework](framework.png)
 
 
 
