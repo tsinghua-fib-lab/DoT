@@ -14,28 +14,19 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
+sys.path.append('../')
 import logging
-
 from puzzle_utils import *
-
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="http://101.6.69.60:8000/v1",
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "最终方案测试 Step2"
+aftername = "final_version-step2"
 MAX_TRY = 5
 
 if __name__ == '__main__':

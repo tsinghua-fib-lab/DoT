@@ -15,25 +15,18 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
+sys.path.append('../')
 from CSQA_Trys.CSQA_utils import *
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="http://101.6.69.60:8000/v1",
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "gpt4o 最终方案测试 Step1"
+aftername = "final_version-step1"
 
 if __name__ == '__main__':
     start_time = time.time()
@@ -92,25 +85,9 @@ if __name__ == '__main__':
             try:
                 # 问题分解
                 decompose_steps = decompose_sql(clients, question, options_string, config)
-                # decompose_steps:
-                # print(decompose_steps)
-                # sys.exit(0)
-                # 1. Define the meaning of "sanctions" in the context of this sentence
-                # print(decompose_steps)
-                # print('\n')
-                 
                 # 分解后格式规范化
                 steps, steps_dict = convert_steps_to_format(decompose_steps)
                 formatted_steps = '; '.join([f'step{i+1}: {step}' for i, step in enumerate(steps)])
-                # print(steps)
-                # print('\n')
-                # print(steps_dict)
-                # print('\n')
-                # 注意steps_dict里的key是纯数字.
-                
-                # LLM自动化执行任务分配
-                # allo_model = AllocateModel(question, steps, config)  # 很好用
-                # print(allo_model)
                 
                 allo_model = {key: 'gpt-4-turbo' for key in steps_dict.keys()}
                 # 先统一用gpt-4-turbo来试一下结果如何
@@ -133,7 +110,6 @@ if __name__ == '__main__':
                 node_depths = calculate_node_depths(edges)
                 # 按照深度重新组织节点
                 depths = reverseDict(node_depths)  # {0: ['Step 1'], 1: ['Step 2'], 2: ['Step 3']}
-                # print('深度计算 done')
                 
                 step1Res[question_id]['steps'] = steps
                 step1Res[question_id]['steps_dict'] = steps_dict

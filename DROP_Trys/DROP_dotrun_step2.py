@@ -14,25 +14,19 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from tqdm import tqdm
 
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
+sys.path.append('../')
 from DROP_Trys.DROP_utils import *
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="http://101.6.69.60:8002/v1",
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "最终方案结果-第二阶段结果"
+aftername = "final_version-step2"
 
 if __name__ == '__main__':
     start_time = time.time()
@@ -50,7 +44,7 @@ if __name__ == '__main__':
     config['tokens_path'] = tokens_path
 
     # 示例文件路径
-    file_path = 'C:\\Users\Pluto\Desktop\TaDe\Task_Datasets\DROP\\all_drop_p.json'
+    file_path = '../Task_Datasets/DROP/all_drop_p.json'
     
     with open(file_path, 'r', encoding='utf-8') as file:
         problems = json.load(file)

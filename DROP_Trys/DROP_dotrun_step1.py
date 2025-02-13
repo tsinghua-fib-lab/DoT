@@ -14,24 +14,18 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
+sys.path.append('../')
 from DROP_Trys.DROP_utils import *
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = Groq(  # 这个是Groq调用llama的api接口
-    api_key='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'
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "gpt4o 任务两阶段 第一阶段"
+aftername = "final_version-step1"
 
 if __name__ == '__main__':
     start_time = time.time()
@@ -49,19 +43,10 @@ if __name__ == '__main__':
     config['tokens_path'] = tokens_path
 
     # 示例文件路径
-    file_path = 'C:\\Users\Pluto\Desktop\TaDe\Task_Datasets\DROP\\all_drop_p.json'
+    file_path = '../Task_Datasets/DROP/all_drop_p.json'
     
     with open(file_path, 'r', encoding='utf-8') as file:
         problems = json.load(file)
-        
-    # 先给出文本,再给出问题,最后给出答案    
-    # print(len(problems))
-    # print('\n\n')
-    # print(problems[0]['passage'])
-    # print('\n\n')
-    # print(problems[0]['question'])
-    # print('\n\n')
-    # print(problems[0]['answer'])
         
     success_Q = 0
     unsuccess_Q = 0
@@ -102,15 +87,10 @@ if __name__ == '__main__':
                 
                 # 问题分解
                 decompose_steps = decompose_sql(clients, passage, question, config)
-                # decompose_steps:
-                # print('\n\n\n')
-                # print(decompose_steps)
                  
                 # 分解后格式规范化
                 steps, steps_dict = convert_steps_to_format(decompose_steps)
                 formatted_steps = '; '.join([f'step{i+1}: {step}' for i, step in enumerate(steps)])
-                # print(steps)
-                # print(steps_dict)
                 
                 # 依赖性分析
                 relations_test = construct_dependencies_without_traversal(clients, question, steps, config)  # query LLM回答所有的依赖
@@ -124,13 +104,11 @@ if __name__ == '__main__':
                 for item in reduced_dependencies:
                     edges.append((item[0][:item[0].find('[')].strip(), item[1][:item[1].find('[')].strip()))
                 int_edges = [(int(e[0].split()[1]), int(e[1].split()[1])) for e in edges]
-                # print('建图 done')
 
                 # 计算节点的深度
                 node_depths = calculate_node_depths(edges)
                 # 按照深度重新组织节点
                 depths = reverseDict(node_depths)  # {0: ['Step 1'], 1: ['Step 2'], 2: ['Step 3']}
-                # print('深度计算 done')
 
                 step1Res[question_id]['steps'] = steps
                 step1Res[question_id]['steps_dict'] = steps_dict

@@ -10,23 +10,18 @@ import sys
 import time
 from datetime import datetime
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
+sys.path.append('../')
 from MATH_Trys.MATH_utils import *
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = Groq(  # 这个是Groq调用llama的api接口
-    api_key='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'
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "最终方案测试 Step1"
+aftername = "final_version-step1"
 
 if __name__ == '__main__':
     start_time = time.time()
-    # 初始化token路径
     now = datetime.now()
     formatted_now = now.strftime("%Y-%m-%d-%H-%M-%S")
     tokens_path = f'Tokens/token_usage_{formatted_now}.json'  # 这是记录token消耗的文件
@@ -40,7 +35,7 @@ if __name__ == '__main__':
         config = json.load(f)
     config['tokens_path'] = tokens_path
         
-    file_path = 'C:\\Users\Pluto\Desktop\TaDe\Task_Datasets\MATH\\all_math_p.json'
+    file_path = '../Task_Datasets/MATH/all_math_p.json'
     with open(file_path, 'r', encoding='utf-8') as file:
         problems = json.load(file)
 
@@ -89,7 +84,6 @@ if __name__ == '__main__':
                 # 依赖性分析
                 relations_test = construct_dependencies_without_traversal(clients, question, steps, config)  # query LLM回答所有的依赖
                 # relations_test:  Step 2 [ run opposite right ] -> Step 1 [ walk opposite right thrice]
-                # print('relations_test:\n', relations_test)
                 
                 # 建图与化简
                 G1 = create_dag_from_string(relations_test)
@@ -99,13 +93,11 @@ if __name__ == '__main__':
                 for item in reduced_dependencies:
                     edges.append((item[0][:item[0].find('[')].strip(), item[1][:item[1].find('[')].strip()))
                 int_edges = [(int(e[0].split()[1]), int(e[1].split()[1])) for e in edges]
-                # print('建图 done')
 
                 # 计算节点的深度
                 node_depths = calculate_node_depths(edges)
                 # 按照深度重新组织节点
                 depths = reverseDict(node_depths)  # {0: ['Step 1'], 1: ['Step 2'], 2: ['Step 3']}
-                # print('深度计算 done')
 
                 step1Res[question_id]['steps'] = steps
                 step1Res[question_id]['steps_dict'] = steps_dict

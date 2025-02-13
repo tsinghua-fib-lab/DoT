@@ -9,27 +9,22 @@ import sys
 import time
 from datetime import datetime
 from tqdm import tqdm
-
-sys.path.append('DoT')
+sys.path.append('../')
 from MATH_Trys.MATH_utils import *
 from utils import *
-openaiClient = setOpenAi(keyid = 0)
-llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="http://101.6.69.60:8001/v1",
-)
-clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "最终方案结果-第二阶段结果"
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
+openaiClient = setOpenAi(keyid = 0)
+llamaClient = setLocal()
+clients = {'gpt': openaiClient, 'llama': llamaClient}
+aftername = "final_version-step2"
 
 if __name__ == '__main__':
     start_time = time.time()
     # 初始化token路径
     now = datetime.now()
     formatted_now = now.strftime("%Y-%m-%d-%H-%M-%S")
-    tokens_path = f'Tokens/token_usage_{formatted_now}.json'  # 这是记录token消耗的文件
+    tokens_path = f'Tokens/token_usage_{formatted_now}.json'  # 记录token消耗的文件
     if not os.path.exists(tokens_path):
         with open(tokens_path, 'w') as f:
             json.dump({}, f)
@@ -40,7 +35,7 @@ if __name__ == '__main__':
         config = json.load(f)
     config['tokens_path'] = tokens_path
         
-    file_path = 'DoT\Task_Datasets\MATH\\all_math_p.json'
+    file_path = '../Task_Datasets/MATH/all_math_p.json'
     with open(file_path, 'r', encoding='utf-8') as file:
         problems = json.load(file)
 
@@ -55,8 +50,7 @@ if __name__ == '__main__':
     f = open('TmpRes/step2In_MATH_last.json', 'r')
     content = f.read()
     middleRes = json.loads(content) 
-    
-    # 选择问题
+
     for question_id in tqdm(question_ids):
         
         question = problems[question_id]['problem']
@@ -70,14 +64,14 @@ if __name__ == '__main__':
 
         attempts = 0
         success = False
-        while attempts < MAX_TRY and not success:  # 如果遇到格式错误
+        while attempts < MAX_TRY and not success:
             try:
                 steps, steps_dict, allo_model, depths, int_edges = middleRes[str(question_id)]['steps'], middleRes[str(question_id)]['steps_dict'], middleRes[str(question_id)]['allo_model'], middleRes[str(question_id)]['depths'], middleRes[str(question_id)]['int_edges']
                 depths = {int(k): v for k, v in depths.items()}
                 
                 heights = list(depths.keys())
                 MAXHeight = max(heights)
-                answerDict = {}  # 只有已经做过回答的subtask才会被放到这里面来
+                answerDict = {} 
                 progress_bar = tqdm(total=len(steps))
                 for i in range(MAXHeight):
                     subtasks = depths[i]
@@ -86,9 +80,7 @@ if __name__ == '__main__':
                         number = int(number[0]) if number else None
                         subtask = steps_dict[str(number)]
                         answer_MODEL = allo_model[number-1]
-                        # answer_MODEL = 'gpt-4-turbo'
                         
-                        # question 问题字符串
                         # 交待解决任务
                         sys_q = f"""There is a math_problem. I need you to solve it and give an answer.
 Here is the problem:\n{question}

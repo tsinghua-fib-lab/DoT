@@ -16,7 +16,7 @@
 
 ## Experiment:
 ### Openai Key Setup:
-:gear:Run: Please put your openai key in function *setOpenAi*:
+:gear:Run: Please put your openai key in function *setOpenAi()* and prepare your local model in *setlocal()* (DoT/utils.py):
 
 ```
 def setOpenAi(keyid = 0):
@@ -26,8 +26,19 @@ def setOpenAi(keyid = 0):
     client = OpenAI(api_key=api_key)
     addtoken(-1)
     return client
+
+def setLocal():
+    client = OpenAI(
+        api_key="EMPTY",
+        base_url="your llm deploy url",
+    )
+    return client
 ```
+
 You can set more than one api key for usage.
+
+**NOTE:** The LLM client definition needs to meet the following calling format: `client.chat.completions.create(model, messages=messages)`, so that it can smoothly support the calling format of the `askLLM` function in `utils.py`. If the question-answer format of your LLM deployment does not comply with the OpenAI client call interface, please make sure to modify the `askLLM` function accordingly.
+
 
 ---
 

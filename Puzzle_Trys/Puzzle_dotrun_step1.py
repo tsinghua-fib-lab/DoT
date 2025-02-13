@@ -14,29 +14,21 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
+sys.path.append('../')
 import logging
 
 from puzzle_utils import *
 
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="http://101.6.69.60:8001/v1",
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "gpt4o 两阶段 step1"
-MAX_TRY = 5
+aftername = "final_version-step1"
 
 if __name__ == '__main__':
     
@@ -56,11 +48,6 @@ if __name__ == '__main__':
     with open('Puzzle_config.json', 'r') as f:
         config = json.load(f)
     config['tokens_path'] = tokens_path
-        
-#     question_ids = [29, 48, 61, 81, 84, 108, 110, 114, 115, 188, 192, 195, 212, 226, 257, 277, 283, 285, 295, 320, 339, 341, 343, 359, 393, 416, 434, 449, 452, 457, 462, 495, 500, 519, 533, 546, 554, 555, 556, 576, 582, 606, 637, 641, 653, 675, 723, 752, 759, 811, 
-# 820, 822, 827, 828, 853, 876, 881, 897, 920, 929, 937, 951, 1021, 1022, 1037, 1069, 1071, 1110, 1123, 1128, 1130, 1145, 1169, 1201, 1227, 1233, 1234, 1235, 1240, 1255, 1265, 1301, 1316, 1350, 1358, 1373, 1420, 1440, 1454, 1512, 1529, 1533, 1596, 
-# 1597, 1607, 1627, 1658, 1660, 1697, 1707]
-
 
     success_Q = 0
     unsuccess_Q = 0
@@ -69,6 +56,7 @@ if __name__ == '__main__':
     
     step1Res = {}
     N = 200
+    MAX_TRY = 5
     
     for question_id in tqdm(range(N)):
                 # question_id = random.randint(0, len(puzzles))
@@ -81,15 +69,7 @@ if __name__ == '__main__':
         logger.info('label id: '+puzzles[question_id]['name'])
         logger.info('puzzle content:')
         logger.info(question)
-                # print(question)
-                # print(puzzles[question_id]['ans_type'])
-                # answer = '[5506558, 2]'
-                # converted_result = convert_to_type(puzzles[question_id]['ans_type'], answer)
-                # print('converted_result:\n')
-                # print(converted_result)
-                # print(type(converted_result))
-                # sys.exit(0)
-        
+
         attempts = 0
         success = False
         while attempts < MAX_TRY and not success:  # 如果遇到格式错误
@@ -117,7 +97,6 @@ if __name__ == '__main__':
                 # 按照深度重新组织节点
                 depths = reverseDict(node_depths)  # {0: ['Step 1'], 1: ['Step 3', 'Step 2'], 2: ['Step 5', 'Step 4'], 3: ['Step 6'], 4: ['Step 7'], 5: ['Step 8'], 6: ['Step 9']}
                 # print('深度计算 done')
-                
                 
                 formatted_steps = '; '.join(['step{}: {}'.format(i, step['step']) for i, step in enumerate(steps)])
                 steps = [x['step'] for x in steps]

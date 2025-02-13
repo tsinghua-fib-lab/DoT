@@ -22,7 +22,7 @@ def askChatGPT(messages, model="gpt-3.5-turbo", temperature = 1, max_tokens=200)
 
 
 def askLLM(clients, messages, tokens_path, model="gpt-3.5-turbo", temperature = 1, max_tokens=2000):
-    # 需要包括GPT系列以及LLaMA系列的模型调用,调用接口略有区别
+    # 需要包括GPT系列以及LLaMA系列的模型调用,分开写已备调用接口略有区别
     
     if model in ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'gpt-4o-mini', 'gpt-4o']: # GPT系列模型调用           
         client = clients['gpt']  # gpt系列共用一个client
@@ -32,27 +32,18 @@ def askLLM(clients, messages, tokens_path, model="gpt-3.5-turbo", temperature = 
                 temperature = temperature,
                 max_tokens = max_tokens,
             )
-        # print(response.usage
-        # add token 需要更加细致.
-        # addtoken(response.usage.total_tokens)
         model ='gpt-4o'
         update_token_usage(model, response.usage.prompt_tokens, response.usage.completion_tokens, file_path=tokens_path)
-        # print(response.usage.prompt_tokens)
-        # print(response.usage.completion_tokens)
         answer = response.choices[0].message.content
         
     elif model in ['llama3-70b', 'llama3-8b']:
-        client = clients['llama']  # 这里需要改成llama系列的prompts  # TODO 还没拿到LLaMA的key, 所以先拿gpt-3.5充当.
-        model = model+'-8192'
-        # model = 'Llama3-8B'
+        client = clients['llama']  # llama系列共用一个client
         response = client.chat.completions.create(
-                model = model,   # 现在可以正常调用llama了
+                model = model, 
                 messages = messages,
                 temperature = temperature,
                 max_tokens = max_tokens,
             )
-        # addtoken(response.usage.total_tokens)
-        # update_token_usage("gpt-3.5-turbo", response.usage.prompt_tokens, response.usage.completion_tokens, file_path=tokens_path)  # 这里就不计算llama的消费了
         answer = response.choices[0].message.content
     else:
         print('MODEL error')
@@ -154,6 +145,13 @@ def setOpenAi(keyid = 0):
         api_key = ""
     client = OpenAI(api_key=api_key)
     addtoken(-1)
+    return client
+
+def setLocal():
+    client = OpenAI(
+        api_key="EMPTY",
+        base_url="your llm deploy url",
+    )
     return client
 
 def printSeq(seq):

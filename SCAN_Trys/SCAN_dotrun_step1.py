@@ -14,26 +14,18 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from SCAN_utils import *
 from tqdm import tqdm
-
 from utils import *
+sys.path.append('../')
 
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
-
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="http://101.6.69.60:8000/v1",
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "gpt4o 最终方案测试 Step1"
+aftername = "final_version-step1"
 
 if __name__ == '__main__':
     
@@ -89,20 +81,14 @@ if __name__ == '__main__':
             try:
                 # 问题分解
                 decompose_steps = decompose_sql(clients, question, config)
-                # decompose_steps: "walk opposite right thrice after run opposite right" can be solved by: "run opposite right", "walk opposite right thrice".
-                # print(decompose_steps)  # 基本没有问题
                 
                 # 分解后格式规范化
                 steps, steps_dict = convert_steps_to_format(decompose_steps)
                 formatted_steps = '; '.join([f'step{i+1}: {step}' for i, step in enumerate(steps)])
-                # commands_decomposed: ['run opposite right', 'walk opposite right thrice']
-                # print(steps_dict)
                 
                 # 依赖性分析
                 relations_test = construct_dependencies_without_traversal(clients, question, steps, config)  # query LLM回答所有的依赖
-                # relations_test:  Step 2 [ run opposite right ] -> Step 1 [ walk opposite right thrice]
-                # print('relations_test:\n', relations_test)
-                
+
                 # 建图与化简
                 G1 = create_dag_from_string(relations_test)
                 reduced_dependencies = list(G1.edges())
@@ -111,13 +97,11 @@ if __name__ == '__main__':
                 for item in reduced_dependencies:
                     edges.append((item[0][:item[0].find('[')].strip(), item[1][:item[1].find('[')].strip()))
                 int_edges = [(int(e[0].split()[1]), int(e[1].split()[1])) for e in edges]
-                # print('建图 done')
 
                 # 计算节点的深度
                 node_depths = calculate_node_depths(edges)
                 # 按照深度重新组织节点
                 depths = reverseDict(node_depths)  # {0: ['Step 1'], 1: ['Step 2'], 2: ['Step 3']}
-                # print('深度计算 done')
                 
                 step1Res[question_id]['steps'] = steps
                 step1Res[question_id]['steps_dict'] = steps_dict

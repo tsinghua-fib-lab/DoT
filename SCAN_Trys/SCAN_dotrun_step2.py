@@ -14,26 +14,18 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from SCAN_utils import *
 from tqdm import tqdm
-
 from utils import *
+sys.path.append('../')
 
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
-
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="http://101.6.69.60:8000/v1",
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-aftername = "最终方案测试 Step2 计时优化版"
+aftername = "final_version-step2"
 
 if __name__ == '__main__':
     
@@ -185,15 +177,8 @@ Based on the information above, please provide a concise and clear answer"""
                         Q = [{'role':'system', 'content':sys_q},
                             {'role':'user', 'content':query},]
                             
-                        # print(subtaskid)
-                        # print(subtask)
-                        # print('**********Question**********')
-                        # print(Q)
-                        # result = askChatGPT(Q, model=config["subtask_MODEL"], temperature=1)
                         result = askLLM(clients, Q, tokens_path=tokens_path, model=answer_MODEL, temperature=1, max_tokens=300)
                         
-                        # print('Answer:', result)
-                        # print('\n\n\n')
                         answerDict[number] = {'subtask':subtask, 'answer':result}
                         progress_bar.update(1)
 
@@ -205,9 +190,7 @@ Based on the information above, please provide a concise and clear answer"""
 Please give the final action sequence without any additional explanation or clarification."""})
                 # finalResult = askChatGPT(Q, model=config["finalSummarize_MODEL"], temperature=1)
                 finalResult = askLLM(clients, Q, tokens_path=tokens_path, model=config['finalSummarize_MODEL'], temperature=1)
-                # print('图上推理 done')
-                
-                # 现在已经问题不大了.
+
                 actionSeq = sentenceRes2Actions(clients, finalResult, config)
                 actionList = actionSeq.split()
                 
@@ -215,11 +198,6 @@ Please give the final action sequence without any additional explanation or clar
                 logger.info('gold: '+str(solutions[question_id]))
                 end_time = time.time()
                 
-                # print(actionList)
-                # print(solutions[question_id])
-                # print(actionList == solutions[question_id]) # list和list进行比较，比str比较稍微靠谱些
-                
-
                 # 理论上结果直接和真实结果对比一下,算个正确率即可
                 if actionList == solutions[question_id]:
                     success_Q += 1
@@ -231,9 +209,6 @@ Please give the final action sequence without any additional explanation or clar
                     unsuccess_Q += 1
                     logger.info('error')
                     attempts += 1
-                    
-                # success = True  # 任务未受中断,完整地结束了,所以标记为成功
-
             except:
                 attempts += 1  # 如果在执行过程中报错中止,还有重做的机会
                 print(f"error: {attempts};  taskid: {question_id}")  # 生成过程出错了
