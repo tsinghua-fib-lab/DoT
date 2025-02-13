@@ -34,6 +34,11 @@ You can set more than one api key for usage.
 ### For MATH / CHAMP / DROP / SCAN / P3 / CSQA benchmarks:
 You can download the compressed package *Task_Datasets.zip* of the processed benchmark files from the link *https://pan.baidu.com/s/11qo6CsSomL9ILpmHJmgzpw?pwd=7gs7* with the password *7gs7*.
 
+The reasoning process is divided into the following steps:
+1. Execute task decomposition, breaking the task into multiple smaller sub-tasks that are easier to solve. This is typically handled by `{benchmark}_dotrun_step1.py`.
+2. The adapter predicts the difficulty coefficient of each sub-task based on its text, and then determines the model allocation strategy. The results of the model assignment are already saved in the `TepRes` folder under each benchmark, such as `DoT/MATH_Trys/TmpRes/step2In_MATH_last.json`.
+3. Based on the model allocation strategy, reasoning is performed in the order of the dependency graph to obtain the final answer. This is generally handled by `{benchmark}_dotrun_step2.py`.
+
 #### Running:
 
 ```
