@@ -42,21 +42,27 @@ The reasoning process is divided into the following steps:
 #### Running:
 
 ```
+cd MATH_Trys
 python MATH_dotrun_step1.py
 python MATH_dotrun_step2.py
 
+cd CHAMP_Trys
 python CHAMP_dotrun_step1.py
 python CHAMP_dotrun_step2.py
 
+cd DROP_Trys
 python DROP_dotrun_step1.py
-python SCAN_dotrun_step2.py
+python DROP_dotrun_step2.py
 
+cd Puzzle_Trys
 python Puzzle_dotrun_step1.py
 python Puzzle_dotrun_step2.py
 
+cd CSQA_Trys
 python CSQA_dotrun_step1.py
 python CSQA_dotrun_step2.py
 
+cd SCAN_Trys
 python SCAN_dotrun_step1.py
 python SCAN_dotrun_step2.py
 ```
