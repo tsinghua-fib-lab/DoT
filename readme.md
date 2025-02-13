@@ -77,6 +77,13 @@ cd SCAN_Trys
 python SCAN_dotrun_step1.py
 python SCAN_dotrun_step2.py
 ```
+
+#### About Adapter:
+
+The preceding step2 code leverages the results of the adapter assignment. To replicate the model assignment experiment or train and test on your new dataset, please navigate to the VLLM folder, use `adapter_training.py` for training, and use `adapter_application_xxx.py` to load the trained parameters for prediction.
+
+Currently, the model assignment module has not yet been integrated with the overall reasoning module and needs to be carried out separately. Combining them into a one-click workflow is part of our near-term future work.
+
 ---
 
 ### For WebShop benchmark :shopping_cart:
