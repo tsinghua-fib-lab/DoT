@@ -15,7 +15,7 @@
 ---
 
 ## Experiment:
-### SetUp:
+### Openai Key Setup:
 :gear:Run: Please put your openai key in function *setOpenAi*:
 
 ```
@@ -31,28 +31,46 @@ You can set more than one api key for usage.
 
 ---
 
-### For MATH/CHAMP/DROP/SCAN/P3/CSQA:
+### For MATH / CHAMP / DROP / SCAN / P3 / CSQA benchmarks:
+You can download the compressed package *Task_Datasets.zip* of the processed benchmark files from the link *https://pan.baidu.com/s/11qo6CsSomL9ILpmHJmgzpw?pwd=7gs7* with the password *7gs7*.
+
+#### Running:
 
 ```
-python MATH_run.py
-python CHAMP_run.py
-python DROP_run.py
-python SCAN_run.py
-python P3_run.py
-python CSQA_run.py
+python MATH_dotrun_step1.py
+python MATH_dotrun_step2.py
+
+python CHAMP_dotrun_step1.py
+python CHAMP_dotrun_step2.py
+
+python DROP_dotrun_step1.py
+python SCAN_dotrun_step2.py
+
+python Puzzle_dotrun_step1.py
+python Puzzle_dotrun_step2.py
+
+python CSQA_dotrun_step1.py
+python CSQA_dotrun_step2.py
+
+python SCAN_dotrun_step1.py
+python SCAN_dotrun_step2.py
 ```
 ---
 
-### For WebShop:shopping_cart::
+### For WebShop benchmark :shopping_cart:
+
+The webshop benchmark has built a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. 
+Before testing and usage, we need to configure the environment first.
+
 #### Initial Setup
 
-1. Clone the source environment repository:
+1. Clone the source environment repository from [webshop](https://github.com/princeton-nlp/WebShop):
 
 ```bash
 git clone https://github.com/princeton-nlp/WebShop
 ```
 
-2. Follow the setup instructions from the original WebShop README.md to configure the dataset and environment.
+2. Follow the setup instructions from the original WebShop [README.md](https://github.com/princeton-nlp/WebShop/blob/master/README.md) to configure the dataset and environment.
 
 3. Put all python files in the `WebShop` directory.
 
@@ -61,15 +79,16 @@ git clone https://github.com/princeton-nlp/WebShop
 Before running the experiments, make the following modifications:
 
 1. Update the LLaMA client URL:
-   - Locate the LLaMA client configuration
-   - Replace the default URL with your server URL
+   - Locate the LLaMA client configuration.
+   - Replace the default URL with your server URL.
 
 2. Modify the WebShop URL:
-   - Default: `localhost:3000/ABC`
-   - Change to your customized URL
+   - The webshop URL is used to retrieve page information and product details from the environment.
+   - Default: `localhost:3000/ABC`.
+   - Change to your customized URL.
 
 3. Update Openai API key:
-   - Replace the key with your Openai API key in the setOpenAi functio in `utils.py`
+   - Replace the key with your Openai API key in the setOpenAi function in `utils.py`.
 
 #### Dataset Building
 
@@ -87,28 +106,19 @@ python webshop_trainset_building.py
 
 Note: After building the dataset, use the formatting_building jupyter notebook to format the dataset.
 
-#### Running Different Approaches
-
-##### COT (Chain of Thought)
+#### Running:
 
 ```bash
-python webshop_cot.py
-```
+# COT (Chain of Thought)
+python webshop_cot.py 
 
-##### TOT (Tree of Thoughts)
-
-```bash
+# TOT (Tree of Thoughts)
 python webshop_tot.py
-```
 
-##### DataShunt
-
-```bash
+# DataShunt
 python webshop_datashunt.py
-```
 
-##### DOT (Division of Thoughts)
-
-```bash
+# DOT (Division of Thoughts)
 python webshop_dot.py
 ```
+
