@@ -1,4 +1,4 @@
-# Official Implementation for WWW'25:fire:**''Division-of-Thoughts: Harnessing Hybrid Language Model Synergy for Efficient On-Device LLM Agents''**! :rocket:
+# Official Implementation for WWW'25 :fire: **''Division-of-Thoughts: Harnessing Hybrid Language Model Synergy for Efficient On-Device LLM Agents''**! :rocket:
 
 
 
