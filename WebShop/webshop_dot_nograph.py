@@ -19,7 +19,8 @@ llamaClient = OpenAI(
 )
 clients = {'gpt': openaiClient, 'llama': llamaClient}
 
-
+with open('updated_first_file.json') as f:  ## File with Allocation of models for each step
+    informations = json.load(f)
     
   
 now = datetime.now()

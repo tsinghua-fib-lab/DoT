@@ -14,12 +14,10 @@ openaiClient = setOpenAi(keyid=0)
 
 ## llama client
 llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="",
+    api_key="EMPTY", # Add your API key here
+    base_url="",    # Add your base URL here
 )
 clients = {'gpt': openaiClient, 'llama': llamaClient}
-
-sys.path.append("/Users/natehu/Desktop/Tsinghua\ Research/ws_alpha_path")
 
 now = datetime.now()
 formatted_now = now.strftime("%Y-%m-%d-%H-%M-%S")
@@ -46,7 +44,8 @@ import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 
-WEBSHOP_URL = "YOUR WEBSHOP ENV URL"
+WEBSHOP_URL = "YOUR WEBSHOP ENV URL" ## Modify this to your webshop env url
+
 ACTION_TO_TEMPLATE = {
     'Description': 'description_page.html',
     'Features': 'features_page.html',

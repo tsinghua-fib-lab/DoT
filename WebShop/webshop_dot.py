@@ -14,24 +14,28 @@ openaiClient = setOpenAi(keyid=0)
 
 ## llama client
 llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="",
+    api_key="EMPTY", # Add your API key here
+    base_url="",    # Add your base URL here
 )
-clients = {'gpt': openaiClient, 'llama': llamaClient}
 
+clients = {'gpt': openaiClient, 'llama': llamaClient}    
 
-    
+with open('updated_first_file.json') as f:  ## File with Allocation of models for each step
+    informations = json.load(f)
   
 now = datetime.now()
 formatted_now = now.strftime("%Y-%m-%d-%H-%M-%S")
 
+os.makedirs('tokens/DOT', exist_ok=True)
+os.makedirs('Logs/DOT', exist_ok=True)
 
 
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 
-WEBSHOP_URL = "YOUR WEBSHOP ENV URL"
+WEBSHOP_URL = "YOUR WEBSHOP ENV URL" ## Modify this to your webshop env url
+
 ACTION_TO_TEMPLATE = {
     'Description': 'description_page.html',
     'Features': 'features_page.html',

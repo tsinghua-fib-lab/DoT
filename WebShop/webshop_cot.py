@@ -12,10 +12,10 @@ import logging
 ## openai client
 openaiClient = setOpenAi(keyid=0)
 
-## llama client
+## update your llama client
 llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url= "",
+    api_key="EMPTY", # Add your API key here
+    base_url="",    # Add your base URL here
 )
 clients = {'gpt': openaiClient, 'llama': llamaClient}
 
@@ -46,7 +46,8 @@ import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 
-WEBSHOP_URL = "YOUR WEBSHOP ENV URL"
+WEBSHOP_URL = "YOUR WEBSHOP ENV URL" ## Modify this to your webshop env url
+
 ACTION_TO_TEMPLATE = {
     'Description': 'description_page.html',
     'Features': 'features_page.html',

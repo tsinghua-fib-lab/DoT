@@ -587,15 +587,7 @@ def webshop_run(idx: str, prompt: str, threshold: float, to_print: bool = True):
         
         
     prompt += f'Action: {action}\nObservation: {observation}\n\nAction: {search_action}\nObservation: {search_observation}\n\nAction:'
-    # 到这里都是对的 init prompt 就是例子
-    # print(prompt)
-    
-    
-    # print('\n\n\n')
-    # # 任务分解直接用了gpt-4o 需要确认!!!!
-    # decompose_steps = decompose_sql_ws(clients, prompt, tokens_path, 'gpt-4o')
-    # steps, steps_dict = convert_steps_to_format(decompose_steps)
-    # print(steps)
+
     
     decompose_steps = decompose_sql_ws(clients, prompt, tokens_path, 'gpt-4o')
     steps, steps_dict = convert_steps_to_format(decompose_steps)
@@ -787,5 +779,5 @@ def run_episodes(prompt: str, n: int = 1) -> List[List[Tuple[float, float, List[
         
     return all_results
 
-# Run the episode once with 20 attempts
+# Modify the n to have more episodes be run and saved for training
 res1 = run_episodes(prompt1, 10)
