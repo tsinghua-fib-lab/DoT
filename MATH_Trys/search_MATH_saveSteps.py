@@ -1,12 +1,3 @@
-'''
-MATH数学问题
-在least2most里没有设计好的prompts了
-自己寻找适配CHAMP数据集的prompts设计
-'''
-'''
-Here is a math word problem. I will first provide a description of the problem to set the context. Then, I will ask a specific question that requires you to use the information from the problem description, along with calculation and reasoning, to solve it.
-'''
-
 # -*- coding: utf-8 -*-
 import argparse
 import copy
@@ -22,19 +13,13 @@ from typing import List
 
 import numpy as np
 import openai
-from groq import Groq
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
 from MATH_Trys.MATH_utils import *
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
-openaiClient = setOpenAi(keyid = 1)  # 注意不要一个key多个代码使用
-llamaClient = Groq(  # 这个是Groq调用llama的api接口
-    api_key='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'
-)
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
+openaiClient = setOpenAi(keyid = 0)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
 aftername = "LLM分解任务到steps-20times-10_05"
 
@@ -109,38 +94,14 @@ if __name__ == '__main__':
                     node_depths = calculate_node_depths(edges)
                     depths = reverseDict(node_depths)
                     
-                    # print(f"len(steps): {len(steps)}")
-                    # print(f"relations_test: {relations_test}")
-                    # print(f"reduced_dependencies: {reduced_dependencies}")
-                    # print(f"edges: {edges}")
-                    # print(f"node_depths: {node_depths}")
-                    # print(f"depths: {depths}")
-                    # sys.exit(0)
-                    
-                    
                     # Step 1 [ What does it mean for rooks to be placed "peacefully" on a chessboard? ] -> Step 3 [ How can we determine valid positions for a single rook such that the placement remains peaceful even after a 180-degree rotation of the board? ] 结果符合要求                          
                     results.append([steps, steps_dict, depths, int_edges])
                     success = True  # 任务未受中断,完整地结束了,所以标记为成功
                     logger.info(f'\ndecompose time: {de_time}')
-            #         # logger.info(f"分解成功!")                       
-            #     except:
-            #         attempts += 1  # 如果在执行过程中报错中止,还有重做的机会
-            #         logger.info(f"error: {attempts};  taskid: {question_id}")  # 生成过程出错了
-            
-            # if attempts == MAX_TRY:
-            #     error_Q += 1
-            #     logger.info(f'run error {MAX_TRY}+')
+
         write_json(f"Decomposed_Steps_1004/{question_id}.json", results)
         logger.info(f"成功分解{len(results)}次")
 
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Done! time cost: {elapsed_time}s")
-    # print(f"#results: {len(results)}")
-    
-    # # 保存到本地文件
-    # with open('math_Decom_Steps_100.pkl', 'wb') as f:
-    #     pickle.dump(results, f)
-            
-    
-    

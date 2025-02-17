@@ -9,20 +9,12 @@ import re
 import sys
 import time
 from datetime import datetime
-
-from groq import Groq
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
 from MATH_Trys.MATH_utils import *
 from utils import *
-
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
 openaiClient = setOpenAi(keyid = 0)
-llamaClient = Groq(  # 这个是Groq调用llama的api接口
-    api_key='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'
-)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
 aftername = "run2_alpha-quantile自动化任务升级"
 
@@ -88,8 +80,6 @@ if __name__ == '__main__':
                 
                 # 依赖性分析
                 relations_test = construct_dependencies_without_traversal(clients, question, steps, config)  # query LLM回答所有的依赖
-                # relations_test:  Step 2 [ run opposite right ] -> Step 1 [ walk opposite right thrice]
-                # print('relations_test:\n', relations_test)
                 
                 # 建图与化简
                 G1 = create_dag_from_string(relations_test)

@@ -7,50 +7,10 @@ import sys
 sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
 from CHAMP_Trys.CHAMP_utils import *
 
-# model_mapping = {
-#     'gpt-4-turbo': 5,
-#     'gpt-4': 4,
-#     'gpt-4o-mini': 3,
-#     'gpt-3.5-turbo': 2,
-#     'llama3-70b': 1,
-#     'llama3-8b': 0
-# }
 model_mapping = {
     'gpt-4-turbo': 1,
     'llama3-8b': 0
 }
-
-
-# def read_and_process_file(file_path):
-#     with open(file_path, 'r') as file:
-#         lines = file.readlines()
-#     last_true_dict = None
-#     first_false_dict = None
-    
-#     for line in lines:
-#         # 分割模型分配和结果
-#         try:
-#             model_assignment, result = line.rsplit(' ', 1)
-#         except:
-#             print(file_path)
-#         result = result.strip() == 'True'
-        
-#         # 解析字典字符串
-#         model_dict = eval(model_assignment)
-
-#         if result:
-#             last_true_dict = model_dict  # 更新最后一个True行的分配方法
-#         else:
-#             if first_false_dict is None:  # 只记录第一个False行
-#                 first_false_dict = model_dict
-#     res = last_true_dict if last_true_dict is not None else first_false_dict
-#     if res is None:
-#         print(file_path)
-#         sys.exit(0)
-        
-#     # 根据条件返回结果
-#     return last_true_dict if last_true_dict is not None else first_false_dict
-
 
 def read_and_process_file(file_path):
     with open(file_path, 'r') as file:

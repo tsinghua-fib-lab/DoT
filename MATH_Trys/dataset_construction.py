@@ -3,8 +3,6 @@
 import json
 import os
 import sys
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
 from MATH_Trys.MATH_utils import *
 
 model_mapping = {

@@ -12,27 +12,17 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
 from MATH_Trys.MATH_utils import *
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
-openaiClient = setOpenAi(keyid = 2)
-llamaClient = Groq(  # 这个是Groq调用llama的api接口
-    api_key='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'
-)
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
+openaiClient = setOpenAi(keyid = 0)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
 aftername = "LLM_allocation_search-0923"
-
-
-
 
 def _reason(allo_model, solve_time):
     logger.info(allo_model)  # 打印一下模型分配的结果
@@ -184,10 +174,6 @@ if __name__ == '__main__':
     N = 400
     MAX_TRY = 5  # 错误尝试最大值
     question_ids = list(range(0, N))
-    
-    # with open('MATH_Decom_Steps_100.pkl', 'rb') as f:
-    #     pre_steps = pickle.load(f)
-    
     # 选择问题
     for question_id in tqdm(question_ids):
         

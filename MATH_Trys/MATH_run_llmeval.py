@@ -77,24 +77,16 @@ if __name__ == '__main__':
             try:
                 # 问题分解
                 decompose_steps = decompose_sql(clients, question, type, config)
-                # decompose_steps:
-                # print('\n\n\n')
-                # print(decompose_steps)
                  
                 # 分解后格式规范化
                 steps, steps_dict = convert_steps_to_format(decompose_steps)
-                # print(steps)
-                # print(steps_dict)
                 # Step 1 [ What does it mean for rooks to be placed "peacefully" on a chessboard? ] -> Step 3 [ How can we determine valid positions for a single rook such that the placement remains peaceful even after a 180-degree rotation of the board? ] 结果符合要求                
                 
                 # LLM自动化执行任务分配
                 allo_model = AllocateModel(clients, question, steps, config)  # 很好用
-                # print(allo_model)
                 
                 # 依赖性分析
                 relations_test = construct_dependencies_without_traversal(clients, question, steps, config)  # query LLM回答所有的依赖
-                # relations_test:  Step 2 [ run opposite right ] -> Step 1 [ walk opposite right thrice]
-                # print('relations_test:\n', relations_test)
                 
                 # 建图与化简
                 G1 = create_dag_from_string(relations_test)
@@ -104,13 +96,11 @@ if __name__ == '__main__':
                 for item in reduced_dependencies:
                     edges.append((item[0][:item[0].find('[')].strip(), item[1][:item[1].find('[')].strip()))
                 int_edges = [(int(e[0].split()[1]), int(e[1].split()[1])) for e in edges]
-                # print('建图 done')
 
                 # 计算节点的深度
                 node_depths = calculate_node_depths(edges)
                 # 按照深度重新组织节点
                 depths = reverseDict(node_depths)  # {0: ['Step 1'], 1: ['Step 2'], 2: ['Step 3']}
-                # print('深度计算 done')
 
                 # 开始基于图进行推理
                 heights = list(depths.keys())
