@@ -1,7 +1,3 @@
-'''
-需要把问题的prompts设计都与SCAN问题本身做适配
-'''
-
 # -*- coding: utf-8 -*-
 import argparse
 import copy

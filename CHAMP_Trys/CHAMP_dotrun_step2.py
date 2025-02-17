@@ -1,10 +1,3 @@
-'''
-MATH数学问题
-在least2most里没有设计好的prompts了
-自己寻找适配CHAMP数据集的prompts设计
-使用大语言模型执行子任务难度评估与模型分配 -> 目标方案, 最终方案
-'''
-
 # -*- coding: utf-8 -*-
 import argparse
 import copy

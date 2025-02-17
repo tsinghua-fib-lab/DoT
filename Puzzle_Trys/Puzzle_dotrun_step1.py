@@ -1,7 +1,3 @@
-'''
-LLM自动化评估任务难度以及分配LLM进行解决
-TODO 怎么把推理进度条给隐藏了
-'''
 # -*- coding: utf-8 -*-
 import argparse
 import copy

@@ -1,8 +1,3 @@
-'''
-CSQA 常识推理问题,问题大都比较简单
-问题简单,注意不要让LLM把问题分解得太复杂了
-'''
-
 # -*- coding: utf-8 -*-
 import argparse
 import copy

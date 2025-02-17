@@ -1,7 +1,3 @@
-'''
-run2: 根据回答的alpha-quantile来对模型进行升级
-'''
-
 # -*- coding: utf-8 -*-
 import argparse
 import copy
