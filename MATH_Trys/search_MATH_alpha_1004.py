@@ -12,27 +12,17 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-
 import numpy as np
 import openai
-from groq import Groq
 from tqdm import tqdm
-
-sys.path.append('C:\\Users\\Pluto\\Desktop\\TaDe')
 from MATH_Trys.MATH_utils import *
 from utils import *
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
-openaiClient = setOpenAi(keyid = 3)
-# llamaClient = Groq(  # 这个是Groq调用llama的api接口
-#     api_key='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'
-# )
-llamaClient = OpenAI(
-    api_key="EMPTY",
-    base_url="http://101.6.69.60:8001/v1",
-)
+# client定义需要满足如下调用方式: client.chat.completions.create(model,messages = messages), 详见askLLM函数
+openaiClient = setOpenAi(keyid = 0)
+llamaClient = setLocal()
 clients = {'gpt': openaiClient, 'llama': llamaClient}
+
 aftername = "LLM_allocation_search-1004"
 
 
@@ -275,13 +265,6 @@ if __name__ == '__main__':
                         allo_model[index] = 'gpt-4-turbo'
                         judgement = _reason(allo_model, solve_time=solve_time)
                         time_upgrading += 1
-                        
-                # 有bug:
-                # number id: 2  solve time: 0
-                # {10: 'llama3-8b', 8: 'llama3-8b', 3: 'llama3-8b', 4: 'llama3-8b', 7: 'llama3-8b', 6: 'llama3-8b', 9: 'llama3-8b', 5: 'llama3-8b', 2: 'gpt-4-turbo', 1: 'gpt-4-turbo'}
-                # False
-                # {10: 'llama3-8b', 8: 'llama3-8b', 3: 'llama3-8b', 4: 'llama3-8b', 7: 'llama3-8b', 6: 'llama3-8b', 9: 'llama3-8b', 5: 'llama3-8b', 2: 'gpt-4-turbo', 1: 'gpt-4-turbo', None: 'gpt-4-turbo'}
-
     
     # 读取文件并打印结果以验证
     with open(tokens_path, 'r') as f:
