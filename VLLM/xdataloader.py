@@ -198,10 +198,6 @@ class QADataset3(Dataset):
             self.emb_LLM = emb_LLM
             self.emb_tasks, self.emb_allsubtasks, self.emb_nowsubtasks = self.process_prompts_in_batches(benchmark, cacheName)
             print(f'Dataset [{benchmark}] tokenization successful!')
-            # self.encoded_prompts = torch.tensor(
-            #     [self.emb_LLM.encode(prompt)[0].outputs.embedding for prompt in self.queries],
-            #     dtype=torch.float32
-            # )
             
         num_zeros = self.difficultyNums.count(0)
         num_ones = self.difficultyNums.count(1)

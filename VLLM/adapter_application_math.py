@@ -1,3 +1,7 @@
+# 实际应用代码,需要输入问题的原文本、所有分解好的子问题、以及当前的子问题
+
+import setproctitle
+setproctitle.setproctitle("LLaMa3.3@shaochenyang")
 import pickle
 from xutils import *
 from xdataloader import *
@@ -9,7 +13,6 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 import numpy as np
 from collections import Counter
-import copy
 
 # 输入需要包括三个部分:
 # champ, subtask, nowsubtask
@@ -19,20 +22,18 @@ import copy
 # self.nowSubtask = [item["nowSubtask"] for item in train_data]
 
 model_mapping = {
-    1: 'gpt-4o',
+    1: 'gpt-4-turbo',
     0: 'llama3-8b'
 }
 
 
-name = "step1Res_MATH-last"
-name2 = "step2In_MATH_last"
+name = "step1Res_MATH_rebuttal_zeroshot_decom"
+name2 = "step2In_MATH_rebuttal_zeroshot_decom"
 pth = "Pths/MATH/v3_100_minerror.pth"
 
 f = open(f'Input/{name}.json', 'r')
 content = f.read()
 dataset = json.loads(content)
-
-threshold = 0.001
 
 
 evaldataset = QADatasetApplication(dataset, cacheName=f'{name}.pt')  # 注意最大序列长度的同步
@@ -57,11 +58,7 @@ with torch.no_grad():  # 禁用梯度计算
         out = sigmoid_layer(out)
         # print(sum(out)/len(out))
         out = out.cpu().numpy()  # (32, 1)
-        probs = copy.deepcopy(out).squeeze()
-        # print(type(probs))
-        # print(probs.shape)
-        # sys.exit(0)
-        out = [1 if x > threshold else 0 for x in out.flatten()]
+        out = [1 if x > 0.5 else 0 for x in out.flatten()]
 
 
 models = [model_mapping[n] for n in out]
@@ -74,18 +71,9 @@ index = 0
 for k, v in dataset.items():
     length = len(v['steps'])
     v['allo_model'] = models[index:index+length]
-    v['prob'] = probs[index:index+length].tolist()
-    
-    # 得到一个子任务的难度排序值
-    difficulty_order = sorted(range(len(v['prob'])), key=lambda x: v['prob'][x], reverse=True)
-    v['difficulty_order'] = difficulty_order
-    
-    # 分组：按照阈值分组
-    greater_than_05 = [idx for idx in difficulty_order if v['prob'][idx] > threshold]
-    less_or_equal_05 = [idx for idx in difficulty_order if v['prob'][idx] <= threshold]
-    v['difficulty_order2'] = [greater_than_05, less_or_equal_05]
     index = index+length
 
-write_json_listoneline(f"Output/{name2}_bandwidth.json", dataset)
+
+write_json_listoneline(f"Output/{name2}.json", dataset)
 
 
